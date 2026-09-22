@@ -208,6 +208,7 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
     <input type="search" id="q" placeholder="キーワードで探す（例：Excel、提案書、要約）">
   </div>
   <div class="pills" id="aipills"></div>
+  <div class="pills" id="filterpills"></div>
   <div class="pills" id="tagpills"></div>
   <div class="pills" id="authorpills"></div>
   <div class="hint" id="hint"></div>
@@ -216,6 +217,7 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
 <script>
 const DATA = __DATA__;
 let view="home", ai="すべて", tag="すべて", author="すべて", q="", onlyNew=false, onlyChap=false;
+let level="すべて", onlyPrompt=false, sortBy="新着順", showAllTags=false;
 const FAV_KEY="aikotsu_fav";
 function favs(){ try{ return JSON.parse(localStorage.getItem(FAV_KEY)||"[]"); }catch(e){ return []; } }
 function toggleFav(id){ const f=favs(); const i=f.indexOf(id);
@@ -254,7 +256,7 @@ el("#theme").onclick=()=>{
 
 document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
   document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));
-  stopCast(); t.classList.add("on"); view=t.dataset.view; ai="すべて"; tag="すべて"; author="すべて"; onlyNew=false; onlyChap=false; shown=PAGE; render();
+  stopCast(); t.classList.add("on"); view=t.dataset.view; ai="すべて"; tag="すべて"; author="すべて"; onlyNew=false; onlyChap=false; level="すべて"; onlyPrompt=false; shown=PAGE; render();
 });
 el("#q").oninput=(e)=>{q=e.target.value.trim().toLowerCase(); shown=PAGE; render();};
 
@@ -321,6 +323,10 @@ function castView(){
 
 function match(it){
   if(ai!=="すべて" && it.ai!==ai) return false;
+  if(view==="tips"){
+    if(level!=="すべて" && it.level!==level) return false;
+    if(onlyPrompt && !it.prompt) return false;
+  }
   if(view==="tips" && tag!=="すべて"){
     if(tag==="★お気に入り"){ if(!favs().includes(it.id)) return false; }
     else if(tag.indexOf("出どころ:")===0){ if((it.origin||"Claude")!==tag.slice(5)) return false; }
@@ -345,13 +351,30 @@ function pills(){
   document.querySelectorAll("[data-ai]").forEach(b=>b.onclick=()=>{ai=b.dataset.ai;shown=PAGE;render();});
 
   if(view==="tips"){
+    const base=DATA.tips.filter(t=>(ai==="すべて"||t.ai===ai));
+    const lv=(L)=>base.filter(t=>t.level===L).length;
+    el("#filterpills").innerHTML =
+      ["初級","中級","上級"].map(L=>
+        `<button class="pill ${level===L?"on":""}" data-lv="${L}">${L}<b>${lv(L)}</b></button>`).join("")
+      + `<button class="pill ${onlyPrompt?"on":""}" id="fPrompt">📋 コピーできる<b>${base.filter(t=>t.prompt).length}</b></button>`
+      + `<button class="pill" id="fSort">↕ ${sortBy}</button>`
+      + (level!=="すべて"||onlyPrompt ? `<button class="pill" id="fClear">✕ 絞り込み解除</button>` : "");
+    document.querySelectorAll("[data-lv]").forEach(b=>b.onclick=()=>{
+      level = (level===b.dataset.lv) ? "すべて" : b.dataset.lv; shown=PAGE; render();});
+    el("#fPrompt").onclick=()=>{onlyPrompt=!onlyPrompt;shown=PAGE;render();};
+    el("#fSort").onclick=()=>{sortBy = sortBy==="新着順"?"AI順":"新着順"; render();};
+    const fc=el("#fClear"); if(fc) fc.onclick=()=>{level="すべて";onlyPrompt=false;shown=PAGE;render();};
+
     const origins=[...new Set(DATA.tips.map(t=>t.origin||"Claude"))].map(o=>"出どころ:"+o);
     const all=["すべて"].concat(favs().length?["★お気に入り"]:[]).concat(origins)
               .concat([...new Set(DATA.tips.flatMap(t=>t.tags||[]))]);
-    el("#tagpills").innerHTML=all.map(t=>
-      `<button class="pill ${t===tag?"on":""}" data-tag="${t}">${t}</button>`).join("");
+    const shownTags = showAllTags ? all : all.slice(0, 9);
+    el("#tagpills").innerHTML=shownTags.map(t=>
+      `<button class="pill ${t===tag?"on":""}" data-tag="${t}">${t}</button>`).join("")
+      + (all.length>9 ? `<button class="pill" id="moreTags">${showAllTags?"タグを閉じる":"タグをもっと見る（+"+(all.length-9)+"）"}</button>` : "");
     document.querySelectorAll("[data-tag]").forEach(b=>b.onclick=()=>{tag=b.dataset.tag;shown=PAGE;render();});
-  } else el("#tagpills").innerHTML="";
+    const mt=el("#moreTags"); if(mt) mt.onclick=()=>{showAllTags=!showAllTags;render();};
+  } else { el("#tagpills").innerHTML=""; el("#filterpills").innerHTML=""; }
 
   if(view==="feed"){
     const nNew=DATA.feed.filter(f=>daysAgo(f.date)<=2).length;
@@ -454,7 +477,11 @@ function homeView(){
 }
 
 function render(){
-  const list=items().filter(match);
+  let list=items().filter(match);
+  if(view==="tips"){
+    if(sortBy==="新着順") list=[...list].reverse();
+    else list=[...list].sort((a,b)=>(a.ai+a.level).localeCompare(b.ai+b.level));
+  }
   pills();
   if(view==="cast"){
     el("#aipills").innerHTML=""; el("#tagpills").innerHTML=""; el("#authorpills").innerHTML="";
