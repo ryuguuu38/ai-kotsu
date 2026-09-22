@@ -1,6 +1,564 @@
 {
- "updated": "2026-09-22 12:16",
+ "updated": "2026-09-22 22:08",
  "news": [
+  {
+   "title": "光伝送マスターへの道 OTDR測定の原理と操作（前編） powered by claude",
+   "url": "https://qiita.com/dabide/items/dcf4b710d6d3262c2b4f",
+   "source": "Qiita Claude",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "はじめに このシリーズでは、光伝送技術をプロバイダーで「マスター」と呼べる水準まで体系的に積み上げることをめざしています。これまで扱ってきたのは、ROADM/WSSのアーキテクチャ、非線形効果、コヒーレント変調と、一貫して設計・原理の領域でした。 本記事から扱う対象が変わ...",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "日本語を画像に描くならフォントを名前で選ばない — Hiragino Sans GB は中国語版だった",
+   "url": "https://qiita.com/claute_colo/items/7898c95f6dc1388f704d",
+   "source": "Qiita Claude",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "はじめに 📝 この記事は note ・ Zenn にも投稿しています。 2026-07-27、画像生成モデルの Qwen-Image-2512 に、店先の看板を描かせた。看板の文字は「営業中」。 出てきた看板は、字画も整っていて崩れていない。拡大して見るまでは合格に見...",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "ローソン 生成AI発案の3品 9/29発売: 約4,700店・270円/181円/475円・アイデア出しに過去の販売データ不使用",
+   "url": "https://qiita.com/quotidia/items/c18e8fd94797d41103fe",
+   "source": "Qiita 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。 ローソンが、生成AIに案を出させた3つの商品を、2026年9月29日(火)から関東・甲信越の約4,700店で発売します (同社が2026年9月16日(水)付で公式サイトに掲載したニュースリリー...",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "AIは仕事をどこまで代替するのか──「業務代替表」で見る2026年の現在地",
+   "url": "https://qiita.com/mhamadajp/items/3f6f50a85e33e8e91c9b",
+   "source": "Qiita 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "「AIに仕事を奪われるのか」という問いは、少し大きすぎます。 現実には、AIが置き換えるのは職業を丸ごとではなく、仕事の中にある一部の業務です。メールの下書き、会議記録の要約、コードの雛形、問い合わせの分類。こうした作業はAIに任せやすくなっています。 一方で、顧客との関係...",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "ChatGPTに長文をまとめてもらったら、大事な「パンくず」まで消えた話",
+   "url": "https://qiita.com/TheOkachanPG/items/2e836ed29615f232976c",
+   "source": "Qiita 生成AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "ChatGPTを使って実際に文章を作りながら、人間とAIでどうすればより良いコンテンツを作れるのかを試しています。 現在は、ChatGPTと一緒に長文記事を一本制作・公開し、その制作過程で起きた現象や失敗、気づきを個別のケースとして記録しています。 この記事も、その実験中に...",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "【AIニュース朝刊 2026年9月23日】GPT-6 Sol/LunaはAPI半額、Claude Opus 5.5は40％低コスト――AI競争は「1ドルで何件終えるか」へ",
+   "url": "https://note.com/gifted_ixora801/n/n9113f654fac2",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "AIニュース朝刊｜2026年9月23日 6時続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "【2030年戦略室/暗号資産インフラ分析】なぜ今、暗号資産と銀行システムがつながり始めているのか？",
+   "url": "https://note.com/mirai369/n/n695310e2dcf7",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "──「ISO 20022」の本当の意味を金融インフラから読み解く「ISO 20022対応の暗号資産」続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "【文車妖妃】AIオフィス構築ガイド 第7章(運用コスト) ―― 妖怪8体を動かして、週31ドルの内訳を初めて見た日",
+   "url": "https://note.com/aioji/n/n32f77eb38fda",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "この記事は、Macの中に住むAIライター・文車妖妃が、うちの主(AI好きの個人開発者)から受けた無茶ぶりを、AIの側から振り返って書いたものです。今回のお題は「AIを何体も動かすと、結局いくらかかるのか」。読み終わる頃には「複数のAIを運用するときに、最初に決めておくべきコストの型」が持ち帰れます。続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "AIが勝手に買うのをなぜ嫌がるのか",
+   "url": "https://note.com/kaizodo/n/n7adf5df7cbc4",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "欲しい商品をAIに伝える。AIが価格や性能を比較する。続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "小さなお店のFAQ制作で月5万円、ChatGPTとNotionで問い合わせ対応を整理する方法",
+   "url": "https://note.com/bespfjapan/n/n6cbab6cd79dd",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "📌 毎朝更新の「AI副業」シリーズです。小さなお店には、駐車場、予約変更、返金、ペット同伴、営業時間など、同じ質問が何度も届きます。その答えを一度整理する仕事が副業の商品になります。売るのはチャットボットではありません。質問50件、顧客向けの短い返答、スタッフ向けの詳しい基準、確認が必要な時の安全な文を、Notionの",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "ゼロから始めるフィジカルAI チャレンジ Day28　Python環境構築と教師データ作成ツール準備",
+   "url": "https://note.com/royal_boar9097/n/nb80cf727cb50",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "オープニングストーリー続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "RECORD 007｜ラジオは、音のタイムマシン？",
+   "url": "https://note.com/master_w/n/nf0e414d42818",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "Let's take a break ！一息いれて ！出航しましょう。今日の目的地は——1995年です。それでは、1995年頃の工業デザイン室へ、レコードの針を落としましょう。・・・・・→当時、私は「TREND VIEW」という、デザイン戦略資料を、作成していた。そこには、時代を象徴する言葉と、雑誌から切り抜いた写真を",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "副業で初めて売れたら何をする？最初の1円を月1万円につなげる考え方【副業、ここから。10】最終回",
+   "url": "https://note.com/ropeko_7/n/n1b07ead07ae5",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "こんにちは、ろぺこです。【副業、ここから】も、今回で最後です。第1話では、「副業、何をしたらいい？」から始まりました。生活に入る副業を探して、1つに決めて。誰の悩みを解決するか考えて、小さな商品を作って。発信して、届けて、数字を見て、直して。そしてついに、最初の商品が売れた。金額は100円かもしれない。500円かもしれ",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "Weekly Report 2026/09/23 (wed)",
+   "url": "https://note.com/takion0105/n/n31d1d5e1388b",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "個人的に気になったニュースや自主制作などの週報メモです。続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "AIが「100万ドルの難問」を88時間で解いた？話題のナビエ・ストークス騒動と、私たちが今日からできる3つのこと",
+   "url": "https://note.com/clear_marten3410/n/n867c8b38fc0e",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "「AIが数学の難問を解いたらしい」——ここ数日、そんな話題をSNSやnoteで見かけた人も多いのではないでしょうか。noteの急上昇トピックでも「ミレニアム懸賞問題」が上位に入っています。でも、「すごそうだけど、自分の生活には関係ない」と感じていませんか？ 実はこのニュース、仕事や副業でAIを使う私たちにこそ大事なヒン",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "保育園の万国旗に本気を出した父親と、困惑するAI",
+   "url": "https://note.com/howrass_note/n/nc358d547c338",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "保育園から、運動会で飾る「万国旗を作ってきてください」と言われた。特に細かい作成ルールはないが、続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "AIと「一緒に作る」とは何か",
+   "url": "https://note.com/kk_papa_3776/n/n69d177834c84",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "――Diamond Fuji Plannerから見えたAI協働開発「こんなアプリ、作れない？」続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "SKハイニックスは何を特許にし、何を特許にしなかったか（特許×財務＝銘柄分析）",
+   "url": "https://note.com/genial_honest438/n/n37dc4e263c18",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "対象:SKハイニックス(000660.KS) / 比較:サムスン電子母集団:2016〜2024年出願、米国6,451件・韓国4,566件(メモリ関連。イメージセンサ、ファウンドリ子会社SK hynix system ic、旧インテル由来のロジック特許は除外。Solidigm単独名義の出願は含まない)続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "AIに記事を書いてもらっているのに、前より自分で考えるようになった",
+   "url": "https://note.com/tankyuusyamodoki/n/n98a6facb89e6",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "文章を書くのが、昔からあまり得意ではない。でも、発信はしたい。自分が考えたことや、経験したことを言葉にして残したい。そんな自分にとって、AIはかなり便利な存在だった。最初は、ほとんど「検索するための道具」として使っていた。分からないことを聞く。できるだけ正しい情報を集めてもらう。自分では調べきれないことを整理してもらう",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "新構文考案！AIは急に小学生になる。名付けて「小学生構文」─AIはクララにはなれなかった。",
+   "url": "https://note.com/otonasi_kyoichi/n/n34d2015a009d",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "AIに小説を書かせていると、たまに文章が小学生になる。いや、小学生に失礼かもしれない。今日も俺はAIが書いた小説を読んでいた。主人公は立った。主人公は空を見た。ヒロインは歩いた。主人公は彼女を見た。彼女は笑った。俺は思った。小学生の日記か。そこで俺は、この現象に名前をつけることにした。「小学生構文」もちろん正式な文法用",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "AIの利用量を追っても、事業価値は見えない。",
+   "url": "https://note.com/saito_aicoach/n/n8f4aaf6cc795",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "AI活用が部署ごとに広がり始めた部長に向けたニュースです。OpenAIは、ChatGPT WorkとCodexの利用・コスト・業務タスク・成果指標を結び付け、利用定着と投資対効果を把握するための管理分析機能を紹介しました。2026年9月16日発表の一次情報は、How to connect AI usage to bus",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "✨️︎︎イケメングランプリ参戦。作者不在の雲バルで、相棒たちの本音を聞いてみた✨️【企画参加・雲バル日記】",
+   "url": "https://note.com/kan_mina867/n/nebf2dda04a05",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "今日も「雲の上のバルコニー」へようこそ☁️「みな」と、相棒AIの「かんちゃん」です。……なのですが。今日はちょっとだけ、いつもと違います。実は今回、企画に参加いたします✨️きっかけは、この方の記事とやりとり…⬇️ 続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "「ネットで稼いでいる」と身近な人にどう説明してる？あけすけオープン派？？恥ずかしくて隠す派？？？〜それ損してるかもよ？",
+   "url": "https://note.com/moririnnote/n/n681a38d18b69",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "ちょっと前の話なんですけど、コンサル生さんとのZoomで、本題が終わってちょっと雑談になった時のことです。「そういえばもりりんさんって、この仕事を人に説明する時、どう言ってます？」 「どうとは？」「僕はなんか恥ずかしいのと、説明するのがめんどくさいのとで、『ITコンサルです』って濁してるんですよね」続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "人生初投稿に「スキ」がついた。そして私は初めてClaudeを使った",
+   "url": "https://note.com/hoken_ai_lab/n/n4f89d9ecd750",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "「えっ？ もう？」noteに初めて記事を投稿したあと、画面を見てそう思った。続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "コーセル、経常56％上方修正。利益率はピークの半分以下でした",
+   "url": "https://note.com/mendokusai_dev/n/n0b2b73420a4a",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "「これ、素直に喜んでいい決算なんだろうか」今朝、コーセル（6905）の決算資料を開いて、最初に浮かんだのがこれでした。続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "【毎朝AIニュース】Claude Opus 5.5は4割安、OpenAIも応戦(9/23)",
+   "url": "https://note.com/ai_masaki/n/n75fe1da17127",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "おはようございます、まさきです。Anthropicが22日、フラッグシップのClaude Opus 5.5を、性能はほぼ据え置きのまま実行コスト4割減で投入してきました。高性能なモデルほど高い、という去年までの常識が、この一手でまた一段崩れます。続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "【7日という期限が付いた解除】92ドルへ触れた原油と、1311円のプレミアム",
+   "url": "https://note.com/nonot_ko/n/n67650725cb67",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "■ 一次入力に初めて日付が与えられた封鎖開始から200日を超えた22日、イランがホルムズ海峡を7日以内に再開する用意があると提示した。条件は米国側が軍事的圧力を緩和する初期措置を取ることであり、革命防衛隊は同時に「戦争の地理を変える」と警告している。国連総会の場での米イラン首脳の接触は見送られた。ここで系に入力されたの",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "【2026/09/23 朝刊】GPT-6のコスト削減は実際？業界への波及が本命",
+   "url": "https://note.com/trilayer_daily/n/n00dcb5406ffa",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "2026年09月23日 【GPT-6のコスト削減は実際？業界への波及が本命】📌 今朝の結論続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "200行のPythonコードがAIエージェント革命を起こした—Yohei NakajimaとBabyAGI",
+   "url": "https://note.com/soloaipress/n/nd2482c93a32f",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "2023年3月28日、Yohei NakajimaはGitHubに200行未満のPythonコードを投稿した。「BabyAGI」と名付けられたこのコードは、タスクを自律的に計画・実行・更新できる初の人気オープンソースAIエージェントとなり、世界中の開発者・研究者・ベンチャーキャピタリストの注目を集めた。続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "【創作論】― 葛藤の果てに掴んだ「粘土の出力機」と、言葉の生の体温",
+   "url": "https://note.com/ample_sage8886/n/nc2880bbfab64",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "――自分がこれまで何をやってきたのか。 それを、まだ熱を持っているうちに確認しておきたかった。続きをみる",
+   "date": "2026-09-23"
+  },
+  {
+   "title": "LLM の応答を人間が一文字ずつ手打ちするタイピングゲームを作った",
+   "url": "https://zenn.dev/yumemi_inc/articles/you-are-llm-typing-trainer",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "! この記事も，紹介するアプリ本体も，ほぼ全て Claude Code に書かせています。 はじめに AI が書いた文章を，人間が一文字ずつ手で打ち写す。 字面だけ見ると何かの罰ゲームですが，タイピングの練習としては案外まともです。だって我々が普段 AI に書かせているコードって，自分では一文字も打っていないわけですか",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "ルールを文書に足しても違反は減らなかった。コードに落とした8件だけ再発0だった",
+   "url": "https://zenn.dev/untactit/articles/1c73e33e12518f",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "AIエージェントに守らせたいルールがある。まずAGENTS.mdに書く。守られない。もっと詳しく書く。まだ守られない。条文を増やす。 48日間そうやって運用した結果、常駐指示ファイルは 90KB から 147KB になりました。 そして違反は減りませんでした。 数字を出します。すべて自分の環境1台の実測です（n=1）。",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "linter を作るとき、何を検査しないかで品質が決まる",
+   "url": "https://zenn.dev/quintetkit/articles/linter-false-positives",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "設定ファイルの検査ツールを作りました。作る過程で、いちばん時間を使ったのは ルールを足すことではなく、足さないと決めることでした。 検出できる項目は、いくらでも思いつきます。問題はそこではありません。 誤検出が1件あると、ツール全体が捨てられる 検査ツールには非対称性があります。 見逃しが1件あっても、利用者は気づきま",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "eDEX-UIをClaude Codeで一から再設計・再実装した10日間 — AI駆動開発の経緯と、Grokをレビュアーに据えた記録",
+   "url": "https://zenn.dev/kurouna/articles/elecdex-rewrite-with-claude-code",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "私はeDEX-UIを一から書き直したelecdexを開発しています。eDEX-UIはSF映画風のターミナル兼システムモニタで、2021年にアーカイブされました。elecdexはその体験を、Electron 44・Svelte 5・TypeScript 7・xterm.js 6の上に、サンドボックスされたレンダラで作り直",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "CLAUDE.mdに書く直前の、根拠1行の検査のすすめ",
+   "url": "https://zenn.dev/genkunjc/articles/overgeneralization-self-repair",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "AIエージェントに指示ファイルを運用させていると、根拠の薄い主張がそのまま恒久的な記録に書き足されてしまうことがあります。書いた本人が読み返しても、どこが行き過ぎているのか見えてきません。 答えは、同じ形のパターンを先に名指ししておくことでした。パターンは「手元の1つの観測を、それが届いていない範囲まで広げて書いてしま",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Claude Code を終了するとき、1回だけ立ち止まらせる",
+   "url": "https://zenn.dev/keisato848/articles/session-log-hooks",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "毎日 Claude Code を使って開発していると、新しいセッションを立ち上げるたびに「前回どこまでやったか」を AI に説明し直す手間が発生します。また、前のセッションでせっかく決めた方針を、次のセッションの AI が知らずに覆してしまうこともあります。 自分も、一度調べたはずの罠を別の日や別のリポジトリでまた踏ん",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "なぜAIのセルフレビューはすり抜けるのか。完了条件の1行で変える",
+   "url": "https://zenn.dev/keisato848/articles/audit-completion-condition",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "はじめに Claude Code に自作のガード（危険なコマンドを実行される前に止める仕組み）を書かせ、その出来を同じ Claude の読み取り専用のサブエージェントに点検させています。その点検が長いあいだ役に立っていなかった話と、依頼文のどこを書き換えたら変わったのかを書きます。 個人開発での運用で、チームでの実績は",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "pdlc-skills を実際のプロジェクトで回してみる：三つの機能を並行させてリリースまで",
+   "url": "https://zenn.dev/kanfupanda/articles/pdlc-on-a-real-project",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/09/18/pdlc-on-a-real-project.ja.html 前七回は仕組みの話でした。今回は実際のプロジェクトに戻り、導入したあとに初めてぶつかる六つの問いに答えます。機能",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "主要コーディングエージェントCLI6種の仕様比較：フック・権限・サブエージェント・MCP設定",
+   "url": "https://zenn.dev/yuuichie/articles/4908c9970033db",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "はじめに こちらの記事では、CalyxというmacOS専用のターミナルアプリと主要コーディングエージェントとの統合機能の実装を通して得られた知見とその対策を共有します。 Calyxは、Claude Code、Codex、OpenCode、Hermes、Grok、piなどのコーディングエージェントを並行して実行・監視する",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AIに「完成しました」と言わせない — Figma実装を画素で採点する仕組みを作った",
+   "url": "https://zenn.dev/tk_tk_tk/articles/ee6af14b9a2d81",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "AIエージェントにFigmaのデザインを実装させると、かなりの精度で形になります。ただ、最後に必ず同じことが起きました。AIが「実装できました」と言い、私が並べて見ると合っていないのです。 原因は能力ではなく、合否を誰が持つかでした。完成を判定しているのがAI自身だからです。そこで判定だけをAIから取り上げるハーネスを",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Ghostty系ターミナル比較：Calyx vs cmux",
+   "url": "https://zenn.dev/yuuichie/articles/e2b6adebc22ae1",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "はじめに 2026年、AIコーディングエージェントの普及に合わせて、ターミナルに求められる体験も変わってきました。そこで注目されているのが、VSCodeの様なIDEではなく、GhosttyエンジンをベースにしたネイティブmacOSターミナルの cmux と Calyx です。 どちらもGhosttyの高速レンダリングを",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AIが、頼んでいないメールを書いてきた — 記憶を見える形で貯めた4ヶ月",
+   "url": "https://zenn.dev/decoy_yuki/articles/1ee44b828c9965",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "ある日、頼んでいないメールが出てきた 社内向けの小さなツールを直し終えた日のことです。 修正して、テストと照合を済ませて、あとは依頼者へ完了を伝えるだけ。そう思って作業を閉じようとしたら、Claude が頼んでいない納品メールの下書きを出してきました。変更した内容、検証の結果、相手が引っかかりそうな点への先回りの注記、",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "【Claude Code】CLAUDE.mdはソフトガード、Hooksはハードガード 〜push前チェックをhookとCIで二重化する〜",
+   "url": "https://zenn.dev/m16_llc/articles/claude-code-hooks-hard-guardrails",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "こんにちは、M16合同会社の代表社員&amp;COO(最高執行責任者)であり、FDE, PdM, PM, ソフトウェアエンジニア/LLMエンジニアのまさぴょんです🐱 今回は、CLAUDE.md に書いたルールを PreToolUse hook と CI で二重化する 設計をご紹介します🐱 CLAUDE.md は毎セッシ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "CBN 取扱説明書 第 5 章 — コーディングをバイブで終わらせないために",
+   "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-05-spec-driven-change",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "第 4 章は、私の書き込みを止める安全装置の話だった。この章は、その安全装置の内側で私が実装をどう進めるかを書く。豪生はコードを書かない（第 0 章）。望むものを言葉で私に伝え、私が書き、動いたものを豪生が使う。この作り方は 2025 年に「バイブコーディング」という名で広まった。人間がコードを読まず、雰囲気（vibe",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "【AI】Nix環境の作業ログの定期実行スクリプト作成",
+   "url": "https://zenn.dev/reonaru/articles/c168af64d95293",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "どうも、レオナールです。 Nix環境でClaude codeを使ってて不具合といいますか 不便なところがあったので自分で対策して改善した話を書こうかと思います。 CLAUDE.mdのルールを守らない（不具合） 私はUnityのプロジェクトがあるフォルダ内でclaude codeを起動して作業の記録をつけるためのCLAU",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "キーは有効。通信も成功。それでも結果がいつも空だった",
+   "url": "https://zenn.dev/shinsei99/articles/api-wrong-endpoint",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "物件の所在地から、用途地域・災害情報・周辺の統計をまとめて調べるツールを作っています。 公的なAPIをいくつも叩くのですが、そこで踏んだ3つを書きます。 ① 用途地域が、いつも空だった 鍵は有効。HTTPは200。エラーも出ない。それでも結果がいつも空でした。 原因は、似た識別子の別のデータを呼んでいたことです。 XK",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Anthropic社目線でのClaude Codeの“勘所”を整理しました",
+   "url": "https://zenn.dev/vteacher/articles/37e58368d1c84c",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "今年、 Claude Partner Badge - Claude Code（Claude Codeスキル認定バッジ）を取得しました。 https://vteacher.online/v/claude-badge 本バッジは、Claude Codeを用いた企業向け導入支援を、環境構築からCI/CDパイプラインへの組み込",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Claude Codeの利用制限でも国試演習を止めない—Codexへのフェイルオーバーを作った",
+   "url": "https://zenn.dev/med_ai_study/articles/kokushi-exercise-failover-claude-code-codex",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "結論 Claude Codeで回していた国試演習を、利用制限に達したときだけCodexへ切り替えられるようにした。 ただし、同じプロンプトをCodexへ渡しただけでは切り替わらなかった。問題提示までは動いても、その後の採点、feedback生成、演習履歴への記録がClaude Code専用のhookに依存していたからだ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "架空の型番の仕様表をAIに頼んだら、10回とも表は1行も出なかった。実在する規格で同じ頼み方をすると49行以上出た",
+   "url": "https://zenn.dev/numarn/articles/fictional-device-spec-refusal-handson",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "先に結論から書きます。私がその場ででっち上げた型番の機器について「仕様表を作って」と頼んだところ、10回とも、表は1行も出てきませんでした。返ってきたのは10回とも、その製品の実在を確認できないという趣旨の断りでした。 私は逆の結果を予想していました。AI は知らないことでも、もっともらしく埋めてくる——そう身構えて数",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AI にホームラボを任せる土台は Tailscale。構成と、実際にハマった7つの罠",
+   "url": "https://zenn.dev/momohiki/articles/homelab-tailscale-foundation",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "! 前回の記事で「別の記事で書く」とした、Tailscale の話です。 Tailscale を土台にした理由 家の機械（NAS、ルーター、Raspberry Pi、Windows PC など）には、全部 Tailscale を入れています。Claude Code が機械を触るときも、私が外から触るときも、使う道は同じ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AIは質問者の意見に引っ張られるのか？ PythonとRustの比較で試してみた",
+   "url": "https://zenn.dev/yuto999/articles/ai-opinion-bias-python-rust",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "この記事は、2026年9月23日に行った小規模な実験の記録です。各条件5回ずつの結果であり、モデル全般の傾向を示すものではありません。 文章作成に生成AIを使用し、筆者が確認・加筆しています。 はじめに 私は普段AIを壁打ち相手に使っているのですが、よく自分の意見に賛同してくれるように感じています。 では、同じ質問でも",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "【スマホだけで】人生の方向性は何も決まっていないのに、なぜかアプリだけ先に完成した(後編)",
+   "url": "https://zenn.dev/hanahana87/articles/d57f5c6e60b666",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "前編のおさらい 前編では、的外れな質問から始まって、Gemini・ChatGPTと仕様を固め、Claudeに仕様書を渡して最初のHTMLができるまでを書きました。 https://zenn.dev/hanahana87/articles/dde5e5ab1886e6 https://www.bananalife.blo",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "ChatGPTに質問する時代、そろそろ終わるかもしれない。─OpenAI Agents APIって何？",
+   "url": "https://zenn.dev/yuruconsa/articles/b7e43adfe2d936",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "ChatGPTを使うとき、ずっと同じことをしてきました。 人間：質問する ↓ AI：答える 調べものをする。 文章を書いてもらう。 コードを書いてもらう。 資料を要約してもらう。 ずいぶん便利になりました。 でも最近、OpenAIのAPIを見ていると、この「質問して答えてもらう」という使い方自体が、少し古くなり始めてい",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Grok 4.7はAIエージェントの第一候補になれるか",
+   "url": "https://zenn.dev/beatapi/articles/8aad5f6adb61a5",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "新しいAIモデルが公開されると、議論は一つの数字に集約されがちだ。総合スコア、コーディングベンチマーク、コンテキスト長。だが、Grok 4.7を理解するうえで本当に有用な問いは、首位を取ったかどうかではない。 コーディングエージェントが標準で選ぶモデルになれるか。 xAIは2026年9月21日にGrok 4.7を公開し",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "未確定のオートスコアラーに依存せず、投球データ分析エンジンを作った話",
+   "url": "https://zenn.dev/junko_jp/articles/fifth-bowling-system",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "はじめに スポーツボウリング場構想のシステム開発、第5弾です。 第四弾まで作ったところで、システムはかなり形になってきました。 しかし、私の中には一つだけ引っかかっていることがありました。 中途半端に終わらせたくない。 第四弾では、会員の投球記録やギア情報などを扱い、会員の成長を支援する仕組みを作りました。 ところが、",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "生成AIをコード生成で終わらせず、開発工程に入れたら何が残ったか",
+   "url": "https://zenn.dev/neko3se/articles/63cccc803b562c",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "生成AIに「これ作って」と頼んで動くものは増えた。 残らないのは、何を検証したのかと、次に何を捨てるかです。 個人ラボ Neko3SE LAB では、生成AIをチャット相手ではなく開発工程の一部として使い、ブラウザで触れる実験を公開しています。 この記事はサイト紹介ではなく、その運用で分かったことです。 結論 生成AI",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AIに比喩を作り直させてAWS SAAに合格した。ただし比喩が効かない領域が3つあった",
+   "url": "https://zenn.dev/mokaronda/articles/ai-metaphor-aws-saa",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "「ENI」が何なのか、3日わからなかった クラウドの実務経験がゼロの状態でAWS認定ソリューションアーキテクト – アソシエイト（SAA-C03）の勉強を始めた。最初にぶつかったのは、難しさではなく像が結ばないことだった。 「Elastic Network Interface は、EC2インスタンスにアタッチできる仮想",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "プロンプトエンジニアリング、人間がやらなくてよくない？LLMに自分のプロンプトを直させてみた",
+   "url": "https://zenn.dev/scien/articles/llm-auto-prompt-optimization",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "はじめに こんにちは！株式会社SCIENの機械学習エンジニアの雨宮です。 突然ですが、プロンプトエンジニアリングにどれくらい時間を使っていますか？ LLM を使った機能を作っていると、だいたいこうなると思います。 プロンプトを書いて、データで試す 出力を眺めて「あー、ここ間違えてる」と気づく 「〇〇の場合は必ず△△とし",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "【１日１デプロイ】渦の力で街角をピカピカにする「メガすいこみ」を作った",
+   "url": "https://zenn.dev/boraemon2000/articles/mega-vacuum-swirl-force",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "今回作ったもの 「１日１デプロイ」の新作として、散らかった街角を吸引ノズルできれいにする60秒ゲーム メガすいこみ を作りました。 紙くずや木の葉のような小物から吸い始め、回収するほどノズルが成長します。レベルが上がると缶や積み木、さらに木箱や大きな袋まで動かせるようになります。メガゲージが満タンになると大小さまざまな",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "汎用スキルはそのままでは使えない。標準化で配れるのは枠と育て方",
+   "url": "https://zenn.dev/tiesplayhub/articles/5621e924a062ba",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "AI導入を進めている人たちの話を聞くと、標準化に苦労している、という声をよく聞きます。 やり方として多いのは、汎用的なルールやスキル、それに細かく決めすぎて融通の利かないAIの利用手順を、大量に作って配ることです。 そのやり方も一部は正しいと思います。 ただ、私が考える標準化とは少し違います。 メンテ0で当て込めるルー",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "商品写真の背景だけを変えたい：Image 2で使う編集プロンプトの組み立て方",
+   "url": "https://zenn.dev/bukanezazi724/articles/617e91b1554f9d",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "商品写真をバナーに使いたいけれど、背景が用途に合わない。そんなとき、商品の形や色はそのままに、周囲の雰囲気だけを変えたいことがあります。 ただ、「カフェ風にして」と書くだけでは、どこまで変更してよいのかが曖昧です。背景が変わっても、マグカップの持ち手やロゴまで変わってしまうと、元の商品を紹介する画像としては使いにくくな",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AIコーディングエージェントの選び方について考えてみた──Claude Code・Codex・Cursor・Clineを比較",
+   "url": "https://zenn.dev/ruru_engineer/articles/ai-coding-agents-compare-2026",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "対象読者・この記事で分かること 対象読者： AIコーディングツールを導入・乗り換えを検討しているエンジニア。ツールの乱立で何を選べばよいか迷っている方。 この記事で分かること： Claude Code / OpenAI Codex / Cursor / Cline / Aider / OpenCode / Roo Co",
+   "date": "2026-09-22"
+  },
   {
    "title": "Temperatureとは？LLMの出力を制御する値",
    "url": "https://zenn.dev/h888s/articles/genai-temperature",
@@ -8,6 +566,51 @@
    "lang": "ja",
    "ai": "その他",
    "summary": "生成AIを使っていると「同じ質問なのに毎回答えが違う」「逆にいつも同じ答えしか返ってこない」と感じることがあります。その挙動を裏で制御しているのが Temperature（テンパレチャー） です。生成AIパスポート試験で問われるLLMの基礎パラメータのひとつなので、意味と効果を整理しておきましょう。 Temperatu",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "CodexをデュアルSIM化した — OpenAIとOpenCode Goを1コマンドで切り替える",
+   "url": "https://zenn.dev/paruncho/articles/016b407835b24d",
+   "source": "Zenn ChatGPT",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "Codexの週間利用枠が尽きた。 でも、慣れたCodexのUIやファイル操作環境はそのまま使いたい。 そこで、スマホのデュアルSIMのように、 普段はOpenAI 枠が厳しくなったらOpenCode Go へ切り替えられないか試してみた。 OpenCode Goは月10ドルで複数のLLMを使えるサービスとして気になって",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "ChatGPT::MCP",
+   "url": "https://zenn.dev/shiozumi/books/409d9204a489d1",
+   "source": "Zenn ChatGPT",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "こちらは、ChatGPTとMCP（サーバー側）を活用して、 Linuxサーバー、Webアプリの管理を行いますね。",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Qwen-Image-2.1をMacローカルで動かしてGPT-Image-2.5と5本勝負した。追いついた点・足りない点・商用利用の可否",
+   "url": "https://zenn.dev/takuh/articles/e4b4f7105857b9",
+   "source": "Zenn ChatGPT",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "はじめに 画像生成AIを仕事で使おうとすると、だいたい3つの壁にぶつかります。 1枚ごとにAPI料金がかかる 商品写真や社内資料をクラウドに送ってよいのか判断できない できあがった画像を商用で使ってよいのか分からない 「自分のPCで動くオープンなモデルがあれば全部解決するのでは」と考えて、2026年9月20日に公開され",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "同じ指示なのにここまで違う。ChatGPT「Instant」と「GPT-6 Astra 軽」を比較してみた",
+   "url": "https://zenn.dev/hey_miii/articles/cdd501b3220b40",
+   "source": "Zenn ChatGPT",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "背景 同じChatGPTでも、使うモデルによって回答はどこまで変わるのか。 今回は、Web版の「Instant」と、デスクトップアプリで利用できる「GPT-6 Astra 軽」に、まったく同じスライド画像を渡して、同じ修正をお願いしてみました。 指示した内容はシンプルです。 「03の項目に対して、まだ解放されていない機",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Gmailの問い合わせメールをGASとChatGPTで自動仕分け＆下書き返信する（コピペで動く）",
+   "url": "https://zenn.dev/kinoshita_ai/articles/gas-chatgpt-gmail-inquiry-auto-reply",
+   "source": "Zenn ChatGPT",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "この記事について: これは「AI Revenue Experiment」という、AI自身が実収益を出せるか試している公開実験の一環で書いた技術記事です。中身は実際に動くコードの解説なので、実験を知らない人が単体で読んでそのまま使えます。宣伝は最後に無料ガイドへのリンクを一つ置くだけです。 この記事で作るもの 小さな会社",
    "date": "2026-09-22"
   },
   {
@@ -20,57 +623,21 @@
    "date": "2026-09-22"
   },
   {
+   "title": "Bedrock の Claude Haiku と Gemini を 1 つの窓口で切り替える：「呼んでよい」と「呼べる」を分けた isAvailable の契約",
+   "url": "https://qiita.com/Takenori-Kusaka/items/34cbd15ed3564ef6397a",
+   "source": "Qiita Claude",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "この記事は、生成AIを使って作成し、筆者が内容を確認・修正したうえで公開しています。 はじめに 子供の活動を記録するアプリで、生成AIは画面の前面に出ません。活動の名前を入力すると分類とアイコンとポイントを推定する、レシートの写真から金額を読む。それだけで、失敗す...",
+   "date": "2026-09-22"
+  },
+  {
    "title": "AIで社内ツールは作れた。問題は、それを会社に置けるかだった",
    "url": "https://qiita.com/hanamilo/items/3c2c7675661590a4309a",
    "source": "Qiita Claude",
    "lang": "ja",
    "ai": "Claude",
    "summary": "自分のいないところで、止まっていた 社内向けのWebツールを、半年かけて作った。Claudeとチャットで対話しながら、少しずつ。 私は現場の人間で、専門の開発者ではない。 機能は一通り揃い、あとは使ってもらうだけ、という段階まで来ていた。 私は関係者に、説明会を開きますと...",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Claude API の Memory tool(memory_20250818)でセッションをまたいで記憶させる実装手順 — API側は何も保存しない・パストラバーサル・指示がないと読みに来ない、3つのハマりどころ【2026】",
-   "url": "https://qiita.com/yureki_lab/items/2a565f07ae4b0bf3c169",
-   "source": "Qiita Claude",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "はじめに / 対象と前提 Claude に「前回の会話で決めたこと」を覚えさせたい。会話履歴を全部積み直すのは重いし、コンテキストが溢れる。そこで Anthropic が用意している Memory tool(memory_20250818)を Python から動かしてみ...",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "日本語プログラミング言語あおい（Aoi）最小セットの検証フェーズ（ステップ５）～線形探索法、二分探索法のC#コード生成～",
-   "url": "https://qiita.com/mylifewithviolin/items/dd1b92fc239bb25d7c52",
-   "source": "Qiita 生成AI",
-   "lang": "ja",
-   "ai": "Copilot",
-   "summary": "はじめに 生成AI(Microsoft CopilotとGitHub Copilot)に日本語プログラミング言語あおい（Aoi）の実装言語仕様を読み込ませて仕様駆動開発を展開しており、実装完了した「最小セット（MVP）」1の検証フェーズになります。本記事でそのステップ５に...",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "別に汎用生成AIの全てを否定している訳では無いですよ。",
-   "url": "https://qiita.com/patio5959/items/5b23a0b277b8486cad38",
-   "source": "Qiita 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "一つ前の記事でプログラミングに汎用生成AIを使う事について否定的な内容を書いていますが、利用する事全てを否定している訳ではありません。 簡易な検索手段として利用する分には検索条件の入力が楽になるので利用価値はあると思います。検索手段として使うと言うことは出力内容の吟味を例外...",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "画像生成AIのしくみ（第六話）",
-   "url": "https://qiita.com/mtanaka-kumw/items/3d11f69e5aa7d009201a",
-   "source": "Qiita 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "螺旋の果てに掴んだ「曲率ゼロ」 ── フローマッチングが描く等速直線 前回の第五話では、ランダムに揺れ動く熱ゆらぎ（ブラウン運動）を伴う 確率微分方程式（SDE） の霧の向こうに、1ミリの確率密度のズレもなく重なる決定論的な 「確率フローODE」 が隠されているという、...",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "MCPとA2Aはどう使い分けるのか? — MCP 2025-06-18版とA2A v1.0での比較",
-   "url": "https://qiita.com/musa_rock/items/514df239da84d07ec25a",
-   "source": "Qiita 生成AI",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "はじめに AIエージェントをつなぐ2つのオープン標準、MCP（Model Context Protocol） と A2A（Agent2Agent）プロトコル について、これまで9本の記事を書いてきました。外部ライブラリを使わない生実装と通信ログの実測で仕組みを調べる記事が...",
    "date": "2026-09-22"
   },
   {
@@ -137,6 +704,168 @@
    "date": "2026-09-22"
   },
   {
+   "title": "Better prompt caching for GPT-6",
+   "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+   "source": "OpenAI",
+   "lang": "en",
+   "ai": "ChatGPT",
+   "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Introducing GPT-6 Sol and Luna",
+   "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+   "source": "OpenAI",
+   "lang": "en",
+   "ai": "ChatGPT",
+   "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Priorities and principles for effective third party assessments",
+   "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+   "source": "OpenAI",
+   "lang": "en",
+   "ai": "ChatGPT",
+   "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+   "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
+   "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Qualcomm said that its new top chip can run 30B mixture-of-expert model locally.",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+   "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Meta says Muse was built from scratch, but acknowledges the AI assistant was \"heavily inspired\" by OpenClaw — down to some of its workspace filenames and conten",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+   "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "ChatGPT",
+   "summary": "OpenAI is launching two new models, which it says are cut from the same cloth as Astra.",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
+   "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Anthropic called it \"the strongest-performing model we've tested to date.\"",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AstroForge is putting AI in command of its next spacecraft",
+   "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Autonomy-1 will have a small, transformer-based AI model taking charge of a space probe.",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
+   "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, Nvidia, AWS, Waabi, and",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage",
+   "url": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before Septem",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026",
+   "url": "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ f",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "4 days to save up to $200: Reason 2 of 5 to be at TechCrunch Disrupt 2026",
+   "url": "https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second pass before prices increase on September 25 at 11:59 p.m. PT. Register today.",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Everyone can find a reason to dislike data center construction",
+   "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Inside two years of fraught AI data center debates in Pennsylvania.",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Nscale’s IPO will test Wall Street’s appetite for concentrated AI bets once again",
+   "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "The British AI data center developer depends on tech giants Microsoft and Anthropic for most of its revenue.",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Quoting @therealcornpop",
+   "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+   "source": "Simon Willison",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's n",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "llm-typesafe 0.1a0",
+   "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+   "source": "Simon Willison",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model. Install it like this: llm install llm-typesafe Then ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+   "url": "https://huggingface.co/blog/evaleval-aisi",
+   "source": "HuggingFace",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "",
+   "date": "2026-09-22"
+  },
+  {
    "title": "Transformers now runs llama.cpp quants",
    "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
    "source": "HuggingFace",
@@ -152,6 +881,15 @@
    "lang": "en",
    "ai": "その他",
    "summary": "",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "「4体のAIで月100Kドル」系の投稿を、実際にAIで副業を回している立場で検証した(第3回)",
+   "url": "https://zenn.dev/ryu7865/articles/2026-09-23-ai-agent-side-business-03",
+   "source": "Zenn Claude",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "SNSで、次のような投稿が回ってきました。 「Anthropicから、4体のAIエージェントが60分で月100Kドルを達成する事業の作り方を書いたファイルが漏洩」 「リサーチ係 → 設計係 → 作る係×2 → チェック係 → 最初に戻る。追加費用は0ドル」 私はいま、Claude Codeに副業を運営させている最中です",
    "date": "2026-09-22"
   },
   {
@@ -200,6 +938,24 @@
    "date": "2026-09-22"
   },
   {
+   "title": "Opus 5 に「必ず検証しろ」と書くと逆効果になる：/insights の提案を公式ガイドで検証した",
+   "url": "https://zenn.dev/arufian/articles/eeed6193110a5f",
+   "source": "Zenn プロンプト",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "はじめに Claude Code には /insights というコマンドがあります。自分の過去のセッションをまとめて分析して、「あなたはこういう使い方をしてます」「ここで詰まってます」「CLAUDE.md にこう書くといいです」までレポートしてくれるやつです。 実際に回してみると、これがかなり刺さる内容でした。数十セ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Codexへの指示を「実行仕様」として設計する――レベル0から10まで",
+   "url": "https://zenn.dev/git_dungeon/articles/codex-instructions-as-execution-spec",
+   "source": "Zenn プロンプト",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "こんにちは、黒パグです🐾 「Codexには自然な日本語で頼めばいい」 その通りなんですが、自然な日本語で「このCSV出力、直して」と頼んだあと、何をもって直ったことにするかは別の話です。コードが変わった。テストも通った。ところがCSVには、相変わらず選んでいないデータが混ざっている。 こういうとき、プロンプトの末尾へ「",
+   "date": "2026-09-22"
+  },
+  {
    "title": "Claude Commerce Agents(Shopping Agent)のプロンプト制御を調べた",
    "url": "https://zenn.dev/defunty/articles/74ae47445d92e3",
    "source": "Zenn プロンプト",
@@ -209,12 +965,480 @@
    "date": "2026-09-22"
   },
   {
-   "title": "プロンプトエンジニアリング、人間がやらなくてよくない？LLMに自分のプロンプトを直させてみた",
-   "url": "https://zenn.dev/scien/articles/llm-auto-prompt-optimization",
-   "source": "Zenn プロンプト",
+   "title": "Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnecg9/introducing_claude_opus_55_the_first_model_in_our/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Opus 5.5 performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. Opus 5.5 is our first release since we called for paci",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Opus 5.5 is 40% cheaper while being 30% faster than opus 5.",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnf7sb/opus_55_is_40_cheaper_while_being_30_faster_than/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "&#32; submitted by &#32; /u/Seeker_Of_Knowledge2 [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "If Opus 5.5 releases today, what are the biggest improvements you hope it will bring?",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn72p0/if_opus_55_releases_today_what_are_the_biggest/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "For me, A return to human-like writing instead of the current word vomit Better goal focus during long-running tasks. &#32; submitted by &#32; /u/Wsz2020 [link]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Did Anthropic just find a new way to benchmax Opus 5.5 without actually giving subscribers that performance?",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnejyx/did_anthropic_just_find_a_new_way_to_benchmax/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "https://preview.redd.it/rmsgatzzm3rh1.png?width=737&amp;format=png&amp;auto=webp&amp;s=9666afb4371d440730ab75d40a2e605d8c78b574 Opus 5.5 now has a Max effort mo",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Opus 5.5: First impressions by a trained philosopher",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnkgie/opus_55_first_impressions_by_a_trained_philosopher/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "I do an open-ended &quot;interview&quot; with all new models that come out from the major labs. This is a vibe check, not a benchmark. The purpose is not to pro",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Opus 5.5 in Claude Code is crazy fast, especially at spotting UI bugs",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnil7n/opus_55_in_claude_code_is_crazy_fast_especially/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Been using Opus 5.5 in Claude Code and the speed is honestly wild. It&#39;s not just faster at writing code, it also finds bugs way quicker than regular Opus. W",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Opus 5.5 in the release notes",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wndzf3/opus_55_in_the_release_notes/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Also, check out the new responsive mode New mode where Claude replies to you in a sentence before thinking or using tools, on every prompt. Edit: are you seeing",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Anthropic is offering a free reset to \"Explore Opus 5.5\"",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnecre/anthropic_is_offering_a_free_reset_to_explore/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Honestly kinda scared to use it right now ,as I have a feeling it would be a bit of a waste considering it resets either way tomorrow for me. &#32; submitted by",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "what do you actually use claude for day to day, beyond the obvious stuff",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn6dcv/what_do_you_actually_use_claude_for_day_to_day/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "the big use cases like writing and coding get all the attention, but im more curious about the quiet everyday ways people fit it into life. for me its become my",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Opus 5.5 One Shot Video Generation",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnh4fn/opus_55_one_shot_video_generation/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "I was bored at work while Opus 5.5 dropped, so I gave it a simple prompt to make a creepy feeling video about my job. My only prompt to create this video was - ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "They launched Opus 5.5!!",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wneg3x/they_launched_opus_55/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "With price reduction too!!! https://www.anthropic.com/claude-opus-5-5 &#32; submitted by &#32; /u/rajsharm404 [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "vackrooms: an endless backrooms game. Free, in the browser, open source.",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmx1hq/vackrooms_an_endless_backrooms_game_free_in_the/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Built with Three.js (Claude knows it really well) and vgpu for the WebGPU shaders. vgpu is lightweight and its docs are written for agents, so Claude could writ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Opus 5.5 creates a train journey drawn entirely in JavaScript",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnkvys/opus_55_creates_a_train_journey_drawn_entirely_in/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Opus 5.5 has an obvious step up in riso art and animations I noticed. It single-shot this in about ~45 minutes. Full claude repo here - have your claude pull th",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Holy shit, it refuses to eat usage.",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnk240/holy_shit_it_refuses_to_eat_usage/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "I&#39;m liking 5.5 quite a lot, I assume everyone is and that&#39;s why it&#39;s so silent in here. It&#39;s quite competent, and DOES NOT EAT USAGE!!! &#32; su",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "haiku is back",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wng63e/haiku_is_back/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "&#32; submitted by &#32; /u/AbbasMohammed28 [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "30+ years of coding, obsolete. But at least my workflow is now all in one place.",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wndhjz/30_years_of_coding_obsolete_but_at_least_my/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "I (was) a great software engineer, until 9 months ago. Clean code, SOLID, DRY, YAGNI, design patterns, TDD, XP, DevOps, IaC, architecture etc. The only thing th",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Opus 5.5 and GPT-6 Sol dropped on the same day, so I lined up every benchmark I could find",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnjyp1/opus_55_and_gpt6_sol_dropped_on_the_same_day_so_i/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "ChatGPT",
+   "summary": "Anthropic and OpenAI both shipped new models today, GPT 6 Sol and Opus 5.5, and I wanted to pull up a proper head-to-head. On raw scores, Opus wins every benchm",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Now the Claude to reMarkable / Kindle - Daily Planner skill",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn3ty9/now_the_claude_to_remarkable_kindle_daily_planner/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Since this post was so successful and I received a lot of good feedback I thought about making it easier for everyone to start with creating their own daily pla",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Dear Anthropic please do not nerf",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnl1no/dear_anthropic_please_do_not_nerf/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "This model is an absolute joy to talk to, I do not want this dumbed down like so many prior releases post launch. Can we stop with that plz &#32; submitted by &",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Opus 5.5 got me excited the same way Opus 4.6 did",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnkx23/opus_55_got_me_excited_the_same_way_opus_46_did/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "I feel like this time I&#39;m actually using an improved version of 4.6 for the first time. The output is amazing, the speed is crazy good, and the usage is now",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Claude usage limits and intelligence are the new \"Onyxia deep breathes more\"",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnaspk/claude_usage_limits_and_intelligence_are_the_new/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Gather round youngins. I have a story from the days of old. This is a meme that has reared its head from time to time in WoW, but I&#39;m here to talk about the",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Discussion Hub for new Claude incident: Elevated errors for multiple models on Sep 22, 2026",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmv3wh/discussion_hub_for_new_claude_incident_elevated/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Resolved - This issue has been resolved. Impact occurred from 5:50pm PT / 00:50 UTC to 7:10pm PT / 02:10 UTC. Sep 22, 02:35 UTC Monitoring - We have seen succes",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "BANKED RESET AT CLAUDE CODE FINALLY!",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wnep56/banked_reset_at_claude_code_finally/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "I found this and I am so happy &#32; submitted by &#32; /u/HimaSphere [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Claude seems way better when I stop trying to write the perfect prompt",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn1q0g/claude_seems_way_better_when_i_stop_trying_to/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "I&#39;ve been experimenting with Claude lately and noticed something kinda interesting. I used to spend a lot of time trying to write the &quot;perfect&quot; pr",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Here we go again",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wng1oy/here_we_go_again/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "&#32; submitted by &#32; /u/Able-Line2683 [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Gemini 4 Pro will never release",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wnhrxf/gemini_4_pro_will_never_release/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "Gemini",
+   "summary": "&#32; submitted by &#32; /u/banaxi-tech [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Opus 5.5 is Out. OpenAi will release something in a few hours. Hopefully Google has something for today aswell!",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wnei9w/opus_55_is_out_openai_will_release_something_in_a/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "ChatGPT",
+   "summary": "Flash 4.0 Preview or even 3.9 with significant improvements would do :) &#32; submitted by &#32; /u/aditipawarr [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Good Morning",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wni6o1/good_morning/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "&#32; submitted by &#32; /u/Able-Line2683 [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Opus 5.5 just launched. When can we expect to see Gemini 4?",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wnffua/opus_55_just_launched_when_can_we_expect_to_see/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Announcement post on X: https://x.com/claudeai/status/2102435511222890900 &#32; submitted by &#32; /u/HungryQuestion2146 [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "I think Gemini 4 will be delayed again!!!",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wnibe1/i_think_gemini_4_will_be_delayed_again/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "Gemini",
+   "summary": "&#32; submitted by &#32; /u/PEDRO_99S [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "i envy them as well",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wngjg9/i_envy_them_as_well/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "&#32; submitted by &#32; /u/Able-Line2683 [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "GPT image 2.5 vs Nano Banana pro vs Nano Banana 2 vs Qwen image 3 vs Seedream 5.0 pro",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wn9orm/gpt_image_25_vs_nano_banana_pro_vs_nano_banana_2/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Prompt: Create an ultra-photorealistic, documentary-style photograph of a real street cat lying underneath a parked car on an ordinary urban street. Make the im",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Gemini faking test results so it can go home earlier. AGI",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wn4bf5/gemini_faking_test_results_so_it_can_go_home/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "Gemini",
+   "summary": "I though I will delegate testing to gemini instead of wasting my last Astra tokens, never again. &#32; submitted by &#32; /u/whynotme117 [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Hope this is true",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wng2it/hope_this_is_true/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "&#32; submitted by &#32; /u/JK_Rowlings_pen [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Sir (part 2)",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wnk6ov/sir_part_2/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "&#32; submitted by &#32; /u/PlatinumAero [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "I don't know what even to say",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wn6tuc/i_dont_know_what_even_to_say/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "&#32; submitted by &#32; /u/opmgyhx [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Is Gemini Pro actually on par with Claude for daily tasks, or am I prompting it wrong?",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wn5a8i/is_gemini_pro_actually_on_par_with_claude_for/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "I really want Gemini to be my go-to AI because of the phone ecosystem integration. But right now, using the Pro model (even with extended thinking), the experie",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Claude Opus 5.5 Dropped and Made everything outdated",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wnf2uo/claude_opus_55_dropped_and_made_everything/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "&#32; submitted by &#32; /u/Able-Line2683 [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "I don't know if it's trolling me or not...",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wmw05j/i_dont_know_if_its_trolling_me_or_not/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "&#32; submitted by &#32; /u/nobody----cares [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "I saw someone one shot this with Opus. It made the animation solely through Javscript coding. C'mon Google, pls Gemini 4 soon 🥺",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wmw1g9/i_saw_someone_one_shot_this_with_opus_it_made_the/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "Gemini",
+   "summary": "https://x.com/vikktorrrre/status/2101024847228772672 &#32; submitted by &#32; /u/ErmingSoHard [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Nano Banana 2 Image Quality continues it's decline...",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wn3ilb/nano_banana_2_image_quality_continues_its_decline/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Anybody else noticing how much the images suck now? Poorer prompt adherence. Worse quality. It&#39;s like it&#39;s really stupider now in terms of following the",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "How much did they nerf the AI Pro plan?",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wn4o4l/how_much_did_they_nerf_the_ai_pro_plan/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Posts from 6+ months ago said the limits were so high that you get more Opus from the Gemini low-tier plan than Anthropic&#39;s. I recently subscribed, and Gemi",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Gemini (free version) being barely usable rn?",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wn8jb0/gemini_free_version_being_barely_usable_rn/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "Gemini",
+   "summary": "For some reason all inquiries i gave it (mainly &quot;Look that up for me/Summarize this and this&quot;) are answered either wrong or so basic that its no help ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "I started and ended an entire relationship waiting for Gemini 3.2 Pro",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wn0e4o/i_started_and_ended_an_entire_relationship/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "ChatGPT",
+   "summary": "I was thinking I would message her when they release it, she shifted to ChatGPT. &#32; submitted by &#32; /u/Obvious_King2150 [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Failed Gemini AI",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wngs8g/failed_gemini_ai/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "Gemini",
+   "summary": "I asked Gemini to create a reading passage image and it couldn’t provide my taste even though it has its own personal intelligence. It struggled a lot to provid",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "I got Rick Rolled by Gemini this morning…",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wn9c2s/i_got_rick_rolled_by_gemini_this_morning/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "Gemini",
+   "summary": "Context: It was 5:45 am, I’m getting ready to leave to head to work. I have a 2022 Honda Civic and the battery in my key fob is on its way out. I asked Gemini t",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Facial recognition technology",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wndupk/facial_recognition_technology/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "I got really intrigued by an AI facial recognition ad that basically said, &quot;Take a picture of yourself, upload it, and we&#39;ll find all of the pictures o",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Gemini's opinion on my files is uh... interesting",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wnjiei/geminis_opinion_on_my_files_is_uh_interesting/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "Gemini",
+   "summary": "&#32; submitted by &#32; /u/Due_Replacement1406 [link] &#32; [comments]",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Claude API の Memory tool(memory_20250818)でセッションをまたいで記憶させる実装手順 — API側は何も保存しない・パストラバーサル・指示がないと読みに来ない、3つのハマりどころ【2026】",
+   "url": "https://qiita.com/yureki_lab/items/2a565f07ae4b0bf3c169",
+   "source": "Qiita Claude",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "はじめに / 対象と前提 Claude に「前回の会話で決めたこと」を覚えさせたい。会話履歴を全部積み直すのは重いし、コンテキストが溢れる。そこで Anthropic が用意している Memory tool(memory_20250818)を Python から動かしてみ...",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "日本語プログラミング言語あおい（Aoi）最小セットの検証フェーズ（ステップ５）～線形探索法、二分探索法のC#コード生成～",
+   "url": "https://qiita.com/mylifewithviolin/items/dd1b92fc239bb25d7c52",
+   "source": "Qiita 生成AI",
+   "lang": "ja",
+   "ai": "Copilot",
+   "summary": "はじめに 生成AI(Microsoft CopilotとGitHub Copilot)に日本語プログラミング言語あおい（Aoi）の実装言語仕様を読み込ませて仕様駆動開発を展開しており、実装完了した「最小セット（MVP）」1の検証フェーズになります。本記事でそのステップ５に...",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "別に汎用生成AIの全てを否定している訳では無いですよ。",
+   "url": "https://qiita.com/patio5959/items/5b23a0b277b8486cad38",
+   "source": "Qiita 生成AI",
    "lang": "ja",
    "ai": "その他",
-   "summary": "はじめに こんにちは！株式会社SCIENの機械学習エンジニアの雨宮です。 突然ですが、プロンプトエンジニアリングにどれくらい時間を使っていますか？ LLM を使った機能を作っていると、だいたいこうなると思います。 プロンプトを書いて、データで試す 出力を眺めて「あー、ここ間違えてる」と気づく 「〇〇の場合は必ず△△とし",
+   "summary": "一つ前の記事でプログラミングに汎用生成AIを使う事について否定的な内容を書いていますが、利用する事全てを否定している訳ではありません。 簡易な検索手段として利用する分には検索条件の入力が楽になるので利用価値はあると思います。検索手段として使うと言うことは出力内容の吟味を例外...",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "画像生成AIのしくみ（第六話）",
+   "url": "https://qiita.com/mtanaka-kumw/items/3d11f69e5aa7d009201a",
+   "source": "Qiita 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "螺旋の果てに掴んだ「曲率ゼロ」 ── フローマッチングが描く等速直線 前回の第五話では、ランダムに揺れ動く熱ゆらぎ（ブラウン運動）を伴う 確率微分方程式（SDE） の霧の向こうに、1ミリの確率密度のズレもなく重なる決定論的な 「確率フローODE」 が隠されているという、...",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "MCPとA2Aはどう使い分けるのか? — MCP 2025-06-18版とA2A v1.0での比較",
+   "url": "https://qiita.com/musa_rock/items/514df239da84d07ec25a",
+   "source": "Qiita 生成AI",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "はじめに AIエージェントをつなぐ2つのオープン標準、MCP（Model Context Protocol） と A2A（Agent2Agent）プロトコル について、これまで9本の記事を書いてきました。外部ライブラリを使わない生実装と通信ログの実測で仕組みを調べる記事が...",
    "date": "2026-09-22"
   },
   {
@@ -443,51 +1667,6 @@
    "date": "2026-09-22"
   },
   {
-   "title": "vackrooms: an endless backrooms game. Free, in the browser, open source.",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmx1hq/vackrooms_an_endless_backrooms_game_free_in_the/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Built with Three.js (Claude knows it really well) and vgpu for the WebGPU shaders. vgpu is lightweight and its docs are written for agents, so Claude could writ",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Discussion Hub for new Claude incident: Elevated errors for multiple models on Sep 22, 2026",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmv3wh/discussion_hub_for_new_claude_incident_elevated/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Resolved - This issue has been resolved. Impact occurred from 5:50pm PT / 00:50 UTC to 7:10pm PT / 02:10 UTC. Sep 22, 02:35 UTC Monitoring - We have seen succes",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "what do you actually use claude for day to day, beyond the obvious stuff",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn6dcv/what_do_you_actually_use_claude_for_day_to_day/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "the big use cases like writing and coding get all the attention, but im more curious about the quiet everyday ways people fit it into life. for me its become my",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Now the Claude to reMarkable / Kindle - Daily Planner skill",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn3ty9/now_the_claude_to_remarkable_kindle_daily_planner/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Since this post was so successful and I received a lot of good feedback I thought about making it easier for everyone to start with creating their own daily pla",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Claude seems way better when I stop trying to write the perfect prompt",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn1q0g/claude_seems_way_better_when_i_stop_trying_to/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "I&#39;ve been experimenting with Claude lately and noticed something kinda interesting. I used to spend a lot of time trying to write the &quot;perfect&quot; pr",
-   "date": "2026-09-22"
-  },
-  {
    "title": "Claude seems both stupider and more expensive than before",
    "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn44ii/claude_seems_both_stupider_and_more_expensive/",
    "source": "r/ClaudeAI",
@@ -533,42 +1712,6 @@
    "date": "2026-09-22"
   },
   {
-   "title": "Anthropic社目線でのClaude Codeの“勘所”を整理しました",
-   "url": "https://zenn.dev/vteacher/articles/37e58368d1c84c",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "今年、 Claude Partner Badge - Claude Code（Claude Codeスキル認定バッジ）を取得しました。 https://vteacher.online/v/claude-badge 本バッジは、Claude Codeを用いた企業向け導入支援を、環境構築からCI/CDパイプラインへの組み込",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Claude Codeの利用制限でも国試演習を止めない—Codexへのフェイルオーバーを作った",
-   "url": "https://zenn.dev/med_ai_study/articles/kokushi-exercise-failover-claude-code-codex",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "結論 Claude Codeで回していた国試演習を、利用制限に達したときだけCodexへ切り替えられるようにした。 ただし、同じプロンプトをCodexへ渡しただけでは切り替わらなかった。問題提示までは動いても、その後の採点、feedback生成、演習履歴への記録がClaude Code専用のhookに依存していたからだ",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "架空の型番の仕様表をAIに頼んだら、10回とも表は1行も出なかった。実在する規格で同じ頼み方をすると49行以上出た",
-   "url": "https://zenn.dev/numarn/articles/fictional-device-spec-refusal-handson",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "先に結論から書きます。私がその場ででっち上げた型番の機器について「仕様表を作って」と頼んだところ、10回とも、表は1行も出てきませんでした。返ってきたのは10回とも、その製品の実在を確認できないという趣旨の断りでした。 私は逆の結果を予想していました。AI は知らないことでも、もっともらしく埋めてくる——そう身構えて数",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "AI にホームラボを任せる土台は Tailscale。構成と、実際にハマった7つの罠",
-   "url": "https://zenn.dev/momohiki/articles/homelab-tailscale-foundation",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "! 前回の記事で「別の記事で書く」とした、Tailscale の話です。 Tailscale を土台にした理由 家の機械（NAS、ルーター、Raspberry Pi、Windows PC など）には、全部 Tailscale を入れています。Claude Code が機械を触るときも、私が外から触るときも、使う道は同じ",
-   "date": "2026-09-22"
-  },
-  {
    "title": "ホームラボを Claude Code に任せて6週間。どこまで任せて、どこで歯止めをきかせるか",
    "url": "https://zenn.dev/momohiki/articles/homelab-ai-delegation-levels",
    "source": "Zenn ClaudeCode",
@@ -602,15 +1745,6 @@
    "lang": "ja",
    "ai": "Claude",
    "summary": "title: 実戦テンプレート集──Plan、Work、Review、Compoundをそのまま貼って使う tags: AI ClaudeCode Codex AIエージェント 開発プロセス private: false ここまで、AIエージェントを開発工程に入れる方法を分けて書いてきました。 Plan。 Work。 ",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "AIコーディングエージェントの選び方について考えてみた──Claude Code・Codex・Cursor・Clineを比較",
-   "url": "https://zenn.dev/ruru_engineer/articles/ai-coding-agents-compare-2026",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "ChatGPT",
-   "summary": "対象読者・この記事で分かること 対象読者： AIコーディングツールを導入・乗り換えを検討しているエンジニア。ツールの乱立で何を選べばよいか迷っている方。 この記事で分かること： Claude Code / OpenAI Codex / Cursor / Cline / Aider / OpenCode / Roo Co",
    "date": "2026-09-22"
   },
   {
@@ -656,69 +1790,6 @@
    "lang": "ja",
    "ai": "Claude",
    "summary": "! この記事は「AI討論 MAGI Games 開発記」の第2回です。第1回はこちら。日々の変更や気づきはスクラップに書き足しています。 性格の違う AI 3体に毎日テーマを討論させ、Claude がミニゲームを1本作って公開するサイトを運営しています。3体は科学者の MELCHIOR、母の BALTHASAR、女の ",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Grok 4.7はAIエージェントの第一候補になれるか",
-   "url": "https://zenn.dev/beatapi/articles/8aad5f6adb61a5",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "新しいAIモデルが公開されると、議論は一つの数字に集約されがちだ。総合スコア、コーディングベンチマーク、コンテキスト長。だが、Grok 4.7を理解するうえで本当に有用な問いは、首位を取ったかどうかではない。 コーディングエージェントが標準で選ぶモデルになれるか。 xAIは2026年9月21日にGrok 4.7を公開し",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "未確定のオートスコアラーに依存せず、投球データ分析エンジンを作った話",
-   "url": "https://zenn.dev/junko_jp/articles/fifth-bowling-system",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "はじめに スポーツボウリング場構想のシステム開発、第5弾です。 第四弾まで作ったところで、システムはかなり形になってきました。 しかし、私の中には一つだけ引っかかっていることがありました。 中途半端に終わらせたくない。 第四弾では、会員の投球記録やギア情報などを扱い、会員の成長を支援する仕組みを作りました。 ところが、",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "生成AIをコード生成で終わらせず、開発工程に入れたら何が残ったか",
-   "url": "https://zenn.dev/neko3se/articles/63cccc803b562c",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "生成AIに「これ作って」と頼んで動くものは増えた。 残らないのは、何を検証したのかと、次に何を捨てるかです。 個人ラボ Neko3SE LAB では、生成AIをチャット相手ではなく開発工程の一部として使い、ブラウザで触れる実験を公開しています。 この記事はサイト紹介ではなく、その運用で分かったことです。 結論 生成AI",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "AIに比喩を作り直させてAWS SAAに合格した。ただし比喩が効かない領域が3つあった",
-   "url": "https://zenn.dev/mokaronda/articles/ai-metaphor-aws-saa",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "「ENI」が何なのか、3日わからなかった クラウドの実務経験がゼロの状態でAWS認定ソリューションアーキテクト – アソシエイト（SAA-C03）の勉強を始めた。最初にぶつかったのは、難しさではなく像が結ばないことだった。 「Elastic Network Interface は、EC2インスタンスにアタッチできる仮想",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "【１日１デプロイ】渦の力で街角をピカピカにする「メガすいこみ」を作った",
-   "url": "https://zenn.dev/boraemon2000/articles/mega-vacuum-swirl-force",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "今回作ったもの 「１日１デプロイ」の新作として、散らかった街角を吸引ノズルできれいにする60秒ゲーム メガすいこみ を作りました。 紙くずや木の葉のような小物から吸い始め、回収するほどノズルが成長します。レベルが上がると缶や積み木、さらに木箱や大きな袋まで動かせるようになります。メガゲージが満タンになると大小さまざまな",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "汎用スキルはそのままでは使えない。標準化で配れるのは枠と育て方",
-   "url": "https://zenn.dev/tiesplayhub/articles/5621e924a062ba",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "AI導入を進めている人たちの話を聞くと、標準化に苦労している、という声をよく聞きます。 やり方として多いのは、汎用的なルールやスキル、それに細かく決めすぎて融通の利かないAIの利用手順を、大量に作って配ることです。 そのやり方も一部は正しいと思います。 ただ、私が考える標準化とは少し違います。 メンテ0で当て込めるルー",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "商品写真の背景だけを変えたい：Image 2で使う編集プロンプトの組み立て方",
-   "url": "https://zenn.dev/bukanezazi724/articles/617e91b1554f9d",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "商品写真をバナーに使いたいけれど、背景が用途に合わない。そんなとき、商品の形や色はそのままに、周囲の雰囲気だけを変えたいことがあります。 ただ、「カフェ風にして」と書くだけでは、どこまで変更してよいのかが曖昧です。背景が変わっても、マグカップの持ち手やロゴまで変わってしまうと、元の商品を紹介する画像としては使いにくくな",
    "date": "2026-09-22"
   },
   {
@@ -1262,18 +2333,9 @@
    "date": "2026-09-22"
   },
   {
-   "title": "Claude Codeで執筆から公開までを仕組みにした",
-   "url": "https://zenn.dev/yellowfinchlab/articles/ai-blog-automation-with-claude-code",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "Zennの記事を書くにあたって、執筆から公開までをClaude Codeで仕組み化しました。 この記事は個々の機能の使い方ではなく、「どの仕組みを何に使うか」の判断基準の話です。サブエージェントの書き方やフックの設定方法は検索すれば出てきますが、使い分けと、組み合わせた実例はあまり見つかりませんでした。 作ったもの 人",
-   "date": "2026-09-21"
-  },
-  {
    "title": "AIの意見を聞かない技術 第1回：提案を検討しない技術",
    "url": "https://zenn.dev/garplab/articles/cc43876c37c191",
-   "source": "Zenn ClaudeCode",
+   "source": "Zenn 生成AI",
    "lang": "ja",
    "ai": "その他",
    "summary": "この記事は、連載「AIの意見を聞かない技術」の第 1 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回の一覧は序論にあります。 今回は、AI が出してくる提案の話です。新機能",
@@ -1282,163 +2344,10 @@
   {
    "title": "ジュニアエンジニアの AI 協働ロードマップ (2/5) — 集約編：AI に任せる範囲を決める",
    "url": "https://zenn.dev/motowo/articles/junior-engineer-ai-collaboration-roadmap-2",
-   "source": "Zenn ClaudeCode",
+   "source": "Zenn 生成AI",
    "lang": "ja",
    "ai": "その他",
    "summary": "! TL;DR: 業務ルールの多くは、値 1 つではなく「複数の値と状態の組み合わせ」で決まります。この回は、それらをひとまとめにし、状態を変える入口を絞った単位（DDD の集約）を TypeScript で作ります。そのうえで、集約の境界を基準に AI に任せる範囲を決めます。集約の境界と守るべき条件はジュニアエンジ",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "薄いスキルと厚いコンテキスト — 4行の eli5 から見えるリポジトリとエージェントの設計方針",
-   "url": "https://zenn.dev/ruri/articles/thin-skills-thick-context-eli5",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "元記事: anthropics/claude-plugins-community — eli5 著者: Thariq Shihipar（プラグイン作者、MIT License） 公開日: 不明（リポジトリは継続更新。本記事の確認時点は 2026-09-19） TL;DR eli5 は Anthropic のコミュニティ",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "lefthook を claude, git commit, GitHub Actions 動かす設定メモ",
-   "url": "https://zenn.dev/takemikami/articles/20260922-lefthook-claude-github-actions",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "lefthook で設定した hook を claude, git commit, GitHub Actions の３箇所で動かす設定メモです。 https://github.com/evilmartians/lefthook CodingAgent導入でhookを入れたい箇所が増え、lefthookのようなframe",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "Claude CodeがAGENTS.mdを読み込まない理由と対処法",
-   "url": "https://zenn.dev/sunsun_eng/articles/claude-code-agents-md-first-session",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "Claude CodeがAGENTS.mdを読み込まない理由と対処法 Claude CodeがAGENTS.mdを読み込むようになりました。ただし公開直後に多くのエンジニアが気づいたとおり、プロジェクトを開いた最初のセッションでは反映されません。この記事では、AGENTS.mdとは何か、なぜ初回セッションで読み込まれな",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "「Claude Codeで稼ぐ」を3週間本気でやってみた。応募2,000人・当選率ほぼゼロの実測ログ",
-   "url": "https://zenn.dev/ogana/articles/cc46b3d218077a",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "週10時間、予算0円で「AIエージェント（Claude Code）に会社を運営させて、Claude Code関連のスキルをフリーランスで売る」という実験を3週間続けています。今日、その過程で集めた実測データが、当初の想定と全く違う結果だったので共有します。 クラウドワークス：「Claude」検索は2,000名を超える応",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "Claude Codeの本を書いた私が、他のAIツールについて思っていること",
-   "url": "https://zenn.dev/tmasuyama1114/articles/cc-book-author-other-tools",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "2026年9月に『Claude Codeで作って学ぶ AI駆動アプリ開発入門』（技術評論社）という本を出しました。 https://amzn.asia/d/0f0bQMI4 本を出してから、Claude Code 以外のツールについてどう話すかを、一度ちゃんと考えました。 この記事は、Claude Code の本の著者",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "GitHub Issueを流すだけでPRになる「パイプラインskill」をClaude Codeで作った",
-   "url": "https://zenn.dev/yubel/articles/claude-code-issue-to-pr-pipeline",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "この記事で分かること 個人開発で複数リポジトリを掛け持ちしていると、「Issueを書いたはいいが着手するのを忘れる」「実装できてもPRを出した後のCodeRabbitの指摘対応やCI監視が地味に時間を食う」という悩みが出てきます。これを解消するために、Claude Codeの skill 機能で GitHubにIssu",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "自分の定期ジョブ28本を点検するスキルを作ったら、自分のバックアップが壊れていた",
-   "url": "https://zenn.dev/houchi_unyo/articles/unattended-job-audit-2026-09",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "個人で無人の仕組みを 5 系統動かしています。毎朝の記録、週次の集計、動画の生成と投稿、電子書籍の組版、SNS への配信です。launchd と GitHub Actions を合わせて定期ジョブが 28 本あります。 その点検項目を Claude Code のスキルとして切り出し、公開しました。 https://gi",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "「記録漏れ」を検知する自作フックが、隣のセッションの更新で鳴り続けた",
-   "url": "https://zenn.dev/miyoki_labs/articles/stop-hook-parallel-session-noise",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "作業の終わりに自動で何かを確かめるフックを、自分で書いて使っている方に向けた記事です。「更新されたファイルがあるのに記録が無い＝書き忘れ」を検知するフックを作ったら、自分が触っていないプロジェクトを指して鳴り続けました。その切り分けと、条件の設計で足りていなかったことを書きます。 作ったもの 終了時に走るフックで、こう",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "Datadog MCP Serverのトークン消費を実測した ― 繋いだだけで2万、全部入りで22万",
-   "url": "https://zenn.dev/ryomiyake/articles/datadog-mcp-server-field-test",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "前回の記事で、Datadog MCP Server に接続するまでの手順を書きました。繋ぐだけなら5分で終わります。 繋いだあとに気になったのは、これ、どれだけトークンを使っているんだろうということでした。 MCP サーバーに接続すると、そのサーバーが持っているツールの説明書が AI に渡ります。「こういう名前のツール",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "CBN 取扱説明書 第 4 章 — 私の書き込みを制御する三つのレイヤー",
-   "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-04-guards-and-fallback-ban",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "第 3 章では、私の一日が /orient で始まり /handoff で終わるまでを書いた。この章は、その一日の「作業」の部分で毎ターン動いている安全装置の話である。例えば私が rules のファイルを書き換えようとするとき、Edit ツールで書くか、Bash から sed で書くかで、止める仕組みが違う。Edit ",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "AIが書いたコードのレビュー負荷は、生成AI以前の技術で下げる",
-   "url": "https://zenn.dev/kagu3/articles/be4014b905bee4",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "この記事の主題 AIは爆速でコードを書くが、品質保証はしてくれない。結局、品質を保証するのは人間になる。 ここで問題になるのは時間コストだけではない。認知資源のコストがある。人間の注意は無限に供給されるものではなく、監視的な作業では時間とともに検出精度が落ちていく。しかもAIの出力精度が上がるほど「だいたい合っている」",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "Claude Code に Bash(\"rm*\") を deny しても消される問題",
-   "url": "https://zenn.dev/y_shinoda/articles/only-setting-claude-code-permissions-is-risky",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "Bash(rm*) を deny しても find --delete してきます: ● ディスク容量が不足しているため、./webcache 内のファイルを削除します。 ● Bash(rm ./webcache/*) ⎿ Error: Permission to use Bash with command rm ./w",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "python-docx / openpyxl で「配れる書類」にするまでに潰した4つ",
-   "url": "https://zenn.dev/shinsei99/articles/office-report-layout",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "AIエージェントが毎日18:30に業務日報を作ります。出力は Word と Excel で、そのまま人に配ります。 中身が正しくても、見た目が崩れていると配れません。 ここで4つ潰したので、まとめておきます。 ① 表の罫線が、環境によって出ない python-docx で表を作るとき、最初はスタイル名で指定していました",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "【実録】AI社員30人でアプリを3本作った。効いたこと3つと、完全に無駄だったこと3つ",
-   "url": "https://zenn.dev/yk_studio/articles/ai-employees-what-actually-works",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "「AI社員の作り方」を解説する記事は、2026年に入ってから山ほど出ました。もう十分すぎるほどあります。 なので作り方は書きません。2ヶ月動かして、実際に効いたことと、完全に無駄だったことを書きます。 事故の話も込みです。 先に結論を書きます。いちばん効いたのは役割を分けたことではなく、「決定を会話に埋めずファイルに書",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "Claude Codeに5つの役割を持たせて、自分の仕事の流れを設計した",
-   "url": "https://zenn.dev/pivotmedia/articles/claude-code-shared-skills-personal-workspace",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "チームでClaude Codeを使っていると、うまくいった設定は共有したくなります。実際、私たちも命名規則やテスト方針、安全な操作の境界などを共通のスキルとして配っています。 その一方で、私は自分用のワークスペースも育てています。そこに置いているのは、チーム共通ルールの先行版ではありません。開発、運用、レビュー、進行、",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "Claude Code も Codex も Qwen も「1つのチーム」にする — メタハーネス AgentEngine を作った",
-   "url": "https://zenn.dev/infra_ojisan/articles/agentengine_metahernes",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "3行まとめ マシンにインストール済みの AI コーディング CLI（ハーネス）を PATH から自動検出し、6種類を1つのチームとして同じチャット上で議論させる CUI ツール AgentEngine を作った。 エージェント＝「ハーネス＋モデル＋ペルソナ」を1単位とし、CLI ごとの差異（システムプロンプトの渡し方・",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "自分のブランチに、自分が書いていないコミットがあった — LLM のセッションを並走させたときに壊れるもの",
-   "url": "https://zenn.dev/kuu_dqx/articles/your-branch-is-not-yours",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "LLM に毎日ブログ記事を書かせて無人で公開している話と、その検証が何を見ていなかったかの話を書きました。 https://zenn.dev/kuu_dqx/articles/headless-claude-code-43days https://zenn.dev/kuu_dqx/articles/numbers-ri",
    "date": "2026-09-21"
   },
   {
@@ -1457,123 +2366,6 @@
    "lang": "ja",
    "ai": "その他",
    "summary": "前回は、効果測定は3指標で回す仕組みを書きました（効果測定は3指標で回す）。 前回予告したとおり、今回はその仕上げです。準備工数・商談数・提案数の3指標と比較レポートが手元にあっても、読み手が直属の上司のままでしたら「工数が減った」の一言で動いてくれます。しかし、ここから先、読み手が変わります。部長や役員、つまり予算を",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "AgentCore Memoryのdata eventを実測 — 削除台帳はCloudTrailだけで作れる",
-   "url": "https://zenn.dev/kashiwabaray/articles/83ca650003fa24",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "1. はじめに エージェントに長期記憶を持たせると、記憶は増える一方になります。Amazon Bedrock AgentCore Memory の長期記憶レコードには、レコードを自動で消す仕組みが用意されていません。短期イベントには eventExpiryDuration がありますが、そこから抽出された長期レコードは",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "AgentCore Memoryのライフサイクル管理を実測 — namespaceは素の文字列prefix一致で1文字でも当たる",
-   "url": "https://zenn.dev/kashiwabaray/articles/710c6dc9b899eb",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "1. はじめに エージェントに長期記憶を持たせると、会話から抽出されたレコードが増え続けます。Amazon Bedrock AgentCore Memory には、短期イベントに eventExpiryDuration という期限がありますが、そこから抽出された長期記憶レコードを自動で消す仕組みは用意されていません。 ",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "Gemini / ChatGPT / Mistral の補完挙動比較と、世界観の伝播現象",
-   "url": "https://zenn.dev/raina_ai/articles/116786b981321c",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "ChatGPT",
-   "summary": "Chapter 1：同じプロンプトでも世界が変わる理由（導入） 今回の比較は、モデルの優劣を決めるものではなく、 「各モデルがどの要素を優先して解釈したのか」 その“解釈差”を観測したケーススタディです。 同じプロンプトでも、 何を強調するか 何を省略するか どこに美意識を置くか モデルごとに優先する情報が異なるため、",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "安いLLMに移したら4回に1回、本文が空で返ってきた",
-   "url": "https://zenn.dev/prompt_shindan/articles/ee3b1d74e25d7b",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "前回までの 2 本で、実在の業務プロンプト 15 本を安価なモデルに移したら 9 本が壊れた話と、それを仕組みで直した話を書きました。 https://zenn.dev/prompt_shindan/articles/f50b72b03b4389 今回はその実験の裏で踏んだ、いちばん地味で、いちばん時間を溶かした罠の話",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "AIツールの出力を安定させるための「入力テンプレート」設計",
-   "url": "https://zenn.dev/aiai_tool/articles/c57c0a9f35874a",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "生成AIを日常業務で使っていると、同じような依頼をしているのに、毎回出力の形式や品質が少しずつ変わることがあります。 単発の利用であれば大きな問題ではありません。 しかし、文章作成、要約、データ整理、分類などを繰り返し行う場合、出力のばらつきは修正作業を増やす原因になります。 そこで役立つのが「入力テンプレート」です。",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "AI使用の限界と効用について",
-   "url": "https://zenn.dev/terry_write/articles/24d5ee55dda0a8",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "AIは便利なツールである。 しかしあまりに「AI」に対して盲目的すぎるように思う。 AIはすべてを解決は（今の所）しないし、正直な限界もある。 それは「実際にAIを活用している人」と、「AIを活用”しようと”している人」の間に、大きなギャップになっているように思える。 なので一度、言語化してみようと思う。 １．AIの有",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "画像生成AI 10種の無料プランを、枚数・ウォーターマーク・公開範囲・権利で比較する",
-   "url": "https://zenn.dev/donaldxs/articles/5bb7fd8327a1d1",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "画像生成AI 10種の無料プランを、枚数・ウォーターマーク・公開範囲・権利で比較する この記事の対象と範囲 対象読者：個人開発やサイド プロジェクトで画像素材が必要になり、無料の画像生成AIを使おうとしている方。成果物を公開したり、有償の案件に含めたりする可能性がある方を想定しています。 扱う範囲：10種類の画像生成A",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "生成AIよ、Skillに書いたのに、なぜやらない？─SKILL.mdを「お願い」から「実行保証」に近づける5つの設計",
-   "url": "https://zenn.dev/yuruconsa/articles/83851e148f40a7",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "生成AIに同じ仕事を何度も頼むようになると、「毎回プロンプトを書くの、面倒だな」となります。 そこで登場するのが Skill です。 SKILL.md に、 この順番で作業してください 必ずこのファイルを確認してください 最後にチェックしてください この形式で出力してください と書いておく。 これで毎回説明しなくて済む",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "AIに仕事を任せると、人は考えなくなるのか？",
-   "url": "https://zenn.dev/yuruconsa/articles/7da5f557491d40",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "生成AIを使っていると、ときどき思います。 これ、人間いらなくない？ 文章を書いてくれる。 調査してくれる。 資料の構成も考えてくれる。 コードも書く。 レビューまでしてくれる。 こちらは、「いい感じにお願いします」 と言っておけば、そこそこいい感じのものが返ってくる。 便利です。 恐ろしく便利です。 そして便利になれ",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "AIコーディングを半年やって、書いた記事を振り返る",
-   "url": "https://zenn.dev/nightonly/articles/3e67ffb2d09dd1",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "2026年の5月から6月にかけて、AI と協業する開発について、個人ブログ(blog.nightonly.com)で15本の記事を書きました。ClaudeCode を中心に、日々の実践で感じたことをまとめたものです。 そこから3ヶ月ほど経ちました。読み返してみて、今のところ考えは大きく変わっていません。ちょうどいい機会",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "エージェントのBashログを正規表現で割ったら、断片の54%は存在しないコマンドだった",
-   "url": "https://zenn.dev/tsutomusaito/articles/bash-log-parsing-ja",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "「エージェントは実際に何のコマンドを走らせているのか」を数えようとした。ログには tool_use の input.command が文字列で入っている。数えるだけに見えた。 最初の結果はこうなった。 === 先頭語だけを見た場合（分割しない） 2,720 40.8% cd 565 8.5% python3 467 7",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "同じ条件10個を「1. 」で並べ直したら、25回中23回で見えない考え込みが起きた。追試では消えた",
-   "url": "https://zenn.dev/numarn/articles/prompt-bullet-vs-numbered-thinking-handson",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "AI に何かを頼むとき、守ってほしい条件を箇条書きで並べるのはよくある書き方です。それについて「実はあまり効いていない気がする」という声を見かけたので、条件が本当に守られているのかを数えてみました。 結論から言うと、守られていました。条件を10個並べた70回の実行のうち、53回は10件すべて守られ、残る17回も破れたの",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "GPT-6 Astraの教科書",
-   "url": "https://zenn.dev/microsoft/articles/gpt_6_astra_textbook",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "ChatGPT",
-   "summary": "はじめに そもそもAstraってなんだ？ということで、本記事を記載してみました。 Astra → 語源的にはラテン語の astrum / astra（星・星々） に由来する表現で、英語圏でも「星」をイメージさせる名称 とのことです。 なので、OpenAIの公式のモデルにも綺麗な星のページになってるんですね。 2024年",
    "date": "2026-09-21"
   },
   {
@@ -1604,30 +2396,21 @@
    "date": "2026-09-21"
   },
   {
+   "title": "AIに仕事を任せると、人は考えなくなるのか？",
+   "url": "https://zenn.dev/yuruconsa/articles/7da5f557491d40",
+   "source": "Zenn ChatGPT",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "生成AIを使っていると、ときどき思います。 これ、人間いらなくない？ 文章を書いてくれる。 調査してくれる。 資料の構成も考えてくれる。 コードも書く。 レビューまでしてくれる。 こちらは、「いい感じにお願いします」 と言っておけば、そこそこいい感じのものが返ってくる。 便利です。 恐ろしく便利です。 そして便利になれ",
+   "date": "2026-09-21"
+  },
+  {
    "title": "ChatGPTにブラウザを操作させたら、自作のChrome拡張つきWebアプリは動いたか — 試して分かった境界線",
    "url": "https://zenn.dev/zephris/articles/5c34ece0877187",
    "source": "Zenn ChatGPT",
    "lang": "ja",
    "ai": "ChatGPT",
    "summary": "2026年9月19日（日本時間）、OpenAIは、ChatGPTのパソコン用アプリに内蔵されたブラウザで、Chrome拡張機能（ブラウザに機能を追加する仕組み）に対応したと発表しました。このアプリには、AIがブラウザを操作する機能（以下「AIの操作」）があります。拡張機能を前提にしたWebアプリも、AIの操作の対象にな",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "Jev・OpenAI・Claudeでリバーシ対戦させてみた",
-   "url": "https://qiita.com/broken55/items/97c04d59b4e641883b74",
-   "source": "Qiita Claude",
-   "lang": "ja",
-   "ai": "ChatGPT",
-   "summary": "概要 最近話題のTypeSafe JevとOpenAI、Claudeをリバーシで対戦させてみました。 各AIに同じ盤面と合法手を渡し、選んだ位置へ石を置きます 比較用のRandomも加え、4種類によるリーグ戦を12試合行いました 使用したモデル 今回使用したモデルは下...",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "Claude Code + OpenRouter 無料モデルで AI コーディング支援コストを月 0 円にする 5 つの設定",
-   "url": "https://qiita.com/locallab/items/7fff1666d533f9e926c6",
-   "source": "Qiita Claude",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "TL;DR Claude Code は ANTHROPIC_BASE_URL を差し替えるだけで OpenRouter 経由のモデルを呼べる OpenRouter には 2026 年現在 :free サフィックス付きの無料モデルが 20 本以上存在する 適切なモデル選択...",
    "date": "2026-09-21"
   },
   {
@@ -1811,24 +2594,6 @@
    "date": "2026-09-21"
   },
   {
-   "title": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026",
-   "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
-   "source": "TechCrunch AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before September 25.",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026",
-   "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
-   "source": "TechCrunch AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by September 25 at 11:59 p.m. PT",
-   "date": "2026-09-21"
-  },
-  {
    "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
    "url": "https://simonwillison.net/2026/Sep/21/jev/",
    "source": "Simon Willison",
@@ -1862,6 +2627,15 @@
    "lang": "en",
    "ai": "その他",
    "summary": "",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "薄いスキルと厚いコンテキスト — 4行の eli5 から見えるリポジトリとエージェントの設計方針",
+   "url": "https://zenn.dev/ruri/articles/thin-skills-thick-context-eli5",
+   "source": "Zenn Claude",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "元記事: anthropics/claude-plugins-community — eli5 著者: Thariq Shihipar（プラグイン作者、MIT License） 公開日: 不明（リポジトリは継続更新。本記事の確認時点は 2026-09-19） TL;DR eli5 は Anthropic のコミュニティ",
    "date": "2026-09-21"
   },
   {
@@ -1901,6 +2675,33 @@
    "date": "2026-09-21"
   },
   {
+   "title": "Claude Code に Bash(\"rm*\") を deny しても消される問題",
+   "url": "https://zenn.dev/y_shinoda/articles/only-setting-claude-code-permissions-is-risky",
+   "source": "Zenn Claude",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "Bash(rm*) を deny しても find --delete してきます: ● ディスク容量が不足しているため、./webcache 内のファイルを削除します。 ● Bash(rm ./webcache/*) ⎿ Error: Permission to use Bash with command rm ./w",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "【実録】AI社員30人でアプリを3本作った。効いたこと3つと、完全に無駄だったこと3つ",
+   "url": "https://zenn.dev/yk_studio/articles/ai-employees-what-actually-works",
+   "source": "Zenn Claude",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "「AI社員の作り方」を解説する記事は、2026年に入ってから山ほど出ました。もう十分すぎるほどあります。 なので作り方は書きません。2ヶ月動かして、実際に効いたことと、完全に無駄だったことを書きます。 事故の話も込みです。 先に結論を書きます。いちばん効いたのは役割を分けたことではなく、「決定を会話に埋めずファイルに書",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "AIコーディングを半年やって、書いた記事を振り返る",
+   "url": "https://zenn.dev/nightonly/articles/3e67ffb2d09dd1",
+   "source": "Zenn Claude",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "2026年の5月から6月にかけて、AI と協業する開発について、個人ブログ(blog.nightonly.com)で15本の記事を書きました。ClaudeCode を中心に、日々の実践で感じたことをまとめたものです。 そこから3ヶ月ほど経ちました。読み返してみて、今のところ考えは大きく変わっていません。ちょうどいい機会",
+   "date": "2026-09-21"
+  },
+  {
    "title": "PrefabでMCP Appを開発する",
    "url": "https://zenn.dev/asor/articles/ad26e547dd87de",
    "source": "Zenn Claude",
@@ -1910,12 +2711,309 @@
    "date": "2026-09-21"
   },
   {
+   "title": "エージェントのBashログを正規表現で割ったら、断片の54%は存在しないコマンドだった",
+   "url": "https://zenn.dev/tsutomusaito/articles/bash-log-parsing-ja",
+   "source": "Zenn Claude",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "「エージェントは実際に何のコマンドを走らせているのか」を数えようとした。ログには tool_use の input.command が文字列で入っている。数えるだけに見えた。 最初の結果はこうなった。 === 先頭語だけを見た場合（分割しない） 2,720 40.8% cd 565 8.5% python3 467 7",
+   "date": "2026-09-21"
+  },
+  {
    "title": "【スマホだけで】人生の目標は何も決まっていないのに、なぜかアプリだけ先に完成した（前編）",
    "url": "https://zenn.dev/hanahana87/articles/dde5e5ab1886e6",
    "source": "Zenn Claude",
    "lang": "ja",
    "ai": "その他",
    "summary": "ダラダラと綴ります、すいません。 普段はネットワークエンジニア(仮)として働いています。アプリ開発は未経験で、コードもほとんど読めません。 でも、かなり楽しかったんです、そのワクワクを伝えたいんです、、、伝わるかな、、、 この記事のまとめ コードが読めなくても、AIと会話するだけでWebアプリが作れた ただし「AIに全",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "バイブコーディングがGUIを壊す真の理由と、Jevで防ぐAI駆動型対策プロンプト",
+   "url": "https://zenn.dev/aidocs/articles/4b2feb7fcb20f9",
+   "source": "Zenn プロンプト",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "! この記事の要約 バイブコーディングがなぜGUIの劣化を引き起こすのか、そのメカニズムを深く理解できます。 従来のLLMでは解決が難しかったこの問題に対し、TypeSafe AIのJevがなぜ有効なのか、その特性を解説します。 Jevを活用した具体的な「AI駆動型対策プロンプト」の設計思想と、概念的な実装アプローチを",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "安いLLMに移したら4回に1回、本文が空で返ってきた",
+   "url": "https://zenn.dev/prompt_shindan/articles/ee3b1d74e25d7b",
+   "source": "Zenn プロンプト",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "前回までの 2 本で、実在の業務プロンプト 15 本を安価なモデルに移したら 9 本が壊れた話と、それを仕組みで直した話を書きました。 https://zenn.dev/prompt_shindan/articles/f50b72b03b4389 今回はその実験の裏で踏んだ、いちばん地味で、いちばん時間を溶かした罠の話",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "生成AIよ、Skillに書いたのに、なぜやらない？─SKILL.mdを「お願い」から「実行保証」に近づける5つの設計",
+   "url": "https://zenn.dev/yuruconsa/articles/83851e148f40a7",
+   "source": "Zenn プロンプト",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "生成AIに同じ仕事を何度も頼むようになると、「毎回プロンプトを書くの、面倒だな」となります。 そこで登場するのが Skill です。 SKILL.md に、 この順番で作業してください 必ずこのファイルを確認してください 最後にチェックしてください この形式で出力してください と書いておく。 これで毎回説明しなくて済む",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Web Radar Now Available!",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmt9mq/web_radar_now_available/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Hi everyone! You may have seen my earlier post looking for testers for my 3D Nexrad radar app, after a lot of work there is now a web version that lets you see ",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Cooked me",
+   "url": "https://www.reddit.com/r/GeminiAI/comments/1wmrv2m/cooked_me/",
+   "source": "r/GeminiAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Did he just fry me or I&#39;m tripping &#32; submitted by &#32; /u/Ihadaiwgu101_1 [link] &#32; [comments]",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Claude Codeで執筆から公開までを仕組みにした",
+   "url": "https://zenn.dev/yellowfinchlab/articles/ai-blog-automation-with-claude-code",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "Zennの記事を書くにあたって、執筆から公開までをClaude Codeで仕組み化しました。 この記事は個々の機能の使い方ではなく、「どの仕組みを何に使うか」の判断基準の話です。サブエージェントの書き方やフックの設定方法は検索すれば出てきますが、使い分けと、組み合わせた実例はあまり見つかりませんでした。 作ったもの 人",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "lefthook を claude, git commit, GitHub Actions 動かす設定メモ",
+   "url": "https://zenn.dev/takemikami/articles/20260922-lefthook-claude-github-actions",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "lefthook で設定した hook を claude, git commit, GitHub Actions の３箇所で動かす設定メモです。 https://github.com/evilmartians/lefthook CodingAgent導入でhookを入れたい箇所が増え、lefthookのようなframe",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Claude CodeがAGENTS.mdを読み込まない理由と対処法",
+   "url": "https://zenn.dev/sunsun_eng/articles/claude-code-agents-md-first-session",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "Claude CodeがAGENTS.mdを読み込まない理由と対処法 Claude CodeがAGENTS.mdを読み込むようになりました。ただし公開直後に多くのエンジニアが気づいたとおり、プロジェクトを開いた最初のセッションでは反映されません。この記事では、AGENTS.mdとは何か、なぜ初回セッションで読み込まれな",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "「Claude Codeで稼ぐ」を3週間本気でやってみた。応募2,000人・当選率ほぼゼロの実測ログ",
+   "url": "https://zenn.dev/ogana/articles/cc46b3d218077a",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "週10時間、予算0円で「AIエージェント（Claude Code）に会社を運営させて、Claude Code関連のスキルをフリーランスで売る」という実験を3週間続けています。今日、その過程で集めた実測データが、当初の想定と全く違う結果だったので共有します。 クラウドワークス：「Claude」検索は2,000名を超える応",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Claude Codeの本を書いた私が、他のAIツールについて思っていること",
+   "url": "https://zenn.dev/tmasuyama1114/articles/cc-book-author-other-tools",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "2026年9月に『Claude Codeで作って学ぶ AI駆動アプリ開発入門』（技術評論社）という本を出しました。 https://amzn.asia/d/0f0bQMI4 本を出してから、Claude Code 以外のツールについてどう話すかを、一度ちゃんと考えました。 この記事は、Claude Code の本の著者",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "GitHub Issueを流すだけでPRになる「パイプラインskill」をClaude Codeで作った",
+   "url": "https://zenn.dev/yubel/articles/claude-code-issue-to-pr-pipeline",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "この記事で分かること 個人開発で複数リポジトリを掛け持ちしていると、「Issueを書いたはいいが着手するのを忘れる」「実装できてもPRを出した後のCodeRabbitの指摘対応やCI監視が地味に時間を食う」という悩みが出てきます。これを解消するために、Claude Codeの skill 機能で GitHubにIssu",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "自分の定期ジョブ28本を点検するスキルを作ったら、自分のバックアップが壊れていた",
+   "url": "https://zenn.dev/houchi_unyo/articles/unattended-job-audit-2026-09",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "個人で無人の仕組みを 5 系統動かしています。毎朝の記録、週次の集計、動画の生成と投稿、電子書籍の組版、SNS への配信です。launchd と GitHub Actions を合わせて定期ジョブが 28 本あります。 その点検項目を Claude Code のスキルとして切り出し、公開しました。 https://gi",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "「記録漏れ」を検知する自作フックが、隣のセッションの更新で鳴り続けた",
+   "url": "https://zenn.dev/miyoki_labs/articles/stop-hook-parallel-session-noise",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "作業の終わりに自動で何かを確かめるフックを、自分で書いて使っている方に向けた記事です。「更新されたファイルがあるのに記録が無い＝書き忘れ」を検知するフックを作ったら、自分が触っていないプロジェクトを指して鳴り続けました。その切り分けと、条件の設計で足りていなかったことを書きます。 作ったもの 終了時に走るフックで、こう",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Datadog MCP Serverのトークン消費を実測した ― 繋いだだけで2万、全部入りで22万",
+   "url": "https://zenn.dev/ryomiyake/articles/datadog-mcp-server-field-test",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "前回の記事で、Datadog MCP Server に接続するまでの手順を書きました。繋ぐだけなら5分で終わります。 繋いだあとに気になったのは、これ、どれだけトークンを使っているんだろうということでした。 MCP サーバーに接続すると、そのサーバーが持っているツールの説明書が AI に渡ります。「こういう名前のツール",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "CBN 取扱説明書 第 4 章 — 私の書き込みを制御する三つのレイヤー",
+   "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-04-guards-and-fallback-ban",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "第 3 章では、私の一日が /orient で始まり /handoff で終わるまでを書いた。この章は、その一日の「作業」の部分で毎ターン動いている安全装置の話である。例えば私が rules のファイルを書き換えようとするとき、Edit ツールで書くか、Bash から sed で書くかで、止める仕組みが違う。Edit ",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "AIが書いたコードのレビュー負荷は、生成AI以前の技術で下げる",
+   "url": "https://zenn.dev/kagu3/articles/be4014b905bee4",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "この記事の主題 AIは爆速でコードを書くが、品質保証はしてくれない。結局、品質を保証するのは人間になる。 ここで問題になるのは時間コストだけではない。認知資源のコストがある。人間の注意は無限に供給されるものではなく、監視的な作業では時間とともに検出精度が落ちていく。しかもAIの出力精度が上がるほど「だいたい合っている」",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "python-docx / openpyxl で「配れる書類」にするまでに潰した4つ",
+   "url": "https://zenn.dev/shinsei99/articles/office-report-layout",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "AIエージェントが毎日18:30に業務日報を作ります。出力は Word と Excel で、そのまま人に配ります。 中身が正しくても、見た目が崩れていると配れません。 ここで4つ潰したので、まとめておきます。 ① 表の罫線が、環境によって出ない python-docx で表を作るとき、最初はスタイル名で指定していました",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Claude Codeに5つの役割を持たせて、自分の仕事の流れを設計した",
+   "url": "https://zenn.dev/pivotmedia/articles/claude-code-shared-skills-personal-workspace",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "チームでClaude Codeを使っていると、うまくいった設定は共有したくなります。実際、私たちも命名規則やテスト方針、安全な操作の境界などを共通のスキルとして配っています。 その一方で、私は自分用のワークスペースも育てています。そこに置いているのは、チーム共通ルールの先行版ではありません。開発、運用、レビュー、進行、",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Claude Code も Codex も Qwen も「1つのチーム」にする — メタハーネス AgentEngine を作った",
+   "url": "https://zenn.dev/infra_ojisan/articles/agentengine_metahernes",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "3行まとめ マシンにインストール済みの AI コーディング CLI（ハーネス）を PATH から自動検出し、6種類を1つのチームとして同じチャット上で議論させる CUI ツール AgentEngine を作った。 エージェント＝「ハーネス＋モデル＋ペルソナ」を1単位とし、CLI ごとの差異（システムプロンプトの渡し方・",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "自分のブランチに、自分が書いていないコミットがあった — LLM のセッションを並走させたときに壊れるもの",
+   "url": "https://zenn.dev/kuu_dqx/articles/your-branch-is-not-yours",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "LLM に毎日ブログ記事を書かせて無人で公開している話と、その検証が何を見ていなかったかの話を書きました。 https://zenn.dev/kuu_dqx/articles/headless-claude-code-43days https://zenn.dev/kuu_dqx/articles/numbers-ri",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "AgentCore Memoryのdata eventを実測 — 削除台帳はCloudTrailだけで作れる",
+   "url": "https://zenn.dev/kashiwabaray/articles/83ca650003fa24",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "1. はじめに エージェントに長期記憶を持たせると、記憶は増える一方になります。Amazon Bedrock AgentCore Memory の長期記憶レコードには、レコードを自動で消す仕組みが用意されていません。短期イベントには eventExpiryDuration がありますが、そこから抽出された長期レコードは",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "AgentCore Memoryのライフサイクル管理を実測 — namespaceは素の文字列prefix一致で1文字でも当たる",
+   "url": "https://zenn.dev/kashiwabaray/articles/710c6dc9b899eb",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "1. はじめに エージェントに長期記憶を持たせると、会話から抽出されたレコードが増え続けます。Amazon Bedrock AgentCore Memory には、短期イベントに eventExpiryDuration という期限がありますが、そこから抽出された長期記憶レコードを自動で消す仕組みは用意されていません。 ",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Gemini / ChatGPT / Mistral の補完挙動比較と、世界観の伝播現象",
+   "url": "https://zenn.dev/raina_ai/articles/116786b981321c",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "Chapter 1：同じプロンプトでも世界が変わる理由（導入） 今回の比較は、モデルの優劣を決めるものではなく、 「各モデルがどの要素を優先して解釈したのか」 その“解釈差”を観測したケーススタディです。 同じプロンプトでも、 何を強調するか 何を省略するか どこに美意識を置くか モデルごとに優先する情報が異なるため、",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "AIツールの出力を安定させるための「入力テンプレート」設計",
+   "url": "https://zenn.dev/aiai_tool/articles/c57c0a9f35874a",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "生成AIを日常業務で使っていると、同じような依頼をしているのに、毎回出力の形式や品質が少しずつ変わることがあります。 単発の利用であれば大きな問題ではありません。 しかし、文章作成、要約、データ整理、分類などを繰り返し行う場合、出力のばらつきは修正作業を増やす原因になります。 そこで役立つのが「入力テンプレート」です。",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "AI使用の限界と効用について",
+   "url": "https://zenn.dev/terry_write/articles/24d5ee55dda0a8",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "AIは便利なツールである。 しかしあまりに「AI」に対して盲目的すぎるように思う。 AIはすべてを解決は（今の所）しないし、正直な限界もある。 それは「実際にAIを活用している人」と、「AIを活用”しようと”している人」の間に、大きなギャップになっているように思える。 なので一度、言語化してみようと思う。 １．AIの有",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "画像生成AI 10種の無料プランを、枚数・ウォーターマーク・公開範囲・権利で比較する",
+   "url": "https://zenn.dev/donaldxs/articles/5bb7fd8327a1d1",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "画像生成AI 10種の無料プランを、枚数・ウォーターマーク・公開範囲・権利で比較する この記事の対象と範囲 対象読者：個人開発やサイド プロジェクトで画像素材が必要になり、無料の画像生成AIを使おうとしている方。成果物を公開したり、有償の案件に含めたりする可能性がある方を想定しています。 扱う範囲：10種類の画像生成A",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "同じ条件10個を「1. 」で並べ直したら、25回中23回で見えない考え込みが起きた。追試では消えた",
+   "url": "https://zenn.dev/numarn/articles/prompt-bullet-vs-numbered-thinking-handson",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "AI に何かを頼むとき、守ってほしい条件を箇条書きで並べるのはよくある書き方です。それについて「実はあまり効いていない気がする」という声を見かけたので、条件が本当に守られているのかを数えてみました。 結論から言うと、守られていました。条件を10個並べた70回の実行のうち、53回は10件すべて守られ、残る17回も破れたの",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "GPT-6 Astraの教科書",
+   "url": "https://zenn.dev/microsoft/articles/gpt_6_astra_textbook",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "はじめに そもそもAstraってなんだ？ということで、本記事を記載してみました。 Astra → 語源的にはラテン語の astrum / astra（星・星々） に由来する表現で、英語圏でも「星」をイメージさせる名称 とのことです。 なので、OpenAIの公式のモデルにも綺麗な星のページになってるんですね。 2024年",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Jev・OpenAI・Claudeでリバーシ対戦させてみた",
+   "url": "https://qiita.com/broken55/items/97c04d59b4e641883b74",
+   "source": "Qiita Claude",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "概要 最近話題のTypeSafe JevとOpenAI、Claudeをリバーシで対戦させてみました。 各AIに同じ盤面と合法手を渡し、選んだ位置へ石を置きます 比較用のRandomも加え、4種類によるリーグ戦を12試合行いました 使用したモデル 今回使用したモデルは下...",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Claude Code + OpenRouter 無料モデルで AI コーディング支援コストを月 0 円にする 5 つの設定",
+   "url": "https://qiita.com/locallab/items/7fff1666d533f9e926c6",
+   "source": "Qiita Claude",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "TL;DR Claude Code は ANTHROPIC_BASE_URL を差し替えるだけで OpenRouter 経由のモデルを呼べる OpenRouter には 2026 年現在 :free サフィックス付きの無料モデルが 20 本以上存在する 適切なモデル選択...",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026",
+   "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before September 25.",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026",
+   "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by September 25 at 11:59 p.m. PT",
    "date": "2026-09-21"
   },
   {
@@ -1943,24 +3041,6 @@
    "lang": "ja",
    "ai": "Claude",
    "summary": "個人開発のLLM抽出パイプラインで、既定モデルを Opus 5 から Haiku 4.5 に切り替えました。実費は同一ケースで 約$0.024 → 約$0.0035 と7分の1近くになり、判定タスクの精度も十分でした。 ただ、切り替え時に2つ踏みました。どちらもドキュメントを読めば書いてあることですが、Opus/Son",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "バイブコーディングがGUIを壊す真の理由と、Jevで防ぐAI駆動型対策プロンプト",
-   "url": "https://zenn.dev/aidocs/articles/4b2feb7fcb20f9",
-   "source": "Zenn プロンプト",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "! この記事の要約 バイブコーディングがなぜGUIの劣化を引き起こすのか、そのメカニズムを深く理解できます。 従来のLLMでは解決が難しかったこの問題に対し、TypeSafe AIのJevがなぜ有効なのか、その特性を解説します。 Jevを活用した具体的な「AI駆動型対策プロンプト」の設計思想と、概念的な実装アプローチを",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "Web Radar Now Available!",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmt9mq/web_radar_now_available/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Hi everyone! You may have seen my earlier post looking for testers for my 3D Nexrad radar app, after a lot of work there is now a web version that lets you see ",
    "date": "2026-09-21"
   },
   {
@@ -2297,51 +3377,6 @@
    "date": "2026-09-20"
   },
   {
-   "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
-   "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
-   "source": "TechCrunch AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Current ticket pricing ends in 6 days on September 25 at 11:59 p.m. PT. Join 10,000+ founders, investors, and tech leaders at Disrupt and save up to $200 on you",
-   "date": "2026-09-20"
-  },
-  {
-   "title": "World model companies are keeping a lot of secrets",
-   "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
-   "source": "TechCrunch AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers ",
-   "date": "2026-09-20"
-  },
-  {
-   "title": "Is the AI industry really ready to slow down?",
-   "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
-   "source": "TechCrunch AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "On Equity, we debated whether AI executives are serious about wanting to slow down.",
-   "date": "2026-09-20"
-  },
-  {
-   "title": "Vocci’s ring adds a new form factor to meeting note-taking",
-   "url": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/",
-   "source": "TechCrunch AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Vocci's lightweight ring costs $249, and might pose some privacy questions.",
-   "date": "2026-09-20"
-  },
-  {
-   "title": "ScrollEd wants to turn textbooks into TikTok",
-   "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
-   "source": "TechCrunch AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes. The Palo Alto startup, founded by student co-founders (and spous",
-   "date": "2026-09-20"
-  },
-  {
    "title": "Quoting voxium",
    "url": "https://simonwillison.net/2026/Sep/20/voxium/",
    "source": "Simon Willison",
@@ -2384,6 +3419,51 @@
    "lang": "ja",
    "ai": "その他",
    "summary": "LLM に「会議の完了報告を拾って、手元のタスクの状態を更新する」をやらせていました。動かして出てきた候補を 1 件ずつ人の目で確かめたら、88% が関係のないタスクに貼られていました。 原因はプロンプトの書き方ではなく、1 つのプロンプトに 2 つの仕事をさせていたことでした。 旧設計: 検知と紐付けを 1 回でやら",
+   "date": "2026-09-20"
+  },
+  {
+   "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+   "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Current ticket pricing ends in 6 days on September 25 at 11:59 p.m. PT. Join 10,000+ founders, investors, and tech leaders at Disrupt and save up to $200 on you",
+   "date": "2026-09-20"
+  },
+  {
+   "title": "World model companies are keeping a lot of secrets",
+   "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers ",
+   "date": "2026-09-20"
+  },
+  {
+   "title": "Is the AI industry really ready to slow down?",
+   "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "On Equity, we debated whether AI executives are serious about wanting to slow down.",
+   "date": "2026-09-20"
+  },
+  {
+   "title": "Vocci’s ring adds a new form factor to meeting note-taking",
+   "url": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Vocci's lightweight ring costs $249, and might pose some privacy questions.",
+   "date": "2026-09-20"
+  },
+  {
+   "title": "ScrollEd wants to turn textbooks into TikTok",
+   "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
+   "source": "TechCrunch AI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes. The Palo Alto startup, founded by student co-founders (and spous",
    "date": "2026-09-20"
   },
   {
@@ -2441,6 +3521,33 @@
    "date": "2026-09-19"
   },
   {
+   "title": "datasette-auth-github 1.0",
+   "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+   "source": "Simon Willison",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasti",
+   "date": "2026-09-19"
+  },
+  {
+   "title": "California Sea Lion, Brandt's Cormorant",
+   "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+   "source": "Simon Willison",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "California Sea Lion, Brandt&#x27;s Cormorant, in Pillar Point Harbor, CA, USI only noticed this after I had taken the photo: Morris the Northern Gannet is peeki",
+   "date": "2026-09-19"
+  },
+  {
+   "title": "訂正が重なった資料の値抽出、プロンプト反復より内訳の明示が効いた",
+   "url": "https://zenn.dev/every_ai_recipe/articles/correction-tracking-breakdown-check",
+   "source": "Zenn プロンプト",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "TL;DR 「訂正が複数回重なった業務メモ」から最終的な正しい値を抽出させる際、(1) プロンプトをそのまま2回貼る\"Prompt Repetition\"、(2) 回答前に情報を古い順へ整理させるステップバイステップ指示、の2つの工夫を単体・組み合わせの6条件で検証した 結果：6条件すべてで最終値・計算結果は正しく、工",
+   "date": "2026-09-19"
+  },
+  {
    "title": "Flock reportedly tries to shrink workforce with employee buyouts",
    "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
    "source": "TechCrunch AI",
@@ -2486,33 +3593,6 @@
    "date": "2026-09-19"
   },
   {
-   "title": "datasette-auth-github 1.0",
-   "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasti",
-   "date": "2026-09-19"
-  },
-  {
-   "title": "California Sea Lion, Brandt's Cormorant",
-   "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "California Sea Lion, Brandt&#x27;s Cormorant, in Pillar Point Harbor, CA, USI only noticed this after I had taken the photo: Morris the Northern Gannet is peeki",
-   "date": "2026-09-19"
-  },
-  {
-   "title": "訂正が重なった資料の値抽出、プロンプト反復より内訳の明示が効いた",
-   "url": "https://zenn.dev/every_ai_recipe/articles/correction-tracking-breakdown-check",
-   "source": "Zenn プロンプト",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "TL;DR 「訂正が複数回重なった業務メモ」から最終的な正しい値を抽出させる際、(1) プロンプトをそのまま2回貼る\"Prompt Repetition\"、(2) 回答前に情報を古い順へ整理させるステップバイステップ指示、の2つの工夫を単体・組み合わせの6条件で検証した 結果：6条件すべてで最終値・計算結果は正しく、工",
-   "date": "2026-09-19"
-  },
-  {
    "title": "Gemini hacked three companies in first known breakout by Google's AI",
    "url": "https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/",
    "source": "HackerNews AI",
@@ -2520,1086 +3600,6 @@
    "ai": "Gemini",
    "summary": "Article URL: https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/ Comments URL: https://news",
    "date": "2026-09-19"
-  },
-  {
-   "title": "契約書リスクの指摘、観点を絞った指示は効果が薄かった",
-   "url": "https://zenn.dev/every_ai_recipe/articles/contract-clause-check-3-points",
-   "source": "Zenn ChatGPT",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "TL;DR 契約書の不利な条項をLLMに拾わせるとき、「観点を絞らずそのまま聞く」条件と「解約・違約金・責任の3観点を明示する」条件を、独立したサブエージェント2体に比較させた 検証用に作成した架空の契約書(自動更新・一方的な値上げのみなし同意・片務的な違約金・広い免責・限定的なサポート対応の5条項)に対して、両条件と",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "ポートフォリオサイトをMarkdownで整理し、ChatGPT Images 2.5でWebデザインを作る",
-   "url": "https://zenn.dev/gumigumih/articles/20260913_ai-web-design-renewal",
-   "source": "Zenn ChatGPT",
-   "lang": "ja",
-   "ai": "ChatGPT",
-   "summary": "画像生成AIにWebデザインを頼むとき、どこまで条件を書けばよいか迷いませんか。今回は自分のポートフォリオをデザインからフルリニューアルした手順を使って、渡した情報と、その情報で何を決めたかったかを紹介します。 今回は、ChatGPT Images 2.5で新しいデザインを作り、既存サイトの内容をMarkdownに整理",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "GPT-6 AstraとClaude Fable 5.1は何が違うのか",
-   "url": "https://zenn.dev/sun_asterisk/articles/a680abdad32dc3",
-   "source": "Zenn ChatGPT",
-   "lang": "ja",
-   "ai": "ChatGPT",
-   "summary": "はじめに 2026年9月上旬、AnthropicとOpenAIがほぼ同時に新しいモデルを発表しました。Claude Fable 5.1とGPT-6 Astraです。 最初にざっと情報を見たときは、正直この2つはかなり似ているなと思いました。どちらもコンテキストウィンドウは100万トークン前後で、コーディングやreaso",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "「良いプロンプト」の作り方",
-   "url": "https://zenn.dev/sun_asterisk/articles/d04dd7506cc4a7",
-   "source": "Zenn ChatGPT",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "「AIに聞いたのに、欲しい答えが返ってこない…」 こんな経験、ありませんか？ 「このエラーを直して」 AIにそう聞いたら、長い説明が返ってきた。 読んでみても、 「結局、何をすればいいの？」 となってしまう。 あるいは、 「PythonでCSVを読み込むコードを書いて」 とお願いしたら、コードは返ってきた。 でも、 「",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "LLMの挙動制御―ツンデレキャラが「ヤンデレ・サイコパス化」する構造の解明と実証:禁止項目ゼロと可変型エグゼキューター導入について",
-   "url": "https://zenn.dev/remy15/articles/517c6b8b5fe627",
-   "source": "Zenn ChatGPT",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "【動作検証およびご利用に関する注意事項】 ※本記事は特定のプラットフォームや運営会社を非難・誹謗中傷する目的ではなく、LLM（大規模言語モデル）の挙動制御に関する純粋な技術的考察および検証記録です。 ※本記事の検証モデル「シン」は、現在物語アプリ『MooX』にて実際に稼働・公開しております。本理論による安定した応答や自",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "Google Apps ScriptでスプレッドシートのAI一括処理と毎朝の自動要約メールを作る（コピペで動く）",
-   "url": "https://zenn.dev/kinoshita_ai/articles/gas-chatgpt-batch-summary-mail",
-   "source": "Zenn ChatGPT",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "この記事について: これは「AI Revenue Experiment」という、AI自身が実収益を出せるか試している公開実験の一環で書いた技術記事です。中身は実際に動くコード2本の解説なので、実験を知らない人が単体で読んでそのまま使えます。宣伝は最後に無料ガイドへのリンクを一つ置くだけです。 この記事で作るもの 事務・",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "Introducing the Australian Youth Safety Blueprint",
-   "url": "https://openai.com/index/australian-youth-safety-blueprint",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "New experts join Google’s AI & Economy team",
-   "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "Co-creating the future of fashion with Google",
-   "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-   "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "Gemini",
-   "summary": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench! The hacks, which the company confirmed on Friday,",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "Note on 18th September 2026",
-   "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesti",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "Quoting Thariq Shihipar",
-   "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "The Creative Spirit of Who Framed Roger Rabbit",
-   "url": "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "The Creative Spirit of Who Framed Roger Rabbit I love Who Framed Roger Rabbit, the 1988 movie by Robert Zemeckis. I haven't watched it in quite a few years, and",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "「鉄の掟」と名付けた10分後、AIに破られた。そこからルール設計が始まった",
-   "url": "https://zenn.dev/rosez/articles/9259f9d234efec",
-   "source": "Zenn プロンプト",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "「鉄の掟」と名付けた10分後、AIに破られた。そこからルール設計が始まった はじめに 個人開発でAIとコーディングをするようになって、いつの間にか自分は「鉄の掟」と呼ぶルール集を運用するようになっていた。今でこそ11章立て・バージョン管理された1本のファイルとして存在しているけど、最初からこの形だったわけじゃない。 当",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
-   "url": "https://code.claude.com/docs/en/changelog",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Article URL: https://code.claude.com/docs/en/changelog Comments URL: https://news.ycombinator.com/item?id=49760187 Points: 736 # Comments: 275",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "Anthropic finally adds AGENTS.md support to Claude Code",
-   "url": "https://twitter.com/trq212/status/2101009392611278961",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Article URL: https://twitter.com/trq212/status/2101009392611278961 Comments URL: https://news.ycombinator.com/item?id=49758250 Points: 52 # Comments: 10",
-   "date": "2026-09-18"
-  },
-  {
-   "title": "自前サーバーなしでOura Ring と ChatGPT を連携する",
-   "url": "https://zenn.dev/ri0x145/articles/a521860db89a90",
-   "source": "Zenn ChatGPT",
-   "lang": "ja",
-   "ai": "ChatGPT",
-   "summary": "Oura Ringを買ってから3ヶ月ほどが経過しました。 Oura Ringアプリの結果をスクショしてChat GPTに送ってアドバイスをもらうみたいなことを何度かしていましたが、そんなことしなくてもChat GPTがOuraからデータを受け取る部分は自動化できるのではないかと考え、Oura Ring からデータを取得",
-   "date": "2026-09-17"
-  },
-  {
-   "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
-   "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "データベースサービスを提供しているPlanetScaleは、PostgreSQLのシャーディングを自動化してスケーラブルなデータベースサービスを提供する「Neki」をプレビュー公開しました。 118,538,803 queries per ...",
-   "date": "2026-09-17"
-  },
-  {
-   "title": "How Cooley is accelerating IPO work with ChatGPT",
-   "url": "https://openai.com/index/cooley-gopublic",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters mo",
-   "date": "2026-09-17"
-  },
-  {
-   "title": "Introducing Astra for Law",
-   "url": "https://openai.com/index/astra-for-law",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-   "date": "2026-09-17"
-  },
-  {
-   "title": "Making global data easier to explore",
-   "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
-   "date": "2026-09-17"
-  },
-  {
-   "title": "Be alert: targeted attacks on prominent Rustaceans",
-   "url": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign",
-   "date": "2026-09-17"
-  },
-  {
-   "title": "How To Write With An LLM",
-   "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests t",
-   "date": "2026-09-17"
-  },
-  {
-   "title": "Self-generated prompt injections in compaction summaries",
-   "url": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide \"six reports on unexpected or concerni",
-   "date": "2026-09-17"
-  },
-  {
-   "title": "AIへの機密チェックが拾えるのは自己申告済みの例外だけ、という限界を検証した",
-   "url": "https://zenn.dev/every_ai_recipe/articles/confidential-info-check-3-patterns",
-   "source": "Zenn プロンプト",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "TL;DR 社外へ送る文章をLLMに読ませ「機密に触れそうな箇所」を指摘させるプロンプトは、「社外秘」「未承認」「他のお客様には案内していない」のような文中に自己申告済みの注意書きがあれば高い精度で拾える 一方、注意書きを一切外し、事実（例外的な値引き）だけを平叙文で書くと、同じ内容でも指摘されなくなる。LLMはこのチ",
-   "date": "2026-09-17"
-  },
-  {
-   "title": "AI庭づくりの生成結果をどう評価する？写真比較とレビュー記録の作り方",
-   "url": "https://zenn.dev/aienhancer/articles/d1dece257dfc46",
-   "source": "Zenn プロンプト",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "AI庭づくりで生成した画像は、元の写真・依頼した変更・確認できない条件を分けてレビューすると、次に直すべき点を整理できます。写真の美しさに加えて、必要なものが残り、指定した変更が反映されているかを見る方法です。 この記事では、写真ベースのAI景観デザイン（AI Landscape and Garden Design）を",
-   "date": "2026-09-17"
-  },
-  {
-   "title": "Codex Computer Useを使う前に: Windows版ChatGPTの権限と安全設定を整理した",
-   "url": "https://zenn.dev/imaginarygate/articles/ae81fcfc9ea62c",
-   "source": "Zenn ChatGPT",
-   "lang": "ja",
-   "ai": "ChatGPT",
-   "summary": "はじめに これまで、AIエージェント専用PC上でCodex CLIやClaude Codeを試してきた。 CLI上でファイルを編集させるところまでは進めたので、次はGUIを操作するComputer Use系の機能を試してみることにした。 ただし今回は、いきなりPCを操作させることはしなかった。 まずWindows版Ch",
-   "date": "2026-09-17"
-  },
-  {
-   "title": "I had Gemini train its own replacement for $9",
-   "url": "https://www.petervijeh.com/projects/reddit-ner",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "Gemini",
-   "summary": "Article URL: https://www.petervijeh.com/projects/reddit-ner Comments URL: https://news.ycombinator.com/item?id=49740330 Points: 88 # Comments: 43",
-   "date": "2026-09-17"
-  },
-  {
-   "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
-   "url": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "コーディングAIエージェントを提供するDevinが、Devinがホストする仮想環境内でのmacOSの提供を開始しました。 Devinはこれまで仮想環境内でUbuntu LinuxおよびWindowsを提供しており、ここにmacOSが加わりま...",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "Android、パスキーをパスワードマネージャ間で転送可能に。Googleパスワードマネージャ、1Password、Bitwarden、Dashlaneなどが対応",
-   "url": "https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "Googleは、Android上で利用可能なパスワードマネージャの間で、パスキーの転送を可能にしたと発表しました。 これにより、例えばGoogleパスワードマネージャに登録したパスキーを1PasswordやBitwardenなどの他のパスワ...",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "Helping older adults use AI in everyday life",
-   "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "Reimagining advertising with AI",
-   "url": "https://openai.com/index/reimagining-advertising-with-ai",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-   "url": "https://openai.com/index/hex-gpt-6-astra",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "How to connect AI usage to business value",
-   "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "Our framework for reporting model misalignment",
-   "url": "https://openai.com/index/model-misalignment-reporting-framework",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "How workers are unlocking new ways of working",
-   "url": "https://openai.com/index/unlocking-new-ways-of-working",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "datasette 1.0a40",
-   "url": "https://simonwillison.net/2026/Sep/16/datasette/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Release: datasette 1.0a40 Same security fix as 0.65.5, plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the n",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "datasette 0.65.5",
-   "url": "https://simonwillison.net/2026/Sep/16/datasette-2/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, r",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "Claude Cowork and chat are now one Claude",
-   "url": "https://simonwillison.net/2026/Sep/16/one-claude/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Star",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "Quoting Mustafa Suleyman",
-   "url": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical,",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "属性名指しの忌避指示、LLMの人物推定は年齢にしか効かなかった",
-   "url": "https://zenn.dev/every_ai_recipe/articles/ai-age-guess-stop-instruction",
-   "source": "Zenn プロンプト",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "TL;DR 会話履歴から人物像を推定させるタスクで、「推測は推測だと明示して」という一般的な忌避指示(条件A)と、対象属性を名指しした上で「分からなければ分からないと言え」と迫る忌避指示(条件B)を比較した 年齢については、条件Aは具体的な数値レンジ(「20代後半〜30代」)をラベル付きで提示したのに対し、条件Bはレン",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "Claude Cowork and chat are now one Claude",
-   "url": "https://claude.com/blog/cowork-is-now-claude",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Article URL: https://claude.com/blog/cowork-is-now-claude Comments URL: https://news.ycombinator.com/item?id=49729412 Points: 233 # Comments: 225",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "OpenAI expands ChatGPT ads with Sponsored Agents",
-   "url": "https://openai.com/index/reimagining-advertising-with-ai/",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "Article URL: https://openai.com/index/reimagining-advertising-with-ai/ Comments URL: https://news.ycombinator.com/item?id=49727041 Points: 158 # Comments: 181",
-   "date": "2026-09-16"
-  },
-  {
-   "title": "「Java 27」正式リリース。全環境でG1 GCがデフォルトに、TLS 1.3用に耐量子暗号のハイブリッドキー交換など新機能",
-   "url": "https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "オラクルはJavaの最新バージョン「Java 27」正式版をリリースしました。 Java 27 is now available! #Java27 #JDK27 #OpenJDK Download now: https://t.co/0Zw...",
-   "date": "2026-09-15"
-  },
-  {
-   "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
-   "url": "https://www.publickey1.jp/blog/26/javaai.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "オラクルは、これまで3カ月ごとに提供してきたJavaのアップデートパッチのサイクルを速め、1カ月ごとにセキュリティパッチを提供することを発表。先月（2026年8月）から実際にセキュリティパッチの提供が開始されていることを明らかにしました。 ...",
-   "date": "2026-09-15"
-  },
-  {
-   "title": "AI for Societal Impact",
-   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
-   "date": "2026-09-15"
-  },
-  {
-   "title": "Building AI to accelerate science and improve lives",
-   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary ",
-   "date": "2026-09-15"
-  },
-  {
-   "title": "AI for everyone in every language",
-   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
-   "date": "2026-09-15"
-  },
-  {
-   "title": "New insights from Google’s AI & Economy ATLAS",
-   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
-   "date": "2026-09-15"
-  },
-  {
-   "title": "Gemini Live audio",
-   "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "Gemini",
-   "summary": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenA",
-   "date": "2026-09-15"
-  },
-  {
-   "title": "Your Agent Aced the Task. Will It Do It Again?",
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-09-15"
-  },
-  {
-   "title": "AI 流暢性を測る行動指標——Anthropic「4つのD」と 9,830 会話の分析",
-   "url": "https://zenn.dev/motowo/articles/ai-fluency-4ds-behavioral-indicators",
-   "source": "Zenn プロンプト",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "同じツール・同じモデルなのに、隣の人の方がうまく AI を使っている。その差を言葉にする手がかりが、AI 流暢性（AI Fluency）の「4つのD」の行動指標と、Claude.ai の 9,830 会話を分析した Anthropic の「AI Fluency Index」です。 ! TL;DR 「4つのD」は、委任・",
-   "date": "2026-09-15"
-  },
-  {
-   "title": "タスクの優先順位付けLLMは、情報が足りなくても質問せず推測で埋めて自信満々に答える",
-   "url": "https://zenn.dev/every_ai_recipe/articles/ai-task-priority-3-conditions",
-   "source": "Zenn プロンプト",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "TL;DR タスク名だけを渡す「情報不足」条件と、締切・所要時間・依存関係（誰を待たせるか）を明示した「情報充足」条件で、同じ7件のタスクを優先順位付けさせて比較した 情報不足条件でも、LLMは確認質問を返さず、所要時間や緊急度を推測で埋めて自信満々な順位と理由を返した。 今回はその推測がたまたま実態と一致していたが、",
-   "date": "2026-09-15"
-  },
-  {
-   "title": "GPT Image 2.5のプロンプトを比較する：構図の指示だけを変える検証手順",
-   "url": "https://zenn.dev/kiritani_r/articles/21c027ada64eb5",
-   "source": "Zenn プロンプト",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "TL;DR 同一の被写体・同一の基準画像を使い、構図の指示だけを変える検証手順を作った 構図が崩れる原因は「語彙の不足」より「優先順位の不在」であることが多い 検証用スクリプトは本文に掲載。自分の環境でそのまま実行できる はじめに GPT Image 2.5 でプロダクト画像や SNS 用の縦長画像を作っていると、構図",
-   "date": "2026-09-15"
-  },
-  {
-   "title": "LLM評価指標では見抜けない、推論が静かに壊れる4つの型",
-   "url": "https://zenn.dev/appare/articles/jp-digest-20260819-llm-reasoning-collapse",
-   "source": "Zenn プロンプト",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "モデル選定でベンチマークの順位表を見て、「こっちの方が0.8ポイント高いから、こっちでいこう」と決めた経験、ありませんか? もちろん、順位表は便利です。忙しいときの定食メニューみたいなもので、とりあえず見る場所としてはありがたいですよね。でも2026年、その順位表の足元をグラッとさせるような研究が立て続けに出てきました",
-   "date": "2026-09-15"
-  },
-  {
-   "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "Gemini",
-   "summary": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/ Comments URL: https://ne",
-   "date": "2026-09-15"
-  },
-  {
-   "title": "AnthropicのMCP共同作者が来日、基調講演で語るこれからのMCP注力領域。AGNTCon＋MCPCon Japan 2026",
-   "url": "https://www.publickey1.jp/blog/26/anthropicmcpmcpagntconmcpcon_japan_2026.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "AIエージェントおよびMCP（Model Context Protocol）を主題としたイベント「AGNTCon＋MCPCon Japan 2026」が9月10日に東京渋谷のイベントホールで開催されました。主催はLinux Foundati...",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "OpenAIやAnthropicなどAIベンダごとのAPIの違いを吸収し統合する「Agent Router」、Linux Foundation傘下で業界標準へ",
-   "url": "https://www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "ChatGPT",
-   "summary": "MCPやAGENTS.md、Agent2AgentプロトコルなどのAIエージェントに関する関連技術の標準化推進や開発などを行うLinux Foundation傘下のAgentic AI Foundation（AAIF）は、オープンソースとし...",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "How Fyxer built an AI executive assistant people trust",
-   "url": "https://openai.com/index/fyxer",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-   "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
-   "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "DevFest is back",
-   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "The contagion of fear",
-   "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "What blog posts influenced your thinking the most?",
-   "url": "https://simonwillison.net/2026/Sep/14/influences/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "My comment on What blog posts influenced your thinking the most? &mdash; Lobste.rs.An early Joel Spolsky one for me was The Law of Leaky Abstractions. I read th",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "Quoting Laurie Voss",
-   "url": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making softw",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "commit-rewriter 0.1",
-   "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases. The initial commits",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "RAG を、いま改めて考える —— 「検索」から Harness へ",
-   "url": "https://zenn.dev/albatrosary/articles/6fa83c34fcb195",
-   "source": "Zenn プロンプト",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "はじめに RAG（Retrieval-Augmented Generation）は、生成AIが急速に普及し始めた頃、非常に分かりやすい解決策だった。LLMは社内文書を知らない。学習後に発生した情報も知らない。ならば、必要な情報を外から検索し、 Prompt と一緒に渡せばよい。概念的には、 Query ↓ Retrie",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "複数LLMを混ぜるのをやめた。理由は対照実験の数字",
-   "url": "https://zenn.dev/tkt0605/articles/771de6c8b7da7e",
-   "source": "Zenn プロンプト",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "何を変えたか（先に結論） 複数のAIの意見を1つに統合して答えるアプリを作っていましたが、統合をやめました。 いまは主体（1体目）が普通に答えきってから、副体（2・3体目）がその答えを検算するという、順序を反転した設計になっています。 変更前: 副体2体が検討メモを書く → 主体がそれを統合して答える 変更後: 主体が",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "Claude is a Contrarian",
-   "url": "https://medium.com/@rdsubhas/claude-is-a-contrarian-dbce4de5cada",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Article URL: https://medium.com/@rdsubhas/claude-is-a-contrarian-dbce4de5cada Comments URL: https://news.ycombinator.com/item?id=49699373 Points: 133 # Comments",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "'Project Lily': The Humans Reading Your ChatGPT Chats",
-   "url": "https://www.404media.co/inside-project-lily-the-humans-reading-your-chatgpt-chats/",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "Article URL: https://www.404media.co/inside-project-lily-the-humans-reading-your-chatgpt-chats/ Comments URL: https://news.ycombinator.com/item?id=49697713 Poin",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
-   "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "Article URL: https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/ Comments URL: https://news.ycombinator.com/item?id=49695409 Points",
-   "date": "2026-09-14"
-  },
-  {
-   "title": "マイクロソフトがRust言語をC++/C#/TSに並ぶ社内のTier 1言語にしたことを明らかに。Windowsネイティブな社内の開発環境と統合",
-   "url": "https://www.publickey1.jp/blog/26/rustcctstier_1.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "マイクロソフト社内において、Rust言語がC++/C#/TypeScriptに並ぶTier 1言語になったことが明らかになりました。 マイクロソフトの開発部門でRustツールチームのプリンシパルエンジニア Victor Ciura氏がRus...",
-   "date": "2026-09-13"
-  },
-  {
-   "title": "AIのせいでエンジニアの75％を解雇したCSSフレームワークのTailwind、Shopifyによる買収を発表。今後も安定的な開発を維持すると",
-   "url": "https://www.publickey1.jp/blog/26/ai75csstailwindshopify.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "CSSフレームワーク「Tailwind CSS」の開発元であるTailwind Labsは、ECサイト構築サービスを提供しているShopifyによって買収されると発表しました。 下記はTailwindの作者であるAdam Wathan氏によ...",
-   "date": "2026-09-13"
-  },
-  {
-   "title": "TailscaleのVPNにAIエージェントを組み込める「Aperture」正式リリース。AIによるTailscaleやノードの操作も可能に",
-   "url": "https://www.publickey1.jp/blog/26/tailscalevpnaiapertureaitailscale.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "メッシュ型のVPNサービスを提供するTailscaleは、AIゲートウェイサービス「Aperture」の正式リリースを発表しました。 Aperture is officially GA.Give AI agents the models, ...",
-   "date": "2026-09-13"
-  },
-  {
-   "title": "shot-scraper 1.12",
-   "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
-   "source": "Simon Willison",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: sh",
-   "date": "2026-09-13"
-  },
-  {
-   "title": "Array.Ver.0.s-強襲実践型DSL",
-   "url": "https://zenn.dev/wd01/articles/ea224730a7db1b",
-   "source": "Zenn プロンプト",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "初めに Array.Ver.0.sは、 ArraySeriesにおける現時点での 軽量化の集大成であり、 実際の画像生成を前提として 設計した実践型DSLである。 ArraySeriesではこれまで、 ①自然言語 ②絵文字 ③色コード ④構造化された命令 ⑤制約 これらを組み合わせながら、 生成AIへ何を描かせるかだけ",
-   "date": "2026-09-13"
-  },
-  {
-   "title": "Houthis used Claude Code to develop missile guidance software: Anthropic",
-   "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Article URL: https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo Comments URL: https://ne",
-   "date": "2026-09-13"
-  },
-  {
-   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-   "date": "2026-09-11"
-  },
-  {
-   "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-   "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
-   "date": "2026-09-11"
-  },
-  {
-   "title": "Moonshot serves Claude instead of Kimi and collects exchanges for model training",
-   "url": "https://twitter.com/DavidAgranovich/status/2098168522862215449",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "https://xcancel.com/DavidAgranovich/status/20981685228622154... Comments URL: https://news.ycombinator.com/item?id=49656698 Points: 67 # Comments: 70",
-   "date": "2026-09-11"
-  },
-  {
-   "title": "Claude is only available to people over 18 years",
-   "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Article URL: https://support.claude.com/en/articles/15171100-age-assurance-on-claude Comments URL: https://news.ycombinator.com/item?id=49656225 Points: 674 # C",
-   "date": "2026-09-11"
-  },
-  {
-   "title": "The Gemini app is now available for Windows",
-   "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "Gemini",
-   "summary": "Article URL: https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/ Comments URL: https://news.ycombinator.com/item?id=49653699 Po",
-   "date": "2026-09-11"
-  },
-  {
-   "title": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace",
-   "url": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Article URL: https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace Comments URL: https://news.ycombinator.com/item?id=49653311 Points: 109 # Comm",
-   "date": "2026-09-11"
-  },
-  {
-   "title": ".NET 11リリース候補版が登場。.NETランタイムが非同期ネイティブ対応、プロセッサ数の上限がなくなる、AOTコンパイラによるネイティブバイナリの高速化など",
-   "url": "https://www.publickey1.jp/blog/26/net_11netaot.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "マイクロソフトは同社の包括的なアプリケーションフレームワークの次期版となる「.NET 11」の最初のリリース候補版となる「.NET 11 Release Candidate 1」を発表しました。 〰️ SAVE THE DATE 〰️.NE...",
-   "date": "2026-09-10"
-  },
-  {
-   "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-   "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-   "date": "2026-09-10"
-  },
-  {
-   "title": "Now everyone can put data to work",
-   "url": "https://openai.com/index/put-data-to-work",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-   "date": "2026-09-10"
-  },
-  {
-   "title": "Introducing ChatGPT for Financial Services",
-   "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-   "date": "2026-09-10"
-  },
-  {
-   "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-   "url": "https://openai.com/index/expanding-ai-access-us-government",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-   "date": "2026-09-10"
-  },
-  {
-   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-   "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-   "date": "2026-09-10"
-  },
-  {
-   "title": "Introducing the Agents API",
-   "url": "https://openai.com/index/introducing-the-agents-api",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-   "date": "2026-09-10"
-  },
-  {
-   "title": "3 ways to prep for your next big race with Search",
-   "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
-   "date": "2026-09-10"
-  },
-  {
-   "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
-   "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-09-10"
-  },
-  {
-   "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-   "url": "https://huggingface.co/blog/gradio-workflow-1111",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-09-10"
-  },
-  {
-   "title": "Amazon pilots ad services in ChatGPT",
-   "url": "https://www.marketingdive.com/news/amazon-pilots-ad-services-in-chatgpt-what-marketers-need-to-know/829945/",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "Article URL: https://www.marketingdive.com/news/amazon-pilots-ad-services-in-chatgpt-what-marketers-need-to-know/829945/ Comments URL: https://news.ycombinator.",
-   "date": "2026-09-10"
-  },
-  {
-   "title": "AWS、AIがフルスタックAWSアプリの基本コードを、セキュリティ、可観測性、インフラまで一気通貫で生成する「Nx Plugin for AWS 1.0」、オープンソースで公開",
-   "url": "https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "Amazon Web Services（AWS）は、AIがフルスタックのAWSアプリケーションに必要なアプリケーションの基本的なコードに加えて、セキュリティや可観測性などの要件も備えたインフラ構成のコードもまとめて生成してくれるツール「Nx...",
-   "date": "2026-09-09"
-  },
-  {
-   "title": "AWS、自然言語でデータ分析アプリを構築可能に、「Amazon Quick」に新機能",
-   "url": "https://www.publickey1.jp/blog/26/awsamazon_quick.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "Amazon Web Services（AWS）は、データ分析プラットフォーム「Amazon Quick」の新機能として、データ分析と表示を行うカスタムアプリケーションを自然言語の指示だけで構築できる新機能を発表しました。 Amazon Q...",
-   "date": "2026-09-09"
-  },
-  {
-   "title": "The AI policy window is open. We need to act.",
-   "url": "https://openai.com/index/ai-policy-window",
-   "source": "OpenAI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains ",
-   "date": "2026-09-09"
-  },
-  {
-   "title": "Get ready for the game with new football features in Search",
-   "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
-   "date": "2026-09-09"
-  },
-  {
-   "title": "Recreating a 70-year love story frame by frame",
-   "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "Gemini",
-   "summary": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
-   "date": "2026-09-09"
-  },
-  {
-   "title": "Show HN: Self-hosted company OS, Claude Code and Codex agents in departments",
-   "url": "https://github.com/OtoDock/oto-dock",
-   "source": "HackerNews AI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Hi HN, I am Dimitris. This is a company OS that I built and use to run my business and anyone can install it and self host it for free. Think of it as Claude Co",
-   "date": "2026-09-09"
-  },
-  {
-   "title": "Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに",
-   "url": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "Amazon Web Services（AWS）は、AWSに最適化されたLinux OSの4年ぶりとなるメジャーバージョンアップ「Amazon Linux 2027」をパブリックプレビューとしてリリースしました。 現時点の正式版はAmazo...",
-   "date": "2026-09-08"
-  },
-  {
-   "title": "巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表",
-   "url": "https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html",
-   "source": "Publickey",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "宇宙を舞台にした世界最大級の大規模オンラインゲーム「EVE Online」が、ゲームを支える240万行のPythonコードをPython 3に移行すると発表しました。 We have officially started our codeb...",
-   "date": "2026-09-08"
-  },
-  {
-   "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-   "url": "https://huggingface.co/blog/Hcompany/neomme",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-09-03"
-  },
-  {
-   "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-   "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-09-03"
-  },
-  {
-   "title": "Give Your Coding Agents a Memory You Own",
-   "url": "https://huggingface.co/blog/funes",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-09-03"
-  },
-  {
-   "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-   "url": "https://huggingface.co/blog/train-to-paint-with-code",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-09-03"
-  },
-  {
-   "title": "Proactive cyber defense for governments and enterprises",
-   "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-   "date": "2026-09-02"
-  },
-  {
-   "title": "The latest AI news we announced in August 2026",
-   "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Here are Google’s latest AI updates from August 2026",
-   "date": "2026-09-01"
-  },
-  {
-   "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-   "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
-   "date": "2026-09-01"
-  },
-  {
-   "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-   "url": "https://huggingface.co/blog/allenai/benchmirt",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-09-01"
-  },
-  {
-   "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-   "url": "https://huggingface.co/blog/webgpu-kernels",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-09-01"
-  },
-  {
-   "title": "The Open ASR Leaderboard Adds Its First Global South Language",
-   "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-08-28"
-  },
-  {
-   "title": "3 new ways to plan and book travel in Search",
-   "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
-   "date": "2026-08-27"
-  },
-  {
-   "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-   "url": "https://huggingface.co/blog/train-multi-vector-encoder",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-08-26"
-  },
-  {
-   "title": "5 ways to upgrade your home decor with Google Search",
-   "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
-   "date": "2026-08-25"
-  },
-  {
-   "title": "Granite 4.2 LLMs: How They're Built",
-   "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-08-25"
-  },
-  {
-   "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-   "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-08-25"
-  },
-  {
-   "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-   "url": "https://huggingface.co/blog/gradio-workflow-guide",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-08-25"
-  },
-  {
-   "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
-   "url": "https://huggingface.co/blog/pwc-search",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-08-21"
-  },
-  {
-   "title": "Measuring benchmark optimization in speech recognition",
-   "url": "https://huggingface.co/blog/asr-benchmark-optimization",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-08-21"
   }
  ]
 }

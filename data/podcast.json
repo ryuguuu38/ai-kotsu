@@ -1,8 +1,8 @@
 {
- "date": "2026-09-23",
- "built": "2026-09-23 04:35",
- "minutes": 5.5,
- "chars": 2018,
+ "date": "2026-09-22",
+ "built": "2026-09-22 22:08",
+ "minutes": 5.1,
+ "chars": 1896,
  "lines": [
   {
    "who": "metan",
@@ -10,71 +10,15 @@
   },
   {
    "who": "metan",
-   "text": "1つ目。Copilot の話で、Copilotを入れる前に フォルダ整理 をやめてメタデータに移る。"
+   "text": "1つ目。ChatGPT の話で、カスタム指示は 設定 パーソナライズ に1回書けば全部に効く。"
   },
   {
    "who": "zunda",
-   "text": "中身を教えてほしいのだ！"
+   "text": "どんな内容なのだ？"
   },
   {
    "who": "metan",
-   "text": "フォルダ階層だけでは、AIは書類の意味を理解できない。会社名・書類種別・年度などを属性として付ける。"
-  },
-  {
-   "who": "zunda",
-   "text": "なんで効くのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "Copilotが 使えない と言われる会社の多くは、ファイルの置き方が原因。導入前に整えるべき土台の話。"
-  },
-  {
-   "who": "zunda",
-   "text": "具体的にはどうするのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "5段階よ。"
-  },
-  {
-   "who": "metan",
-   "text": "1、フォルダ階層では複数の属性を表せないと理解する 1つの分類しかできない。"
-  },
-  {
-   "who": "metan",
-   "text": "2、会社名 文書種別 年度 などを属性として付ける。"
-  },
-  {
-   "who": "metan",
-   "text": "3、Copilotのオートフィル機能で、本文から属性を自動抽出させる。"
-  },
-  {
-   "who": "metan",
-   "text": "4、既存ファイルに後付けするのは大変なので、 新しい置き場から 始める。"
-  },
-  {
-   "who": "metan",
-   "text": "5、属性が揃うと、絞り込みとグループ化で一瞬で探せるようになる。"
-  },
-  {
-   "who": "zunda",
-   "text": "地味に効きそうなのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "出どころは、SharePointはファイルサーバーではない？！Copilot時代に求められるファイル管理 ソフクリ not ね。"
-  },
-  {
-   "who": "metan",
-   "text": "2つ目。Gemini の話で、ドライブの フォルダ丸ごと を資料として指定できる。"
-  },
-  {
-   "who": "zunda",
-   "text": "詳しく聞きたいのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "ファイルを1つずつ選ばなくていい。案件フォルダや顧客フォルダをそのまま渡せる。"
+   "text": "毎回のチャットに書いていた前提を、1か所に書いて終わりにする。"
   },
   {
    "who": "zunda",
@@ -82,55 +26,7 @@
   },
   {
    "who": "metan",
-   "text": "NotebookLMは1ファイルずつ選ぶ必要があるが、こちらはフォルダ単位。案件ごとの情報集約に向く。"
-  },
-  {
-   "who": "zunda",
-   "text": "手順を頼むのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "3段階よ。"
-  },
-  {
-   "who": "metan",
-   "text": "1、Googleドライブに案件ごとのフォルダを作る。"
-  },
-  {
-   "who": "metan",
-   "text": "2、そのフォルダを丸ごとソースに指定する。"
-  },
-  {
-   "who": "metan",
-   "text": "3、以降、その案件の質問はすべてそのフォルダを根拠に答えさせる。"
-  },
-  {
-   "who": "zunda",
-   "text": "それは知らなかったのだ…"
-  },
-  {
-   "who": "metan",
-   "text": "出どころは、組織のAI活用 257 Google WorkspaceでGeminiが使える会社が意外と知らない便利や対策 ね。"
-  },
-  {
-   "who": "metan",
-   "text": "3つ目。Gemini の話で、Deep Researchは 調べる範囲 を絞れる 追加費用なし。"
-  },
-  {
-   "who": "zunda",
-   "text": "それ、何がすごいのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "特定のサイトだけに限定したり、GmailやGoogleドライブを調査対象にできる。設定変更だけ。"
-  },
-  {
-   "who": "zunda",
-   "text": "理由が知りたいのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "ネット全体を調べさせると精度が落ちる。範囲を絞るほど、使える答えが返る。"
+   "text": "効果が全チャットに及ぶのに、設定している人が少ない。最初の5分で一番リターンが大きい作業。"
   },
   {
    "who": "zunda",
@@ -142,75 +38,15 @@
   },
   {
    "who": "metan",
-   "text": "1、調べる前に対象を指定する 特定サイト／Gmail／ドライブ。"
+   "text": "1、左下のアカウント名をタップ。"
   },
   {
    "who": "metan",
-   "text": "2、長いレポートは図解に変換させる。"
+   "text": "2、設定 パーソナライズ カスタム指示。"
   },
   {
    "who": "metan",
-   "text": "3、定期的に必要な調査は、自動で回してドライブに保存させる。"
-  },
-  {
-   "who": "zunda",
-   "text": "うわ、損してたのだ…"
-  },
-  {
-   "who": "metan",
-   "text": "出どころは、組織のAI活用 257 寺田昇平 note ね。"
-  },
-  {
-   "who": "metan",
-   "text": "ここからは、今日出たものを軽く流すわ。"
-  },
-  {
-   "who": "metan",
-   "text": "1本目は、AI marketさんの動画。TradingView公式MCP ClaudeもChatGPTもつながった 使い方を実演8つで全解説。"
-  },
-  {
-   "who": "zunda",
-   "text": "気になるのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "扱っているのは、TradingViewの公式MCPが公開、① 公式MCPって何、② 始める前の条件、③ つなぎ方 Claudeのウェブ版・Claude Code・ChatGPT、④ 実演 銘柄の整理・高配当株探し・比較・ウォッチリストとアラート、といったところね。"
-  },
-  {
-   "who": "zunda",
-   "text": "それ早く言ってほしかったのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "2本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
-  },
-  {
-   "who": "zunda",
-   "text": "へえ、それで？"
-  },
-  {
-   "who": "metan",
-   "text": "扱っているのは、MCPって何？、① 手元のファイル、② ブラウザ操作、③ AIがAIを呼ぶ、④ 画像と動画、といったところね。"
-  },
-  {
-   "who": "zunda",
-   "text": "さっそく試すのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "3本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
-  },
-  {
-   "who": "metan",
-   "text": "4本目は、mikimiki web スクールさんの動画。これが最強‼️ ChatGPT Work × GPT-6 Astra の組み合わせが凄すぎる！徹底解説。"
-  },
-  {
-   "who": "zunda",
-   "text": "どんな内容なのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "扱っているのは、① GPT Work ︎ GPT-6 Astra が最強な理由、②-1 ハンズオン1、②-2 ハンズオン2、②-3 ハンズオン3、②-4 ハンズオン4、といったところね。"
+   "text": "3、下の文を自分用に直して保存。"
   },
   {
    "who": "zunda",
@@ -218,7 +54,167 @@
   },
   {
    "who": "metan",
-   "text": "5本目は、SHIFT AI ニュースさんの動画。Gemini Notebookの使い方と業務活用。"
+   "text": "出どころは、ChatGPTカスタム指示の設定手順とコピペ用 @totalscore0307 ね。"
+  },
+  {
+   "who": "metan",
+   "text": "2つ目。Copilot の話で、1on1や打ち合わせの前に、横断でタスクを整理させる。"
+  },
+  {
+   "who": "zunda",
+   "text": "へえ、それで？"
+  },
+  {
+   "who": "metan",
+   "text": "Teams・Outlook・PowerPointをまたいで 直近でやるべきこと をまとめさせる。"
+  },
+  {
+   "who": "zunda",
+   "text": "理由が知りたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "情報が散らばっているのを人間が集めるのが一番の無駄。Copilotの強みはこの横断にある。"
+  },
+  {
+   "who": "zunda",
+   "text": "具体的にはどうするのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、Copilot Chatを開く。"
+  },
+  {
+   "who": "metan",
+   "text": "2、期間と相手を指定して整理させる。"
+  },
+  {
+   "who": "metan",
+   "text": "3、出てきた内容を1on1の議題にする。"
+  },
+  {
+   "who": "zunda",
+   "text": "それ早く言ってほしかったのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、1 on 1 前に Copilot Chat でタスクを整理 Microsoft 365 公式 ね。"
+  },
+  {
+   "who": "metan",
+   "text": "3つ目。Copilot の話で、英語の会議を、日本語の議事録にして受け取る。"
+  },
+  {
+   "who": "zunda",
+   "text": "それ、何がすごいのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "Teams会議の議事録は言語を指定できる。英語の会議に出ても、日本語でまとめが残る。"
+  },
+  {
+   "who": "zunda",
+   "text": "なんで効くのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "聞き取りに集中しなくてよくなる。海外とのやりとりがある人には効果が大きい。"
+  },
+  {
+   "who": "zunda",
+   "text": "手順を頼むのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、Teams会議でCopilotを有効にする。"
+  },
+  {
+   "who": "metan",
+   "text": "2、終了後に日本語で要約するよう指示する。"
+  },
+  {
+   "who": "metan",
+   "text": "3、決定事項と自分の宿題だけ抜き出させる。"
+  },
+  {
+   "who": "zunda",
+   "text": "さっそく試すのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、Teams で Copilot を活用しましょう Microsoft 365 公式 ね。"
+  },
+  {
+   "who": "metan",
+   "text": "ここからは、今日出たものを軽く流すわ。"
+  },
+  {
+   "who": "metan",
+   "text": "1本目は、チャエン noteさんの記事。2026 9 14〜9 21 週刊AIニュース《TypeSafe AI Jev 、Claude Codeのプロジェクト、Gemini 4、 減速で一致 した業界に、5,170億ドルと反トラスト訴訟が出てきた1週間。》。"
+  },
+  {
+   "who": "zunda",
+   "text": "中身を教えてほしいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "みなさん、こんにちは。チャエンです。 自己紹介はこちら お知らせ続きをみる。"
+  },
+  {
+   "who": "metan",
+   "text": "2本目は、KEITO AIWEBさんの動画。Gensparkセカンドブレインノート。"
+  },
+  {
+   "who": "metan",
+   "text": "3本目は、けい AIと共に noteさんの記事。AI副業で稼ぐ人が あえてCursor を使う理由 最新AIを追うより大切な“ツールに依存しない力”。"
+  },
+  {
+   "who": "zunda",
+   "text": "気になるのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "結局、どのAIを使えば稼げるんですか？ 続きをみる。"
+  },
+  {
+   "who": "metan",
+   "text": "4本目は、AI marketさんの動画。TradingView公式MCP ClaudeもChatGPTもつながった 使い方を実演8つで全解説。"
+  },
+  {
+   "who": "zunda",
+   "text": "詳しく聞きたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "扱っているのは、TradingViewの公式MCPが公開、① 公式MCPって何、② 始める前の条件、③ つなぎ方 Claudeのウェブ版・Claude Code・ChatGPT、④ 実演 銘柄の整理・高配当株探し・比較・ウォッチリストとアラート、といったところね。"
+  },
+  {
+   "who": "zunda",
+   "text": "頭に入れておくのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "5本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
+  },
+  {
+   "who": "zunda",
+   "text": "どんな内容なのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "扱っているのは、MCPって何？、① 手元のファイル、② ブラウザ操作、③ AIがAIを呼ぶ、④ 画像と動画、といったところね。"
+  },
+  {
+   "who": "zunda",
+   "text": "なるほどなのだ！"
   },
   {
    "who": "metan",
@@ -226,15 +222,15 @@
   },
   {
    "who": "metan",
-   "text": "まず、Claude の話。Anthropic社目線でのClaude Codeの“勘所”を整理しました。"
+   "text": "まず、Claude の話。光伝送マスターへの道 OTDR測定の原理と操作 前編 powered by claude。"
   },
   {
    "who": "metan",
-   "text": "それから、Claude。Claude Codeの利用制限でも国試演習を止めない—Codexへのフェイルオーバーを作った。"
+   "text": "それから、その他。ローソン 生成AI発案の3品 9 29発売: 約4,700店・270円 181円 475円・アイデア出しに過去の販売データ不使用。"
   },
   {
    "who": "metan",
-   "text": "それから、その他。架空の型番の仕様表をAIに頼んだら、10回とも表は1行も出なかった。実在する規格で同じ頼み方をすると49行以上出た。"
+   "text": "それから、ChatGPT。AIニュース朝刊 2026年9月23日 GPT-6 Sol LunaはAPI半額、Claude Opus 5.5は40％低コスト――AI競争は 1ドルで何件終えるか へ。"
   },
   {
    "who": "zunda",
@@ -242,7 +238,7 @@
   },
   {
    "who": "metan",
-   "text": "最後は、Claude。AI にホームラボを任せる土台は Tailscale。構成と、実際にハマった7つの罠。"
+   "text": "最後は、その他。日本語を画像に描くならフォントを名前で選ばない — Hiragino Sans GB は中国語版だった。"
   },
   {
    "who": "zunda",
@@ -263,8 +259,8 @@
  ],
  "credit": "VOICEVOX:ずんだもん / 四国めたん",
  "tip_ids": [
-  "copilot-009",
-  "gemini-010",
-  "gemini-011"
+  "gpt-010",
+  "copilot-007",
+  "copilot-008"
  ]
 }
