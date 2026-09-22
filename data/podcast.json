@@ -1,140 +1,12 @@
 {
  "date": "2026-09-22",
- "built": "2026-09-22 12:16",
- "minutes": 6.8,
- "chars": 2502,
+ "built": "2026-09-22 21:26",
+ "minutes": 5.2,
+ "chars": 1911,
  "lines": [
   {
    "who": "metan",
-   "text": "おはよう。AIコツ図鑑、9月22日、火曜日の回よ。"
-  },
-  {
-   "who": "zunda",
-   "text": "今日はどんな話があるのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "追いかけている人の新着が21本、ニュースが6本入っているわ。その中から、知っておくと得をするものだけ話すわね。"
-  },
-  {
-   "who": "zunda",
-   "text": "全部読むのは無理だから助かるのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "まずは新着から。"
-  },
-  {
-   "who": "metan",
-   "text": "1本目は、チャエン noteさんの記事。2026 9 14〜9 21 週刊AIニュース《TypeSafe AI Jev 、Claude Codeのプロジェクト、Gemini 4、 減速で一致 した業界に、5,170億ドルと反トラスト訴訟が出てきた1週間。》。"
-  },
-  {
-   "who": "zunda",
-   "text": "どんな内容なのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "みなさん、こんにちは。チャエンです。 自己紹介はこちら お知らせ続きをみる。"
-  },
-  {
-   "who": "metan",
-   "text": "2本目は、KEITO AIWEBさんの動画。Gensparkセカンドブレインノート。"
-  },
-  {
-   "who": "metan",
-   "text": "3本目は、AI marketさんの動画。TradingView公式MCP ClaudeもChatGPTもつながった 使い方を実演8つで全解説。"
-  },
-  {
-   "who": "zunda",
-   "text": "へえ、それで？"
-  },
-  {
-   "who": "metan",
-   "text": "扱っているのは、TradingViewの公式MCPが公開、① 公式MCPって何、② 始める前の条件、③ つなぎ方 Claudeのウェブ版・Claude Code・ChatGPT、④ 実演 銘柄の整理・高配当株探し・比較・ウォッチリストとアラート、⑤ 毎日の使い方 朝のまとめ・決算の下調べ・チャートの線引き、⑥ 使いこなしのコツ、といったところね。"
-  },
-  {
-   "who": "zunda",
-   "text": "メモしておくのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "4本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
-  },
-  {
-   "who": "zunda",
-   "text": "それ、何がすごいのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "扱っているのは、MCPって何？、① 手元のファイル、② ブラウザ操作、③ AIがAIを呼ぶ、④ 画像と動画、⑤ ぜんぶ繋げる、人気の3つ ギットハブ・ノーション・スラック、といったところね。"
-  },
-  {
-   "who": "zunda",
-   "text": "それ早く言ってほしかったのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "5本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
-  },
-  {
-   "who": "metan",
-   "text": "6本目は、mikimiki web スクールさんの動画。これが最強‼️ ChatGPT Work × GPT-6 Astra の組み合わせが凄すぎる！徹底解説。"
-  },
-  {
-   "who": "zunda",
-   "text": "中身を教えてほしいのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "扱っているのは、① GPT Work ︎ GPT-6 Astra が最強な理由、②-1 ハンズオン1、②-2 ハンズオン2、②-3 ハンズオン3、②-4 ハンズオン4、②-5 ハンズオン5、②-6 ハンズオン6、といったところね。"
-  },
-  {
-   "who": "zunda",
-   "text": "さっそく試すのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "7本目は、SHIFT AI ニュースさんの動画。作成法2選 GPT-6 Astraで自社スライドをテンプレのまま一発生成。"
-  },
-  {
-   "who": "metan",
-   "text": "8本目は、SHIFT AI ニュースさんの動画。Gemini Notebookの使い方と業務活用。"
-  },
-  {
-   "who": "metan",
-   "text": "次に、今日のニュースの見出しだけ流すわね。"
-  },
-  {
-   "who": "metan",
-   "text": "Zenn 生成AI から、Temperatureとは？LLMの出力を制御する値。"
-  },
-  {
-   "who": "metan",
-   "text": "Zenn ChatGPT から、秘密を持たないGitミラー pubmir を作った。"
-  },
-  {
-   "who": "metan",
-   "text": "Qiita Claude から、AIで社内ツールは作れた。問題は、それを会社に置けるかだった。"
-  },
-  {
-   "who": "metan",
-   "text": "Qiita Claude から、Claude API の Memory tool memory 20250818 でセッションをまたいで記憶させる実装手順 — API側は何も保存しない・パストラバーサル・指示がないと読みに来ない、3つのハマりどころ 2026。"
-  },
-  {
-   "who": "metan",
-   "text": "Qiita 生成AI から、日本語プログラミング言語あおい Aoi 最小セットの検証フェーズ ステップ５ ～線形探索法、二分探索法のC コード生成～。"
-  },
-  {
-   "who": "metan",
-   "text": "Qiita 生成AI から、別に汎用生成AIの全てを否定している訳では無いですよ。。"
-  },
-  {
-   "who": "zunda",
-   "text": "気になるのがあったら、あとでサイトから開けばいいのだ。"
-  },
-  {
-   "who": "metan",
-   "text": "ここからが本題。今日のコツを3つ話すわ。"
+   "text": "今日のコツを3つ話すわ。"
   },
   {
    "who": "metan",
@@ -142,7 +14,7 @@
   },
   {
    "who": "zunda",
-   "text": "気になるのだ！"
+   "text": "どんな内容なのだ？"
   },
   {
    "who": "metan",
@@ -178,7 +50,7 @@
   },
   {
    "who": "zunda",
-   "text": "頭に入れておくのだ！"
+   "text": "メモしておくのだ！"
   },
   {
    "who": "metan",
@@ -190,7 +62,7 @@
   },
   {
    "who": "zunda",
-   "text": "詳しく聞きたいのだ！"
+   "text": "へえ、それで？"
   },
   {
    "who": "metan",
@@ -226,7 +98,7 @@
   },
   {
    "who": "zunda",
-   "text": "なるほどなのだ！"
+   "text": "それ早く言ってほしかったのだ！"
   },
   {
    "who": "metan",
@@ -238,7 +110,7 @@
   },
   {
    "who": "zunda",
-   "text": "どんな内容なのだ？"
+   "text": "それ、何がすごいのだ？"
   },
   {
    "who": "metan",
@@ -274,11 +146,91 @@
   },
   {
    "who": "zunda",
-   "text": "うわ、損してたのだ…"
+   "text": "さっそく試すのだ！"
   },
   {
    "who": "metan",
    "text": "出どころは、Claude Codeを賢くしたのは、プロンプトではなくフォルダでした @daifukujinji ね。"
+  },
+  {
+   "who": "metan",
+   "text": "ここからは、今日出たものを軽く流すわ。"
+  },
+  {
+   "who": "metan",
+   "text": "1本目は、KEITO AIWEBさんの動画。Gensparkセカンドブレインノート。"
+  },
+  {
+   "who": "metan",
+   "text": "2本目は、AI marketさんの動画。TradingView公式MCP ClaudeもChatGPTもつながった 使い方を実演8つで全解説。"
+  },
+  {
+   "who": "zunda",
+   "text": "中身を教えてほしいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "扱っているのは、TradingViewの公式MCPが公開、① 公式MCPって何、② 始める前の条件、③ つなぎ方 Claudeのウェブ版・Claude Code・ChatGPT、④ 実演 銘柄の整理・高配当株探し・比較・ウォッチリストとアラート、といったところね。"
+  },
+  {
+   "who": "zunda",
+   "text": "頭に入れておくのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "3本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
+  },
+  {
+   "who": "zunda",
+   "text": "気になるのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "扱っているのは、MCPって何？、① 手元のファイル、② ブラウザ操作、③ AIがAIを呼ぶ、④ 画像と動画、といったところね。"
+  },
+  {
+   "who": "zunda",
+   "text": "なるほどなのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "4本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
+  },
+  {
+   "who": "metan",
+   "text": "5本目は、mikimiki web スクールさんの動画。これが最強‼️ ChatGPT Work × GPT-6 Astra の組み合わせが凄すぎる！徹底解説。"
+  },
+  {
+   "who": "zunda",
+   "text": "詳しく聞きたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "扱っているのは、① GPT Work ︎ GPT-6 Astra が最強な理由、②-1 ハンズオン1、②-2 ハンズオン2、②-3 ハンズオン3、②-4 ハンズオン4、といったところね。"
+  },
+  {
+   "who": "zunda",
+   "text": "うわ、損してたのだ…"
+  },
+  {
+   "who": "metan",
+   "text": "最後にニュースの見出しだけ。"
+  },
+  {
+   "who": "metan",
+   "text": "Zenn ClaudeCode から、Anthropic社目線でのClaude Codeの“勘所”を整理しました。"
+  },
+  {
+   "who": "metan",
+   "text": "Zenn ClaudeCode から、Claude Codeの利用制限でも国試演習を止めない—Codexへのフェイルオーバーを作った。"
+  },
+  {
+   "who": "metan",
+   "text": "Zenn ClaudeCode から、架空の型番の仕様表をAIに頼んだら、10回とも表は1行も出なかった。実在する規格で同じ頼み方をすると49行以上出た。"
+  },
+  {
+   "who": "metan",
+   "text": "Zenn ClaudeCode から、AI にホームラボを任せる土台は Tailscale。構成と、実際にハマった7つの罠。"
   },
   {
    "who": "metan",

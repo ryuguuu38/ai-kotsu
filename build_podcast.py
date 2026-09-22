@@ -76,8 +76,8 @@ def build():
         fresh = [f for f in feed if days_ago(f.get("date")) <= 3]
     star = [f for f in fresh if f.get("pick") == "オーナー指定"]
     others = [f for f in fresh if f.get("pick") != "オーナー指定"]
-    picks = (star[:5] + others)[:8]
-    todays_news = [n for n in news if days_ago(n.get("date")) <= 1][:6]
+    picks = (star[:4] + others)[:5]
+    todays_news = [n for n in news if days_ago(n.get("date")) <= 1][:4]
     todays_tips = []
     if tips:
         base = seed * 3
@@ -88,43 +88,9 @@ def build():
         t = clean(text)
         if t: L.append({"who": who, "text": t})
 
-    # ---- オープニング ----
-    say(M, "おはよう。AIコツ図鑑、%d月%d日、%s曜日の回よ。" % (today.month, today.day, wd))
-    say(Z, "今日はどんな話があるのだ？")
-    say(M, "追いかけている人の新着が%d本、ニュースが%d本入っているわ。"
-           "その中から、知っておくと得をするものだけ話すわね。" % (len(fresh), len(todays_news)))
-    say(Z, "全部読むのは無理だから助かるのだ！")
-
-    # ---- 新着 ----
-    if picks:
-        say(M, "まずは新着から。")
-        for i, f in enumerate(picks, 1):
-            who = speak_name(clean(f.get("author", "")))
-            kind = "の動画" if f.get("kind") == "youtube" else "の記事"
-            say(M, "%d本目は、%s%s。%s。" % (i, who, kind, clean(f.get("title", ""))))
-            chaps = f.get("chapters") or []
-            labels = [clean(c.get("label", "")) for c in chaps[1:8] if clean(c.get("label", ""))]
-            if labels:
-                say(Z, ask.next())
-                say(M, "扱っているのは、%s、といったところね。" % "、".join(labels))
-                say(Z, react.next())
-            elif f.get("summary") and not is_promo(f["summary"]):
-                say(Z, ask.next())
-                say(M, clean(f["summary"])[:200] + "。")
-    else:
-        say(M, "今日は新着がなかったわ。")
-        say(Z, "そういう日もあるのだ。")
-
-    # ---- ニュース ----
-    if todays_news:
-        say(M, "次に、今日のニュースの見出しだけ流すわね。")
-        for n in todays_news:
-            say(M, "%s から、%s。" % (clean(n.get("source", "")), clean(n.get("title", ""))))
-        say(Z, "気になるのがあったら、あとでサイトから開けばいいのだ。")
-
-    # ---- コツ（本編） ----
+    # ---- 本題：今日のコツ（いきなりここから始める）----
     if todays_tips:
-        say(M, "ここからが本題。今日のコツを3つ話すわ。")
+        say(M, "今日のコツを3つ話すわ。")
         for k, tip in enumerate(todays_tips, 1):
             say(M, "%dつ目。%s の話で、%s。" % (k, tip.get("ai", ""), clean(tip.get("title", ""))))
             say(Z, ask.next())
@@ -143,6 +109,34 @@ def build():
             if src:
                 say(M, "出どころは、%s ね。" % clean(src)[:55])
 
+    # ---- 後半：今日の新着 ----
+    if picks:
+        say(M, "ここからは、今日出たものを軽く流すわ。")
+        for i, f in enumerate(picks, 1):
+            who = speak_name(clean(f.get("author", "")))
+            kind = "の動画" if f.get("kind") == "youtube" else "の記事"
+            say(M, "%d本目は、%s%s。%s。" % (i, who, kind, clean(f.get("title", ""))))
+            chaps = f.get("chapters") or []
+            labels = [clean(c.get("label", "")) for c in chaps[1:6] if clean(c.get("label", ""))]
+            if labels:
+                say(Z, ask.next())
+                say(M, "扱っているのは、%s、といったところね。" % "、".join(labels))
+                say(Z, react.next())
+            elif f.get("summary") and not is_promo(f["summary"]):
+                say(Z, ask.next())
+                say(M, clean(f["summary"])[:200] + "。")
+    else:
+        say(M, "今日は新着がなかったわ。")
+        say(Z, "そういう日もあるのだ。")
+
+    # ---- ニュース ----
+    if todays_news:
+        say(M, "最後にニュースの見出しだけ。")
+        for n in todays_news:
+            say(M, "%s から、%s。" % (clean(n.get("source", "")), clean(n.get("title", ""))))
+
+
+    # ---- コツ（本編） ----
     # ---- クロージング ----
     say(M, "以上よ。詳しくはサイトのカードから、元の動画や記事に飛べるわ。")
     say(Z, "今日もいい一日にするのだ！")
