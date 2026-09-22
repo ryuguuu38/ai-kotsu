@@ -411,7 +411,12 @@ function feedCard(f){
 }
 
 function tipCard(t){
-  const steps=(t.steps||[]).map(s=>`<li>${esc(s)}</li>`).join("");
+  const st=(t.steps||[]);
+  const steps = st.length<=5
+    ? st.map(s=>`<li>${esc(s)}</li>`).join("")
+    : st.slice(0,4).map(s=>`<li>${esc(s)}</li>`).join("")
+      + `</ol><details class="chap"><summary>残り${st.length-4}手順を見る</summary><ol class="steps" start="5">`
+      + st.slice(4).map(s=>`<li>${esc(s)}</li>`).join("") + `</ol></details><ol class="steps" style="display:none">`;
   const prompt=t.prompt?`<div class="promptbox"><button class="copy">コピー</button>${esc(t.prompt)}</div>`:"";
   const src=t.source?`<a class="src" href="${esc(t.source.url)}" target="_blank" rel="noopener">出典 ↗</a>`
     :`<span class="src unverified">出典なし</span>`;
