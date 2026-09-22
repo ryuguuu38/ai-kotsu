@@ -1,0 +1,71 @@
+name: AIコツ図鑑を毎日更新
+
+on:
+  schedule:
+    # 毎日 22:00 UTC = 日本時間の朝7:00
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 1) 情報を集めて、台本とサイトを作る
+      - name: 情報を集めてサイトを作り直す
+        run: python update_all.py
+
+      # 1.5) 音声をまとめる道具を用意（入っていない場合に備えて）
+      - name: ffmpegを用意
+        run: |
+          if ! command -v ffmpeg > /dev/null; then
+            sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          fi
+          ffmpeg -version | head -1
+
+      # 2) VOICEVOXのエンジンを起動（Macに入っているものと同じ 0.25.2）
+      - name: 音声エンジンを起動
+        run: |
+          docker run -d --name voicevox -p 50021:50021 \
+            voicevox/voicevox_engine:cpu-amd64-0.25.2
+          echo "起動を待ちます..."
+          for i in $(seq 1 60); do
+            if curl -s -m 2 http://127.0.0.1:50021/version > /dev/null; then
+              echo "エンジン準備OK（$((i*5))秒）"; exit 0
+            fi
+            sleep 5
+          done
+          echo "エンジンが応答しませんでした"; exit 1
+
+      # 3) 台本を音声にする
+      - name: 今日の10分を音声にする
+        env:
+          VOICE_OUT: ./today.mp3
+        run: python make_voice.py
+
+      # 4) 音声を配布用の置き場に上げる（リポジトリには入れない）
+      - name: 音声を配布する
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view audio > /dev/null 2>&1 || \
+            gh release create audio --title "今日の10分（音声）" --notes "毎朝自動で作られる音声です。VOICEVOX:ずんだもん / 四国めたん"
+          gh release upload audio ./today.mp3 --clobber
+
+      # 5) 集めた結果を保存する
+      - name: 結果を保存する
+        run: |
+          rm -f ./today.mp3
+          git config user.name "ai-kotsu-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "自動更新 $(date -u +%Y-%m-%d)"
+          git push

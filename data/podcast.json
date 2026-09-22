@@ -1,0 +1,310 @@
+{
+ "date": "2026-09-22",
+ "built": "2026-09-22 20:44",
+ "minutes": 6.9,
+ "chars": 2567,
+ "lines": [
+  {
+   "who": "metan",
+   "text": "おはよう。AIコツ図鑑、9月22日、火曜日の回よ。"
+  },
+  {
+   "who": "zunda",
+   "text": "今日はどんな話があるのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "追いかけている人の新着が19本、ニュースが6本入っているわ。その中から、知っておくと得をするものだけ話すわね。"
+  },
+  {
+   "who": "zunda",
+   "text": "全部読むのは無理だから助かるのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "まずは新着から。"
+  },
+  {
+   "who": "metan",
+   "text": "1本目は、KEITO AIWEBさんの動画。Gensparkセカンドブレインノート。"
+  },
+  {
+   "who": "metan",
+   "text": "2本目は、AI marketさんの動画。TradingView公式MCP ClaudeもChatGPTもつながった 使い方を実演8つで全解説。"
+  },
+  {
+   "who": "zunda",
+   "text": "どんな内容なのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "扱っているのは、TradingViewの公式MCPが公開、① 公式MCPって何、② 始める前の条件、③ つなぎ方 Claudeのウェブ版・Claude Code・ChatGPT、④ 実演 銘柄の整理・高配当株探し・比較・ウォッチリストとアラート、⑤ 毎日の使い方 朝のまとめ・決算の下調べ・チャートの線引き、⑥ 使いこなしのコツ、といったところね。"
+  },
+  {
+   "who": "zunda",
+   "text": "メモしておくのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "3本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
+  },
+  {
+   "who": "zunda",
+   "text": "へえ、それで？"
+  },
+  {
+   "who": "metan",
+   "text": "扱っているのは、MCPって何？、① 手元のファイル、② ブラウザ操作、③ AIがAIを呼ぶ、④ 画像と動画、⑤ ぜんぶ繋げる、人気の3つ ギットハブ・ノーション・スラック、といったところね。"
+  },
+  {
+   "who": "zunda",
+   "text": "それ早く言ってほしかったのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "4本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
+  },
+  {
+   "who": "metan",
+   "text": "5本目は、mikimiki web スクールさんの動画。これが最強‼️ ChatGPT Work × GPT-6 Astra の組み合わせが凄すぎる！徹底解説。"
+  },
+  {
+   "who": "zunda",
+   "text": "それ、何がすごいのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "扱っているのは、① GPT Work ︎ GPT-6 Astra が最強な理由、②-1 ハンズオン1、②-2 ハンズオン2、②-3 ハンズオン3、②-4 ハンズオン4、②-5 ハンズオン5、②-6 ハンズオン6、といったところね。"
+  },
+  {
+   "who": "zunda",
+   "text": "さっそく試すのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "6本目は、SHIFT AI ニュースさんの動画。Gemini Notebookの使い方と業務活用。"
+  },
+  {
+   "who": "metan",
+   "text": "7本目は、けい AIと共に noteさんの記事。Claude Code FableとGPT-5.6 Solを比較 結局どっちがおすすめ？ 最強AI の賢い使い分け方。"
+  },
+  {
+   "who": "zunda",
+   "text": "中身を教えてほしいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "Claude CodeのFableとGPT-5.6 Sol、結局どっちを使えばいいの？ 続きをみる。"
+  },
+  {
+   "who": "metan",
+   "text": "8本目は、けい AIと共に noteさんの記事。AIトレードは本当に勝てる？Claude Code×Geminiで 爆益チャート を自動検証して見えた本当の価値。"
+  },
+  {
+   "who": "zunda",
+   "text": "気になるのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "AIにチャートを見せれば、勝てる場所を全部見つけてくれるのでは？ 続きをみる。"
+  },
+  {
+   "who": "metan",
+   "text": "次に、今日のニュースの見出しだけ流すわね。"
+  },
+  {
+   "who": "metan",
+   "text": "Zenn ClaudeCode から、Anthropic社目線でのClaude Codeの“勘所”を整理しました。"
+  },
+  {
+   "who": "metan",
+   "text": "Zenn ClaudeCode から、Claude Codeの利用制限でも国試演習を止めない—Codexへのフェイルオーバーを作った。"
+  },
+  {
+   "who": "metan",
+   "text": "Zenn ClaudeCode から、架空の型番の仕様表をAIに頼んだら、10回とも表は1行も出なかった。実在する規格で同じ頼み方をすると49行以上出た。"
+  },
+  {
+   "who": "metan",
+   "text": "Zenn ClaudeCode から、AI にホームラボを任せる土台は Tailscale。構成と、実際にハマった7つの罠。"
+  },
+  {
+   "who": "metan",
+   "text": "Zenn ClaudeCode から、ホームラボを Claude Code に任せて6週間。どこまで任せて、どこで歯止めをきかせるか。"
+  },
+  {
+   "who": "metan",
+   "text": "Zenn ClaudeCode から、物理ゼロから共通テスト100点を目指す家庭教師を、AIエージェントとGitリポジトリで作っている。"
+  },
+  {
+   "who": "zunda",
+   "text": "気になるのがあったら、あとでサイトから開けばいいのだ。"
+  },
+  {
+   "who": "metan",
+   "text": "ここからが本題。今日のコツを3つ話すわ。"
+  },
+  {
+   "who": "metan",
+   "text": "1つ目。Claude の話で、CLAUDE.mdは 自己紹介 でなく 永続契約 を書く場所。"
+  },
+  {
+   "who": "zunda",
+   "text": "詳しく聞きたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "毎回 これはやらないで と言う代わりに、契約として1回書く。そのプロジェクトではその癖が二度と出なくなる。"
+  },
+  {
+   "who": "zunda",
+   "text": "どうしてそうなるのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "多くの人がCLAUDE.mdに このプロジェクトは○○です という自己紹介しか書いていない。本来は挙動そのものを変える道具。"
+  },
+  {
+   "who": "zunda",
+   "text": "やり方も教えてほしいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、毎回言っている注意を思い出す 例：勝手に上書きしないで。"
+  },
+  {
+   "who": "metan",
+   "text": "2、それを禁止事項として書く。"
+  },
+  {
+   "who": "metan",
+   "text": "3、〜してほしい でなく 〜する と言い切りの形で書く。"
+  },
+  {
+   "who": "zunda",
+   "text": "頭に入れておくのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、完全版 Claude Codeの性能を10倍引き上げるCLAUDE.md @ClaudeCode UT ね。"
+  },
+  {
+   "who": "metan",
+   "text": "2つ目。Claude の話で、CLAUDE.mdは上書きされず 連結 される。"
+  },
+  {
+   "who": "zunda",
+   "text": "どんな内容なのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "ルートから起動した場所まで、通り道にあるCLAUDE.mdが全部つながって読み込まれる。最後に読まれるのが起動地点のもの。"
+  },
+  {
+   "who": "zunda",
+   "text": "理由が知りたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "これを知らないと なぜかルールが効かない／余計なルールが効く が起きる。階層設計の大前提。"
+  },
+  {
+   "who": "zunda",
+   "text": "具体的にはどうするのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、ルートのCLAUDE.mdには全体共通のルールだけ書く。"
+  },
+  {
+   "who": "metan",
+   "text": "2、案件フォルダのCLAUDE.mdにはその案件固有のルールを書く。"
+  },
+  {
+   "who": "metan",
+   "text": "3、矛盾する内容を書かない 後に読まれるほうが強い。"
+  },
+  {
+   "who": "zunda",
+   "text": "なるほどなのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、Claude Codeの性能を決めていたのは、プロンプトじゃなくフォルダ階層でした @masahirochae ね。"
+  },
+  {
+   "who": "metan",
+   "text": "3つ目。Claude の話で、どのフォルダで開くかで、そのセッションの人格が決まる。"
+  },
+  {
+   "who": "zunda",
+   "text": "へえ、それで？"
+  },
+  {
+   "who": "metan",
+   "text": "Claude Codeは起動したフォルダの中が世界のすべて。フォルダ選びが性能を決める。"
+  },
+  {
+   "who": "zunda",
+   "text": "なんで効くのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "プロンプトを工夫するより、正しいフォルダで開くほうが効果が大きい場面が多い。"
+  },
+  {
+   "who": "zunda",
+   "text": "手順を頼むのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、案件ごとに専用フォルダを作る。"
+  },
+  {
+   "who": "metan",
+   "text": "2、その中にCLAUDE.mdと資料を置く。"
+  },
+  {
+   "who": "metan",
+   "text": "3、作業はそのフォルダで開いて始める。"
+  },
+  {
+   "who": "zunda",
+   "text": "うわ、損してたのだ…"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、Claude Codeを賢くしたのは、プロンプトではなくフォルダでした @daifukujinji ね。"
+  },
+  {
+   "who": "metan",
+   "text": "以上よ。詳しくはサイトのカードから、元の動画や記事に飛べるわ。"
+  },
+  {
+   "who": "zunda",
+   "text": "今日もいい一日にするのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "音声は ボイスボックス。ずんだもんと四国めたんで作っているわ。"
+  }
+ ],
+ "credit": "VOICEVOX:ずんだもん / 四国めたん",
+ "tip_ids": [
+  "claude-004",
+  "claude-005",
+  "claude-006"
+ ]
+}

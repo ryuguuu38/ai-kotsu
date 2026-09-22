@@ -1,0 +1,152 @@
+{
+ "youtube": [
+  {
+   "name": "KEITO【AI&WEB ch】",
+   "handle": "keitoaiweb",
+   "id": "UCfapRkagDtoQEkGeyD3uERQ",
+   "pick": "オーナー指定"
+  },
+  {
+   "name": "みかみ【東大退学させられた男】",
+   "handle": "みかみ東大退学させられた男",
+   "id": "UC_PUuYmn8e4rZpOHgaTdUrg",
+   "pick": "オーナー指定"
+  },
+  {
+   "name": "まじん",
+   "handle": "majin-craft",
+   "id": "UC0Bps5P7oQv_qDpM8hz2zSw",
+   "pick": "オーナー指定"
+  },
+  {
+   "name": "チャエン【AI研究所】",
+   "handle": "chaen-ai-lab",
+   "id": "UC9buL3Iph_f7AZxdzmiBL8Q",
+   "pick": "オーナー指定"
+  },
+  {
+   "name": "にゃんたのAIチャンネル",
+   "handle": "",
+   "id": "UCZQVTC3uLCyuJUOcRlguazA",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "ダイさん・AI活用の専門家",
+   "handle": "",
+   "id": "UC8FwuifT73FtnO93ZUNSoLg",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "バレないAIの使い方ch",
+   "handle": "",
+   "id": "UC5bpNsnBHrHFcndZFZ6Q4Yw",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "AI market",
+   "handle": "",
+   "id": "UCswNRnSQstgW_ePcJWx4zXQ",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "Claudeを使えば苦労しない | フィアナ",
+   "handle": "",
+   "id": "UCzJ_RT-7telhN3m4vOGn8lg",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "【さき】のAIでええやん。",
+   "handle": "",
+   "id": "UCCIPlDofGZVef3HArQBRrEw",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "mikimiki web スクール",
+   "handle": "",
+   "id": "UChxtIA33ty53Hh4MmkXNASg",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "ここなのAI大学",
+   "handle": "",
+   "id": "UCopTsucSPUP_N5n4fcLQtXQ",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "AIの中の人",
+   "handle": "",
+   "id": "UCMb9OTW1GQL7q3mUqFeYD5g",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "ナオヤ@AIヲタク",
+   "handle": "",
+   "id": "UCKynlgFyZESvjpYUfjpVEBQ",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "あいまる / iPhone×AI",
+   "handle": "",
+   "id": "UCUzEa34t9fzIo8k2czgsjfA",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "SHIFT AI ニュース",
+   "handle": "",
+   "id": "UCboaqA4fwGpljEKeUjO1iVQ",
+   "pick": "Claude推薦"
+  }
+ ],
+ "note": [
+  {
+   "name": "まじん（note）",
+   "url": "https://note.com/majin_108/rss",
+   "pick": "オーナー指定"
+  },
+  {
+   "name": "KEITO（note）",
+   "url": "https://note.com/keito_12kk2/rss",
+   "pick": "オーナー指定"
+  },
+  {
+   "name": "チャエン（note）",
+   "url": "https://note.com/chaen_channel/rss",
+   "pick": "オーナー指定"
+  },
+  {
+   "name": "Claude Code Lab（note）",
+   "url": "https://note.com/claudecode_lab/rss",
+   "pick": "オーナー指定"
+  },
+  {
+   "name": "ひつじ（note）",
+   "url": "https://note.com/hituji1234/rss",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "アリス｜AI検証ログ（note）",
+   "url": "https://note.com/alix78/rss",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "ソフクリMicrosoft（note）",
+   "url": "https://note.com/sc_microsoft/rss",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "寺田昇平｜組織のAI活用（note）",
+   "url": "https://note.com/green_ai/rss",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "けい｜AIと共に（note）",
+   "url": "https://note.com/ak_hikiyose/rss",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "Gemini公式（note）",
+   "url": "https://note.com/google_gemini/rss",
+   "pick": "Claude推薦"
+  }
+ ]
+}
