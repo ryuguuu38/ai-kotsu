@@ -1,8 +1,8 @@
 {
  "date": "2026-09-22",
- "built": "2026-09-22 20:44",
- "minutes": 6.9,
- "chars": 2567,
+ "built": "2026-09-22 12:16",
+ "minutes": 6.8,
+ "chars": 2502,
  "lines": [
   {
    "who": "metan",
@@ -14,7 +14,7 @@
   },
   {
    "who": "metan",
-   "text": "追いかけている人の新着が19本、ニュースが6本入っているわ。その中から、知っておくと得をするものだけ話すわね。"
+   "text": "追いかけている人の新着が21本、ニュースが6本入っているわ。その中から、知っておくと得をするものだけ話すわね。"
   },
   {
    "who": "zunda",
@@ -26,15 +26,27 @@
   },
   {
    "who": "metan",
-   "text": "1本目は、KEITO AIWEBさんの動画。Gensparkセカンドブレインノート。"
-  },
-  {
-   "who": "metan",
-   "text": "2本目は、AI marketさんの動画。TradingView公式MCP ClaudeもChatGPTもつながった 使い方を実演8つで全解説。"
+   "text": "1本目は、チャエン noteさんの記事。2026 9 14〜9 21 週刊AIニュース《TypeSafe AI Jev 、Claude Codeのプロジェクト、Gemini 4、 減速で一致 した業界に、5,170億ドルと反トラスト訴訟が出てきた1週間。》。"
   },
   {
    "who": "zunda",
    "text": "どんな内容なのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "みなさん、こんにちは。チャエンです。 自己紹介はこちら お知らせ続きをみる。"
+  },
+  {
+   "who": "metan",
+   "text": "2本目は、KEITO AIWEBさんの動画。Gensparkセカンドブレインノート。"
+  },
+  {
+   "who": "metan",
+   "text": "3本目は、AI marketさんの動画。TradingView公式MCP ClaudeもChatGPTもつながった 使い方を実演8つで全解説。"
+  },
+  {
+   "who": "zunda",
+   "text": "へえ、それで？"
   },
   {
    "who": "metan",
@@ -46,11 +58,11 @@
   },
   {
    "who": "metan",
-   "text": "3本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
+   "text": "4本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
   },
   {
    "who": "zunda",
-   "text": "へえ、それで？"
+   "text": "それ、何がすごいのだ？"
   },
   {
    "who": "metan",
@@ -62,15 +74,15 @@
   },
   {
    "who": "metan",
-   "text": "4本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
+   "text": "5本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
   },
   {
    "who": "metan",
-   "text": "5本目は、mikimiki web スクールさんの動画。これが最強‼️ ChatGPT Work × GPT-6 Astra の組み合わせが凄すぎる！徹底解説。"
+   "text": "6本目は、mikimiki web スクールさんの動画。これが最強‼️ ChatGPT Work × GPT-6 Astra の組み合わせが凄すぎる！徹底解説。"
   },
   {
    "who": "zunda",
-   "text": "それ、何がすごいのだ？"
+   "text": "中身を教えてほしいのだ！"
   },
   {
    "who": "metan",
@@ -82,31 +94,11 @@
   },
   {
    "who": "metan",
-   "text": "6本目は、SHIFT AI ニュースさんの動画。Gemini Notebookの使い方と業務活用。"
+   "text": "7本目は、SHIFT AI ニュースさんの動画。作成法2選 GPT-6 Astraで自社スライドをテンプレのまま一発生成。"
   },
   {
    "who": "metan",
-   "text": "7本目は、けい AIと共に noteさんの記事。Claude Code FableとGPT-5.6 Solを比較 結局どっちがおすすめ？ 最強AI の賢い使い分け方。"
-  },
-  {
-   "who": "zunda",
-   "text": "中身を教えてほしいのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "Claude CodeのFableとGPT-5.6 Sol、結局どっちを使えばいいの？ 続きをみる。"
-  },
-  {
-   "who": "metan",
-   "text": "8本目は、けい AIと共に noteさんの記事。AIトレードは本当に勝てる？Claude Code×Geminiで 爆益チャート を自動検証して見えた本当の価値。"
-  },
-  {
-   "who": "zunda",
-   "text": "気になるのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "AIにチャートを見せれば、勝てる場所を全部見つけてくれるのでは？ 続きをみる。"
+   "text": "8本目は、SHIFT AI ニュースさんの動画。Gemini Notebookの使い方と業務活用。"
   },
   {
    "who": "metan",
@@ -114,27 +106,27 @@
   },
   {
    "who": "metan",
-   "text": "Zenn ClaudeCode から、Anthropic社目線でのClaude Codeの“勘所”を整理しました。"
+   "text": "Zenn 生成AI から、Temperatureとは？LLMの出力を制御する値。"
   },
   {
    "who": "metan",
-   "text": "Zenn ClaudeCode から、Claude Codeの利用制限でも国試演習を止めない—Codexへのフェイルオーバーを作った。"
+   "text": "Zenn ChatGPT から、秘密を持たないGitミラー pubmir を作った。"
   },
   {
    "who": "metan",
-   "text": "Zenn ClaudeCode から、架空の型番の仕様表をAIに頼んだら、10回とも表は1行も出なかった。実在する規格で同じ頼み方をすると49行以上出た。"
+   "text": "Qiita Claude から、AIで社内ツールは作れた。問題は、それを会社に置けるかだった。"
   },
   {
    "who": "metan",
-   "text": "Zenn ClaudeCode から、AI にホームラボを任せる土台は Tailscale。構成と、実際にハマった7つの罠。"
+   "text": "Qiita Claude から、Claude API の Memory tool memory 20250818 でセッションをまたいで記憶させる実装手順 — API側は何も保存しない・パストラバーサル・指示がないと読みに来ない、3つのハマりどころ 2026。"
   },
   {
    "who": "metan",
-   "text": "Zenn ClaudeCode から、ホームラボを Claude Code に任せて6週間。どこまで任せて、どこで歯止めをきかせるか。"
+   "text": "Qiita 生成AI から、日本語プログラミング言語あおい Aoi 最小セットの検証フェーズ ステップ５ ～線形探索法、二分探索法のC コード生成～。"
   },
   {
    "who": "metan",
-   "text": "Zenn ClaudeCode から、物理ゼロから共通テスト100点を目指す家庭教師を、AIエージェントとGitリポジトリで作っている。"
+   "text": "Qiita 生成AI から、別に汎用生成AIの全てを否定している訳では無いですよ。。"
   },
   {
    "who": "zunda",
@@ -150,7 +142,7 @@
   },
   {
    "who": "zunda",
-   "text": "詳しく聞きたいのだ！"
+   "text": "気になるのだ！"
   },
   {
    "who": "metan",
@@ -198,7 +190,7 @@
   },
   {
    "who": "zunda",
-   "text": "どんな内容なのだ？"
+   "text": "詳しく聞きたいのだ！"
   },
   {
    "who": "metan",
@@ -246,7 +238,7 @@
   },
   {
    "who": "zunda",
-   "text": "へえ、それで？"
+   "text": "どんな内容なのだ？"
   },
   {
    "who": "metan",

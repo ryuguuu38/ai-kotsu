@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22 20:43",
+ "updated": "2026-09-22 12:16",
  "desc_blocked": false,
  "items": [
   {
@@ -171,6 +171,17 @@
   },
   {
    "kind": "youtube",
+   "title": "【作成法2選】GPT-6 Astraで自社スライドをテンプレのまま一発生成",
+   "url": "https://www.youtube.com/watch?v=L7Ig4XlWjzk",
+   "date": "2026-09-22",
+   "author": "SHIFT AI ニュース",
+   "pick": "Claude推薦",
+   "ai": "ChatGPT",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
    "title": "Gemini Notebookの使い方と業務活用",
    "url": "https://www.youtube.com/watch?v=6yxT0oGTzi4",
    "date": "2026-09-22",
@@ -179,6 +190,17 @@
    "ai": "Gemini",
    "chapters": [],
    "summary": ""
+  },
+  {
+   "kind": "note",
+   "title": "【2026/9/14〜9/21】週刊AIニュース《TypeSafe AI「Jev」、Claude Codeのプロジェクト、Gemini 4、「減速で一致」した業界に、5,170億ドルと反トラスト訴訟が出てきた1週間。》",
+   "url": "https://note.com/chaen_channel/n/ne30c2ce0d8ab",
+   "date": "2026-09-22",
+   "author": "チャエン（note）",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "みなさん、こんにちは。チャエンです。（自己紹介はこちら）📣 お知らせ続きをみる"
   },
   {
    "kind": "note",
@@ -435,7 +457,7 @@
   },
   {
    "kind": "youtube",
-   "title": "知らないの勿体無い『Codex App Server』って神機能を解説！",
+   "title": "9割の人は知らない『Codex App Server』って神機能を解説！",
    "url": "https://www.youtube.com/watch?v=4ZZexI0awQk",
    "date": "2026-09-20",
    "author": "KEITO【AI&WEB ch】",
@@ -1896,46 +1918,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": ""
-  },
-  {
-   "kind": "youtube",
-   "title": "【保存版】Google縛りのAI活用ロードマップ5段階を解説【Gemini Notebook／Google AI Studio／Workspace Studio／Spark／Antigravity】",
-   "url": "https://www.youtube.com/watch?v=01tkwkLk0hA",
-   "date": "2026-09-16",
-   "author": "SHIFT AI ニュース",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [
-    {
-     "t": "00:00",
-     "label": "：導入：Google AIだけで完結する「AI活用の5段階」"
-    },
-    {
-     "t": "01:31",
-     "label": "：【レベル1】会話する：Gemini Notebookで自社資料から回答を得る"
-    },
-    {
-     "t": "03:48",
-     "label": "：【レベル2】作らせる：Gemini Canvasで経費仕分けミニツールを作成"
-    },
-    {
-     "t": "05:48",
-     "label": "：【レベル3】つなぐ：Google Workspace Studioで経費申請チェックを自動化"
-    },
-    {
-     "t": "09:27",
-     "label": "：【レベル4】任せる：Gemini Sparkで週次レポート作成を完全自動化"
-    },
-    {
-     "t": "11:51",
-     "label": "：【レベル5】開発させる：Antigravityで自社独自の自動化ツールを開発"
-    },
-    {
-     "t": "14:36",
-     "label": "：本日のまとめ"
-    }
-   ],
-   "summary": "この動画では、チャット型のAI利用から脱却し、Googleが提供するAIツール群のみを用いて業務の自動化を構築する「5段階のロードマップ」を解説します。Gemini NotebookやGemini Canvasによる日常業務の効率化から、Google Workspace StudioやGemini Sparkを用いた自律的な自動化フローの構築、さらにAntigravityを使った自社専用ツールの開発まで、実践的な手順を公開。これらの手法を順に導入することで、社内のAI活用を推進し、手作業の時間を大幅に削減することが"
   },
   {
    "kind": "note",
@@ -5789,17 +5771,6 @@
    "ai": "Gemini",
    "chapters": [],
    "summary": "こんにちは、まじんです。最近、NotebookLMの名称が「Gemini Notebook」に変わりました。NotebookLMという名前に親しみがあったのですが、今後はGemini側に集約する感じなんでしょうね。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "【2026/7/27〜8/3】週刊AIニュース《Kimi K3のオープンウェイト公開、OpenAIとAnthropicの暴走AI事故と、「開放」と「安全」が同じ週に来ました。》",
-   "url": "https://note.com/chaen_channel/n/nfa86970adc2c",
-   "date": "2026-08-06",
-   "author": "チャエン（note）",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "みなさん、こんにちは。チャエンです。（自己紹介はこちら）📣 お知らせ｜Claude Codeで2時間。SEO検索1位を獲ったLPの作り方と、再現用スキル「pro-lp-builder」を全公開しました続きをみる"
   },
   {
    "kind": "note",

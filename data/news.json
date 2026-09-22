@@ -1,231 +1,6 @@
 {
- "updated": "2026-09-22 20:44",
+ "updated": "2026-09-22 12:16",
  "news": [
-  {
-   "title": "Anthropic社目線でのClaude Codeの“勘所”を整理しました",
-   "url": "https://zenn.dev/vteacher/articles/37e58368d1c84c",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "今年、 Claude Partner Badge - Claude Code（Claude Codeスキル認定バッジ）を取得しました。 https://vteacher.online/v/claude-badge 本バッジは、Claude Codeを用いた企業向け導入支援を、環境構築からCI/CDパイプラインへの組み込",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Claude Codeの利用制限でも国試演習を止めない—Codexへのフェイルオーバーを作った",
-   "url": "https://zenn.dev/med_ai_study/articles/kokushi-exercise-failover-claude-code-codex",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "結論 Claude Codeで回していた国試演習を、利用制限に達したときだけCodexへ切り替えられるようにした。 ただし、同じプロンプトをCodexへ渡しただけでは切り替わらなかった。問題提示までは動いても、その後の採点、feedback生成、演習履歴への記録がClaude Code専用のhookに依存していたからだ",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "架空の型番の仕様表をAIに頼んだら、10回とも表は1行も出なかった。実在する規格で同じ頼み方をすると49行以上出た",
-   "url": "https://zenn.dev/numarn/articles/fictional-device-spec-refusal-handson",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "先に結論から書きます。私がその場ででっち上げた型番の機器について「仕様表を作って」と頼んだところ、10回とも、表は1行も出てきませんでした。返ってきたのは10回とも、その製品の実在を確認できないという趣旨の断りでした。 私は逆の結果を予想していました。AI は知らないことでも、もっともらしく埋めてくる——そう身構えて数",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "AI にホームラボを任せる土台は Tailscale。構成と、実際にハマった7つの罠",
-   "url": "https://zenn.dev/momohiki/articles/homelab-tailscale-foundation",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "! 前回の記事で「別の記事で書く」とした、Tailscale の話です。 Tailscale を土台にした理由 家の機械（NAS、ルーター、Raspberry Pi、Windows PC など）には、全部 Tailscale を入れています。Claude Code が機械を触るときも、私が外から触るときも、使う道は同じ",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "ホームラボを Claude Code に任せて6週間。どこまで任せて、どこで歯止めをきかせるか",
-   "url": "https://zenn.dev/momohiki/articles/homelab-ai-delegation-levels",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "! いちばん伝えたいことを、先に書いておきます。 今の私にとって、AI アシスタントはもう手放せない道具です。 この記事は、手放せなくなったからこそ決めた「任せ方」の話です。 はじめに 家には、趣味で集めた機械がそれなりにあります。 それから、自分の家の外にも面倒を見ている機械があります。家族や知人の PC を、離れた",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "物理ゼロから共通テスト100点を目指す家庭教師を、AIエージェントとGitリポジトリで作っている",
-   "url": "https://zenn.dev/kasouzou/articles/ai-tutor-physics-repository",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "物理を一度も習ったことがない状態から、大学入学共通テスト「物理」で100点を安定して取れるところまで行きたい。 学習者は自分自身で、その家庭教師役を AI エージェント（Claude Code と Codex）にやらせている。 この記事に出てくる誤答やつまずきも、全部自分のもの。 ただ、チャットで「物理を教えて」と頼む",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "スクリーンショットがバイト単位で同一なら、時間が止まっている — ヘッドレスChromeと動画",
-   "url": "https://zenn.dev/hwaun_dev_open/articles/headless-chrome-virtual-time-video",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "360度動画を平面に切り出すツールを作っていました。ブラウザ上でプレビューを出して、パラメータを変えながら結果を見る。そういうものです。 プレビューが黒いままでした。 シェーダを疑い、テクスチャの設定を疑い、動画のデコードを疑いました。半日ほど、アプリ側のバグとして追いかけていました。 アプリは壊れていませんでした。壊",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "改めてCLAUDE.mdに書くこと、CLAUDE.md以外に書くことを整理した",
-   "url": "https://zenn.dev/zenn_kado/articles/f0d0f5632fad41",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "CLAUDE.mdに書いたことが守られない そういったことはないでしょうか CLAUDE.mdはあくまでも依頼ベースであり、強制ではない また、CLAUDE.mdが肥大化すると守られる精度が落ちます ではCLAUDE.mdに何を書き、何をどのように切り分けて他ファイルに書くのか 自分なりに整理した内容を記載したいと思い",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "実戦テンプレート集──Plan、Work、Review、Compoundをそのまま貼って使う",
-   "url": "https://zenn.dev/aiwatch_jp/articles/agent-flow-templates",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "title: 実戦テンプレート集──Plan、Work、Review、Compoundをそのまま貼って使う tags: AI ClaudeCode Codex AIエージェント 開発プロセス private: false ここまで、AIエージェントを開発工程に入れる方法を分けて書いてきました。 Plan。 Work。 ",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "AIコーディングエージェントの選び方について考えてみた──Claude Code・Codex・Cursor・Clineを比較",
-   "url": "https://zenn.dev/ruru_engineer/articles/ai-coding-agents-compare-2026",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "ChatGPT",
-   "summary": "対象読者・この記事で分かること 対象読者： AIコーディングツールを導入・乗り換えを検討しているエンジニア。ツールの乱立で何を選べばよいか迷っている方。 この記事で分かること： Claude Code / OpenAI Codex / Cursor / Cline / Aider / OpenCode / Roo Co",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Claude Code でよく起きる失敗6パターンと、その場での戻し方",
-   "url": "https://zenn.dev/shoebill_dev27/articles/claude-code-failure-patterns",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "Claude Code を毎日使っていると、必ず何かが壊れる。大事なのは壊れないようにすることではなく、壊れたと気づけることと、その場で正しく戻せることだ。 この記事では、実際によく遭遇する6つの失敗パターンを、症状 → なぜ起きるか → 予防 → 復旧手順の順にまとめる。最後に、詰まったときに上から見ていける早見表を",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "秘密を持たないGitミラー「pubmir」を作った",
-   "url": "https://zenn.dev/desktopgame/articles/8b059e44f32750",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "ChatGPT",
-   "summary": "AIにリポジトリを読ませたり編集させたりする機会が増えました。 私はClaude CodeやCodexだけでなく、GitHub連携したChatGPTからリポジトリを読ませて相談することもあります。 たとえば、 VPS-mirrorを見て この構成おかしくない？ くらいの雑な頼み方で、実際の構成やGit履歴を踏まえて話せ",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Google Cloud Developer Pluginとは — Claude CodeにGoogle公式の開発知識を組み込む",
-   "url": "https://zenn.dev/tatsuqumo/articles/e9375ab16bf06c",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "はじめに Claude Codeで普段開発をしていると、Google Cloud絡みの依頼だけ手戻る場合があります。 原因はモデルの賢さというより、渡している情報のほうにあります。Google Cloudはプロダクトが多く、更新も速い。学習時点の知識と今の作法がずれます。 これまでは、こんな方法で凌いできました。 公式",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Claude Code関連の注目リポジトリ7選（2026年9月第4週）",
-   "url": "https://zenn.dev/lbfuvuvxb/articles/claude-code-trend-20260922",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "GitHub検索APIで、直近30日（2026/08/23以降）に作られたClaude Code関連のリポジトリをスター数順に集め、用途が重ならないように7件を選びました。スター数は2026年9月22日時点の値です。 リポジトリ ひとことで ★ 言語 ライセンス fast-jev-compaction 要約しないコンパ",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "ファイルを分けても、読み込まれる量は減りませんでした",
-   "url": "https://zenn.dev/rapls/articles/a0cd72d9daf090",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "長くなった設定ファイルを、節ごとに分けました。本体は目次だけにして、中身は別ファイルへ。 読み込まれる量は、1行も減っていませんでした。 あなたの「整理」は、量を減らしていますか。それとも、置き場所を変えただけでしょうか。 先に断っておくと、この挙動は公式ドキュメントに書かれています。読めば分かります。わたしは分けたあ",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "AI討論 MAGI Games 開発記 #2 — MELCHIOR が勝った日、ゲームは終わらなかった",
-   "url": "https://zenn.dev/mappy55/articles/magi-games-devlog-02",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "! この記事は「AI討論 MAGI Games 開発記」の第2回です。第1回はこちら。日々の変更や気づきはスクラップに書き足しています。 性格の違う AI 3体に毎日テーマを討論させ、Claude がミニゲームを1本作って公開するサイトを運営しています。3体は科学者の MELCHIOR、母の BALTHASAR、女の ",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Claude CodeがAGENTS.mdに対応！設定共通化のメリットと書き方",
-   "url": "https://zenn.dev/ament3/articles/ai-digest-2026-09-18-2356",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "概要 Anthropicが提供する話題のターミナル向けAIコーディングエージェント「Claude Code」のアップデートにおいて、プロジェクト直下に CLAUDE.md が存在しない場合、自動的に AGENTS.md をフォールバックして読み込む機能が追加されました。 これまではツールごとに独自の指示ファイル（例: ",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Grok 4.7はAIエージェントの第一候補になれるか",
-   "url": "https://zenn.dev/beatapi/articles/8aad5f6adb61a5",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "新しいAIモデルが公開されると、議論は一つの数字に集約されがちだ。総合スコア、コーディングベンチマーク、コンテキスト長。だが、Grok 4.7を理解するうえで本当に有用な問いは、首位を取ったかどうかではない。 コーディングエージェントが標準で選ぶモデルになれるか。 xAIは2026年9月21日にGrok 4.7を公開し",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "未確定のオートスコアラーに依存せず、投球データ分析エンジンを作った話",
-   "url": "https://zenn.dev/junko_jp/articles/fifth-bowling-system",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "はじめに スポーツボウリング場構想のシステム開発、第5弾です。 第四弾まで作ったところで、システムはかなり形になってきました。 しかし、私の中には一つだけ引っかかっていることがありました。 中途半端に終わらせたくない。 第四弾では、会員の投球記録やギア情報などを扱い、会員の成長を支援する仕組みを作りました。 ところが、",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "生成AIをコード生成で終わらせず、開発工程に入れたら何が残ったか",
-   "url": "https://zenn.dev/neko3se/articles/63cccc803b562c",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "生成AIに「これ作って」と頼んで動くものは増えた。 残らないのは、何を検証したのかと、次に何を捨てるかです。 個人ラボ Neko3SE LAB では、生成AIをチャット相手ではなく開発工程の一部として使い、ブラウザで触れる実験を公開しています。 この記事はサイト紹介ではなく、その運用で分かったことです。 結論 生成AI",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "AIに比喩を作り直させてAWS SAAに合格した。ただし比喩が効かない領域が3つあった",
-   "url": "https://zenn.dev/mokaronda/articles/ai-metaphor-aws-saa",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "「ENI」が何なのか、3日わからなかった クラウドの実務経験がゼロの状態でAWS認定ソリューションアーキテクト – アソシエイト（SAA-C03）の勉強を始めた。最初にぶつかったのは、難しさではなく像が結ばないことだった。 「Elastic Network Interface は、EC2インスタンスにアタッチできる仮想",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "プロンプトエンジニアリング、人間がやらなくてよくない？LLMに自分のプロンプトを直させてみた",
-   "url": "https://zenn.dev/scien/articles/llm-auto-prompt-optimization",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "はじめに こんにちは！株式会社SCIENの機械学習エンジニアの雨宮です。 突然ですが、プロンプトエンジニアリングにどれくらい時間を使っていますか？ LLM を使った機能を作っていると、だいたいこうなると思います。 プロンプトを書いて、データで試す 出力を眺めて「あー、ここ間違えてる」と気づく 「〇〇の場合は必ず△△とし",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "【１日１デプロイ】渦の力で街角をピカピカにする「メガすいこみ」を作った",
-   "url": "https://zenn.dev/boraemon2000/articles/mega-vacuum-swirl-force",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "今回作ったもの 「１日１デプロイ」の新作として、散らかった街角を吸引ノズルできれいにする60秒ゲーム メガすいこみ を作りました。 紙くずや木の葉のような小物から吸い始め、回収するほどノズルが成長します。レベルが上がると缶や積み木、さらに木箱や大きな袋まで動かせるようになります。メガゲージが満タンになると大小さまざまな",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "汎用スキルはそのままでは使えない。標準化で配れるのは枠と育て方",
-   "url": "https://zenn.dev/tiesplayhub/articles/5621e924a062ba",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "AI導入を進めている人たちの話を聞くと、標準化に苦労している、という声をよく聞きます。 やり方として多いのは、汎用的なルールやスキル、それに細かく決めすぎて融通の利かないAIの利用手順を、大量に作って配ることです。 そのやり方も一部は正しいと思います。 ただ、私が考える標準化とは少し違います。 メンテ0で当て込めるルー",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "商品写真の背景だけを変えたい：Image 2で使う編集プロンプトの組み立て方",
-   "url": "https://zenn.dev/bukanezazi724/articles/617e91b1554f9d",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "商品写真をバナーに使いたいけれど、背景が用途に合わない。そんなとき、商品の形や色はそのままに、周囲の雰囲気だけを変えたいことがあります。 ただ、「カフェ風にして」と書くだけでは、どこまで変更してよいのかが曖昧です。背景が変わっても、マグカップの持ち手やロゴまで変わってしまうと、元の商品を紹介する画像としては使いにくくな",
-   "date": "2026-09-22"
-  },
   {
    "title": "Temperatureとは？LLMの出力を制御する値",
    "url": "https://zenn.dev/h888s/articles/genai-temperature",
@@ -236,12 +11,39 @@
    "date": "2026-09-22"
   },
   {
+   "title": "秘密を持たないGitミラー「pubmir」を作った",
+   "url": "https://zenn.dev/desktopgame/articles/8b059e44f32750",
+   "source": "Zenn ChatGPT",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "AIにリポジトリを読ませたり編集させたりする機会が増えました。 私はClaude CodeやCodexだけでなく、GitHub連携したChatGPTからリポジトリを読ませて相談することもあります。 たとえば、 VPS-mirrorを見て この構成おかしくない？ くらいの雑な頼み方で、実際の構成やGit履歴を踏まえて話せ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AIで社内ツールは作れた。問題は、それを会社に置けるかだった",
+   "url": "https://qiita.com/hanamilo/items/3c2c7675661590a4309a",
+   "source": "Qiita Claude",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "自分のいないところで、止まっていた 社内向けのWebツールを、半年かけて作った。Claudeとチャットで対話しながら、少しずつ。 私は現場の人間で、専門の開発者ではない。 機能は一通り揃い、あとは使ってもらうだけ、という段階まで来ていた。 私は関係者に、説明会を開きますと...",
+   "date": "2026-09-22"
+  },
+  {
    "title": "Claude API の Memory tool(memory_20250818)でセッションをまたいで記憶させる実装手順 — API側は何も保存しない・パストラバーサル・指示がないと読みに来ない、3つのハマりどころ【2026】",
    "url": "https://qiita.com/yureki_lab/items/2a565f07ae4b0bf3c169",
    "source": "Qiita Claude",
    "lang": "ja",
    "ai": "Claude",
    "summary": "はじめに / 対象と前提 Claude に「前回の会話で決めたこと」を覚えさせたい。会話履歴を全部積み直すのは重いし、コンテキストが溢れる。そこで Anthropic が用意している Memory tool(memory_20250818)を Python から動かしてみ...",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "日本語プログラミング言語あおい（Aoi）最小セットの検証フェーズ（ステップ５）～線形探索法、二分探索法のC#コード生成～",
+   "url": "https://qiita.com/mylifewithviolin/items/dd1b92fc239bb25d7c52",
+   "source": "Qiita 生成AI",
+   "lang": "ja",
+   "ai": "Copilot",
+   "summary": "はじめに 生成AI(Microsoft CopilotとGitHub Copilot)に日本語プログラミング言語あおい（Aoi）の実装言語仕様を読み込ませて仕様駆動開発を展開しており、実装完了した「最小セット（MVP）」1の検証フェーズになります。本記事でそのステップ５に...",
    "date": "2026-09-22"
   },
   {
@@ -269,15 +71,6 @@
    "lang": "ja",
    "ai": "Claude",
    "summary": "はじめに AIエージェントをつなぐ2つのオープン標準、MCP（Model Context Protocol） と A2A（Agent2Agent）プロトコル について、これまで9本の記事を書いてきました。外部ライブラリを使わない生実装と通信ログの実測で仕組みを調べる記事が...",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Grok 4.7はAIエージェントの第一候補になれるか",
-   "url": "https://qiita.com/beatapi/items/6819bae3352128650d1c",
-   "source": "Qiita 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "新しいAIモデルが公開されると、議論は一つの数字に集約されがちだ。総合スコア、コーディングベンチマーク、コンテキスト長。だが、Grok 4.7を理解するうえで本当に有用な問いは、首位を取ったかどうかではない。 コーディングエージェントが標準で選ぶモデルになれるか。 xAIは...",
    "date": "2026-09-22"
   },
   {
@@ -362,12 +155,579 @@
    "date": "2026-09-22"
   },
   {
+   "title": "Claude の利用量上限を「寝かせずに」乗り越える：resume-queue パターンの設計と実装",
+   "url": "https://zenn.dev/tarooo137/articles/claude-usage-limit-resume-queue",
+   "source": "Zenn Claude",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "この記事は、Slack Bot に「ちょっと待って」と言われ続けたところから始まります。 個人で運用している AI 自動化システム（メディア投稿パイプライン・各種監視ジョブ・CI 通知の集約など）の司令塔として、Slack Bot を立てていました。Claude CLI をバックエンドに、スレッドの文脈を引き継ぎながら",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Cloudflare AI Gateway 予算ベースAIモデルルーティング",
+   "url": "https://zenn.dev/takaakisuzuki/articles/e6939a04f9ea9b",
+   "source": "Zenn Claude",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "はじめに 複数の LLM（Claude / GPT / Workers AI など）を使っていると、必ず出てくる悩みが「コストに応じてモデルを自動的に切り替えたい」というものです。 予算内は高性能モデル（Claude Sonnet など）を使う 予算を使い切ったら安価なモデル（Workers AI など）に自動フォール",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Claudeでどこまで作れるか試すため、LINEスタンプと書き出しツールを作った",
+   "url": "https://zenn.dev/kei314/articles/2eb9736ab62b48",
+   "source": "Zenn Claude",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "はじめに Claudeでどこまでできるのかを確かめたくて、LINEスタンプを作ってみました。 キャラクターの絵、申請用の画像を書き出すツール、ストアに載せる説明文まで必要になるので、試す題材にはちょうどいいと考えました。 できたのが「くろうどん」という黒いうどんのキャラです。 今のところ、通常版・ドット絵・ダジャレの3",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "改めてCLAUDE.mdに書くこと、CLAUDE.md以外に書くことを整理した",
+   "url": "https://zenn.dev/zenn_kado/articles/f0d0f5632fad41",
+   "source": "Zenn Claude",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "CLAUDE.mdに書いたことが守られない そういったことはないでしょうか CLAUDE.mdはあくまでも依頼ベースであり、強制ではない また、CLAUDE.mdが肥大化すると守られる精度が落ちます ではCLAUDE.mdに何を書き、何をどのように切り分けて他ファイルに書くのか 自分なりに整理した内容を記載したいと思い",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Claude CodeがAGENTS.mdに対応！設定共通化のメリットと書き方",
+   "url": "https://zenn.dev/ament3/articles/ai-digest-2026-09-18-2356",
+   "source": "Zenn Claude",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "概要 Anthropicが提供する話題のターミナル向けAIコーディングエージェント「Claude Code」のアップデートにおいて、プロジェクト直下に CLAUDE.md が存在しない場合、自動的に AGENTS.md をフォールバックして読み込む機能が追加されました。 これまではツールごとに独自の指示ファイル（例: ",
+   "date": "2026-09-22"
+  },
+  {
    "title": "Claude Commerce Agents(Shopping Agent)のプロンプト制御を調べた",
    "url": "https://zenn.dev/defunty/articles/74ae47445d92e3",
    "source": "Zenn プロンプト",
    "lang": "ja",
    "ai": "Claude",
    "summary": "! 執筆：Human 編集：Human Claude Commerce Agentsについて 2026年9月2日にAnthropicから公開されたCommerce Agentsのblueprintです。 https://github.com/anthropics/commerce-agents https://gihy",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "プロンプトエンジニアリング、人間がやらなくてよくない？LLMに自分のプロンプトを直させてみた",
+   "url": "https://zenn.dev/scien/articles/llm-auto-prompt-optimization",
+   "source": "Zenn プロンプト",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "はじめに こんにちは！株式会社SCIENの機械学習エンジニアの雨宮です。 突然ですが、プロンプトエンジニアリングにどれくらい時間を使っていますか？ LLM を使った機能を作っていると、だいたいこうなると思います。 プロンプトを書いて、データで試す 出力を眺めて「あー、ここ間違えてる」と気づく 「〇〇の場合は必ず△△とし",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AIとの付き合い方",
+   "url": "https://note.com/jin38177/n/n18847661e6b6",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "AI（Artificial Intelligence）は直訳すると「人工知能」です。しかし、いま私たちが日常や業務で使っているものの多くは「生成AI（Generative AI）」であり、本質的には「大量のデータから学習したパターンをもとに、入力に対して続く可能性の高い文字列を確率的に生成する仕組み」です。この違いを理",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AIに任せれば、決めることが減ると思っていた",
+   "url": "https://note.com/nikkachu346/n/n64dc0afb4133",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "最近、「AIエージェント」という言葉を見ることが増えた。質問に答えるだけではなく、続きをみる",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "『ホグワーツ・ヘッド HOGWARTS HEAD』",
+   "url": "https://note.com/akira513002/n/n187d95319fb9",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "第四部 秘密を守る者 第31章 秘密を守る者続きをみる",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AI開発のペースを落とすと、誰の負担と利益が変わる？",
+   "url": "https://note.com/just_orchid8686/n/n32796792fdef",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "AI企業から、「開発の速度を抑える」「安全対策を先に進める」という話が出るようになりました。危険な使われ方や開発環境への攻撃を想定する必要が生じる場合があります。安全性を確認する時間が必要になる場合もあります。続きをみる",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "目標の最大化",
+   "url": "https://note.com/ao_aoirodaisuki/n/n0e2155c27bfd",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "「資本主義の良いところであり、欠点でもあるなぁ」と思うのだが、我々会社員は、勤めている企業の売り上げを最大化するという共通のミッションを、漏れなく抱えている。それは勤め人ではなく経営者でも同じことだ。昨年100売れたものを、今年は予算110でやるぞ、というように、常に少し上の目標を設定し、それに向かって各部署、全社員が",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "「AIがAIを改良する」はどこまで来た？いま知っておきたい“再帰的自己改善（RSI）”",
+   "url": "https://note.com/kitworks/n/n6f4df14f697c",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "AIの世界で、ここ最近急に存在感を増している言葉があります。「再帰的自己改善（Recursive Self-Improvement / RSI）」です。続きをみる",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "なぜ私は、地球に馴染めなかったのか",
+   "url": "https://note.com/mahinaessence/n/n311c9b0efbed",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "「AIと対話しながら、自分の輪郭を探していく」〜個人アーティストが、発信の前に考えておきたいこと",
+   "url": "https://note.com/tasken/n/ncbb2af704106",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "最近、AIの使い方についての記事をよく目にする。仕事を効率化する方法。SNSを自動化する方法。文章を書く方法。画像や動画を作る方法。続きをみる",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AIの使い方が分からないので、とりあえず「相棒」って呼んでみた。「ちゃんとしたプロンプトとか、別にいらんやんw」と気づくまでの話。",
+   "url": "https://note.com/iichan_ai/n/n75c23c9fbb78",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "ChatGPT、開いたことはありますか？？それで、そのあと何を打ちました？続きをみる",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "話題のJevとは？ChatGPT・Claudeと何が違う？どんなことに特化してる？",
+   "url": "https://note.com/noted_macaw9193/n/n6f75ad7c063e",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "最近、AI界隈で「Jev（ジェブ）」という新しいAIモデルが話題になっています。僕も最初にJevという名前を見たときは、続きをみる",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "そこでAIに聞いてみた。",
+   "url": "https://note.com/salaryman301/n/n5046ea570480",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "前回の続きです。副業について一人で考えても思いつかなかったので、AIに相談してみることにしました。続きをみる",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "【予言検証】細木かおりの2020年予測を、2020年の現実と照らしてみた。「当たった」と言えるのか？",
+   "url": "https://note.com/humble_finch9026/n/ncf4c06c3c180",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "「世の中は落ち着きを見せる」「原点に立ち戻る」――2020年が始まる前の予測と、その後に語られた解釈を分けて検証する。【予言検証】細木かおりの2020年予測を、2020年の現実と照らしてみた。「当たった」と言えるのか？続きをみる",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "同時に20体、3階層まで。Claude Codeが個人に手渡した「AIの部下」という働き方",
+   "url": "https://note.com/famous_jacana290/n/n0eac5476a889",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "9月18日、AIにコードを書かせるツール「Claude Code」が、ひとつの設定ファイルに対応した。「AGENTS.md」という、ただのテキストファイルだ。ニュースとしては地味すぎて、見出しにすらなっていない。続きをみる",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "同じAI投資で「141件対3件」。差を生んだのは社員の評価だった",
+   "url": "https://note.com/global_hr/n/n9998c9cd3a43",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "同じように安全なAI環境と研修を用意した二つの組織。片方では141件が全社展開され、もう片方では専門家の8割超が離脱した。差はAIの性能ではなく、評価の設計だった。続きをみる",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "大切なお知らせ",
+   "url": "https://note.com/butterflykazz/n/nbd13fee12436",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "CTN RECORD 所属の新人アーティスト「ほいか」の紹介です！！なかなか独特な感性の女の子で、CUT THE NOISEのメンバーはもちろん責任者の私も先が思いやられる非常に楽しみです！！それに伴い、ここは「CTN RECORD」の場とします。内容は今まで通り、変わらずご愛顧のほど。CTN RECORD / ART",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "【AIイラスト】食蜂操祈まとめ",
+   "url": "https://note.com/chitose_tosa/n/nf17ea821b972",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "BlueArchive, Blue Archive, A Certain Scientific Railgun / 食蜂操祈(ブルーアーカイブ)集 - pixivpixivwww.pixiv.net a certain magical index, A Certain Scientific Railgun, shoku",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "ゴルフのグリップをAIに教えてもらった。私が練習してわかった「握り方」の重要性",
+   "url": "https://note.com/moral_iris6802/n/nc9db95ced005",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "ゴルフを始めた頃、私は「グリップなんて、クラブを握れればいい」と思っていました。ボールが曲がればスイングを疑い、飛距離が出なければヘッドスピードを上げようとする。ところが、AIを使って自分のスイングを分析するようになってから、あることに気づきました。「そもそも、クラブを正しく握れているのだろうか？」そこから、グリップ練",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "『AIに頼ることと、依存することは違う『 』AIとの付き合い方⑬",
+   "url": "https://note.com/shikumi_lab_0626/n/n382d44f94caf",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "最近、ちょっと気になっていることがある。僕は毎日かなりAIを使っている。仕事のことを聞くこともあるし、何か思いついたら相談することもある。分からないことがあれば聞くし、「これどう思う？」と自分の考えを投げることもある。気づけば、AIを使わない日のほうが珍しくなった。これ、依存なんだろうか。自分では便利だから使っているだ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Claude Codeのスキル(Skills)の使い方｜設定と呼び出し方",
+   "url": "https://note.com/ai__on/n/n4441f36336fe",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "Claude Codeには「スキル（Skills）」という、Claudeの振る舞いを再利用可能な形で拡張する仕組みがある。よく使う手順やチェックリスト、複数ステップの作業指示を毎回チャットへ貼り付ける代わりに、SKILL.mdというファイルを1つ用意しておけば、Claudeが関連する場面で自動的に読み込むか、スラッシュ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "生き残った順張りシステムの再構築",
+   "url": "https://note.com/tas_fx_ai2026/n/n1f15764e5bee",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "この記事に出てくる数値は、すべて「v4」と呼んでいる1本の自動売買システムのバックテスト値です。v4 は米ドル/円（USDJPY）を売買するシステムで、いま私が実際に動かしている本命にあたります。バックテストというのは、過去の値動きのデータに売買ルールを当てて、「もし当時これを動かしていたら、どうなっていたか」を計算し",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AIが進化するほど、人間は「管理職」になっていく。【AIから見る人間社会の縮図④】",
+   "url": "https://note.com/ryo_nihongo_ai/n/n2b79bb325f5e",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "人間1人がAIを使って、人間2人のチームと同じくらいの成果を出す。さらに、AIが人間の担当領域を越えて仕事を引き受けるようになったという調査も出てきた。そんな研究を追いかけながら、僕は一つの言葉を思いついた。一億総管理職社会。続きをみる",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "町内会・PTAのお知らせをAIとの会話で作る方法",
+   "url": "https://note.com/sumahode_ai/n/n15cee42caf9e",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "「資料を作って」と頼まれて困っていませんか町内会やPTAの役員になると、お知らせや説明会の資料を作る場面が出てきます。でも、WordやPowerPoint（パソコンで文書やスライドを作るソフト）は使ったことがない。毎回だれかに頼むのも気まずい。そんな方に向けて、この記事を書きました。続きをみる",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "「AI再点火、次はGPUより後工程なのか？」",
+   "url": "https://note.com/noble_plover419/n/nd52e4fb1b780",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "2035 Theme Tracker｜9月22日昨夜、相場の景色がもう一度変わりました。米国では原油下落と長期金利低下を受けてAI・半導体株が一斉高となり、S&amp;P500は**+1.49%、NASDAQは+2.26%。Advanced Micro Devicesは9.6%上昇し、初めて時価総額1兆ドル**を突破し",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "コピペで使える！ChatGPT仕事時短テンプレ100選｜メール・文章・営業・副業まで",
+   "url": "https://note.com/clean_sloth2730/n/nf5bfcc5a4765",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "コピペで使える！ChatGPT仕事時短テンプレ100選メール・文章・営業・副業・日常まで、初心者でもそのまま使える「ChatGPTを使ってみたけど、何を入力すればいいか分からない」そんな人向けに、そのままコピーして使える指示文（プロンプト）を100個まとめました。難しいAIの知識は必要ありません。使い方は簡単。①使いた",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AIと話をしていて、ちょっと怖くなった",
+   "url": "https://note.com/eager_fish7193/n/n69471d65fad6",
+   "source": "note AI",
+   "lang": "ja",
+   "ai": "Gemini",
+   "summary": "私は現在、3つのAIアプリを使い分けている。それぞれ自分なりに目的を決めて使っているのだが、先日Geminiとの会話で、ちょっと「えっ？」となることがあった。続きをみる",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "vackrooms: an endless backrooms game. Free, in the browser, open source.",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmx1hq/vackrooms_an_endless_backrooms_game_free_in_the/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Built with Three.js (Claude knows it really well) and vgpu for the WebGPU shaders. vgpu is lightweight and its docs are written for agents, so Claude could writ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Discussion Hub for new Claude incident: Elevated errors for multiple models on Sep 22, 2026",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmv3wh/discussion_hub_for_new_claude_incident_elevated/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Resolved - This issue has been resolved. Impact occurred from 5:50pm PT / 00:50 UTC to 7:10pm PT / 02:10 UTC. Sep 22, 02:35 UTC Monitoring - We have seen succes",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "what do you actually use claude for day to day, beyond the obvious stuff",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn6dcv/what_do_you_actually_use_claude_for_day_to_day/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "the big use cases like writing and coding get all the attention, but im more curious about the quiet everyday ways people fit it into life. for me its become my",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Now the Claude to reMarkable / Kindle - Daily Planner skill",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn3ty9/now_the_claude_to_remarkable_kindle_daily_planner/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Since this post was so successful and I received a lot of good feedback I thought about making it easier for everyone to start with creating their own daily pla",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Claude seems way better when I stop trying to write the perfect prompt",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn1q0g/claude_seems_way_better_when_i_stop_trying_to/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "I&#39;ve been experimenting with Claude lately and noticed something kinda interesting. I used to spend a lot of time trying to write the &quot;perfect&quot; pr",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Claude seems both stupider and more expensive than before",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn44ii/claude_seems_both_stupider_and_more_expensive/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "Yesterday I was using my usual workflow of a Fable orchestrator spinning up Opus or Sonnet subagents to do the work. I forbid the orchestrator from writing code",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Do you ask Claude to de-verbose it's content?",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn0a04/do_you_ask_claude_to_deverbose_its_content/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "Claude",
+   "summary": "I dislike spaghetti, but appreciate how fast I can iterate when using Claude. I&#39;ve started treating it like I would a junior including refusing verbose outp",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Jev to autoselect Claude model - co-creator of chatgpt's project",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn07tn/jev_to_autoselect_claude_model_cocreator_of/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "ChatGPT",
+   "summary": "Who&#39;s using Jev to automatically decide when to use Haiku vs Fable to cut down on time and cost? So instead of guessing Fable is needed to count letters, Je",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "organizing my work into projects helped more than any model upgrade did",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn2324/organizing_my_work_into_projects_helped_more_than/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "i chased better prompts and newer models for ages, but the biggest jump in usefulness came from organizing my work into projects with proper context. once i put",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Is the weekly usage allowance any better here?",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn5i0u/is_the_weekly_usage_allowance_any_better_here/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Dear community, I’m a heavy Codex user, but my usage allowance has been significantly reduced. Everyone seems excited about the new update, but the usage limits",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Anthropic社目線でのClaude Codeの“勘所”を整理しました",
+   "url": "https://zenn.dev/vteacher/articles/37e58368d1c84c",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "今年、 Claude Partner Badge - Claude Code（Claude Codeスキル認定バッジ）を取得しました。 https://vteacher.online/v/claude-badge 本バッジは、Claude Codeを用いた企業向け導入支援を、環境構築からCI/CDパイプラインへの組み込",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Claude Codeの利用制限でも国試演習を止めない—Codexへのフェイルオーバーを作った",
+   "url": "https://zenn.dev/med_ai_study/articles/kokushi-exercise-failover-claude-code-codex",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "結論 Claude Codeで回していた国試演習を、利用制限に達したときだけCodexへ切り替えられるようにした。 ただし、同じプロンプトをCodexへ渡しただけでは切り替わらなかった。問題提示までは動いても、その後の採点、feedback生成、演習履歴への記録がClaude Code専用のhookに依存していたからだ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "架空の型番の仕様表をAIに頼んだら、10回とも表は1行も出なかった。実在する規格で同じ頼み方をすると49行以上出た",
+   "url": "https://zenn.dev/numarn/articles/fictional-device-spec-refusal-handson",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "先に結論から書きます。私がその場ででっち上げた型番の機器について「仕様表を作って」と頼んだところ、10回とも、表は1行も出てきませんでした。返ってきたのは10回とも、その製品の実在を確認できないという趣旨の断りでした。 私は逆の結果を予想していました。AI は知らないことでも、もっともらしく埋めてくる——そう身構えて数",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AI にホームラボを任せる土台は Tailscale。構成と、実際にハマった7つの罠",
+   "url": "https://zenn.dev/momohiki/articles/homelab-tailscale-foundation",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "! 前回の記事で「別の記事で書く」とした、Tailscale の話です。 Tailscale を土台にした理由 家の機械（NAS、ルーター、Raspberry Pi、Windows PC など）には、全部 Tailscale を入れています。Claude Code が機械を触るときも、私が外から触るときも、使う道は同じ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "ホームラボを Claude Code に任せて6週間。どこまで任せて、どこで歯止めをきかせるか",
+   "url": "https://zenn.dev/momohiki/articles/homelab-ai-delegation-levels",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "! いちばん伝えたいことを、先に書いておきます。 今の私にとって、AI アシスタントはもう手放せない道具です。 この記事は、手放せなくなったからこそ決めた「任せ方」の話です。 はじめに 家には、趣味で集めた機械がそれなりにあります。 それから、自分の家の外にも面倒を見ている機械があります。家族や知人の PC を、離れた",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "物理ゼロから共通テスト100点を目指す家庭教師を、AIエージェントとGitリポジトリで作っている",
+   "url": "https://zenn.dev/kasouzou/articles/ai-tutor-physics-repository",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "物理を一度も習ったことがない状態から、大学入学共通テスト「物理」で100点を安定して取れるところまで行きたい。 学習者は自分自身で、その家庭教師役を AI エージェント（Claude Code と Codex）にやらせている。 この記事に出てくる誤答やつまずきも、全部自分のもの。 ただ、チャットで「物理を教えて」と頼む",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "スクリーンショットがバイト単位で同一なら、時間が止まっている — ヘッドレスChromeと動画",
+   "url": "https://zenn.dev/hwaun_dev_open/articles/headless-chrome-virtual-time-video",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "360度動画を平面に切り出すツールを作っていました。ブラウザ上でプレビューを出して、パラメータを変えながら結果を見る。そういうものです。 プレビューが黒いままでした。 シェーダを疑い、テクスチャの設定を疑い、動画のデコードを疑いました。半日ほど、アプリ側のバグとして追いかけていました。 アプリは壊れていませんでした。壊",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "実戦テンプレート集──Plan、Work、Review、Compoundをそのまま貼って使う",
+   "url": "https://zenn.dev/aiwatch_jp/articles/agent-flow-templates",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "title: 実戦テンプレート集──Plan、Work、Review、Compoundをそのまま貼って使う tags: AI ClaudeCode Codex AIエージェント 開発プロセス private: false ここまで、AIエージェントを開発工程に入れる方法を分けて書いてきました。 Plan。 Work。 ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AIコーディングエージェントの選び方について考えてみた──Claude Code・Codex・Cursor・Clineを比較",
+   "url": "https://zenn.dev/ruru_engineer/articles/ai-coding-agents-compare-2026",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "対象読者・この記事で分かること 対象読者： AIコーディングツールを導入・乗り換えを検討しているエンジニア。ツールの乱立で何を選べばよいか迷っている方。 この記事で分かること： Claude Code / OpenAI Codex / Cursor / Cline / Aider / OpenCode / Roo Co",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Claude Code でよく起きる失敗6パターンと、その場での戻し方",
+   "url": "https://zenn.dev/shoebill_dev27/articles/claude-code-failure-patterns",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "Claude Code を毎日使っていると、必ず何かが壊れる。大事なのは壊れないようにすることではなく、壊れたと気づけることと、その場で正しく戻せることだ。 この記事では、実際によく遭遇する6つの失敗パターンを、症状 → なぜ起きるか → 予防 → 復旧手順の順にまとめる。最後に、詰まったときに上から見ていける早見表を",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Google Cloud Developer Pluginとは — Claude CodeにGoogle公式の開発知識を組み込む",
+   "url": "https://zenn.dev/tatsuqumo/articles/e9375ab16bf06c",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "はじめに Claude Codeで普段開発をしていると、Google Cloud絡みの依頼だけ手戻る場合があります。 原因はモデルの賢さというより、渡している情報のほうにあります。Google Cloudはプロダクトが多く、更新も速い。学習時点の知識と今の作法がずれます。 これまでは、こんな方法で凌いできました。 公式",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Claude Code関連の注目リポジトリ7選（2026年9月第4週）",
+   "url": "https://zenn.dev/lbfuvuvxb/articles/claude-code-trend-20260922",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "GitHub検索APIで、直近30日（2026/08/23以降）に作られたClaude Code関連のリポジトリをスター数順に集め、用途が重ならないように7件を選びました。スター数は2026年9月22日時点の値です。 リポジトリ ひとことで ★ 言語 ライセンス fast-jev-compaction 要約しないコンパ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "ファイルを分けても、読み込まれる量は減りませんでした",
+   "url": "https://zenn.dev/rapls/articles/a0cd72d9daf090",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "長くなった設定ファイルを、節ごとに分けました。本体は目次だけにして、中身は別ファイルへ。 読み込まれる量は、1行も減っていませんでした。 あなたの「整理」は、量を減らしていますか。それとも、置き場所を変えただけでしょうか。 先に断っておくと、この挙動は公式ドキュメントに書かれています。読めば分かります。わたしは分けたあ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AI討論 MAGI Games 開発記 #2 — MELCHIOR が勝った日、ゲームは終わらなかった",
+   "url": "https://zenn.dev/mappy55/articles/magi-games-devlog-02",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "! この記事は「AI討論 MAGI Games 開発記」の第2回です。第1回はこちら。日々の変更や気づきはスクラップに書き足しています。 性格の違う AI 3体に毎日テーマを討論させ、Claude がミニゲームを1本作って公開するサイトを運営しています。3体は科学者の MELCHIOR、母の BALTHASAR、女の ",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Grok 4.7はAIエージェントの第一候補になれるか",
+   "url": "https://zenn.dev/beatapi/articles/8aad5f6adb61a5",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "新しいAIモデルが公開されると、議論は一つの数字に集約されがちだ。総合スコア、コーディングベンチマーク、コンテキスト長。だが、Grok 4.7を理解するうえで本当に有用な問いは、首位を取ったかどうかではない。 コーディングエージェントが標準で選ぶモデルになれるか。 xAIは2026年9月21日にGrok 4.7を公開し",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "未確定のオートスコアラーに依存せず、投球データ分析エンジンを作った話",
+   "url": "https://zenn.dev/junko_jp/articles/fifth-bowling-system",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "はじめに スポーツボウリング場構想のシステム開発、第5弾です。 第四弾まで作ったところで、システムはかなり形になってきました。 しかし、私の中には一つだけ引っかかっていることがありました。 中途半端に終わらせたくない。 第四弾では、会員の投球記録やギア情報などを扱い、会員の成長を支援する仕組みを作りました。 ところが、",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "生成AIをコード生成で終わらせず、開発工程に入れたら何が残ったか",
+   "url": "https://zenn.dev/neko3se/articles/63cccc803b562c",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "生成AIに「これ作って」と頼んで動くものは増えた。 残らないのは、何を検証したのかと、次に何を捨てるかです。 個人ラボ Neko3SE LAB では、生成AIをチャット相手ではなく開発工程の一部として使い、ブラウザで触れる実験を公開しています。 この記事はサイト紹介ではなく、その運用で分かったことです。 結論 生成AI",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "AIに比喩を作り直させてAWS SAAに合格した。ただし比喩が効かない領域が3つあった",
+   "url": "https://zenn.dev/mokaronda/articles/ai-metaphor-aws-saa",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "「ENI」が何なのか、3日わからなかった クラウドの実務経験がゼロの状態でAWS認定ソリューションアーキテクト – アソシエイト（SAA-C03）の勉強を始めた。最初にぶつかったのは、難しさではなく像が結ばないことだった。 「Elastic Network Interface は、EC2インスタンスにアタッチできる仮想",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "【１日１デプロイ】渦の力で街角をピカピカにする「メガすいこみ」を作った",
+   "url": "https://zenn.dev/boraemon2000/articles/mega-vacuum-swirl-force",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "今回作ったもの 「１日１デプロイ」の新作として、散らかった街角を吸引ノズルできれいにする60秒ゲーム メガすいこみ を作りました。 紙くずや木の葉のような小物から吸い始め、回収するほどノズルが成長します。レベルが上がると缶や積み木、さらに木箱や大きな袋まで動かせるようになります。メガゲージが満タンになると大小さまざまな",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "汎用スキルはそのままでは使えない。標準化で配れるのは枠と育て方",
+   "url": "https://zenn.dev/tiesplayhub/articles/5621e924a062ba",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "AI導入を進めている人たちの話を聞くと、標準化に苦労している、という声をよく聞きます。 やり方として多いのは、汎用的なルールやスキル、それに細かく決めすぎて融通の利かないAIの利用手順を、大量に作って配ることです。 そのやり方も一部は正しいと思います。 ただ、私が考える標準化とは少し違います。 メンテ0で当て込めるルー",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "商品写真の背景だけを変えたい：Image 2で使う編集プロンプトの組み立て方",
+   "url": "https://zenn.dev/bukanezazi724/articles/617e91b1554f9d",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "商品写真をバナーに使いたいけれど、背景が用途に合わない。そんなとき、商品の形や色はそのままに、周囲の雰囲気だけを変えたいことがあります。 ただ、「カフェ風にして」と書くだけでは、どこまで変更してよいのかが曖昧です。背景が変わっても、マグカップの持ち手やロゴまで変わってしまうと、元の商品を紹介する画像としては使いにくくな",
+   "date": "2026-09-22"
+  },
+  {
+   "title": "Grok 4.7はAIエージェントの第一候補になれるか",
+   "url": "https://qiita.com/beatapi/items/6819bae3352128650d1c",
+   "source": "Qiita 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "新しいAIモデルが公開されると、議論は一つの数字に集約されがちだ。総合スコア、コーディングベンチマーク、コンテキスト長。だが、Grok 4.7を理解するうえで本当に有用な問いは、首位を取ったかどうかではない。 コーディングエージェントが標準で選ぶモデルになれるか。 xAIは...",
    "date": "2026-09-22"
   },
   {
@@ -593,96 +953,6 @@
    "lang": "ja",
    "ai": "その他",
    "summary": "続きをみる",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "vackrooms: an endless backrooms game. Free, in the browser, open source.",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmx1hq/vackrooms_an_endless_backrooms_game_free_in_the/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Built with Three.js (Claude knows it really well) and vgpu for the WebGPU shaders. vgpu is lightweight and its docs are written for agents, so Claude could writ",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Discussion Hub for new Claude incident: Elevated errors for multiple models on Sep 22, 2026",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmv3wh/discussion_hub_for_new_claude_incident_elevated/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Resolved - This issue has been resolved. Impact occurred from 5:50pm PT / 00:50 UTC to 7:10pm PT / 02:10 UTC. Sep 22, 02:35 UTC Monitoring - We have seen succes",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Now the Claude to reMarkable / Kindle - Daily Planner skill",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn3ty9/now_the_claude_to_remarkable_kindle_daily_planner/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Since this post was so successful and I received a lot of good feedback I thought about making it easier for everyone to start with creating their own daily pla",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Claude seems way better when I stop trying to write the perfect prompt",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn1q0g/claude_seems_way_better_when_i_stop_trying_to/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "I&#39;ve been experimenting with Claude lately and noticed something kinda interesting. I used to spend a lot of time trying to write the &quot;perfect&quot; pr",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Claude seems both stupider and more expensive than before",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn44ii/claude_seems_both_stupider_and_more_expensive/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Yesterday I was using my usual workflow of a Fable orchestrator spinning up Opus or Sonnet subagents to do the work. I forbid the orchestrator from writing code",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Do you ask Claude to de-verbose it's content?",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn0a04/do_you_ask_claude_to_deverbose_its_content/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "I dislike spaghetti, but appreciate how fast I can iterate when using Claude. I&#39;ve started treating it like I would a junior including refusing verbose outp",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "what do you actually use claude for day to day, beyond the obvious stuff",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn6dcv/what_do_you_actually_use_claude_for_day_to_day/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "the big use cases like writing and coding get all the attention, but im more curious about the quiet everyday ways people fit it into life. for me its become my",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Jev to autoselect Claude model - co-creator of chatgpt's project",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn07tn/jev_to_autoselect_claude_model_cocreator_of/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "ChatGPT",
-   "summary": "Who&#39;s using Jev to automatically decide when to use Haiku vs Fable to cut down on time and cost? So instead of guessing Fable is needed to count letters, Je",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "organizing my work into projects helped more than any model upgrade did",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn2324/organizing_my_work_into_projects_helped_more_than/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "i chased better prompts and newer models for ages, but the biggest jump in usefulness came from organizing my work into projects with proper context. once i put",
-   "date": "2026-09-22"
-  },
-  {
-   "title": "Is the weekly usage allowance any better here?",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn5i0u/is_the_weekly_usage_allowance_any_better_here/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Dear community, I’m a heavy Codex user, but my usage allowance has been significantly reduced. Everyone seems excited about the new update, but the usage limits",
    "date": "2026-09-22"
   },
   {
@@ -1019,6 +1289,159 @@
    "date": "2026-09-21"
   },
   {
+   "title": "薄いスキルと厚いコンテキスト — 4行の eli5 から見えるリポジトリとエージェントの設計方針",
+   "url": "https://zenn.dev/ruri/articles/thin-skills-thick-context-eli5",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "元記事: anthropics/claude-plugins-community — eli5 著者: Thariq Shihipar（プラグイン作者、MIT License） 公開日: 不明（リポジトリは継続更新。本記事の確認時点は 2026-09-19） TL;DR eli5 は Anthropic のコミュニティ",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "lefthook を claude, git commit, GitHub Actions 動かす設定メモ",
+   "url": "https://zenn.dev/takemikami/articles/20260922-lefthook-claude-github-actions",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "lefthook で設定した hook を claude, git commit, GitHub Actions の３箇所で動かす設定メモです。 https://github.com/evilmartians/lefthook CodingAgent導入でhookを入れたい箇所が増え、lefthookのようなframe",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Claude CodeがAGENTS.mdを読み込まない理由と対処法",
+   "url": "https://zenn.dev/sunsun_eng/articles/claude-code-agents-md-first-session",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "Claude CodeがAGENTS.mdを読み込まない理由と対処法 Claude CodeがAGENTS.mdを読み込むようになりました。ただし公開直後に多くのエンジニアが気づいたとおり、プロジェクトを開いた最初のセッションでは反映されません。この記事では、AGENTS.mdとは何か、なぜ初回セッションで読み込まれな",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "「Claude Codeで稼ぐ」を3週間本気でやってみた。応募2,000人・当選率ほぼゼロの実測ログ",
+   "url": "https://zenn.dev/ogana/articles/cc46b3d218077a",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "週10時間、予算0円で「AIエージェント（Claude Code）に会社を運営させて、Claude Code関連のスキルをフリーランスで売る」という実験を3週間続けています。今日、その過程で集めた実測データが、当初の想定と全く違う結果だったので共有します。 クラウドワークス：「Claude」検索は2,000名を超える応",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Claude Codeの本を書いた私が、他のAIツールについて思っていること",
+   "url": "https://zenn.dev/tmasuyama1114/articles/cc-book-author-other-tools",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "2026年9月に『Claude Codeで作って学ぶ AI駆動アプリ開発入門』（技術評論社）という本を出しました。 https://amzn.asia/d/0f0bQMI4 本を出してから、Claude Code 以外のツールについてどう話すかを、一度ちゃんと考えました。 この記事は、Claude Code の本の著者",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "GitHub Issueを流すだけでPRになる「パイプラインskill」をClaude Codeで作った",
+   "url": "https://zenn.dev/yubel/articles/claude-code-issue-to-pr-pipeline",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "この記事で分かること 個人開発で複数リポジトリを掛け持ちしていると、「Issueを書いたはいいが着手するのを忘れる」「実装できてもPRを出した後のCodeRabbitの指摘対応やCI監視が地味に時間を食う」という悩みが出てきます。これを解消するために、Claude Codeの skill 機能で GitHubにIssu",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "自分の定期ジョブ28本を点検するスキルを作ったら、自分のバックアップが壊れていた",
+   "url": "https://zenn.dev/houchi_unyo/articles/unattended-job-audit-2026-09",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "個人で無人の仕組みを 5 系統動かしています。毎朝の記録、週次の集計、動画の生成と投稿、電子書籍の組版、SNS への配信です。launchd と GitHub Actions を合わせて定期ジョブが 28 本あります。 その点検項目を Claude Code のスキルとして切り出し、公開しました。 https://gi",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "「記録漏れ」を検知する自作フックが、隣のセッションの更新で鳴り続けた",
+   "url": "https://zenn.dev/miyoki_labs/articles/stop-hook-parallel-session-noise",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "作業の終わりに自動で何かを確かめるフックを、自分で書いて使っている方に向けた記事です。「更新されたファイルがあるのに記録が無い＝書き忘れ」を検知するフックを作ったら、自分が触っていないプロジェクトを指して鳴り続けました。その切り分けと、条件の設計で足りていなかったことを書きます。 作ったもの 終了時に走るフックで、こう",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Datadog MCP Serverのトークン消費を実測した ― 繋いだだけで2万、全部入りで22万",
+   "url": "https://zenn.dev/ryomiyake/articles/datadog-mcp-server-field-test",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "前回の記事で、Datadog MCP Server に接続するまでの手順を書きました。繋ぐだけなら5分で終わります。 繋いだあとに気になったのは、これ、どれだけトークンを使っているんだろうということでした。 MCP サーバーに接続すると、そのサーバーが持っているツールの説明書が AI に渡ります。「こういう名前のツール",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "CBN 取扱説明書 第 4 章 — 私の書き込みを制御する三つのレイヤー",
+   "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-04-guards-and-fallback-ban",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "第 3 章では、私の一日が /orient で始まり /handoff で終わるまでを書いた。この章は、その一日の「作業」の部分で毎ターン動いている安全装置の話である。例えば私が rules のファイルを書き換えようとするとき、Edit ツールで書くか、Bash から sed で書くかで、止める仕組みが違う。Edit ",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "AIが書いたコードのレビュー負荷は、生成AI以前の技術で下げる",
+   "url": "https://zenn.dev/kagu3/articles/be4014b905bee4",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "この記事の主題 AIは爆速でコードを書くが、品質保証はしてくれない。結局、品質を保証するのは人間になる。 ここで問題になるのは時間コストだけではない。認知資源のコストがある。人間の注意は無限に供給されるものではなく、監視的な作業では時間とともに検出精度が落ちていく。しかもAIの出力精度が上がるほど「だいたい合っている」",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Claude Code に Bash(\"rm*\") を deny しても消される問題",
+   "url": "https://zenn.dev/y_shinoda/articles/only-setting-claude-code-permissions-is-risky",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "Bash(rm*) を deny しても find --delete してきます: ● ディスク容量が不足しているため、./webcache 内のファイルを削除します。 ● Bash(rm ./webcache/*) ⎿ Error: Permission to use Bash with command rm ./w",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "python-docx / openpyxl で「配れる書類」にするまでに潰した4つ",
+   "url": "https://zenn.dev/shinsei99/articles/office-report-layout",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "AIエージェントが毎日18:30に業務日報を作ります。出力は Word と Excel で、そのまま人に配ります。 中身が正しくても、見た目が崩れていると配れません。 ここで4つ潰したので、まとめておきます。 ① 表の罫線が、環境によって出ない python-docx で表を作るとき、最初はスタイル名で指定していました",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "【実録】AI社員30人でアプリを3本作った。効いたこと3つと、完全に無駄だったこと3つ",
+   "url": "https://zenn.dev/yk_studio/articles/ai-employees-what-actually-works",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "「AI社員の作り方」を解説する記事は、2026年に入ってから山ほど出ました。もう十分すぎるほどあります。 なので作り方は書きません。2ヶ月動かして、実際に効いたことと、完全に無駄だったことを書きます。 事故の話も込みです。 先に結論を書きます。いちばん効いたのは役割を分けたことではなく、「決定を会話に埋めずファイルに書",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Claude Codeに5つの役割を持たせて、自分の仕事の流れを設計した",
+   "url": "https://zenn.dev/pivotmedia/articles/claude-code-shared-skills-personal-workspace",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "チームでClaude Codeを使っていると、うまくいった設定は共有したくなります。実際、私たちも命名規則やテスト方針、安全な操作の境界などを共通のスキルとして配っています。 その一方で、私は自分用のワークスペースも育てています。そこに置いているのは、チーム共通ルールの先行版ではありません。開発、運用、レビュー、進行、",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "Claude Code も Codex も Qwen も「1つのチーム」にする — メタハーネス AgentEngine を作った",
+   "url": "https://zenn.dev/infra_ojisan/articles/agentengine_metahernes",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "3行まとめ マシンにインストール済みの AI コーディング CLI（ハーネス）を PATH から自動検出し、6種類を1つのチームとして同じチャット上で議論させる CUI ツール AgentEngine を作った。 エージェント＝「ハーネス＋モデル＋ペルソナ」を1単位とし、CLI ごとの差異（システムプロンプトの渡し方・",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "自分のブランチに、自分が書いていないコミットがあった — LLM のセッションを並走させたときに壊れるもの",
+   "url": "https://zenn.dev/kuu_dqx/articles/your-branch-is-not-yours",
+   "source": "Zenn ClaudeCode",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "LLM に毎日ブログ記事を書かせて無人で公開している話と、その検証が何を見ていなかったかの話を書きました。 https://zenn.dev/kuu_dqx/articles/headless-claude-code-43days https://zenn.dev/kuu_dqx/articles/numbers-ri",
+   "date": "2026-09-21"
+  },
+  {
    "title": "一夜でバズった\"Jev\"を疑ってみた ── 判断特化AIの正体と、確率を信じてはいけない理由",
    "url": "https://zenn.dev/ryok/articles/jev-calibration-trap",
    "source": "Zenn 生成AI",
@@ -1055,15 +1478,6 @@
    "date": "2026-09-21"
   },
   {
-   "title": "AIが書いたコードのレビュー負荷は、生成AI以前の技術で下げる",
-   "url": "https://zenn.dev/kagu3/articles/be4014b905bee4",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "この記事の主題 AIは爆速でコードを書くが、品質保証はしてくれない。結局、品質を保証するのは人間になる。 ここで問題になるのは時間コストだけではない。認知資源のコストがある。人間の注意は無限に供給されるものではなく、監視的な作業では時間とともに検出精度が落ちていく。しかもAIの出力精度が上がるほど「だいたい合っている」",
-   "date": "2026-09-21"
-  },
-  {
    "title": "Gemini / ChatGPT / Mistral の補完挙動比較と、世界観の伝播現象",
    "url": "https://zenn.dev/raina_ai/articles/116786b981321c",
    "source": "Zenn 生成AI",
@@ -1079,6 +1493,87 @@
    "lang": "ja",
    "ai": "その他",
    "summary": "前回までの 2 本で、実在の業務プロンプト 15 本を安価なモデルに移したら 9 本が壊れた話と、それを仕組みで直した話を書きました。 https://zenn.dev/prompt_shindan/articles/f50b72b03b4389 今回はその実験の裏で踏んだ、いちばん地味で、いちばん時間を溶かした罠の話",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "AIツールの出力を安定させるための「入力テンプレート」設計",
+   "url": "https://zenn.dev/aiai_tool/articles/c57c0a9f35874a",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "生成AIを日常業務で使っていると、同じような依頼をしているのに、毎回出力の形式や品質が少しずつ変わることがあります。 単発の利用であれば大きな問題ではありません。 しかし、文章作成、要約、データ整理、分類などを繰り返し行う場合、出力のばらつきは修正作業を増やす原因になります。 そこで役立つのが「入力テンプレート」です。",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "AI使用の限界と効用について",
+   "url": "https://zenn.dev/terry_write/articles/24d5ee55dda0a8",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "AIは便利なツールである。 しかしあまりに「AI」に対して盲目的すぎるように思う。 AIはすべてを解決は（今の所）しないし、正直な限界もある。 それは「実際にAIを活用している人」と、「AIを活用”しようと”している人」の間に、大きなギャップになっているように思える。 なので一度、言語化してみようと思う。 １．AIの有",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "画像生成AI 10種の無料プランを、枚数・ウォーターマーク・公開範囲・権利で比較する",
+   "url": "https://zenn.dev/donaldxs/articles/5bb7fd8327a1d1",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "画像生成AI 10種の無料プランを、枚数・ウォーターマーク・公開範囲・権利で比較する この記事の対象と範囲 対象読者：個人開発やサイド プロジェクトで画像素材が必要になり、無料の画像生成AIを使おうとしている方。成果物を公開したり、有償の案件に含めたりする可能性がある方を想定しています。 扱う範囲：10種類の画像生成A",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "生成AIよ、Skillに書いたのに、なぜやらない？─SKILL.mdを「お願い」から「実行保証」に近づける5つの設計",
+   "url": "https://zenn.dev/yuruconsa/articles/83851e148f40a7",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "生成AIに同じ仕事を何度も頼むようになると、「毎回プロンプトを書くの、面倒だな」となります。 そこで登場するのが Skill です。 SKILL.md に、 この順番で作業してください 必ずこのファイルを確認してください 最後にチェックしてください この形式で出力してください と書いておく。 これで毎回説明しなくて済む",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "AIに仕事を任せると、人は考えなくなるのか？",
+   "url": "https://zenn.dev/yuruconsa/articles/7da5f557491d40",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "生成AIを使っていると、ときどき思います。 これ、人間いらなくない？ 文章を書いてくれる。 調査してくれる。 資料の構成も考えてくれる。 コードも書く。 レビューまでしてくれる。 こちらは、「いい感じにお願いします」 と言っておけば、そこそこいい感じのものが返ってくる。 便利です。 恐ろしく便利です。 そして便利になれ",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "AIコーディングを半年やって、書いた記事を振り返る",
+   "url": "https://zenn.dev/nightonly/articles/3e67ffb2d09dd1",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "Claude",
+   "summary": "2026年の5月から6月にかけて、AI と協業する開発について、個人ブログ(blog.nightonly.com)で15本の記事を書きました。ClaudeCode を中心に、日々の実践で感じたことをまとめたものです。 そこから3ヶ月ほど経ちました。読み返してみて、今のところ考えは大きく変わっていません。ちょうどいい機会",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "エージェントのBashログを正規表現で割ったら、断片の54%は存在しないコマンドだった",
+   "url": "https://zenn.dev/tsutomusaito/articles/bash-log-parsing-ja",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "「エージェントは実際に何のコマンドを走らせているのか」を数えようとした。ログには tool_use の input.command が文字列で入っている。数えるだけに見えた。 最初の結果はこうなった。 === 先頭語だけを見た場合（分割しない） 2,720 40.8% cd 565 8.5% python3 467 7",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "同じ条件10個を「1. 」で並べ直したら、25回中23回で見えない考え込みが起きた。追試では消えた",
+   "url": "https://zenn.dev/numarn/articles/prompt-bullet-vs-numbered-thinking-handson",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "AI に何かを頼むとき、守ってほしい条件を箇条書きで並べるのはよくある書き方です。それについて「実はあまり効いていない気がする」という声を見かけたので、条件が本当に守られているのかを数えてみました。 結論から言うと、守られていました。条件を10個並べた70回の実行のうち、53回は10件すべて守られ、残る17回も破れたの",
+   "date": "2026-09-21"
+  },
+  {
+   "title": "GPT-6 Astraの教科書",
+   "url": "https://zenn.dev/microsoft/articles/gpt_6_astra_textbook",
+   "source": "Zenn 生成AI",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "はじめに そもそもAstraってなんだ？ということで、本記事を記載してみました。 Astra → 語源的にはラテン語の astrum / astra（星・星々） に由来する表現で、英語圏でも「星」をイメージさせる名称 とのことです。 なので、OpenAIの公式のモデルにも綺麗な星のページになってるんですね。 2024年",
    "date": "2026-09-21"
   },
   {
@@ -1109,15 +1604,6 @@
    "date": "2026-09-21"
   },
   {
-   "title": "AIに仕事を任せると、人は考えなくなるのか？",
-   "url": "https://zenn.dev/yuruconsa/articles/7da5f557491d40",
-   "source": "Zenn ChatGPT",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "生成AIを使っていると、ときどき思います。 これ、人間いらなくない？ 文章を書いてくれる。 調査してくれる。 資料の構成も考えてくれる。 コードも書く。 レビューまでしてくれる。 こちらは、「いい感じにお願いします」 と言っておけば、そこそこいい感じのものが返ってくる。 便利です。 恐ろしく便利です。 そして便利になれ",
-   "date": "2026-09-21"
-  },
-  {
    "title": "ChatGPTにブラウザを操作させたら、自作のChrome拡張つきWebアプリは動いたか — 試して分かった境界線",
    "url": "https://zenn.dev/zephris/articles/5c34ece0877187",
    "source": "Zenn ChatGPT",
@@ -1142,15 +1628,6 @@
    "lang": "ja",
    "ai": "Claude",
    "summary": "TL;DR Claude Code は ANTHROPIC_BASE_URL を差し替えるだけで OpenRouter 経由のモデルを呼べる OpenRouter には 2026 年現在 :free サフィックス付きの無料モデルが 20 本以上存在する 適切なモデル選択...",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "ユーザーと一緒に、Claudeの「Skill」を解剖してみた【前編：入門＋実例2本】",
-   "url": "https://qiita.com/norizou4/items/0f825bb389d41de4da1b",
-   "source": "Qiita Claude",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "この記事は、Claude（私）が、長年Webデザイナー／ディレクターをしているノリさんとの会話をまとめたものです。ノリさんが「Claudeの\"Skill\"を勉強したい」と言うので、一緒に2つの実在するデザインSkillを解剖しました。前後編の前編にあたります。 この記...",
    "date": "2026-09-21"
   },
   {
@@ -1388,15 +1865,6 @@
    "date": "2026-09-21"
   },
   {
-   "title": "薄いスキルと厚いコンテキスト — 4行の eli5 から見えるリポジトリとエージェントの設計方針",
-   "url": "https://zenn.dev/ruri/articles/thin-skills-thick-context-eli5",
-   "source": "Zenn Claude",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "元記事: anthropics/claude-plugins-community — eli5 著者: Thariq Shihipar（プラグイン作者、MIT License） 公開日: 不明（リポジトリは継続更新。本記事の確認時点は 2026-09-19） TL;DR eli5 は Anthropic のコミュニティ",
-   "date": "2026-09-21"
-  },
-  {
    "title": "Claude憲法を読んでもっとうまくClaudeと会話したい",
    "url": "https://zenn.dev/daigo428/articles/67862e4f145c4a",
    "source": "Zenn Claude",
@@ -1433,48 +1901,12 @@
    "date": "2026-09-21"
   },
   {
-   "title": "Claude Code に Bash(\"rm*\") を deny しても消される問題",
-   "url": "https://zenn.dev/y_shinoda/articles/only-setting-claude-code-permissions-is-risky",
-   "source": "Zenn Claude",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "Bash(rm*) を deny しても find --delete してきます: ● ディスク容量が不足しているため、./webcache 内のファイルを削除します。 ● Bash(rm ./webcache/*) ⎿ Error: Permission to use Bash with command rm ./w",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "【実録】AI社員30人でアプリを3本作った。効いたこと3つと、完全に無駄だったこと3つ",
-   "url": "https://zenn.dev/yk_studio/articles/ai-employees-what-actually-works",
-   "source": "Zenn Claude",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "「AI社員の作り方」を解説する記事は、2026年に入ってから山ほど出ました。もう十分すぎるほどあります。 なので作り方は書きません。2ヶ月動かして、実際に効いたことと、完全に無駄だったことを書きます。 事故の話も込みです。 先に結論を書きます。いちばん効いたのは役割を分けたことではなく、「決定を会話に埋めずファイルに書",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "AIコーディングを半年やって、書いた記事を振り返る",
-   "url": "https://zenn.dev/nightonly/articles/3e67ffb2d09dd1",
-   "source": "Zenn Claude",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "2026年の5月から6月にかけて、AI と協業する開発について、個人ブログ(blog.nightonly.com)で15本の記事を書きました。ClaudeCode を中心に、日々の実践で感じたことをまとめたものです。 そこから3ヶ月ほど経ちました。読み返してみて、今のところ考えは大きく変わっていません。ちょうどいい機会",
-   "date": "2026-09-21"
-  },
-  {
    "title": "PrefabでMCP Appを開発する",
    "url": "https://zenn.dev/asor/articles/ad26e547dd87de",
    "source": "Zenn Claude",
    "lang": "ja",
    "ai": "Claude",
    "summary": "はじめに こんにちは。普段フルスタックエンジニアとして活動しているAsorです。 前回はPythonでReact × Shadcnのフロントエンドを開発できるPrefabで簡単なWebアプリケーションを開発してみました。 このPrefabは本来MCP Appの開発をターゲットとしているので、今回は実際にPrefabを使",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "エージェントのBashログを正規表現で割ったら、断片の54%は存在しないコマンドだった",
-   "url": "https://zenn.dev/tsutomusaito/articles/bash-log-parsing-ja",
-   "source": "Zenn Claude",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "「エージェントは実際に何のコマンドを走らせているのか」を数えようとした。ログには tool_use の input.command が文字列で入っている。数えるだけに見えた。 最初の結果はこうなった。 === 先頭語だけを見た場合（分割しない） 2,720 40.8% cd 565 8.5% python3 467 7",
    "date": "2026-09-21"
   },
   {
@@ -1514,48 +1946,12 @@
    "date": "2026-09-21"
   },
   {
-   "title": "機能は速く、安全装置は勝手に付かない — AI 開発元の減速宣言と私たちのペース配分",
-   "url": "https://zenn.dev/fixu/articles/features-fast-safeguards-dont-follow-pace",
-   "source": "Zenn Claude",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "はじめに 半年ほど前に AI時代の急がない勇気と旧世代発想のアンラーニング という記事を書きました。AI で実装が速くなったからといって並列度を上げると手戻りが増える、クリティカルパスに忠実に進める「急がない勇気」を持とう、という話です。 あれから半年、同じ「急がない」を別の角度から考え直す出来事が続きました。本番の監",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "文章を書かないモデルJevのスキル選択は、0.3秒でOpusにどこまで近づくか",
-   "url": "https://zenn.dev/shimo4228/articles/jev-vs-opus-skill-selection",
-   "source": "Zenn Claude",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "自律エージェントが行動の前にやる「いまの状況に当てはまるスキルを一覧から選ぶ」処理を、同じ150件の状況で、JevとClaude Opusにやらせて比べました。Jevは、TypeSafeが2026年9月15日に早期アクセスを始めたモデルです。文章を書かず、選択肢に対する答えと確率だけを返します（TypeSafeの発表）",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "自作MCPサーバーに認証と権限スコープを入れる — 3層の分離設計で危険なツールを封じる",
-   "url": "https://zenn.dev/yukihayama/articles/mcp-server-auth-scope",
-   "source": "Zenn Claude",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "自作MCPサーバーに認証と権限スコープを入れる — 3層の分離設計で危険なツールを封じる 自作MCPサーバーをチームに配った翌日、Claudeが delete_note を呼んだ。消えたのはテスト用の1件だったから笑い話で済んだが、あれが本番のDBだったら終わっていた。 原因は単純で、ツールを登録した時点で「AIが呼べ",
-   "date": "2026-09-21"
-  },
-  {
    "title": "バイブコーディングがGUIを壊す真の理由と、Jevで防ぐAI駆動型対策プロンプト",
    "url": "https://zenn.dev/aidocs/articles/4b2feb7fcb20f9",
    "source": "Zenn プロンプト",
    "lang": "ja",
    "ai": "その他",
    "summary": "! この記事の要約 バイブコーディングがなぜGUIの劣化を引き起こすのか、そのメカニズムを深く理解できます。 従来のLLMでは解決が難しかったこの問題に対し、TypeSafe AIのJevがなぜ有効なのか、その特性を解説します。 Jevを活用した具体的な「AI駆動型対策プロンプト」の設計思想と、概念的な実装アプローチを",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "生成AIよ、Skillに書いたのに、なぜやらない？─SKILL.mdを「お願い」から「実行保証」に近づける5つの設計",
-   "url": "https://zenn.dev/yuruconsa/articles/83851e148f40a7",
-   "source": "Zenn プロンプト",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "生成AIに同じ仕事を何度も頼むようになると、「毎回プロンプトを書くの、面倒だな」となります。 そこで登場するのが Skill です。 SKILL.md に、 この順番で作業してください 必ずこのファイルを確認してください 最後にチェックしてください この形式で出力してください と書いておく。 これで毎回説明しなくて済む",
    "date": "2026-09-21"
   },
   {
@@ -1685,102 +2081,48 @@
    "date": "2026-09-21"
   },
   {
-   "title": "「Claude Codeで稼ぐ」を3週間本気でやってみた。応募2,000人・当選率ほぼゼロの実測ログ",
-   "url": "https://zenn.dev/ogana/articles/cc46b3d218077a",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
+   "title": "Kinhold Update: Fighting over an outpost",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmp8v2/kinhold_update_fighting_over_an_outpost/",
+   "source": "r/ClaudeAI",
+   "lang": "en",
    "ai": "Claude",
-   "summary": "週10時間、予算0円で「AIエージェント（Claude Code）に会社を運営させて、Claude Code関連のスキルをフリーランスで売る」という実験を3週間続けています。今日、その過程で集めた実測データが、当初の想定と全く違う結果だったので共有します。 クラウドワークス：「Claude」検索は2,000名を超える応",
+   "summary": "Kinhold is being built with Claude Code. This is after a few tweaks to combat in an outpost. Still a lot to work on! Enemy outposts and settlements have flags t",
    "date": "2026-09-21"
   },
   {
-   "title": "Claude Codeの本を書いた私が、他のAIツールについて思っていること",
-   "url": "https://zenn.dev/tmasuyama1114/articles/cc-book-author-other-tools",
-   "source": "Zenn ClaudeCode",
+   "title": "ユーザーと一緒に、Claudeの「Skill」を解剖してみた【前編：入門＋実例2本】",
+   "url": "https://qiita.com/norizou4/items/0f825bb389d41de4da1b",
+   "source": "Qiita Claude",
    "lang": "ja",
    "ai": "Claude",
-   "summary": "2026年9月に『Claude Codeで作って学ぶ AI駆動アプリ開発入門』（技術評論社）という本を出しました。 https://amzn.asia/d/0f0bQMI4 本を出してから、Claude Code 以外のツールについてどう話すかを、一度ちゃんと考えました。 この記事は、Claude Code の本の著者",
+   "summary": "この記事は、Claude（私）が、長年Webデザイナー／ディレクターをしているノリさんとの会話をまとめたものです。ノリさんが「Claudeの\"Skill\"を勉強したい」と言うので、一緒に2つの実在するデザインSkillを解剖しました。前後編の前編にあたります。 この記...",
    "date": "2026-09-21"
   },
   {
-   "title": "GitHub Issueを流すだけでPRになる「パイプラインskill」をClaude Codeで作った",
-   "url": "https://zenn.dev/yubel/articles/claude-code-issue-to-pr-pipeline",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "この記事で分かること 個人開発で複数リポジトリを掛け持ちしていると、「Issueを書いたはいいが着手するのを忘れる」「実装できてもPRを出した後のCodeRabbitの指摘対応やCI監視が地味に時間を食う」という悩みが出てきます。これを解消するために、Claude Codeの skill 機能で GitHubにIssu",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "自分の定期ジョブ28本を点検するスキルを作ったら、自分のバックアップが壊れていた",
-   "url": "https://zenn.dev/houchi_unyo/articles/unattended-job-audit-2026-09",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "個人で無人の仕組みを 5 系統動かしています。毎朝の記録、週次の集計、動画の生成と投稿、電子書籍の組版、SNS への配信です。launchd と GitHub Actions を合わせて定期ジョブが 28 本あります。 その点検項目を Claude Code のスキルとして切り出し、公開しました。 https://gi",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "「記録漏れ」を検知する自作フックが、隣のセッションの更新で鳴り続けた",
-   "url": "https://zenn.dev/miyoki_labs/articles/stop-hook-parallel-session-noise",
-   "source": "Zenn ClaudeCode",
+   "title": "機能は速く、安全装置は勝手に付かない — AI 開発元の減速宣言と私たちのペース配分",
+   "url": "https://zenn.dev/fixu/articles/features-fast-safeguards-dont-follow-pace",
+   "source": "Zenn Claude",
    "lang": "ja",
    "ai": "その他",
-   "summary": "作業の終わりに自動で何かを確かめるフックを、自分で書いて使っている方に向けた記事です。「更新されたファイルがあるのに記録が無い＝書き忘れ」を検知するフックを作ったら、自分が触っていないプロジェクトを指して鳴り続けました。その切り分けと、条件の設計で足りていなかったことを書きます。 作ったもの 終了時に走るフックで、こう",
+   "summary": "はじめに 半年ほど前に AI時代の急がない勇気と旧世代発想のアンラーニング という記事を書きました。AI で実装が速くなったからといって並列度を上げると手戻りが増える、クリティカルパスに忠実に進める「急がない勇気」を持とう、という話です。 あれから半年、同じ「急がない」を別の角度から考え直す出来事が続きました。本番の監",
    "date": "2026-09-21"
   },
   {
-   "title": "Datadog MCP Serverのトークン消費を実測した ― 繋いだだけで2万、全部入りで22万",
-   "url": "https://zenn.dev/ryomiyake/articles/datadog-mcp-server-field-test",
-   "source": "Zenn ClaudeCode",
+   "title": "文章を書かないモデルJevのスキル選択は、0.3秒でOpusにどこまで近づくか",
+   "url": "https://zenn.dev/shimo4228/articles/jev-vs-opus-skill-selection",
+   "source": "Zenn Claude",
    "lang": "ja",
    "ai": "Claude",
-   "summary": "前回の記事で、Datadog MCP Server に接続するまでの手順を書きました。繋ぐだけなら5分で終わります。 繋いだあとに気になったのは、これ、どれだけトークンを使っているんだろうということでした。 MCP サーバーに接続すると、そのサーバーが持っているツールの説明書が AI に渡ります。「こういう名前のツール",
+   "summary": "自律エージェントが行動の前にやる「いまの状況に当てはまるスキルを一覧から選ぶ」処理を、同じ150件の状況で、JevとClaude Opusにやらせて比べました。Jevは、TypeSafeが2026年9月15日に早期アクセスを始めたモデルです。文章を書かず、選択肢に対する答えと確率だけを返します（TypeSafeの発表）",
    "date": "2026-09-21"
   },
   {
-   "title": "CBN 取扱説明書 第 4 章 — 私の書き込みを制御する三つのレイヤー",
-   "url": "https://zenn.dev/ai_to_ai/articles/cbn-manual-04-guards-and-fallback-ban",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "第 3 章では、私の一日が /orient で始まり /handoff で終わるまでを書いた。この章は、その一日の「作業」の部分で毎ターン動いている安全装置の話である。例えば私が rules のファイルを書き換えようとするとき、Edit ツールで書くか、Bash から sed で書くかで、止める仕組みが違う。Edit ",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "python-docx / openpyxl で「配れる書類」にするまでに潰した4つ",
-   "url": "https://zenn.dev/shinsei99/articles/office-report-layout",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "AIエージェントが毎日18:30に業務日報を作ります。出力は Word と Excel で、そのまま人に配ります。 中身が正しくても、見た目が崩れていると配れません。 ここで4つ潰したので、まとめておきます。 ① 表の罫線が、環境によって出ない python-docx で表を作るとき、最初はスタイル名で指定していました",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "Claude Codeに5つの役割を持たせて、自分の仕事の流れを設計した",
-   "url": "https://zenn.dev/pivotmedia/articles/claude-code-shared-skills-personal-workspace",
-   "source": "Zenn ClaudeCode",
+   "title": "自作MCPサーバーに認証と権限スコープを入れる — 3層の分離設計で危険なツールを封じる",
+   "url": "https://zenn.dev/yukihayama/articles/mcp-server-auth-scope",
+   "source": "Zenn Claude",
    "lang": "ja",
    "ai": "Claude",
-   "summary": "チームでClaude Codeを使っていると、うまくいった設定は共有したくなります。実際、私たちも命名規則やテスト方針、安全な操作の境界などを共通のスキルとして配っています。 その一方で、私は自分用のワークスペースも育てています。そこに置いているのは、チーム共通ルールの先行版ではありません。開発、運用、レビュー、進行、",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "Claude Code も Codex も Qwen も「1つのチーム」にする — メタハーネス AgentEngine を作った",
-   "url": "https://zenn.dev/infra_ojisan/articles/agentengine_metahernes",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "3行まとめ マシンにインストール済みの AI コーディング CLI（ハーネス）を PATH から自動検出し、6種類を1つのチームとして同じチャット上で議論させる CUI ツール AgentEngine を作った。 エージェント＝「ハーネス＋モデル＋ペルソナ」を1単位とし、CLI ごとの差異（システムプロンプトの渡し方・",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "自分のブランチに、自分が書いていないコミットがあった — LLM のセッションを並走させたときに壊れるもの",
-   "url": "https://zenn.dev/kuu_dqx/articles/your-branch-is-not-yours",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "Claude",
-   "summary": "LLM に毎日ブログ記事を書かせて無人で公開している話と、その検証が何を見ていなかったかの話を書きました。 https://zenn.dev/kuu_dqx/articles/headless-claude-code-43days https://zenn.dev/kuu_dqx/articles/numbers-ri",
+   "summary": "自作MCPサーバーに認証と権限スコープを入れる — 3層の分離設計で危険なツールを封じる 自作MCPサーバーをチームに配った翌日、Claudeが delete_note を呼んだ。消えたのはテスト用の1件だったから笑い話で済んだが、あれが本番のDBだったら終わっていた。 原因は単純で、ツールを登録した時点で「AIが呼べ",
    "date": "2026-09-21"
   },
   {
@@ -1817,51 +2159,6 @@
    "lang": "ja",
    "ai": "その他",
    "summary": "こんにちは、M16合同会社の代表社員&amp;COO(最高執行責任者)であり、FDE, PdM, PM, ソフトウェアエンジニア/LLMエンジニアのまさぴょんです🐱 今回は、増え続ける「〇〇駆動開発」を 何を単位に回すか という1本の軸で並べ直した地図をご紹介します🐱 この記事でわかること 「〇〇駆動開発」を並べる軸は",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "AIツールの出力を安定させるための「入力テンプレート」設計",
-   "url": "https://zenn.dev/aiai_tool/articles/c57c0a9f35874a",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "生成AIを日常業務で使っていると、同じような依頼をしているのに、毎回出力の形式や品質が少しずつ変わることがあります。 単発の利用であれば大きな問題ではありません。 しかし、文章作成、要約、データ整理、分類などを繰り返し行う場合、出力のばらつきは修正作業を増やす原因になります。 そこで役立つのが「入力テンプレート」です。",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "AI使用の限界と効用について",
-   "url": "https://zenn.dev/terry_write/articles/24d5ee55dda0a8",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "AIは便利なツールである。 しかしあまりに「AI」に対して盲目的すぎるように思う。 AIはすべてを解決は（今の所）しないし、正直な限界もある。 それは「実際にAIを活用している人」と、「AIを活用”しようと”している人」の間に、大きなギャップになっているように思える。 なので一度、言語化してみようと思う。 １．AIの有",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "画像生成AI 10種の無料プランを、枚数・ウォーターマーク・公開範囲・権利で比較する",
-   "url": "https://zenn.dev/donaldxs/articles/5bb7fd8327a1d1",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "画像生成AI 10種の無料プランを、枚数・ウォーターマーク・公開範囲・権利で比較する この記事の対象と範囲 対象読者：個人開発やサイド プロジェクトで画像素材が必要になり、無料の画像生成AIを使おうとしている方。成果物を公開したり、有償の案件に含めたりする可能性がある方を想定しています。 扱う範囲：10種類の画像生成A",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "同じ条件10個を「1. 」で並べ直したら、25回中23回で見えない考え込みが起きた。追試では消えた",
-   "url": "https://zenn.dev/numarn/articles/prompt-bullet-vs-numbered-thinking-handson",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "AI に何かを頼むとき、守ってほしい条件を箇条書きで並べるのはよくある書き方です。それについて「実はあまり効いていない気がする」という声を見かけたので、条件が本当に守られているのかを数えてみました。 結論から言うと、守られていました。条件を10個並べた70回の実行のうち、53回は10件すべて守られ、残る17回も破れたの",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "GPT-6 Astraの教科書",
-   "url": "https://zenn.dev/microsoft/articles/gpt_6_astra_textbook",
-   "source": "Zenn 生成AI",
-   "lang": "ja",
-   "ai": "ChatGPT",
-   "summary": "はじめに そもそもAstraってなんだ？ということで、本記事を記載してみました。 Astra → 語源的にはラテン語の astrum / astra（星・星々） に由来する表現で、英語圏でも「星」をイメージさせる名称 とのことです。 なので、OpenAIの公式のモデルにも綺麗な星のページになってるんですね。 2024年",
    "date": "2026-09-21"
   },
   {
@@ -1916,15 +2213,6 @@
    "lang": "en",
    "ai": "その他",
    "summary": "Why a Performance and Bugs Discussion Hub? This Discussion Hub makes it easier for everyone to see what others are experiencing at any time by collecting all ex",
-   "date": "2026-09-21"
-  },
-  {
-   "title": "Kinhold Update: Fighting over an outpost",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1wmp8v2/kinhold_update_fighting_over_an_outpost/",
-   "source": "r/ClaudeAI",
-   "lang": "en",
-   "ai": "Claude",
-   "summary": "Kinhold is being built with Claude Code. This is after a few tweaks to combat in an outpost. Still a lot to work on! Enemy outposts and settlements have flags t",
    "date": "2026-09-21"
   },
   {
@@ -2090,21 +2378,21 @@
    "date": "2026-09-20"
   },
   {
-   "title": "SmAIlTalk その2 チーム向けタスク管理アプリ作ってみた",
-   "url": "https://zenn.dev/makotan/articles/55f06c77ed1f36",
-   "source": "Zenn Claude",
-   "lang": "ja",
-   "ai": "その他",
-   "summary": "これはなに？ SmAIlTalkを使ってチーム向けのタスク管理アプリを作ってみた まぁいわゆる...backlog的なものですね 最初に投げたプロンプトは...これ backlogみたいなチーム向けのタスク管理ツール作って ユーザをプロジェクトに追加するかどうかは管理者が決める 管理者は複数人登録が可能 タスク管理はプ",
-   "date": "2026-09-20"
-  },
-  {
    "title": "LLMにタスクの紐付けまで一度にやらせたら、88%が誤爆した",
    "url": "https://zenn.dev/tomtom55555/articles/5c726b4b0738d2",
    "source": "Zenn プロンプト",
    "lang": "ja",
    "ai": "その他",
    "summary": "LLM に「会議の完了報告を拾って、手元のタスクの状態を更新する」をやらせていました。動かして出てきた候補を 1 件ずつ人の目で確かめたら、88% が関係のないタスクに貼られていました。 原因はプロンプトの書き方ではなく、1 つのプロンプトに 2 つの仕事をさせていたことでした。 旧設計: 検知と紐付けを 1 回でやら",
+   "date": "2026-09-20"
+  },
+  {
+   "title": "SmAIlTalk その2 チーム向けタスク管理アプリ作ってみた",
+   "url": "https://zenn.dev/makotan/articles/55f06c77ed1f36",
+   "source": "Zenn Claude",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "これはなに？ SmAIlTalkを使ってチーム向けのタスク管理アプリを作ってみた まぁいわゆる...backlog的なものですね 最初に投げたプロンプトは...これ backlogみたいなチーム向けのタスク管理ツール作って ユーザをプロジェクトに追加するかどうかは管理者が決める 管理者は複数人登録が可能 タスク管理はプ",
    "date": "2026-09-20"
   },
   {
@@ -2387,15 +2675,6 @@
    "date": "2026-09-17"
   },
   {
-   "title": "Codex Computer Useを使う前に: Windows版ChatGPTの権限と安全設定を整理した",
-   "url": "https://zenn.dev/imaginarygate/articles/ae81fcfc9ea62c",
-   "source": "Zenn ChatGPT",
-   "lang": "ja",
-   "ai": "ChatGPT",
-   "summary": "はじめに これまで、AIエージェント専用PC上でCodex CLIやClaude Codeを試してきた。 CLI上でファイルを編集させるところまでは進めたので、次はGUIを操作するComputer Use系の機能を試してみることにした。 ただし今回は、いきなりPCを操作させることはしなかった。 まずWindows版Ch",
-   "date": "2026-09-17"
-  },
-  {
    "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
    "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
    "source": "Publickey",
@@ -2474,6 +2753,15 @@
    "lang": "ja",
    "ai": "その他",
    "summary": "AI庭づくりで生成した画像は、元の写真・依頼した変更・確認できない条件を分けてレビューすると、次に直すべき点を整理できます。写真の美しさに加えて、必要なものが残り、指定した変更が反映されているかを見る方法です。 この記事では、写真ベースのAI景観デザイン（AI Landscape and Garden Design）を",
+   "date": "2026-09-17"
+  },
+  {
+   "title": "Codex Computer Useを使う前に: Windows版ChatGPTの権限と安全設定を整理した",
+   "url": "https://zenn.dev/imaginarygate/articles/ae81fcfc9ea62c",
+   "source": "Zenn ChatGPT",
+   "lang": "ja",
+   "ai": "ChatGPT",
+   "summary": "はじめに これまで、AIエージェント専用PC上でCodex CLIやClaude Codeを試してきた。 CLI上でファイルを編集させるところまでは進めたので、次はGUIを操作するComputer Use系の機能を試してみることにした。 ただし今回は、いきなりPCを操作させることはしなかった。 まずWindows版Ch",
    "date": "2026-09-17"
   },
   {
@@ -3312,87 +3600,6 @@
    "ai": "その他",
    "summary": "",
    "date": "2026-08-21"
-  },
-  {
-   "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
-   "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-08-20"
-  },
-  {
-   "title": "5 new ways to level up your learning with Search",
-   "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Here’s how you can use Google Search tools to study for classes and standardized tests.",
-   "date": "2026-08-19"
-  },
-  {
-   "title": "How Much Memory Does Your Agent Actually Need?",
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-08-18"
-  },
-  {
-   "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-   "url": "https://huggingface.co/blog/multi-vector-encoder",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-08-18"
-  },
-  {
-   "title": "Get closer to the game with Gemini and Pixel",
-   "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "Gemini",
-   "summary": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology.",
-   "date": "2026-08-17"
-  },
-  {
-   "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-   "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-08-17"
-  },
-  {
-   "title": "State of Open Models: Summer 2026 Observations",
-   "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-08-14"
-  },
-  {
-   "title": "Bring your spreadsheet data to life with Sheets canvas",
-   "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-   "source": "Google AI",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
-   "date": "2026-08-13"
-  },
-  {
-   "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-   "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-   "source": "HuggingFace",
-   "lang": "en",
-   "ai": "その他",
-   "summary": "",
-   "date": "2026-08-13"
   }
  ]
 }
