@@ -172,7 +172,7 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
 .line .txt{flex:1;font-size:15px;line-height:1.8;padding:6px 12px;border-radius:12px;
   background:var(--panel);border:1px solid var(--line);transition:background .2s}
 .line.now .txt{background:var(--accent-soft);border-color:var(--accent)}
-.audiobox{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+.audiobox{background:var(--accent-soft);border:2px solid var(--accent);border-radius:12px;
   padding:14px;margin-bottom:14px;box-shadow:var(--shadow)}
 .audiobox h3{margin:0 0 4px;font-size:14px}
 .audiobox audio{width:100%;margin-top:8px}
@@ -266,7 +266,7 @@ function stopCast(){
   try{ speechSynthesis.cancel(); }catch(e){}
   castOn=false; castIdx=-1;
   document.querySelectorAll(".line").forEach(p=>p.classList.remove("now"));
-  const b=el("#play"); if(b){ b.textContent="▶ 再生"; b.classList.remove("playing"); }
+  const b=el("#play"); if(b){ b.textContent="▶ 端末の声で読み上げ"; b.classList.remove("playing"); }
 }
 function jaVoice(){
   try{
@@ -303,17 +303,17 @@ function castView(){
     + `<p class="credit">${esc(c.credit||"")}</p>`;
   const mp3="https://github.com/ryuguuu38/ai-kotsu/releases/download/audio/today.mp3";
   const player=`<div class="audiobox">
-      <h3>🔊 ずんだもん × 四国めたん（本物の声）</h3>
+      <h3>🔊 こちらが本番｜ずんだもん × 四国めたんの声</h3>
       <audio controls preload="none" src="${mp3}"></audio>
-      <p class="note">毎朝7時すぎに自動で作られます。まだ無い場合は、下の「▶ 再生」で端末の読み上げが使えます。
+      <p class="note">毎朝7時すぎに自動で更新されます。<b>聞くならこちら。</b>読み込めない場合だけ、下の代替機能を使ってください。
         <a href="${mp3}" download>ダウンロード ↓</a></p>
     </div>`;
   return player + `<div class="castbar">
-      <button class="play" id="play">▶ 再生</button>
+      <button class="play" id="play">▶ 端末の声で読み上げ</button>
       <button class="mini" data-rate="1">等倍</button>
       <button class="mini" data-rate="1.25">1.25倍</button>
       <button class="mini" data-rate="1.5">1.5倍</button>
-      <span class="castmeta">約${c.minutes}分 ／ ${c.date} 版</span>
+      <span class="castmeta">代替機能（ずんだもんの声ではありません）／ 約${c.minutes}分・${c.date}版</span>
     </div>
     <p class="nospeech" id="warn" style="display:none">この端末では読み上げが使えません。下の台本を読んでください。</p>
     <div class="script">${body}</div>`;
@@ -458,7 +458,7 @@ function render(){
   pills();
   if(view==="cast"){
     el("#aipills").innerHTML=""; el("#tagpills").innerHTML=""; el("#authorpills").innerHTML="";
-    el("#hint").textContent="今日の新着から自動で作った台本です。▶で読み上げ、セリフを押すとそこから再生します。";
+    el("#hint").textContent="上の🔊がずんだもん＆めたんの本番音声です。下の台本は読み物としてどうぞ（セリフを押すとその場所から端末の声で読み上げます）。";
     el("#body").innerHTML=castView();
     const pb=el("#play");
     if(pb){
