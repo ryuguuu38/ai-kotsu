@@ -51,6 +51,10 @@ jobs:
           VOICE_OUT: ./today.mp3
         run: python make_voice.py
 
+      # 3.5) いつの台本で音声を作ったかを記録する（サイトでズレを検知するため）
+      - name: 音声の作成日を記録
+        run: date -u +%Y-%m-%d\ %H:%M > data/voice_built.txt
+
       # 4) 音声を配布用の置き場に上げる（リポジトリには入れない）
       - name: 音声を配布する
         env:

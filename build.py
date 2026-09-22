@@ -313,10 +313,16 @@ function castView(){
   const player=`<div class="audiobox">
       <h3>🔊 こちらが本番｜ずんだもん × 四国めたんの声</h3>
       <audio controls preload="none" src="${mp3}"></audio>
-      <p class="note">毎朝7時すぎに自動で更新されます。<b>聞くならこちら。</b>読み込めない場合だけ、下の代替機能を使ってください。
+      <p class="note" id="vnote">毎朝7時すぎに自動で更新されます。<b>聞くならこちら。</b>読み込めない場合だけ、下の代替機能を使ってください。
         <a href="${mp3}" download>ダウンロード ↓</a></p>
     </div>`;
-  return player + `<div class="castbar">
+  // 台本より音声が古い場合は警告を出す
+  const vb = (c.voice_built||"").slice(0,10);
+  const stale = vb && c.date && vb < c.date;
+  const warn = stale
+    ? `<p class="note" style="color:#b4531f"><b>⚠️ この音声は ${esc(vb)} 版です。</b>下の台本（${esc(c.date)}版）とは内容が違います。次の自動更新（毎朝7時）で揃います。</p>`
+    : (vb ? `<p class="note">音声も台本も ${esc(vb)} 版です ✅</p>` : "");
+  return player.replace("</div>", warn + "</div>") + `<div class="castbar">
       <button class="play" id="play">▶ 端末の声で読み上げ</button>
       <button class="mini" data-rate="1">等倍</button>
       <button class="mini" data-rate="1.25">1.25倍</button>
@@ -589,6 +595,13 @@ def main():
     news = load("news.json", "news")
     feed = load("feed.json", "items")
     cast = load_obj("podcast.json")
+    # 音声が作られた時刻（GitHubの自動実行が書き残す）
+    vstamp = ""
+    vp = os.path.join(HERE, "data", "voice_built.txt")
+    if os.path.exists(vp):
+        try: vstamp = io.open(vp, encoding="utf-8").read().strip()
+        except Exception: pass
+    cast["voice_built"] = vstamp
     data = {"updated": datetime.now().strftime("%Y-%m-%d %H:%M"), "tips": tips, "feed": feed, "news": news, "cast": cast}
     html = TEMPLATE.replace("__DATA__", json.dumps(data, ensure_ascii=False))
     if not os.path.isdir(OUTDIR):
