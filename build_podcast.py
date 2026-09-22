@@ -77,7 +77,7 @@ def build():
     star = [f for f in fresh if f.get("pick") == "オーナー指定"]
     others = [f for f in fresh if f.get("pick") != "オーナー指定"]
     picks = (star[:4] + others)[:5]
-    todays_news = [n for n in news if days_ago(n.get("date")) <= 1][:4]
+    todays_news = [n for n in news if days_ago(n.get("date")) <= 1][:12]
     todays_tips = []
     if tips:
         base = seed * 3
@@ -131,9 +131,35 @@ def build():
 
     # ---- ニュース ----
     if todays_news:
-        say(M, "最後にニュースの見出しだけ。")
-        for n in todays_news:
-            say(M, "%s から、%s。" % (clean(n.get("source", "")), clean(n.get("title", ""))))
+        say(M, "最後に、今日のニュースから気になったものだけ。")
+        # 日本語記事を優先し、同じ媒体が続かないように散らす
+        ordered = sorted(todays_news, key=lambda n: 0 if n.get("lang") == "ja" else 1)
+        picked, used_src = [], set()
+        for allow_dup in (False, True):        # まず1媒体1本、足りなければ2本目も許す
+            for n in ordered:
+                if n in picked:
+                    continue
+                src = n.get("source", "")
+                if not allow_dup and src in used_src:
+                    continue
+                used_src.add(src)
+                picked.append(n)
+                if len(picked) >= 4:
+                    break
+            if len(picked) >= 4:
+                break
+        for i, n in enumerate(picked):
+            title = clean(n.get("title", ""))
+            ai = n.get("ai", "その他")
+            if i == 0:
+                say(M, "まず、%s の話。%s。" % (ai, title))
+            elif i == len(picked) - 1:
+                say(M, "最後は、%s。%s。" % (ai, title))
+            else:
+                say(M, "それから、%s。%s。" % (ai, title))
+            if len(picked) >= 3 and i == len(picked) // 2:
+                say(Z, "見出しだけでも、流れは分かるのだ。")
+        say(Z, "気になったのがあったら、サイトのニュース欄から開けるのだ。")
 
 
     # ---- コツ（本編） ----
