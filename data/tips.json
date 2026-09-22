@@ -24,7 +24,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "両方"
   },
   {
    "id": "gpt-002",
@@ -50,7 +51,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり（2026-09 の投稿で同じ手法が紹介されている）",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "両方"
   },
   {
    "id": "gpt-003",
@@ -77,7 +79,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり（同じ機能を紹介した記事）",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "両方"
   },
   {
    "id": "gpt-004",
@@ -104,7 +107,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "両方"
   },
   {
    "id": "claude-001",
@@ -130,7 +134,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "自分用"
   },
   {
    "id": "claude-002",
@@ -156,7 +161,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "自分用"
   },
   {
    "id": "claude-003",
@@ -181,7 +187,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "自分用"
   },
   {
    "id": "gemini-001",
@@ -207,7 +214,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "自分用"
   },
   {
    "id": "gemini-002",
@@ -232,7 +240,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "自分用"
   },
   {
    "id": "gemini-003",
@@ -257,7 +266,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "自分用"
   },
   {
    "id": "copilot-001",
@@ -283,7 +293,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "提案用"
   },
   {
    "id": "copilot-002",
@@ -308,7 +319,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "提案用"
   },
   {
    "id": "copilot-003",
@@ -334,7 +346,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "提案用"
   },
   {
    "id": "other-001",
@@ -361,7 +374,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり（※ただし下記の注意を参照）",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "両方"
   },
   {
    "id": "other-002",
@@ -387,7 +401,8 @@
    },
    "added": "2026-09-22",
    "verified": "出典あり",
-   "origin": "Claude"
+   "origin": "Claude",
+   "use": "両方"
   },
   {
    "id": "claude-004",
@@ -413,7 +428,8 @@
     "url": "https://x.com/ClaudeCode_UT/article/2054691480728674326"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-005",
@@ -439,7 +455,8 @@
     "url": "https://x.com/masahirochaen/article/2089544100693545408"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-006",
@@ -464,7 +481,8 @@
     "url": "https://x.com/daifukujinji/article/2087011155554488679"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-007",
@@ -490,7 +508,8 @@
     "url": "https://x.com/masahirochaen/status/1948604701093888069"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-008",
@@ -515,7 +534,8 @@
     "url": "https://x.com/akira_papa_IT/status/2024972116769341604"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-009",
@@ -542,7 +562,8 @@
     "url": "https://www.youtube.com/watch?v=BORAq995Ye4"
    },
    "added": "2026-09-22",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "自分用"
   },
   {
    "id": "gpt-005",
@@ -567,7 +588,8 @@
     "url": "https://x.com/i/trending/2081571225654952434"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "gpt-006",
@@ -592,7 +614,8 @@
     "url": "https://x.com/ai_jitan/status/2016162566104662138"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "gpt-007",
@@ -617,7 +640,8 @@
     "url": "https://x.com/osaruproducer/status/2039266397872865616"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "gemini-004",
@@ -642,7 +666,8 @@
     "url": "https://x.com/Sokichi_Hoshino/article/2059796508799836359"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "gemini-005",
@@ -666,7 +691,8 @@
     "url": "https://x.com/ai_jitan/status/2026511764595290600"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "copilot-004",
@@ -693,7 +719,8 @@
     "url": "https://x.com/MSOfficeJP/status/1892491884666245328"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "提案用"
   },
   {
    "id": "copilot-005",
@@ -718,7 +745,8 @@
     "url": "https://x.com/madonomori/status/1978218027683578017"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "提案用"
   },
   {
    "id": "other-003",
@@ -743,7 +771,8 @@
     "url": "https://x.com/beku_AI/article/2059408611043082624"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "other-004",
@@ -768,7 +797,8 @@
     "url": "https://x.com/ai_jitan/status/2039452276688068814"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "other-005",
@@ -794,7 +824,8 @@
     "url": "https://www.youtube.com/watch?v=gBVpT6ZNF0k"
    },
    "added": "2026-09-22",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "両方"
   },
   {
    "id": "claude-010",
@@ -826,7 +857,8 @@
     "url": "https://note.com/chaen_channel/n/n50acfd3faee9"
    },
    "added": "2026-09-22",
-   "verified": "出典あり（本文を読んで要約）"
+   "verified": "出典あり（本文を読んで要約）",
+   "use": "自分用"
   },
   {
    "id": "claude-011",
@@ -852,7 +884,8 @@
     "url": "https://note.com/claudecode_lab/n/nab7c1119fb2e"
    },
    "added": "2026-09-22",
-   "verified": "出典あり（本文を読んで要約）"
+   "verified": "出典あり（本文を読んで要約）",
+   "use": "自分用"
   },
   {
    "id": "copilot-006",
@@ -885,7 +918,8 @@
     "url": "https://www.youtube.com/watch?v=xtMLtyP_I68"
    },
    "added": "2026-09-22",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "提案用"
   },
   {
    "id": "other-006",
@@ -911,7 +945,8 @@
     "url": "https://www.youtube.com/watch?v=aoLBVOTdALg"
    },
    "added": "2026-09-22",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "両方"
   },
   {
    "id": "claude-012",
@@ -937,7 +972,8 @@
     "url": "https://www.youtube.com/watch?v=HE0kHYZvH0c"
    },
    "added": "2026-09-22",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "自分用"
   },
   {
    "id": "gemini-006",
@@ -962,7 +998,8 @@
     "url": "https://note.com/majin_108/n/n464fb6cabfe4"
    },
    "added": "2026-09-22",
-   "verified": "記事タイトル・冒頭から要約（詳細は記事で確認）"
+   "verified": "記事タイトル・冒頭から要約（詳細は記事で確認）",
+   "use": "自分用"
   },
   {
    "id": "other-007",
@@ -989,7 +1026,8 @@
     "url": "https://x.com/fujikururi/article/2087461428852838623"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "other-008",
@@ -1014,7 +1052,8 @@
     "url": "https://x.com/Maruo_0314/article/2078103252579807320"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "other-009",
@@ -1041,7 +1080,8 @@
     "url": "https://x.com/masahirochaen/status/2035953738159186107"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "claude-013",
@@ -1067,7 +1107,8 @@
     "url": "https://x.com/yusaku_0426/status/2045831777806372950"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-014",
@@ -1093,7 +1134,8 @@
     "url": "https://x.com/makeai_ceo/status/2035564899338973373"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "other-010",
@@ -1119,7 +1161,8 @@
     "url": "https://x.com/mercarioji/article/2026948253183516686"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "claude-015",
@@ -1146,7 +1189,8 @@
     "url": "https://note.com/claudecode_lab/n/n4de40aedf1a8"
    },
    "added": "2026-09-22",
-   "verified": "出典あり（本文を読んで要約）／⚠️注意：元記事の導入手順は npx を使います。あなたの社内ルールでは npx は禁止なので、導入する場合は先に相談が必要です"
+   "verified": "出典あり（本文を読んで要約）／⚠️注意：元記事の導入手順は npx を使います。あなたの社内ルールでは npx は禁止なので、導入する場合は先に相談が必要です",
+   "use": "自分用"
   },
   {
    "id": "claude-016",
@@ -1172,7 +1216,8 @@
     "url": "https://note.com/claudecode_lab/n/n4de40aedf1a8"
    },
    "added": "2026-09-22",
-   "verified": "出典あり（本文を読んで要約）"
+   "verified": "出典あり（本文を読んで要約）",
+   "use": "自分用"
   },
   {
    "id": "other-011",
@@ -1198,7 +1243,8 @@
     "url": "https://note.com/claudecode_lab/n/n58abee2e1feb"
    },
    "added": "2026-09-22",
-   "verified": "出典あり（本文を読んで要約）"
+   "verified": "出典あり（本文を読んで要約）",
+   "use": "両方"
   },
   {
    "id": "claude-017",
@@ -1225,7 +1271,8 @@
     "url": "https://note.com/chaen_channel/n/nab103088ebef"
    },
    "added": "2026-09-22",
-   "verified": "出典あり（無料部分を読んで要約。詳細は有料部分）"
+   "verified": "出典あり（無料部分を読んで要約。詳細は有料部分）",
+   "use": "自分用"
   },
   {
    "id": "claude-018",
@@ -1251,7 +1298,8 @@
     "url": "https://note.com/chaen_channel/n/nab103088ebef"
    },
    "added": "2026-09-22",
-   "verified": "出典あり（無料部分を読んで要約）"
+   "verified": "出典あり（無料部分を読んで要約）",
+   "use": "自分用"
   },
   {
    "id": "claude-019",
@@ -1278,7 +1326,8 @@
     "url": "https://x.com/SuguruKun_ai/article/2077582634340016400"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-020",
@@ -1303,7 +1352,8 @@
     "url": "https://x.com/dansyu_callenge/article/2052504525433700706"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-021",
@@ -1328,7 +1378,8 @@
     "url": "https://x.com/SuguruKun_ai/article/2077582634340016400"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "gpt-008",
@@ -1353,7 +1404,8 @@
     "url": "https://x.com/tetumemo/status/2047603440470343716"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "other-012",
@@ -1378,7 +1430,8 @@
     "url": "https://x.com/tetumemo/status/1919715534456946973"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "gemini-007",
@@ -1403,7 +1456,8 @@
     "url": "https://x.com/apartment_labo/status/1955255146004578707"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "gemini-008",
@@ -1428,7 +1482,8 @@
     "url": "https://x.com/nin222/status/1932376566396588414"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "gemini-009",
@@ -1453,7 +1508,8 @@
     "url": "https://x.com/mirai_spark/article/2080304194951754034"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "gpt-009",
@@ -1480,7 +1536,8 @@
     "url": "https://x.com/pop_ikeda/status/1867753460181205230"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "gpt-010",
@@ -1505,7 +1562,8 @@
     "url": "https://x.com/totalscore0307/status/2062078673197621627"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "copilot-007",
@@ -1531,7 +1589,8 @@
     "url": "https://x.com/MSOfficeJP/status/2010992717824717141"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "提案用"
   },
   {
    "id": "copilot-008",
@@ -1556,7 +1615,8 @@
     "url": "https://x.com/MSOfficeJP/status/1866037571274322256"
    },
    "added": "2026-09-22",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "提案用"
   },
   {
    "id": "copilot-009",
@@ -1584,7 +1644,8 @@
     "url": "https://note.com/sc_microsoft/n/nc38da4fae12a"
    },
    "added": "2026-09-22",
-   "verified": "出典あり（本文を読んで要約）"
+   "verified": "出典あり（本文を読んで要約）",
+   "use": "提案用"
   },
   {
    "id": "gemini-010",
@@ -1610,7 +1671,8 @@
     "url": "https://note.com/green_ai/n/n31b1999257e9"
    },
    "added": "2026-09-22",
-   "verified": "出典あり（本文を読んで要約）"
+   "verified": "出典あり（本文を読んで要約）",
+   "use": "自分用"
   },
   {
    "id": "gemini-011",
@@ -1635,7 +1697,8 @@
     "url": "https://note.com/green_ai/n/n31b1999257e9"
    },
    "added": "2026-09-22",
-   "verified": "出典あり（本文を読んで要約）"
+   "verified": "出典あり（本文を読んで要約）",
+   "use": "自分用"
   },
   {
    "id": "gemini-012",
@@ -1660,7 +1723,8 @@
     "url": "https://note.com/green_ai/n/n31b1999257e9"
    },
    "added": "2026-09-22",
-   "verified": "出典あり（本文を読んで要約）"
+   "verified": "出典あり（本文を読んで要約）",
+   "use": "自分用"
   },
   {
    "id": "claude-022",
@@ -1687,7 +1751,8 @@
     "url": "https://note.com/alix78/n/n67a9b7b8e757"
    },
    "added": "2026-09-22",
-   "verified": "出典あり（無料部分を読んで要約。具体的なテンプレートは有料部分）"
+   "verified": "出典あり（無料部分を読んで要約。具体的なテンプレートは有料部分）",
+   "use": "自分用"
   },
   {
    "id": "other-013",
@@ -1714,7 +1779,8 @@
     "url": "https://note.com/alix78/n/ne195f9275717"
    },
    "added": "2026-09-23",
-   "verified": "出典あり（無料部分を読んで要約）"
+   "verified": "出典あり（無料部分を読んで要約）",
+   "use": "両方"
   },
   {
    "id": "other-014",
@@ -1741,7 +1807,8 @@
     "url": "https://note.com/uchita_success/n/na5babdc58b0e"
    },
    "added": "2026-09-23",
-   "verified": "出典あり（無料部分を読んで要約）"
+   "verified": "出典あり（無料部分を読んで要約）",
+   "use": "両方"
   },
   {
    "id": "other-015",
@@ -1767,7 +1834,8 @@
     "url": "https://note.com/miya73630/n/n33e9979efb55"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "claude-023",
@@ -1793,7 +1861,8 @@
     "url": "https://note.com/macha_ai/n/nb1091da35f90"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-024",
@@ -1820,7 +1889,8 @@
     "url": "https://note.com/echoesr/n/n4515f63f2e9e"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-025",
@@ -1848,7 +1918,8 @@
     "url": "https://note.com/weel_media/n/n17a541413f48"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-026",
@@ -1874,7 +1945,8 @@
     "url": "https://note.com/miccell/n/n443d0dd3600d"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-027",
@@ -1900,7 +1972,8 @@
     "url": "https://note.com/miccell/n/n443d0dd3600d"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-028",
@@ -1926,7 +1999,8 @@
     "url": "https://note.com/instkoni/n/nf52e7f5c5397"
    },
    "added": "2026-09-23",
-   "verified": "出典あり（※effort=lowの解釈は記事間で食い違いあり。両論を併記）"
+   "verified": "出典あり（※effort=lowの解釈は記事間で食い違いあり。両論を併記）",
+   "use": "自分用"
   },
   {
    "id": "other-016",
@@ -1953,7 +2027,8 @@
     "url": "https://note.com/kanu8240/n/n6e0bd9081d4d"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "other-017",
@@ -1981,7 +2056,8 @@
     "url": "https://note.com/maruryo0729/n/n4cb7a080f333"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "other-018",
@@ -2009,7 +2085,8 @@
     "url": "https://note.com/heartandbrain/n/n4e9d5579c75e"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "claude-029",
@@ -2035,7 +2112,8 @@
     "url": "https://note.com/mako_lab0/n/n9f85bdd57df3"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-030",
@@ -2062,7 +2140,8 @@
     "url": "https://note.com/asuni_nare/n/na8a792d0ec85"
    },
    "added": "2026-09-23",
-   "verified": "出典あり（日本語対応可否は未確認）"
+   "verified": "出典あり（日本語対応可否は未確認）",
+   "use": "自分用"
   },
   {
    "id": "other-019",
@@ -2090,7 +2169,8 @@
     "url": "https://note.com/murosakikeita/n/nc2ebe32bdc11"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "other-020",
@@ -2116,7 +2196,8 @@
     "url": "https://note.com/murosakikeita/n/nc2ebe32bdc11"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "gemini-013",
@@ -2143,7 +2224,8 @@
     "url": "https://note.com/google_gemini/n/nd1ad184870f6"
    },
    "added": "2026-09-23",
-   "verified": "出典あり（公式発信）"
+   "verified": "出典あり（公式発信）",
+   "use": "自分用"
   },
   {
    "id": "gpt-011",
@@ -2170,7 +2252,8 @@
     "url": "https://x.com/ctgptlb/status/1959170311540359215"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "gpt-012",
@@ -2195,7 +2278,8 @@
     "url": "https://x.com/ctgptlb/status/1971394289881186373"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "copilot-010",
@@ -2221,7 +2305,8 @@
     "url": "https://x.com/usutaku_channel/status/1748619723556991095"
    },
    "added": "2026-09-23",
-   "verified": "出典あり（※2024年の投稿。その後の改善は要確認）"
+   "verified": "出典あり（※2024年の投稿。その後の改善は要確認）",
+   "use": "提案用"
   },
   {
    "id": "copilot-011",
@@ -2248,7 +2333,8 @@
     "url": "https://x.com/MSOfficeJP/status/2075052322997092795"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "提案用"
   },
   {
    "id": "copilot-012",
@@ -2274,7 +2360,8 @@
     "url": "https://x.com/geekfujiwara/status/2009382080804008039"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "提案用"
   },
   {
    "id": "claude-031",
@@ -2300,7 +2387,8 @@
     "url": "https://note.com/instkoni/n/n701cb40ed8c3"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "claude-032",
@@ -2328,7 +2416,8 @@
     "url": "https://note.com/instkoni/n/n701cb40ed8c3"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "other-021",
@@ -2355,7 +2444,8 @@
     "url": "https://note.com/chairman_rim/n/n598b80b84cac"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "other-022",
@@ -2382,7 +2472,8 @@
     "url": "https://www.youtube.com/watch?v=oyggup_ZNv4"
    },
    "added": "2026-09-23",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "両方"
   },
   {
    "id": "gpt-013",
@@ -2411,7 +2502,8 @@
     "url": "https://www.youtube.com/watch?v=0mXB39R7dDM"
    },
    "added": "2026-09-23",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "両方"
   },
   {
    "id": "claude-033",
@@ -2440,7 +2532,8 @@
     "url": "https://www.youtube.com/watch?v=KWKTy4zjr3Q"
    },
    "added": "2026-09-23",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "自分用"
   },
   {
    "id": "other-024",
@@ -2468,7 +2561,8 @@
     "url": "https://www.youtube.com/watch?v=mtA-a33oFRI"
    },
    "added": "2026-09-23",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "両方"
   },
   {
    "id": "other-023",
@@ -2495,7 +2589,8 @@
     "url": "https://www.youtube.com/watch?v=eBSEfpOnxKY"
    },
    "added": "2026-09-23",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "両方"
   },
   {
    "id": "other-025",
@@ -2524,7 +2619,8 @@
     "url": "https://note.com/mika_0419/n/n30579467664d"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "other-026",
@@ -2555,7 +2651,8 @@
     "url": "https://note.com/june_maimai_/n/n861429899e47"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "claude-034",
@@ -2584,7 +2681,8 @@
     "url": "https://note.com/19831112/n/nddd81e659443"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "自分用"
   },
   {
    "id": "other-027",
@@ -2613,7 +2711,8 @@
     "url": "https://note.com/mao_obata/n/ncd5ebe076dc5"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "other-028",
@@ -2641,7 +2740,8 @@
     "url": "https://note.com/mao_obata/n/ncd5ebe076dc5"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "other-029",
@@ -2669,7 +2769,8 @@
     "url": "https://note.com/shin_experiment/n/n0021691b8116"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "other-030",
@@ -2697,7 +2798,8 @@
     "url": "https://note.com/kisha_koku/n/n98ec07228680"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "other-031",
@@ -2725,7 +2827,8 @@
     "url": "https://note.com/minato74_/n/n70a2af4f885e"
    },
    "added": "2026-09-23",
-   "verified": "出典あり"
+   "verified": "出典あり",
+   "use": "両方"
   },
   {
    "id": "copilot-013",
@@ -2755,7 +2858,8 @@
     "url": "https://www.youtube.com/watch?v=AGfJGhuIHag"
    },
    "added": "2026-09-23",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "提案用"
   },
   {
    "id": "copilot-014",
@@ -2784,7 +2888,8 @@
     "url": "https://www.youtube.com/watch?v=hMYJECvz6l4"
    },
    "added": "2026-09-23",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "提案用"
   },
   {
    "id": "copilot-015",
@@ -2813,7 +2918,8 @@
     "url": "https://www.youtube.com/watch?v=uArYLN-Y51k"
    },
    "added": "2026-09-23",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "提案用"
   },
   {
    "id": "copilot-016",
@@ -2842,7 +2948,8 @@
     "url": "https://www.youtube.com/watch?v=eAwpfIC73HI"
    },
    "added": "2026-09-23",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "提案用"
   },
   {
    "id": "copilot-017",
@@ -2874,7 +2981,8 @@
     "url": "https://www.youtube.com/watch?v=wqYn0z0GJN4"
    },
    "added": "2026-09-23",
-   "verified": "動画の目次から要約（詳細は動画で確認）"
+   "verified": "動画の目次から要約（詳細は動画で確認）",
+   "use": "提案用"
   }
  ]
 }
