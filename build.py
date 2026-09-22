@@ -35,6 +35,10 @@ TEMPLATE = r"""<!DOCTYPE html>
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="googlebot" content="noindex, nofollow">
 <title>AIコツ図鑑</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#c2512a">
 <style>
 :root{
   --bg:#f7f7f5; --panel:#ffffff; --ink:#1c1c1a; --muted:#6b6b63; --line:#e3e3dd;
@@ -588,6 +592,14 @@ def main():
     if not os.path.isdir(OUTDIR):
         os.makedirs(OUTDIR)
     io.open(OUT, "w", encoding="utf-8").write(html)
+    # スマホのホーム画面に追加したときの表示設定
+    io.open(os.path.join(OUTDIR, "site.webmanifest"), "w", encoding="utf-8").write(json.dumps({
+        "name": "AIコツ図鑑", "short_name": "AIコツ",
+        "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+                  {"src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}],
+        "theme_color": "#c2512a", "background_color": "#f7f7f5",
+        "display": "standalone", "start_url": "./"
+    }, ensure_ascii=False, indent=1))
     # 検索エンジンに拾わせないための指示ファイル
     io.open(os.path.join(OUTDIR, "robots.txt"), "w", encoding="utf-8").write(
         "User-agent: *\nDisallow: /\n")
