@@ -374,10 +374,18 @@ function sendToClaude(){
     "at: "+stamp+" "+String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0");
   const url="https://github.com/ryuguuu38/ai-kotsu/issues/new"
     +"?title="+encodeURIComponent("いいね "+stamp)
-    +"&labels="+encodeURIComponent("likes")
     +"&body="+encodeURIComponent(body);
   if(url.length>7000){ alert("件数が多すぎて送れません。コピー方式に切り替えます。"); exportLikes(); return; }
+  // 先に手元にもコピーしておく（GitHubが開かなかったときの保険）
+  try{ navigator.clipboard && navigator.clipboard.writeText(body); }catch(e){}
   window.open(url, "_blank", "noopener");
+  // GitHubがエラーになっても困らないように、案内を残す
+  const b=document.createElement("div"); b.id="syncnote";
+  b.innerHTML="GitHubが開きます。<b>送信を押すだけ</b>です。<br>"+
+    "<span style=\"font-weight:400;font-size:11.5px\">開かない／エラーが出た場合は、"+
+    "同じ内容をコピー済みなのでチャットに貼ってください</span>";
+  document.body.appendChild(b);
+  setTimeout(()=>{ b.style.opacity="0"; setTimeout(()=>b.remove(),600); }, 9000);
 }
 function exportLikes(){
   const meta=likeMeta(); const ids=favs();

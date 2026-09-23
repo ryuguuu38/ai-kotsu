@@ -31,15 +31,19 @@ def gh(args):
 
 def fetch_issues():
     """「likes」ラベルの付いた、まだ閉じていない投稿を新しい順に取る"""
-    raw = gh(["issue", "list", "--repo", REPO, "--label", "likes",
+    # ラベルで絞ると、スマホのGitHubでエラーになることがあったので、題名で見分ける
+    raw = gh(["issue", "list", "--repo", REPO,
               "--state", "open", "--limit", "30",
               "--json", "number,title,body,createdAt"])
     if not raw:
         return []
     try:
-        return json.loads(raw)
+        all_issues = json.loads(raw)
     except Exception:
         return []
+    return [i for i in all_issues
+            if str(i.get("title", "")).startswith("いいね")
+            or re.search(r"^\s*L\s*[:：]", i.get("body") or "", re.M)]
 
 
 def parse(body):
