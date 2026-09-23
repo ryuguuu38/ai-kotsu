@@ -220,6 +220,11 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
 .nope{border:1px solid var(--line);background:var(--panel);color:var(--muted);border-radius:999px;
   padding:3px 9px;font-size:11.5px;cursor:pointer;font-family:inherit;margin-left:5px}
 .nope.on{background:#8a8a8a;color:#fff;border-color:#8a8a8a}
+/* 別端末から取り込んだときのお知らせ（画面下に出す） */
+#syncnote{position:fixed;left:50%;transform:translateX(-50%);bottom:18px;z-index:60;
+  background:var(--accent);color:#fff;font-size:13px;font-weight:700;
+  padding:9px 18px;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.22);
+  transition:opacity .6s;max-width:92vw;text-align:center}
 .fsum2{font-size:12px;color:var(--muted)}
 /* 動画・noteの説明文は3行まで（長すぎると一覧が読めない） */
 .fsum{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
@@ -290,17 +295,51 @@ function axCleared(){ return AXIS.every(([k])=>ax[k]==="すべて"); }
 function axReset(){ AXIS.forEach(([k])=>ax[k]="すべて"); }
 /* 👎 これは違う */
 const NG_KEY="aikotsu_nope";
+const OFF_KEY="aikotsu_off";   // 自分で外したもの（復活させないため）
+function offList(){ try{ return JSON.parse(localStorage.getItem(OFF_KEY)||"[]"); }catch(e){ return []; } }
+function addOff(id){ const a=offList(); if(a.indexOf(id)<0){ a.push(id);
+  try{ localStorage.setItem(OFF_KEY, JSON.stringify(a)); }catch(e){} } }
+function rmOff(id){ const a=offList(); const i=a.indexOf(id);
+  if(i>=0){ a.splice(i,1); try{ localStorage.setItem(OFF_KEY, JSON.stringify(a)); }catch(e){} } }
+
+/* 保存済みの好み（リポジトリ側）を、この端末の記録と合体させる。
+   ・保存済みにあって端末に無い → 取り込む（別端末で押したものが出る）
+   ・自分で外したもの（OFF_KEY）は復活させない
+   ・👎は👍より優先する */
+let mergedCount = 0;
+function mergeSaved(){
+  const sv = (typeof DATA!=="undefined" && DATA.saved) ? DATA.saved : null;
+  if(!sv || (!sv.likes && !sv.nopes)) return;
+  const off = offList();
+  let f=favs(), fm=likeMeta(), n=nopes(), nm=nopeMeta(), added=0;
+  Object.entries(sv.nopes||{}).forEach(([id,info])=>{
+    if(off.indexOf(id)>=0) return;
+    if(n.indexOf(id)<0){ n.push(id); nm[id]=info; added++; }
+    const j=f.indexOf(id); if(j>=0){ f.splice(j,1); delete fm[id]; }   // 👎が勝つ
+  });
+  Object.entries(sv.likes||{}).forEach(([id,info])=>{
+    if(off.indexOf(id)>=0 || n.indexOf(id)>=0) return;
+    if(f.indexOf(id)<0){ f.push(id); fm[id]=info; added++; }
+  });
+  try{
+    localStorage.setItem(FAV_KEY, JSON.stringify(f));
+    localStorage.setItem(FAV_KEY+"_meta", JSON.stringify(fm));
+    localStorage.setItem(NG_KEY, JSON.stringify(n));
+    localStorage.setItem(NG_KEY+"_meta", JSON.stringify(nm));
+  }catch(e){}
+  mergedCount = added;
+}
 function nopes(){ try{ return JSON.parse(localStorage.getItem(NG_KEY)||"[]"); }catch(e){ return []; } }
 function nopeMeta(){ try{ return JSON.parse(localStorage.getItem(NG_KEY+"_meta")||"{}"); }catch(e){ return {}; } }
 let hideNope=true;
 function toggleNope(id, info){
   const f=nopes(); const i=f.indexOf(id); const meta=nopeMeta();
-  if(i<0){ f.push(id); meta[id]=Object.assign({at:new Date().toISOString().slice(0,10)}, info||{});
+  if(i<0){ f.push(id); meta[id]=Object.assign({at:new Date().toISOString().slice(0,10)}, info||{}); rmOff(id);
            const g=favs(); const j=g.indexOf(id);      // いいね済みなら外す
            if(j>=0){ g.splice(j,1); const fm=likeMeta(); delete fm[id];
              try{ localStorage.setItem(FAV_KEY, JSON.stringify(g));
                   localStorage.setItem(FAV_KEY+"_meta", JSON.stringify(fm)); }catch(e){} } }
-  else { f.splice(i,1); delete meta[id]; }
+  else { f.splice(i,1); delete meta[id]; addOff(id); }
   try{ localStorage.setItem(NG_KEY, JSON.stringify(f));
        localStorage.setItem(NG_KEY+"_meta", JSON.stringify(meta)); }catch(e){}
   render();
@@ -311,8 +350,8 @@ function likeMeta(){ try{ return JSON.parse(localStorage.getItem(FAV_KEY+"_meta"
 function toggleFav(id, info){
   const f=favs(); const i=f.indexOf(id);
   const meta=likeMeta();
-  if(i<0){ f.push(id); meta[id]=Object.assign({at:new Date().toISOString().slice(0,10)}, info||{}); }
-  else { f.splice(i,1); delete meta[id]; }
+  if(i<0){ f.push(id); meta[id]=Object.assign({at:new Date().toISOString().slice(0,10)}, info||{}); rmOff(id); }
+  else { f.splice(i,1); delete meta[id]; addOff(id); }
   try{ localStorage.setItem(FAV_KEY, JSON.stringify(f));
        localStorage.setItem(FAV_KEY+"_meta", JSON.stringify(meta)); }catch(e){}
   render();
@@ -345,7 +384,7 @@ function exportLikes(){
     return {id:id, title:m.title||"", ai:m.ai||"", axes:m.axes||{}, at:m.at||""};});
   const out=JSON.stringify({exported:new Date().toISOString().slice(0,16),
     count:rows.length, 違うと答えた数:nrows.length,
-    傾向: summary, likes:rows, nopes:nrows}, null, 1);
+    傾向: summary, likes:rows, nopes:nrows, 外したもの: offList()}, null, 1);
   navigator.clipboard.writeText(out).then(()=>{
     alert("いいね "+rows.length+"件をコピーしました。\nClaudeのチャットに貼り付けてください。");
   }).catch(()=>{
@@ -801,7 +840,15 @@ document.addEventListener("keydown",(e)=>{
   if(e.key==="/" && document.activeElement!==el("#q")){ e.preventDefault(); el("#q").focus(); }
   if(e.key==="Escape"){ el("#q").value=""; q=""; shown=PAGE; render(); el("#q").blur(); }
 });
+mergeSaved();
 render();
+if(mergedCount>0){
+  const b=document.createElement("div");
+  b.id="syncnote";
+  b.textContent="👍 他の端末で押した "+mergedCount+" 件を取り込みました";
+  document.body.appendChild(b);
+  setTimeout(()=>{ b.style.opacity="0"; setTimeout(()=>b.remove(), 600); }, 5000);
+}
 </script>
 </body>
 </html>
@@ -811,6 +858,7 @@ def main():
     tips = load("tips.json", "tips")
     news = load("news.json", "news")
     feed = load("feed.json", "items")
+    saved = load_obj("likes.json") or {}
     cast = load_obj("podcast.json")
     # テーマ別の版（Claudeだけ／Geminiだけ…）も読み込む
     EDITION_LABELS = [("all", "全部"), ("claude", "Claude"), ("gemini", "Gemini"),
@@ -839,7 +887,7 @@ def main():
         ready = ["all"]        # 記録が無い間は、昔からある「全部」だけ音声ありとみなす
     for c in casts.values():
         c["voice_built"] = vstamp
-    data = {"updated": datetime.now().strftime("%Y-%m-%d %H:%M"), "tips": tips, "feed": feed, "news": news, "cast": cast, "casts": casts, "voice_ready": ready}
+    data = {"updated": datetime.now().strftime("%Y-%m-%d %H:%M"), "tips": tips, "feed": feed, "news": news, "cast": cast, "casts": casts, "voice_ready": ready, "saved": saved}
     html = TEMPLATE.replace("__DATA__", json.dumps(data, ensure_ascii=False))
     if not os.path.isdir(OUTDIR):
         os.makedirs(OUTDIR)
