@@ -69,7 +69,7 @@ header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px s
 h1{font-size:19px;margin:0;letter-spacing:.02em}
 h1 span{color:var(--accent)}
 .sub{font-size:12px;color:var(--muted)}
-.themebtn{margin-left:auto;border:1px solid var(--line);background:var(--panel);color:var(--muted);
+.themebtn{margin-left:8px;border:1px solid var(--line);background:var(--panel);color:var(--muted);
   border-radius:999px;padding:5px 12px;font-size:12px;cursor:pointer}
 .tabs{display:flex;gap:4px;padding-bottom:0}
 .tab{border:0;background:none;color:var(--muted);font-size:14px;font-weight:600;padding:9px 14px;
@@ -84,7 +84,8 @@ input[type=search]{flex:1;min-width:200px;padding:9px 13px;border:1px solid var(
 .pill.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .pill b{font-weight:600;opacity:.6;margin-left:5px;font-size:11px}
 main{padding:0 0 80px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+@media(min-width:1180px){ .grid{grid-template-columns:repeat(3,1fr)} }
 .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;
   box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px}
 .badges{display:flex;gap:6px;align-items:center;flex-wrap:wrap;font-size:11px}
@@ -120,6 +121,16 @@ ol.steps li{margin:3px 0}
 .newsrow a{text-decoration:none}
 .newsrow a:hover{color:var(--accent)}
 .newsrow .s{color:var(--muted);font-size:11.5px;white-space:nowrap}
+.thumb{flex:none;width:120px;height:68px;border-radius:9px;object-fit:cover;background:var(--bg);
+  border:1px solid var(--line)}
+.thumbx{flex:none;width:120px;height:68px;border-radius:9px;display:flex;align-items:center;justify-content:center;
+  font-weight:800;font-size:19px;color:#fff;letter-spacing:.02em;border:1px solid var(--line)}
+.fbody{flex:1;min-width:0}
+.frow{display:flex;gap:12px;align-items:flex-start}
+.nthumb{flex:none;width:56px;height:38px;border-radius:6px;object-fit:cover;border:1px solid var(--line);background:var(--bg)}
+.nthumbx{flex:none;width:56px;height:38px;border-radius:6px;display:flex;align-items:center;justify-content:center;
+  font-weight:800;font-size:12px;color:#fff;border:1px solid var(--line)}
+@media(max-width:600px){ .thumb,.thumbx{width:96px;height:56px} .nthumb,.nthumbx{width:44px;height:30px} }
 .fcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;
   margin-bottom:10px;box-shadow:var(--shadow)}
 .fhead{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:11.5px;color:var(--muted);margin-bottom:6px}
@@ -161,12 +172,6 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
 .castbar{position:sticky;top:96px;z-index:15;background:var(--panel);border:1px solid var(--line);
   border-radius:12px;padding:12px 14px;margin-bottom:16px;box-shadow:var(--shadow);
   display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.play{border:0;background:var(--accent);color:#fff;border-radius:999px;padding:9px 20px;
-  font-size:14px;font-weight:700;cursor:pointer;font-family:inherit}
-.play.playing{background:var(--ink)}
-.mini{border:1px solid var(--line);background:var(--bg);color:var(--muted);border-radius:8px;
-  padding:6px 11px;font-size:12px;cursor:pointer;font-family:inherit}
-.mini.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .castmeta{font-size:12px;color:var(--muted);margin-left:auto}
 .line{display:flex;gap:10px;margin-bottom:12px;align-items:flex-start}
 .line .who{flex:none;width:58px;font-size:11px;font-weight:700;text-align:center;
@@ -185,10 +190,32 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
 .audiobox .note{font-size:11.5px;color:var(--muted);margin:4px 0 0}
 .audiobox a{color:var(--accent);font-weight:600;text-decoration:none;font-size:12px}
 .credit{font-size:11.5px;color:var(--muted);margin-top:18px;text-align:right}
-.nospeech{font-size:12.5px;color:var(--muted);border:1px dashed var(--line);border-radius:8px;padding:10px}
 .empty{color:var(--muted);padding:40px 0;text-align:center;font-size:14px}
 .hint{font-size:12px;color:var(--muted);padding:2px 0 14px}
-@media(max-width:600px){ .grid{grid-template-columns:1fr} h1{font-size:17px} .newsrow{flex-wrap:wrap} }
+/* 空の絞り込み行が余白を作らないように */
+.pills:empty{display:none;padding:0;margin:0}
+.fwrap{display:none}
+.fwrap.open{display:block}
+.fhead{display:flex;gap:8px;align-items:center;padding:6px 0 2px;flex-wrap:wrap}
+.fbtn{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;
+  padding:6px 13px;font-size:12.5px;cursor:pointer;font-family:inherit;font-weight:600}
+.fbtn.act{background:var(--accent);color:#fff;border-color:var(--accent)}
+.fsum2{font-size:12px;color:var(--muted)}
+/* 動画・noteの説明文は3行まで（長すぎると一覧が読めない） */
+.fsum{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+@media(max-width:600px){
+  .grid{grid-template-columns:1fr} h1{font-size:17px} .newsrow{flex-wrap:wrap}
+  /* タブは折り返さず横スクロールにする（縦書きになるのを防ぐ） */
+  .tabs{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{white-space:nowrap;flex:0 0 auto;font-size:13px;padding:9px 10px}
+  .top{padding-bottom:6px}
+  .themebtn{font-size:11px;padding:4px 9px}
+  .toolbar{padding:10px 0 4px}
+  .pills{padding:6px 0 10px}
+  .big h3{font-size:14.5px}
+  .fsum{-webkit-line-clamp:2}
+}
 </style>
 </head>
 <body>
@@ -197,6 +224,7 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
   <div class="top">
     <h1>AI<span>コツ</span>図鑑</h1>
     <div class="sub" id="stamp"></div>
+    <button class="themebtn" id="likeExport" style="margin-left:auto" title="いいねした一覧をコピーします">👍 好みをClaudeに渡す</button>
     <button class="themebtn" id="theme">◐ 表示</button>
   </div>
   <div class="tabs">
@@ -214,22 +242,49 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
     <input type="search" id="q" placeholder="キーワードで探す（例：Excel、提案書、要約）">
   </div>
   <div class="pills" id="aipills"></div>
+  <div id="filterhead"></div>
+  <div id="filterwrap" class="fwrap">
   <div class="pills" id="filterpills"></div>
   <div class="pills" id="tagpills"></div>
   <div class="pills" id="authorpills"></div>
+  </div>
   <div class="hint" id="hint"></div>
   <div id="body"></div>
 </main>
 <script>
 const DATA = __DATA__;
 let view="home", ai="すべて", tag="すべて", author="すべて", q="", onlyNew=false, onlyChap=false;
+let onlyLiked=false;
 let level="すべて", onlyPrompt=false, sortBy="新着順", showAllTags=false, useFor="すべて";
-const FAV_KEY="aikotsu_fav";
+const FAV_KEY="aikotsu_like";
 function favs(){ try{ return JSON.parse(localStorage.getItem(FAV_KEY)||"[]"); }catch(e){ return []; } }
-function toggleFav(id){ const f=favs(); const i=f.indexOf(id);
-  if(i<0) f.push(id); else f.splice(i,1);
-  try{ localStorage.setItem(FAV_KEY, JSON.stringify(f)); }catch(e){}
-  render(); }
+function likeMeta(){ try{ return JSON.parse(localStorage.getItem(FAV_KEY+"_meta")||"{}"); }catch(e){ return {}; } }
+function toggleFav(id, info){
+  const f=favs(); const i=f.indexOf(id);
+  const meta=likeMeta();
+  if(i<0){ f.push(id); meta[id]=Object.assign({at:new Date().toISOString().slice(0,10)}, info||{}); }
+  else { f.splice(i,1); delete meta[id]; }
+  try{ localStorage.setItem(FAV_KEY, JSON.stringify(f));
+       localStorage.setItem(FAV_KEY+"_meta", JSON.stringify(meta)); }catch(e){}
+  render();
+}
+/* いいねの一覧を、Claudeに渡せる形で書き出す */
+function exportLikes(){
+  const meta=likeMeta(); const ids=favs();
+  const rows=ids.map(id=>{
+    const m=meta[id]||{};
+    return {id:id, kind:m.kind||"", title:m.title||"", ai:m.ai||"", tags:m.tags||[],
+            level:m.level||"", author:m.author||"", at:m.at||""};
+  });
+  const out=JSON.stringify({exported:new Date().toISOString().slice(0,16), count:rows.length, likes:rows}, null, 1);
+  navigator.clipboard.writeText(out).then(()=>{
+    alert("いいね "+rows.length+"件をコピーしました。\nClaudeのチャットに貼り付けてください。");
+  }).catch(()=>{
+    const b=new Blob([out],{type:"application/json"});
+    const a=document.createElement("a"); a.href=URL.createObjectURL(b);
+    a.download="私のいいね.json"; a.click();
+  });
+}
 
 const el=(s)=>document.querySelector(s);
 const PAGE=40; let shown=PAGE;
@@ -247,6 +302,17 @@ function hl(s){
   catch(e){ return s; }
 }
 const esc=(s)=>(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+function hue(str){ let h=0; for(const c of (str||"")) h=(h*31+c.charCodeAt(0))%360; return h; }
+function thumbHtml(item, small){
+  const cls = small ? "nthumb" : "thumb";
+  const clsx = small ? "nthumbx" : "thumbx";
+  const label = (item.author || item.source || "?").replace(/[【】（）\(\)]/g,"").trim().slice(0, small?1:2);
+  if(item.thumb){
+    return `<img class="${cls}" src="${esc(item.thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer"
+      onerror="this.outerHTML='<span class=\'${clsx}\' style=\'background:hsl(${hue(item.author||item.source)},42%,52%)\'>${esc(label)}</span>'">`;
+  }
+  return `<span class="${clsx}" style="background:hsl(${hue(item.author||item.source)},42%,52%)">${esc(label)}</span>`;
+}
 const aiClass=(a)=>({"ChatGPT":"ChatGPT","Claude":"Claude","Gemini":"Gemini","Copilot":"Copilot"}[a]||"other");
 
 el("#stamp").textContent = "コツ "+DATA.tips.length+"件 ／ 動画・note "+DATA.feed.length+"件 ／ ニュース "+DATA.news.length+"件 ・ 更新 "+DATA.updated;
@@ -254,6 +320,7 @@ el("#stamp").textContent = "コツ "+DATA.tips.length+"件 ／ 動画・note "+D
 /* 表示の切り替え（明るい／暗い） */
 const saved=(()=>{try{return localStorage.getItem("theme")}catch(e){return null}})();
 if(saved) document.documentElement.setAttribute("data-theme",saved);
+el("#likeExport").onclick=exportLikes;
 el("#theme").onclick=()=>{
   const now=document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark";
   document.documentElement.setAttribute("data-theme",now);
@@ -262,44 +329,17 @@ el("#theme").onclick=()=>{
 
 document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
   document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));
-  stopCast(); t.classList.add("on"); view=t.dataset.view; ai="すべて"; tag="すべて"; author="すべて"; onlyNew=false; onlyChap=false; level="すべて"; onlyPrompt=false; useFor="すべて"; shown=PAGE; render();
+  t.classList.add("on"); view=t.dataset.view; onlyLiked=false; ai="すべて"; tag="すべて"; author="すべて"; onlyNew=false; onlyChap=false; level="すべて"; onlyPrompt=false; useFor="すべて"; shown=PAGE; render();
 });
 el("#q").oninput=(e)=>{q=e.target.value.trim().toLowerCase(); shown=PAGE; render();};
 
+function likeBar(){
+  const n = items().filter(x=>favs().includes(x.id||x.url)).length;
+  return `<button class="pill ${onlyLiked?"on":""}" id="fLiked">👍 いいねしたもの<b>${n}</b></button>`;
+}
 function items(){ return view==="tips"?DATA.tips:(view==="feed"?DATA.feed:DATA.news); }
 
-/* ===== 今日の10分（読み上げ） ===== */
-let castIdx=-1, castRate=1.0, castOn=false;
-function stopCast(){
-  try{ speechSynthesis.cancel(); }catch(e){}
-  castOn=false; castIdx=-1;
-  document.querySelectorAll(".line").forEach(p=>p.classList.remove("now"));
-  const b=el("#play"); if(b){ b.textContent="▶ 端末の声で読み上げ"; b.classList.remove("playing"); }
-}
-function jaVoice(){
-  try{
-    const vs=speechSynthesis.getVoices()||[];
-    return vs.find(v=>v.lang==="ja-JP"&&/Kyoko|O-ren|Otoya/i.test(v.name))
-        || vs.find(v=>v.lang==="ja-JP") || null;
-  }catch(e){ return null; }
-}
-function speakFrom(i){
-  const ls=(DATA.cast&&DATA.cast.lines)||[];
-  if(i>=ls.length){ stopCast(); return; }
-  castIdx=i;
-  const rows=document.querySelectorAll(".line");
-  rows.forEach((p,k)=>p.classList.toggle("now",k===i));
-  if(rows[i]) rows[i].scrollIntoView({block:"center",behavior:"smooth"});
-  const u=new SpeechSynthesisUtterance(ls[i].text);
-  u.lang="ja-JP";
-  // ずんだもんは高めで少し速く、めたんは落ち着いた声に
-  if(ls[i].who==="zunda"){ u.pitch=1.7; u.rate=castRate*1.12; }
-  else { u.pitch=0.95; u.rate=castRate; }
-  const v=jaVoice(); if(v) u.voice=v;
-  u.onend=()=>{ if(castOn) speakFrom(i+1); };
-  u.onerror=()=>{ if(castOn) speakFrom(i+1); };
-  try{ speechSynthesis.speak(u); }catch(e){ stopCast(); }
-}
+/* ===== 今日の10分 ===== */
 function castView(){
   const c=DATA.cast||{};
   const ls=c.lines||[];
@@ -311,9 +351,9 @@ function castView(){
     + `<p class="credit">${esc(c.credit||"")}</p>`;
   const mp3="https://github.com/ryuguuu38/ai-kotsu/releases/download/audio/today.mp3";
   const player=`<div class="audiobox">
-      <h3>🔊 こちらが本番｜ずんだもん × 四国めたんの声</h3>
+      <h3>🔊 ずんだもん × 四国めたん</h3>
       <audio controls preload="none" src="${mp3}"></audio>
-      <p class="note" id="vnote">毎朝7時すぎに自動で更新されます。<b>聞くならこちら。</b>読み込めない場合だけ、下の代替機能を使ってください。
+      <p class="note" id="vnote">毎朝7時すぎに自動で更新されます。
         <a href="${mp3}" download>ダウンロード ↓</a></p>
     </div>`;
   // 台本より音声が古い場合は警告を出す
@@ -323,17 +363,16 @@ function castView(){
     ? `<p class="note" style="color:#b4531f"><b>⚠️ この音声は ${esc(vb)} 版です。</b>下の台本（${esc(c.date)}版）とは内容が違います。次の自動更新（毎朝7時）で揃います。</p>`
     : (vb ? `<p class="note">音声も台本も ${esc(vb)} 版です ✅</p>` : "");
   return player.replace("</div>", warn + "</div>") + `<div class="castbar">
-      <button class="play" id="play">▶ 端末の声で読み上げ</button>
-      <button class="mini" data-rate="1">等倍</button>
-      <button class="mini" data-rate="1.25">1.25倍</button>
-      <button class="mini" data-rate="1.5">1.5倍</button>
-      <span class="castmeta">代替機能（ずんだもんの声ではありません）／ 約${c.minutes}分・${c.date}版</span>
+      <span class="castmeta" style="margin-left:0">台本（約${c.minutes}分・${c.date}版）／ セリフを押すとその場所を目立たせます</span>
     </div>
-    <p class="nospeech" id="warn" style="display:none">この端末では読み上げが使えません。下の台本を読んでください。</p>
     <div class="script">${body}</div>`;
 }
 
 function match(it){
+  if(onlyLiked){
+    const key = it.id || it.url;
+    if(!favs().includes(key)) return false;
+  }
   if(ai!=="すべて" && it.ai!==ai) return false;
   if(view==="tips"){
     if(level!=="すべて" && it.level!==level) return false;
@@ -367,7 +406,7 @@ function pills(){
     const base=DATA.tips.filter(t=>(ai==="すべて"||t.ai===ai));
     const lv=(L)=>base.filter(t=>t.level===L).length;
     const un=(U)=>DATA.tips.filter(t=>t.use===U||t.use==="両方").length;
-    el("#filterpills").innerHTML =
+    el("#filterpills").innerHTML = likeBar() +
       `<button class="pill ${useFor==="自分用"?"on":""}" data-use="自分用">🙋 自分用<b>${un("自分用")}</b></button>`+
       `<button class="pill ${useFor==="提案用"?"on":""}" data-use="提案用">💼 提案・研修用<b>${un("提案用")}</b></button>`+
       `<span style="width:10px"></span>`+
@@ -393,16 +432,20 @@ function pills(){
       + (all.length>9 ? `<button class="pill" id="moreTags">${showAllTags?"タグを閉じる":"タグをもっと見る（+"+(all.length-9)+"）"}</button>` : "");
     document.querySelectorAll("[data-tag]").forEach(b=>b.onclick=()=>{tag=b.dataset.tag;shown=PAGE;render();});
     const mt=el("#moreTags"); if(mt) mt.onclick=()=>{showAllTags=!showAllTags;render();};
+  } else if(view==="news"){
+    el("#tagpills").innerHTML = likeBar();
+    const lb2=el("#fLiked"); if(lb2) lb2.onclick=()=>{onlyLiked=!onlyLiked;shown=PAGE;render();};
+    el("#filterpills").innerHTML=""; el("#authorpills").innerHTML="";
   } else { el("#tagpills").innerHTML=""; el("#filterpills").innerHTML=""; }
 
   if(view==="feed"){
     const nNew=DATA.feed.filter(f=>daysAgo(f.date)<=2).length;
     const nChap=DATA.feed.filter(f=>(f.chapters||[]).length).length;
-    el("#tagpills").innerHTML =
-      `<button class="pill ${onlyNew?"on":""}" id="fNew">🆕 直近2日<b>${nNew}</b></button>`+
-      `<button class="pill ${onlyChap?"on":""}" id="fChap">📑 目次あり<b>${nChap}</b></button>`;
-    el("#fNew").onclick=()=>{onlyNew=!onlyNew;shown=PAGE;render();};
-    el("#fChap").onclick=()=>{onlyChap=!onlyChap;shown=PAGE;render();};
+    el("#tagpills").innerHTML = likeBar() +
+      (view==="feed" ? `<button class="pill ${onlyNew?"on":""}" id="fNew">🆕 直近2日<b>${nNew}</b></button>` : "")+
+      (view==="feed" ? `<button class="pill ${onlyChap?"on":""}" id="fChap">📑 目次あり<b>${nChap}</b></button>` : "");
+    if(el("#fNew")) el("#fNew").onclick=()=>{onlyNew=!onlyNew;shown=PAGE;render();};
+    if(el("#fChap")) el("#fChap").onclick=()=>{onlyChap=!onlyChap;shown=PAGE;render();};
     const names=["すべて"].concat([...new Set(DATA.feed.map(f=>f.author))]);
     el("#authorpills").innerHTML=names.map(a=>{
       const n=a==="すべて"?DATA.feed.length:DATA.feed.filter(x=>x.author===a).length;
@@ -418,15 +461,18 @@ function pills(){
 function feedCard(f){
   const chap=(f.chapters||[]).length? `<details class="chap"><summary>この回の内容（目次 ${f.chapters.length}項目）</summary><ul>`
       + f.chapters.map(c=>`<li><span class="t">${esc(c.t)}</span>${esc(c.label)}</li>`).join("") + `</ul></details>` : "";
-  return `<article class="fcard">
+  return `<article class="fcard"><div class="frow">${thumbHtml(f,false)}<div class="fbody">
     <div class="fhead"><span class="who">${f.pick==="オーナー指定"?"★ ":""}${esc(f.author)}</span>
       <span class="kind">${f.kind==="youtube"?"YouTube":"note"}</span>
       <span class="ai ${aiClass(f.ai)}" style="font-size:10px">${esc(f.ai)}</span>
       <span class="${daysAgo(f.date)<=1?"when today":"when"}">${esc(whenLabel(f.date))}</span></div>
+    <button class="fav ${favs().includes(f.url)?"on":""}" data-fav="${esc(f.url)}" style="float:right;margin:0 0 4px 8px"
+      data-info='${esc(JSON.stringify({kind:f.kind,title:f.title,ai:f.ai,author:f.author}))}'
+      >${favs().includes(f.url)?"👍":"👍 いいね"}</button>
     <a class="ftitle" href="${esc(f.url)}" target="_blank" rel="noopener">${hl(esc(f.title))}</a>
     ${f.summary?`<p class="fsum">${esc(f.summary)}</p>`:""}
     ${chap}
-  </article>`;
+  </div></div></article>`;
 }
 
 function tipCard(t){
@@ -445,7 +491,9 @@ function tipCard(t){
     <div class="badges"><span class="ai ${aiClass(t.ai)}">${esc(t.ai)}</span>
       <span class="lv">${esc(t.level||"")}</span>
       <span class="org ${esc(t.origin||"Claude")}">${t.origin==="Claude"?"Claude独自":esc(t.origin||"Claude")}</span>
-      <button class="fav ${favs().includes(t.id)?"on":""}" data-fav="${esc(t.id)}">${favs().includes(t.id)?"★ 保存中":"☆ 保存"}</button></div>
+      <button class="fav ${favs().includes(t.id)?"on":""}" data-fav="${esc(t.id)}"
+        data-info='${esc(JSON.stringify({kind:"tip",title:t.title,ai:t.ai,tags:t.tags||[],level:t.level}))}'
+        >${favs().includes(t.id)?"👍 いいね済":"👍 いいね"}</button></div>
     <h3>${esc(t.title)}</h3>
     <p class="sum">${esc(t.summary)}</p>
     ${t.why?`<p class="why">${esc(t.why)}</p>`:""}
@@ -457,11 +505,14 @@ function tipCard(t){
 
 function newsRow(n){
   const w=whenLabel(n.date);
-  return `<div class="newsrow"><span class="d ${daysAgo(n.date)===0?"when today":"when"}">${esc(w)}</span>
+  return `<div class="newsrow">${thumbHtml(n,true)}<span class="d ${daysAgo(n.date)===0?"when today":"when"}">${esc(w)}</span>
     <span class="ai ${aiClass(n.ai)}" style="font-size:10px">${esc(n.ai)}</span>
     <a href="${esc(n.url)}" target="_blank" rel="noopener">${hl(esc(n.title))}</a>
     <span class="s">${esc(n.source)}</span>
-    ${n.lang==="en"?`<span class="lang">英語</span>`:""}</div>`;
+    ${n.lang==="en"?`<span class="lang">英語</span>`:""}
+    <button class="fav ${favs().includes(n.url)?"on":""}" data-fav="${esc(n.url)}" style="margin-left:auto;padding:1px 7px;font-size:11px"
+      data-info='${esc(JSON.stringify({kind:"news",title:n.title,ai:n.ai,author:n.source}))}'
+      >${favs().includes(n.url)?"👍":"👍"}</button></div>`;
 }
 
 function daysAgo(d){
@@ -476,10 +527,10 @@ function daysAgo(d){
 }
 
 function homeView(){
-  const fresh = DATA.feed.filter(f=>daysAgo(f.date)<=2).slice(0,12);
-  const news  = DATA.news.filter(n=>daysAgo(n.date)<=1).slice(0,15);
+  const fresh = DATA.feed.filter(f=>daysAgo(f.date)<=2).slice(0,5);
+  const news  = DATA.news.filter(n=>daysAgo(n.date)<=1).slice(0,6);
   const recentTips = [...DATA.tips].reverse().slice(0,3);
-  const box = (f)=>`<div class="big">
+  const box = (f)=>`<div class="big"><div class="frow">${thumbHtml(f,false)}<div class="fbody">
       <div class="fhead"><span class="who">${f.pick==="オーナー指定"?"★ ":""}${esc(f.author)}</span>
         <span class="kind">${f.kind==="youtube"?"YouTube":"note"}</span>
         <span class="ai ${aiClass(f.ai)}" style="font-size:10px">${esc(f.ai)}</span>
@@ -488,7 +539,7 @@ function homeView(){
       ${f.summary?`<p class="fsum">${esc(f.summary)}</p>`:""}
       ${(f.chapters||[]).length?`<details class="chap"><summary>この回の内容（目次 ${f.chapters.length}項目）</summary><ul>`
         +f.chapters.map(c=>`<li><span class="t">${esc(c.t)}</span>${esc(c.label)}</li>`).join("")+`</ul></details>`:""}
-    </div>`;
+    </div></div></div>`;
   return `
   <div class="sec"><h2>追いかけている人の新着 <em>${fresh.length}</em>
      <a href="#" data-goto="feed">すべて見る →</a></h2>
@@ -502,43 +553,60 @@ function homeView(){
     <div class="grid">${recentTips.map(tipCard).join("")}</div></div>`;
 }
 
+let filterOpen=false;
+function activeFilters(){
+  const a=[];
+  if(onlyLiked) a.push("👍いいね");
+  if(view==="tips"){
+    if(ai!=="すべて") a.push(ai);
+    if(useFor!=="すべて") a.push(useFor);
+    if(level!=="すべて") a.push(level);
+    if(onlyPrompt) a.push("コピーできる");
+    if(tag!=="すべて") a.push(tag);
+  }
+  if(view==="feed"){
+    if(ai!=="すべて") a.push(ai);
+    if(author!=="すべて") a.push(author);
+    if(onlyNew) a.push("直近2日");
+    if(onlyChap) a.push("目次あり");
+  }
+  if(view==="news" && ai!=="すべて") a.push(ai);
+  return a;
+}
+function renderFilterHead(n){
+  const act=activeFilters();
+  el("#filterhead").innerHTML = `<div class="fhead">
+    <button class="fbtn ${act.length?"act":""}" id="fToggle">⚙ 絞り込み${act.length?"（"+act.length+"）":""} ${filterOpen?"▲":"▼"}</button>
+    ${act.length?`<span class="fsum2">${act.map(esc).join(" / ")}</span><button class="fbtn" id="fReset">✕ 解除</button>`:""}
+    <span class="fsum2" style="margin-left:auto">${n}件</span></div>`;
+  el("#filterwrap").classList.toggle("open", filterOpen);
+  el("#fToggle").onclick=()=>{filterOpen=!filterOpen;render();};
+  const fr=el("#fReset");
+  if(fr) fr.onclick=()=>{ ai="すべて"; tag="すべて"; author="すべて"; level="すべて";
+    useFor="すべて"; onlyPrompt=false; onlyNew=false; onlyChap=false; onlyLiked=false;
+    shown=PAGE; render(); };
+}
 function render(){
   let list=items().filter(match);
+  renderFilterHead(list.length);
   if(view==="tips"){
     if(sortBy==="新着順") list=[...list].reverse();
     else list=[...list].sort((a,b)=>(a.ai+a.level).localeCompare(b.ai+b.level));
   }
   pills();
   if(view==="cast"){
+    el("#filterhead").innerHTML=""; el("#filterwrap").classList.remove("open");
     el("#aipills").innerHTML=""; el("#tagpills").innerHTML=""; el("#authorpills").innerHTML="";
-    el("#hint").textContent="上の🔊がずんだもん＆めたんの本番音声です。下の台本は読み物としてどうぞ（セリフを押すとその場所から端末の声で読み上げます）。";
+    el("#hint").textContent="上の🔊がずんだもん＆四国めたんの音声です。下は同じ内容の台本なので、読み物としてどうぞ。";
     el("#body").innerHTML=castView();
-    const pb=el("#play");
-    if(pb){
-      if(!("speechSynthesis" in window)){ pb.disabled=true; el("#warn").style.display="block"; }
-      pb.onclick=()=>{
-        if(castOn){ stopCast(); return; }
-        castOn=true; pb.textContent="■ 停止"; pb.classList.add("playing");
-        speakFrom(castIdx<0?0:castIdx);
-      };
-      document.querySelectorAll("[data-rate]").forEach(b=>{
-        if(parseFloat(b.dataset.rate)===castRate) b.classList.add("on");
-        b.onclick=()=>{
-          castRate=parseFloat(b.dataset.rate);
-          document.querySelectorAll("[data-rate]").forEach(x=>x.classList.remove("on"));
-          b.classList.add("on");
-          if(castOn){ try{speechSynthesis.cancel();}catch(e){} speakFrom(castIdx); }
-        };
-      });
-      document.querySelectorAll(".line").forEach(p=>p.onclick=()=>{
-        try{speechSynthesis.cancel();}catch(e){}
-        castOn=true; el("#play").textContent="■ 停止"; el("#play").classList.add("playing");
-        speakFrom(parseInt(p.dataset.i,10));
-      });
-    }
+    document.querySelectorAll(".line").forEach(p=>p.onclick=()=>{
+      document.querySelectorAll(".line").forEach(x=>x.classList.remove("now"));
+      p.classList.add("now");
+    });
     return;
   }
   if(view==="home"){
+    el("#filterhead").innerHTML=""; el("#filterwrap").classList.remove("open");
     el("#aipills").innerHTML=""; el("#tagpills").innerHTML=""; el("#authorpills").innerHTML="";
     el("#hint").textContent="毎朝ここだけ見れば足ります。★はあなたが指定した発信者です。";
     el("#body").innerHTML=homeView();
@@ -547,7 +615,12 @@ function render(){
       navigator.clipboard.writeText(txt).then(()=>{b.textContent="コピーしました";b.classList.add("done");
         setTimeout(()=>{b.textContent="コピー";b.classList.remove("done")},1400);});
     });
-    document.querySelectorAll("[data-fav]").forEach(b=>b.onclick=()=>toggleFav(b.dataset.fav));
+    const lb=el("#fLiked"); if(lb) lb.onclick=()=>{onlyLiked=!onlyLiked;shown=PAGE;render();};
+  document.querySelectorAll("[data-fav]").forEach(b=>b.onclick=(e)=>{
+      e.preventDefault(); e.stopPropagation();
+      let info={}; try{ info=JSON.parse(b.dataset.info||"{}"); }catch(_){}
+      toggleFav(b.dataset.fav, info);
+    });
     document.querySelectorAll("[data-goto]").forEach(a=>a.onclick=(e)=>{
       e.preventDefault();
       const v=a.dataset.goto;
@@ -574,7 +647,12 @@ function render(){
     navigator.clipboard.writeText(txt).then(()=>{b.textContent="コピーしました";b.classList.add("done");
       setTimeout(()=>{b.textContent="コピー";b.classList.remove("done")},1400);});
   });
-    document.querySelectorAll("[data-fav]").forEach(b=>b.onclick=()=>toggleFav(b.dataset.fav));
+    const lb=el("#fLiked"); if(lb) lb.onclick=()=>{onlyLiked=!onlyLiked;shown=PAGE;render();};
+  document.querySelectorAll("[data-fav]").forEach(b=>b.onclick=(e)=>{
+      e.preventDefault(); e.stopPropagation();
+      let info={}; try{ info=JSON.parse(b.dataset.info||"{}"); }catch(_){}
+      toggleFav(b.dataset.fav, info);
+    });
 }
 window.addEventListener("scroll",()=>{
   el("#totop").classList.toggle("show", window.scrollY>600);

@@ -102,13 +102,25 @@ def collect():
                     continue
                 d = parse_date(e)
                 summary = strip_html(text_of(e, "description", "summary", ATOM + "summary", ATOM + "content"))[:160]
+                # サムネ：enclosure / media:thumbnail / 説明文中のimg の順で探す
+                thumb = ""
+                for tag in ("enclosure", "{http://search.yahoo.com/mrss/}thumbnail", "{http://search.yahoo.com/mrss/}content"):
+                    nd = e.find(tag)
+                    if nd is not None:
+                        v = nd.get("url") or nd.get("href") or ""
+                        if v.startswith("http"):
+                            thumb = v; break
+                if not thumb:
+                    raw = (e.findtext("description") or "") + (e.findtext(ATOM + "content") or "")
+                    m2 = re.search(r'<img[^>]+src="(https?://[^"]+)"', raw)
+                    if m2: thumb = m2.group(1)
                 items.append({
                     "title": title,
                     "url": link,
                     "source": name,
                     "lang": lang,
                     "ai": classify(title + " " + summary),
-                    "summary": summary,
+                    "summary": summary, "thumb": thumb,
                     "date": d.strftime("%Y-%m-%d") if d else "",
                 })
                 got += 1

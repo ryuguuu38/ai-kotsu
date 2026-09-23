@@ -1,8 +1,8 @@
 {
  "date": "2026-09-23",
- "built": "2026-09-23 04:35",
- "minutes": 5.5,
- "chars": 2018,
+ "built": "2026-09-23 10:48",
+ "minutes": 5.7,
+ "chars": 2103,
  "lines": [
   {
    "who": "metan",
@@ -198,11 +198,7 @@
   },
   {
    "who": "metan",
-   "text": "3本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
-  },
-  {
-   "who": "metan",
-   "text": "4本目は、mikimiki web スクールさんの動画。これが最強‼️ ChatGPT Work × GPT-6 Astra の組み合わせが凄すぎる！徹底解説。"
+   "text": "3本目は、mikimiki web スクールさんの動画。これが最強‼️ ChatGPT Work × GPT-6 Astra の組み合わせが凄すぎる！徹底解説。"
   },
   {
    "who": "zunda",
@@ -218,7 +214,19 @@
   },
   {
    "who": "metan",
-   "text": "5本目は、SHIFT AI ニュースさんの動画。Gemini Notebookの使い方と業務活用。"
+   "text": "4本目は、SHIFT AI ニュースさんの動画。Gemini Notebookの使い方と業務活用。"
+  },
+  {
+   "who": "metan",
+   "text": "5本目は、けい AIと共に noteさんの記事。Claude Code FableとGPT-5.6 Solを比較 結局どっちがおすすめ？ 最強AI の賢い使い分け方。"
+  },
+  {
+   "who": "zunda",
+   "text": "中身を教えてほしいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "Claude CodeのFableとGPT-5.6 Sol、結局どっちを使えばいいの？ 続きをみる。"
   },
   {
    "who": "metan",

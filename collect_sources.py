@@ -91,6 +91,7 @@ def collect_youtube(chs, cache):
             else:
                 chapters, summary = [], None
             items.append({"kind": "youtube", "title": title, "url": url, "date": date,
+                          "thumb": "https://i.ytimg.com/vi/%s/mqdefault.jpg" % vid,
                           "author": c["name"], "pick": c.get("pick", ""),
                           "ai": classify(title + " " + (summary or "") + " " + " ".join([x["label"] for x in chapters])),
                           "chapters": chapters, "summary": summary})
@@ -114,7 +115,12 @@ def collect_note(feeds):
                     date = raw[:10]
                 desc = re.sub(r"<[^>]+>", "", it.findtext("description") or "")
                 desc = re.sub(r"\s+", " ", desc).strip()[:260]
+                th = (it.findtext(MD + "thumbnail") or it.findtext("thumbnail") or "").strip()
+                if not th:
+                    nd = it.find(MD + "thumbnail") or it.find("enclosure")
+                    if nd is not None: th = (nd.get("url") or "").strip()
                 items.append({"kind": "note", "title": title, "url": link, "date": date,
+                              "thumb": th,
                               "author": f["name"], "pick": f.get("pick", ""),
                               "ai": classify(title + " " + desc), "chapters": [], "summary": desc})
             sys.stderr.write("OK  %-26s note\n" % f["name"][:26])
@@ -133,10 +139,14 @@ def main():
             pass
     yt, blocked = collect_youtube(src["youtube"], cache)
     items = yt + collect_note(src["note"])
-    seen, merged = set(), []
+    # URLだけでなく「同じ発信者＋同じタイトル」でも重複を除く
+    # （同じ内容を別の動画IDで再投稿する発信者がいるため）
+    seen_url, seen_title, merged = set(), set(), []
     for it in items:
-        if it["url"] in seen: continue
-        seen.add(it["url"]); merged.append(it)
+        key_t = (it.get("author",""), it.get("title","").strip())
+        if it["url"] in seen_url or key_t in seen_title:
+            continue
+        seen_url.add(it["url"]); seen_title.add(key_t); merged.append(it)
     merged.sort(key=lambda x: x.get("date") or "", reverse=True)
     out = {"updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
            "desc_blocked": blocked, "items": merged[:500]}
