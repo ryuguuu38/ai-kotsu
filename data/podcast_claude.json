@@ -1,0 +1,268 @@
+{
+ "edition": "claude",
+ "label": "Claude編",
+ "date": "2026-09-23",
+ "built": "2026-09-23 11:09",
+ "minutes": 5.2,
+ "chars": 1933,
+ "lines": [
+  {
+   "who": "metan",
+   "text": "今日はClaude編よ。"
+  },
+  {
+   "who": "zunda",
+   "text": "Claudeだけ聞きたい人向けなのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "今日のコツを3つ話すわ。"
+  },
+  {
+   "who": "metan",
+   "text": "1つ目。CLAUDE.md を置くと、毎回の説明が要らなくなる。"
+  },
+  {
+   "who": "zunda",
+   "text": "中身を教えてほしいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "フォルダに CLAUDE.md という名前のメモを置くだけで、Claudeが毎回自動で読む 社内ルール になる。"
+  },
+  {
+   "who": "zunda",
+   "text": "なんで効くのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "これがこのサイトを作るきっかけになった仕組み。人に引き継ぐより確実で、セッションが変わっても忘れない。"
+  },
+  {
+   "who": "zunda",
+   "text": "具体的にはどうするのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、作業フォルダの直下に CLAUDE.md というファイルを作る。"
+  },
+  {
+   "who": "metan",
+   "text": "2、このフォルダは何か 守ってほしいこと やってはいけないこと を書く。"
+  },
+  {
+   "who": "metan",
+   "text": "3、以降、そのフォルダで作業するClaudeは全員これを読んでから動く。"
+  },
+  {
+   "who": "zunda",
+   "text": "地味に効きそうなのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、Claude Code 公式ドキュメント 日本語 ね。"
+  },
+  {
+   "who": "metan",
+   "text": "2つ目。SKILL.md で いつもの手順 を丸ごと登録する。"
+  },
+  {
+   "who": "zunda",
+   "text": "詳しく聞きたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "決まった作業手順を SKILL.md に書いて置くと、必要なときにClaudeが自分で取り出して使う。"
+  },
+  {
+   "who": "zunda",
+   "text": "どうしてそうなるのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "CLAUDE.md が 常時のルール なのに対し、Skill は 必要なときだけ開く手順書 。長い手順を書いても普段は邪魔にならない。"
+  },
+  {
+   "who": "zunda",
+   "text": "手順を頼むのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、.claude skills {名前} SKILL.md を作る。"
+  },
+  {
+   "who": "metan",
+   "text": "2、先頭に name と description いつ使うか を書く。"
+  },
+  {
+   "who": "metan",
+   "text": "3、本文に手順を書く。長い資料は同じフォルダに別ファイルで置く。"
+  },
+  {
+   "who": "zunda",
+   "text": "それは知らなかったのだ…"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、スキルで Claude を拡張する - Claude Code Docs ね。"
+  },
+  {
+   "who": "metan",
+   "text": "3つ目。詳しい手順は別ファイルに分け、SKILL.md は目次にする。"
+  },
+  {
+   "who": "zunda",
+   "text": "それ、何がすごいのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "SKILL.md に全部書くと重くなる。メニュー表にして、中身は別ファイルに逃がすのが定石。"
+  },
+  {
+   "who": "zunda",
+   "text": "理由が知りたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "AIが一度に読める量には限りがある。全部読ませると肝心の作業がおろそかになる。"
+  },
+  {
+   "who": "zunda",
+   "text": "やり方も教えてほしいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、SKILL.md には 何がどこにあるか だけ書く。"
+  },
+  {
+   "who": "metan",
+   "text": "2、references フォルダに詳細を置く。"
+  },
+  {
+   "who": "metan",
+   "text": "3、詳細は references xxx.md を読むこと と一行入れる。"
+  },
+  {
+   "who": "zunda",
+   "text": "うわ、損してたのだ…"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、Claude Code Skillsの使い方と汎用テンプレート公開 SIOS Tech Lab ね。"
+  },
+  {
+   "who": "metan",
+   "text": "ここからは、今日出たものを軽く流すわ。"
+  },
+  {
+   "who": "metan",
+   "text": "1本目は、チャエン noteさんの記事。2026 9 14〜9 21 週刊AIニュース《TypeSafe AI Jev 、Claude Codeのプロジェクト、Gemini 4、 減速で一致 した業界に、5,170億ドルと反トラスト訴訟が出てきた1週間。》。"
+  },
+  {
+   "who": "zunda",
+   "text": "気になるのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "みなさん、こんにちは。チャエンです。 自己紹介はこちら お知らせ続きをみる。"
+  },
+  {
+   "who": "metan",
+   "text": "2本目は、AI marketさんの動画。TradingView公式MCP ClaudeもChatGPTもつながった 使い方を実演8つで全解説。"
+  },
+  {
+   "who": "zunda",
+   "text": "へえ、それで？"
+  },
+  {
+   "who": "metan",
+   "text": "扱っているのは、TradingViewの公式MCPが公開、① 公式MCPって何、② 始める前の条件、③ つなぎ方 Claudeのウェブ版・Claude Code・ChatGPT、④ 実演 銘柄の整理・高配当株探し・比較・ウォッチリストとアラート、といったところね。"
+  },
+  {
+   "who": "zunda",
+   "text": "それ早く言ってほしかったのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "3本目は、AI marketさんの動画。MCPサーバー5つを実演 Claude Codeでの使い方解説。"
+  },
+  {
+   "who": "zunda",
+   "text": "どんな内容なのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "扱っているのは、MCPって何？、① 手元のファイル、② ブラウザ操作、③ AIがAIを呼ぶ、④ 画像と動画、といったところね。"
+  },
+  {
+   "who": "zunda",
+   "text": "さっそく試すのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "4本目は、けい AIと共に noteさんの記事。Claude Code FableとGPT-5.6 Solを比較 結局どっちがおすすめ？ 最強AI の賢い使い分け方。"
+  },
+  {
+   "who": "zunda",
+   "text": "中身を教えてほしいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "Claude CodeのFableとGPT-5.6 Sol、結局どっちを使えばいいの？ 続きをみる。"
+  },
+  {
+   "who": "metan",
+   "text": "最後に、今日のニュースから気になったものだけ。"
+  },
+  {
+   "who": "metan",
+   "text": "まず、Claudeの話。科学者の2年分の仕事が数週間に？Anthropic Claude Science の正体とその代償。"
+  },
+  {
+   "who": "metan",
+   "text": "つぎは、Claudeの話。Anthropic、 Claude Opus 5.5 公開 Fable 5.1並みの性能で利用コスト4割減。"
+  },
+  {
+   "who": "zunda",
+   "text": "見出しだけでも、流れは分かるのだ。"
+  },
+  {
+   "who": "metan",
+   "text": "最後は、Claudeの話。コードを読めない創業者が、AIに開発を任せるために決めた12のルール。"
+  },
+  {
+   "who": "zunda",
+   "text": "気になったのがあったら、サイトのニュース欄から開けるのだ。"
+  },
+  {
+   "who": "metan",
+   "text": "以上よ。詳しくはサイトのカードから、元の動画や記事に飛べるわ。"
+  },
+  {
+   "who": "zunda",
+   "text": "今日もいい一日にするのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "音声は ボイスボックス。ずんだもんと四国めたんで作っているわ。"
+  }
+ ],
+ "credit": "VOICEVOX:ずんだもん / 四国めたん",
+ "tip_ids": [
+  "claude-001",
+  "claude-002",
+  "claude-003"
+ ]
+}

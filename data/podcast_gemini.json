@@ -1,0 +1,228 @@
+{
+ "edition": "gemini",
+ "label": "Gemini編",
+ "date": "2026-09-23",
+ "built": "2026-09-23 11:09",
+ "minutes": 3.9,
+ "chars": 1441,
+ "lines": [
+  {
+   "who": "metan",
+   "text": "今日はGemini編よ。"
+  },
+  {
+   "who": "zunda",
+   "text": "Geminiだけ聞きたい人向けなのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "今日のコツを3つ話すわ。"
+  },
+  {
+   "who": "metan",
+   "text": "1つ目。Deep Research は 目的・範囲・形式・仮説 の4点セットで投げる。"
+  },
+  {
+   "who": "zunda",
+   "text": "中身を教えてほしいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "調べたいテーマだけ投げるとぼやける。4点を書くとレポートの質が跳ね上がる。"
+  },
+  {
+   "who": "zunda",
+   "text": "なんで効くのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "Deep Research は調査計画から立てる。その計画の質が、4点を書いたかどうかで決まる。"
+  },
+  {
+   "who": "zunda",
+   "text": "具体的にはどうするのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "4段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、目的 何を判断したいのか を書く。"
+  },
+  {
+   "who": "metan",
+   "text": "2、範囲 国・期間・対象企業規模 を絞る。"
+  },
+  {
+   "who": "metan",
+   "text": "3、出力形式 表・章立て・文字数 を指定する。"
+  },
+  {
+   "who": "metan",
+   "text": "4、自分の仮説を添える 検証する形で組み立ててくれる。"
+  },
+  {
+   "who": "zunda",
+   "text": "地味に効きそうなのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、Gemini Deep Researchの使い方 パンハウス インサイト ね。"
+  },
+  {
+   "who": "metan",
+   "text": "2つ目。Gems で自分専用の担当者を作っておく。"
+  },
+  {
+   "who": "zunda",
+   "text": "詳しく聞きたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "毎回貼っている長いプロンプトを Gem の裏側に仕込む。以降は用件だけ打てばいい。"
+  },
+  {
+   "who": "zunda",
+   "text": "どうしてそうなるのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "あのプロンプトどこだっけ を探す時間が消える。ChatGPTのプロジェクトに相当する機能。"
+  },
+  {
+   "who": "zunda",
+   "text": "手順を頼むのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、Gemini の左メニューから Gem を新規作成。"
+  },
+  {
+   "who": "metan",
+   "text": "2、役割・前提・口調・禁止事項をカスタム指示に書く。"
+  },
+  {
+   "who": "metan",
+   "text": "3、よく使う資料を添付しておく。"
+  },
+  {
+   "who": "zunda",
+   "text": "それは知らなかったのだ…"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、Geminiの神機能3選 Deep Research・Canvas・Gemの使い方 ね。"
+  },
+  {
+   "who": "metan",
+   "text": "3つ目。調査元に Gmail・ドライブ・NotebookLM を指定できる。"
+  },
+  {
+   "who": "zunda",
+   "text": "それ、何がすごいのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "2026年から、ネット検索だけでなく自分の資料も調査対象にできるようになった。"
+  },
+  {
+   "who": "zunda",
+   "text": "理由が知りたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "社内資料＋世の中の情報 を1本のレポートにできる。ここを知らない人が多い。"
+  },
+  {
+   "who": "zunda",
+   "text": "やり方も教えてほしいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、Deep Research を開始する前に情報源を選ぶ。"
+  },
+  {
+   "who": "metan",
+   "text": "2、Gmail・Google ドライブ・アップロードファイル・NotebookLM を追加。"
+  },
+  {
+   "who": "metan",
+   "text": "3、社内資料と公開情報を突き合わせて差分を出して と指示する。"
+  },
+  {
+   "who": "zunda",
+   "text": "うわ、損してたのだ…"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、Gemini Deep Researchの使い方 2026年最新 ね。"
+  },
+  {
+   "who": "metan",
+   "text": "ここからは、今日出たものを軽く流すわ。"
+  },
+  {
+   "who": "metan",
+   "text": "1本目は、まじん noteさんの記事。会社のGeminiとChrome拡張で 自分専用エージェント を作ってみた話──Gemini Sparkの再現実験と、配布を見送った全記録 Majin Agent v2。"
+  },
+  {
+   "who": "zunda",
+   "text": "気になるのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "こんにちは、まじんです。最初に少しだけ、この記事の前提をお話しさせてください。続きをみる。"
+  },
+  {
+   "who": "metan",
+   "text": "2本目は、SHIFT AI ニュースさんの動画。Gemini Notebookの使い方と業務活用。"
+  },
+  {
+   "who": "metan",
+   "text": "3本目は、ナオヤ@AIヲタクさんの動画。神アプデ!! Google最強AI NotebookLM に5つの新機能！今日から使える4つを初心者向けに徹底解説 Gemini Notebook。"
+  },
+  {
+   "who": "zunda",
+   "text": "へえ、それで？"
+  },
+  {
+   "who": "metan",
+   "text": "扱っているのは、① 学習の概要 要約に図解とクイズが付く、② クイズの新しい形式、③ ショート動画解説が日本語対応、④ 電子書籍をそのまま資料にできる、明日から1つだけやるなら、といったところね。"
+  },
+  {
+   "who": "zunda",
+   "text": "それ早く言ってほしかったのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "4本目は、SHIFT AI ニュースさんの動画。Gemini Notebookの売上分析のコツ。"
+  },
+  {
+   "who": "metan",
+   "text": "以上よ。詳しくはサイトのカードから、元の動画や記事に飛べるわ。"
+  },
+  {
+   "who": "zunda",
+   "text": "今日もいい一日にするのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "音声は ボイスボックス。ずんだもんと四国めたんで作っているわ。"
+  }
+ ],
+ "credit": "VOICEVOX:ずんだもん / 四国めたん",
+ "tip_ids": [
+  "gemini-001",
+  "gemini-002",
+  "gemini-003"
+ ]
+}

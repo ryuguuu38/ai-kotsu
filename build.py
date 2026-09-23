@@ -169,6 +169,14 @@ details.chap .t{color:var(--muted);font-family:ui-monospace,Menlo,monospace;font
 mark{background:#ffe58a;color:#231c00;border-radius:3px;padding:0 1px}
 :root[data-theme="dark"] mark{background:#6b5a1a;color:#fff}
 a:visited .ftitle,.newsrow a:visited{opacity:.62}
+.edrow{display:flex;gap:6px;overflow-x:auto;padding:0 0 10px;-webkit-overflow-scrolling:touch}
+.edpill{flex:0 0 auto;border:1px solid var(--line);background:var(--panel);color:var(--fg);
+  border-radius:999px;padding:7px 13px;font-size:12.5px;font-weight:700;cursor:pointer;white-space:nowrap}
+.edpill b{font-weight:600;color:var(--muted);margin-left:5px;font-size:11px}
+.edpill.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.edpill.on b{color:rgba(255,255,255,.8)}
+.edtag{margin-left:7px;font-size:11px;font-weight:700;background:var(--accent);color:#fff;
+  border-radius:999px;padding:2px 8px;vertical-align:middle}
 .castbar{position:sticky;top:96px;z-index:15;background:var(--panel);border:1px solid var(--line);
   border-radius:12px;padding:12px 14px;margin-bottom:16px;box-shadow:var(--shadow);
   display:flex;gap:10px;align-items:center;flex-wrap:wrap}
@@ -340,18 +348,34 @@ function likeBar(){
 function items(){ return view==="tips"?DATA.tips:(view==="feed"?DATA.feed:DATA.news); }
 
 /* ===== 今日の10分 ===== */
+const ED_KEY="aikotsu_edition";
+let castEd=(function(){ try{ return localStorage.getItem(ED_KEY)||"all"; }catch(e){ return "all"; } })();
+function edList(){ return Object.keys(DATA.casts||{}); }
+function edSwitch(){
+  const ks=edList();
+  if(ks.length<2) return "";
+  if(ks.indexOf(castEd)<0) castEd=ks[0];
+  const emoji={all:"🎁",claude:"🟠",gemini:"🔵",chatgpt:"🟢",news:"📰"};
+  return `<div class="edrow" id="edrow">`+ks.map(k=>{
+    const c=DATA.casts[k];
+    return `<button class="edpill ${k===castEd?"on":""}" data-ed="${k}">`+
+           `${emoji[k]||"🎧"} ${esc(c.label||k)}<b>${c.minutes}分</b></button>`;
+  }).join("")+`</div>`;
+}
 function castView(){
-  const c=DATA.cast||{};
+  const all=DATA.casts||{};
+  const c=(all[castEd])||DATA.cast||{};
   const ls=c.lines||[];
-  if(!ls.length) return `<p class="empty">今日の台本はまだ作られていません。</p>`;
+  if(!ls.length) return edSwitch()+`<p class="empty">今日の台本はまだ作られていません。</p>`;
   const body=ls.map((l,i)=>
     `<div class="line ${l.who==="zunda"?"zunda":"metan"}" data-i="${i}">
        <span class="who">${l.who==="zunda"?"ずんだもん":"四国めたん"}</span>
        <span class="txt">${esc(l.text)}</span></div>`).join("")
     + `<p class="credit">${esc(c.credit||"")}</p>`;
-  const mp3="https://github.com/ryuguuu38/ai-kotsu/releases/download/audio/today.mp3";
+  const mp3="https://github.com/ryuguuu38/ai-kotsu/releases/download/audio/today"
+            +(castEd&&castEd!=="all"?"_"+castEd:"")+".mp3";
   const player=`<div class="audiobox">
-      <h3>🔊 ずんだもん × 四国めたん</h3>
+      <h3>🔊 ずんだもん × 四国めたん<span class="edtag">${esc(c.label||"全部")}</span></h3>
       <audio controls preload="none" src="${mp3}"></audio>
       <p class="note" id="vnote">毎朝7時すぎに自動で更新されます。
         <a href="${mp3}" download>ダウンロード ↓</a></p>
@@ -362,7 +386,7 @@ function castView(){
   const warn = stale
     ? `<p class="note" style="color:#b4531f"><b>⚠️ この音声は ${esc(vb)} 版です。</b>下の台本（${esc(c.date)}版）とは内容が違います。次の自動更新（毎朝7時）で揃います。</p>`
     : (vb ? `<p class="note">音声も台本も ${esc(vb)} 版です ✅</p>` : "");
-  return player.replace("</div>", warn + "</div>") + `<div class="castbar">
+  return edSwitch() + player.replace("</div>", warn + "</div>") + `<div class="castbar">
       <span class="castmeta" style="margin-left:0">台本（約${c.minutes}分・${c.date}版）／ セリフを押すとその場所を目立たせます</span>
     </div>
     <div class="script">${body}</div>`;
@@ -599,6 +623,12 @@ function render(){
     el("#aipills").innerHTML=""; el("#tagpills").innerHTML=""; el("#authorpills").innerHTML="";
     el("#hint").textContent="上の🔊がずんだもん＆四国めたんの音声です。下は同じ内容の台本なので、読み物としてどうぞ。";
     el("#body").innerHTML=castView();
+    const edrow=el("#edrow");
+    if(edrow){ edrow.querySelectorAll(".edpill").forEach(b=>{ b.onclick=()=>{
+      castEd=b.dataset.ed;
+      try{ localStorage.setItem(ED_KEY,castEd); }catch(e){}
+      render();
+    };}); }
     document.querySelectorAll(".line").forEach(p=>p.onclick=()=>{
       document.querySelectorAll(".line").forEach(x=>x.classList.remove("now"));
       p.classList.add("now");
@@ -673,6 +703,15 @@ def main():
     news = load("news.json", "news")
     feed = load("feed.json", "items")
     cast = load_obj("podcast.json")
+    # テーマ別の版（Claudeだけ／Geminiだけ…）も読み込む
+    EDITION_LABELS = [("all", "全部"), ("claude", "Claude"), ("gemini", "Gemini"),
+                      ("chatgpt", "ChatGPT"), ("news", "ニュース")]
+    casts = {}
+    for key, label in EDITION_LABELS:
+        obj = cast if key == "all" else load_obj("podcast_%s.json" % key)
+        if obj and obj.get("lines"):
+            obj["label"] = label
+            casts[key] = obj
     # 音声が作られた時刻（GitHubの自動実行が書き残す）
     vstamp = ""
     vp = os.path.join(HERE, "data", "voice_built.txt")
@@ -680,7 +719,9 @@ def main():
         try: vstamp = io.open(vp, encoding="utf-8").read().strip()
         except Exception: pass
     cast["voice_built"] = vstamp
-    data = {"updated": datetime.now().strftime("%Y-%m-%d %H:%M"), "tips": tips, "feed": feed, "news": news, "cast": cast}
+    for c in casts.values():
+        c["voice_built"] = vstamp
+    data = {"updated": datetime.now().strftime("%Y-%m-%d %H:%M"), "tips": tips, "feed": feed, "news": news, "cast": cast, "casts": casts}
     html = TEMPLATE.replace("__DATA__", json.dumps(data, ensure_ascii=False))
     if not os.path.isdir(OUTDIR):
         os.makedirs(OUTDIR)

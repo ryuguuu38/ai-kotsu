@@ -45,15 +45,21 @@ jobs:
           done
           echo "エンジンが応答しませんでした"; exit 1
 
-      # 3) 台本を音声にする
+      # 3) 台本を音声にする（全部入り＋テーマ別）
       - name: 今日の10分を音声にする
+        timeout-minutes: 90
         env:
           VOICE_OUT: ./today.mp3
-        run: python make_voice.py
+        run: python make_voice.py all claude gemini chatgpt news
 
       # 3.5) いつの台本で音声を作ったかを記録する（サイトでズレを検知するため）
       - name: 音声の作成日を記録
         run: date -u +%Y-%m-%d\ %H:%M > data/voice_built.txt
+
+      # 3.6) 音声の日付を反映するため、サイトだけ組み立て直す
+      #      （これを飛ばすと「音声が古い」の注意書きが毎日出てしまう）
+      - name: サイトに音声の日付を反映する
+        run: python build.py
 
       # 4) 音声を配布用の置き場に上げる（リポジトリには入れない）
       - name: 音声を配布する
@@ -62,12 +68,13 @@ jobs:
         run: |
           gh release view audio > /dev/null 2>&1 || \
             gh release create audio --title "今日の10分（音声）" --notes "毎朝自動で作られる音声です。VOICEVOX:ずんだもん / 四国めたん"
-          gh release upload audio ./today.mp3 --clobber
+          ls -la ./today*.mp3
+          gh release upload audio ./today*.mp3 --clobber
 
       # 5) 集めた結果を保存する
       - name: 結果を保存する
         run: |
-          rm -f ./today.mp3
+          rm -f ./today*.mp3
           git config user.name "ai-kotsu-bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A

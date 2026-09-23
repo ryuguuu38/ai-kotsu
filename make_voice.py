@@ -2,11 +2,14 @@
 """台本(podcast.json)を VOICEVOX で音声にして1本のmp3にまとめる。
    ※VOICEVOXアプリを起動しておく必要があります（エンジンが 127.0.0.1:50021 で動きます）"""
 from __future__ import unicode_literals
-import urllib.request, urllib.parse, json, io, os, sys, subprocess, glob, time, re
+import urllib.request, urllib.parse, json, io, os, sys, subprocess, glob, time, re, hashlib
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT_DIR = os.path.join(HERE, "音声")
 TMP = os.path.join(OUT_DIR, "_parts")
+# 版ごとに同じセリフ（あいさつ・締め など）が何度も出てくるので、
+# 一度作った声は使い回して、作り直す時間を減らす
+CACHE = os.path.join(OUT_DIR, "_koe_cache")
 ENGINE = "http://127.0.0.1:50021"
 # ffmpeg の場所：環境変数 FFMPEG → .ffmpeg_path（手元用・公開しない）→ PATH上の ffmpeg の順で探す
 def _find_ffmpeg():
@@ -76,7 +79,7 @@ def check_ffmpeg():
         print("NG: ffmpeg が使えません（%s）: %s" % (FFMPEG, str(e)[:80]))
         return False
 
-def main():
+def main(edition="all"):
     print("使う ffmpeg: %s" % FFMPEG)
     if not check_ffmpeg():
         return 1
@@ -84,15 +87,26 @@ def main():
         print("NG: VOICEVOXのエンジンが動いていません。")
         print("    VOICEVOXアプリを起動してから、もう一度実行してください。")
         return 1
-    cast = json.load(io.open(os.path.join(HERE, "data", "podcast.json"), encoding="utf-8"))
+    src = "podcast.json" if edition == "all" else "podcast_%s.json" % edition
+    src_path = os.path.join(HERE, "data", src)
+    if not os.path.exists(src_path):
+        print("  %s の台本がないので飛ばします" % edition)
+        return 0
+    cast = json.load(io.open(src_path, encoding="utf-8"))
     lines = cast["lines"]
-    for d in (OUT_DIR, TMP):
+    for d in (OUT_DIR, TMP, CACHE):
         if not os.path.isdir(d): os.makedirs(d)
-    for f in glob.glob(os.path.join(TMP, "*.wav")): os.remove(f)
+    for f in glob.glob(os.path.join(TMP, "*")): os.remove(f)
 
     t0 = time.time()
+    parts, reused = [], 0
     for i, l in enumerate(lines):
         sid = SPEAKER.get(l["who"], 3)
+        key = hashlib.sha1(("%d|%s" % (sid, l["text"])).encode("utf-8")).hexdigest()[:16]
+        wav_path = os.path.join(CACHE, key + ".wav")
+        if os.path.exists(wav_path) and os.path.getsize(wav_path) > 1000:
+            parts.append(wav_path); reused += 1
+            continue
         try:
             q = json.loads(post("/audio_query", params={"text": l["text"], "speaker": sid}))
         except Exception as e:
@@ -102,16 +116,24 @@ def main():
         q["speedScale"] = 1.05
         q["postPhonemeLength"] = 0.15          # セリフ間の間
         wav = post("/synthesis", data=q, params={"speaker": sid})
-        io.open(os.path.join(TMP, "%03d.wav" % i), "wb").write(wav)
+        io.open(wav_path, "wb").write(wav)
+        parts.append(wav_path)
         if (i + 1) % 10 == 0 or i + 1 == len(lines):
             sys.stderr.write("  音声化 %d/%d（%.0f秒経過）\n" % (i + 1, len(lines), time.time() - t0))
+    if reused:
+        print("  ※ %d行は前の版で作った声を使い回しました" % reused)
 
     # 全部つなげてmp3に
     listfile = os.path.join(TMP, "list.txt")
     with io.open(listfile, "w", encoding="utf-8") as f:
-        for i in range(len(lines)):
-            f.write("file '%s'\n" % os.path.join(TMP, "%03d.wav" % i))
-    out = os.environ.get("VOICE_OUT") or os.path.join(OUT_DIR, "AIコツ図鑑_%s.mp3" % cast["date"])
+        for w in parts:
+            f.write("file '%s'\n" % w)
+    if edition == "all":
+        out = os.environ.get("VOICE_OUT") or os.path.join(OUT_DIR, "AIコツ図鑑_%s.mp3" % cast["date"])
+    else:
+        base = os.environ.get("VOICE_OUT")
+        out = (os.path.splitext(base)[0] + "_" + edition + ".mp3") if base \
+              else os.path.join(OUT_DIR, "AIコツ図鑑_%s_%s.mp3" % (cast["date"], edition))
     d = os.path.dirname(out)
     if d and not os.path.isdir(d):
         os.makedirs(d)
@@ -149,10 +171,21 @@ def main():
     if os.path.exists(out):
         mb = os.path.getsize(out) / 1024.0 / 1024.0
         print("できました: %s（%.1fMB）" % (out, mb))
-        for f in glob.glob(os.path.join(TMP, "*")): os.remove(f)
+        for f in glob.glob(os.path.join(TMP, "*")): os.remove(f)   # ※キャッシュは残す
         return 0
     print("NG: mp3の作成に失敗しました")
     return 1
 
 if __name__ == "__main__":
-    sys.exit(main())
+    eds = sys.argv[1:] or ["all"]
+    rc = 0
+    try:
+        for e in eds:
+            print("---- %s ----" % e)
+            rc = main(e) or rc
+    finally:
+        # その日のぶんの声は用が済んだので消す（ためこまない）
+        for f in glob.glob(os.path.join(CACHE, "*.wav")):
+            try: os.remove(f)
+            except Exception: pass
+    sys.exit(rc)
