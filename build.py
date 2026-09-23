@@ -69,6 +69,7 @@ header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px s
 h1{font-size:19px;margin:0;letter-spacing:.02em}
 h1 span{color:var(--accent)}
 .sub{font-size:12px;color:var(--muted)}
+.sub-short{display:none}
 .themebtn{margin-left:8px;border:1px solid var(--line);background:var(--panel);color:var(--muted);
   border-radius:999px;padding:5px 12px;font-size:12px;cursor:pointer}
 .tabs{display:flex;gap:4px;padding-bottom:0}
@@ -213,13 +214,18 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
 /* 動画・noteの説明文は3行まで（長すぎると一覧が読めない） */
 .fsum{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 @media(max-width:600px){
-  .grid{grid-template-columns:1fr} h1{font-size:17px} .newsrow{flex-wrap:wrap}
+  .grid{grid-template-columns:1fr} .newsrow{flex-wrap:wrap}
+  /* スマホの上部バーを薄くする（画面の高さを本文に回す） */
+  h1{font-size:16px}
+  .sub{display:none}                      /* 長い方は隠す */
+  .sub-short{display:block;flex:0 0 100%;font-size:10.5px;line-height:1.4;margin-top:-2px}
+  .btxt{display:none}                     /* ボタンは絵文字だけにする */
+  .themebtn{margin-left:6px;padding:4px 8px;font-size:12px;line-height:1}
   /* タブは折り返さず横スクロールにする（縦書きになるのを防ぐ） */
   .tabs{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
   .tabs::-webkit-scrollbar{display:none}
-  .tab{white-space:nowrap;flex:0 0 auto;font-size:13px;padding:9px 10px}
-  .top{padding-bottom:6px}
-  .themebtn{font-size:11px;padding:4px 9px}
+  .tab{white-space:nowrap;flex:0 0 auto;font-size:12.5px;padding:7px 9px}
+  .top{padding:8px 0 4px;gap:6px;align-items:center}
   .toolbar{padding:10px 0 4px}
   .pills{padding:6px 0 10px}
   .big h3{font-size:14.5px}
@@ -233,8 +239,9 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
   <div class="top">
     <h1>AI<span>コツ</span>図鑑</h1>
     <div class="sub" id="stamp"></div>
-    <button class="themebtn" id="likeExport" style="margin-left:auto" title="いいねした一覧をコピーします">👍 好みをClaudeに渡す</button>
-    <button class="themebtn" id="theme">◐ 表示</button>
+    <button class="themebtn" id="likeExport" style="margin-left:auto" title="いいねした一覧をコピーします">👍<span class="btxt"> 好みをClaudeに渡す</span></button>
+    <button class="themebtn" id="theme">◐<span class="btxt"> 表示</span></button>
+    <div class="sub sub-short" id="stampShort"></div>
   </div>
   <div class="tabs">
     <button class="tab on" data-view="home">🏠 今日</button>
@@ -325,6 +332,8 @@ function thumbHtml(item, small){
 const aiClass=(a)=>({"ChatGPT":"ChatGPT","Claude":"Claude","Gemini":"Gemini","Copilot":"Copilot"}[a]||"other");
 
 el("#stamp").textContent = "コツ "+DATA.tips.length+"件 ／ 動画・note "+DATA.feed.length+"件 ／ ニュース "+DATA.news.length+"件 ・ 更新 "+DATA.updated;
+el("#stampShort").textContent = "コツ"+DATA.tips.length+"・動画"+DATA.feed.length+"・ニュース"+DATA.news.length
+  +" ・ "+String(DATA.updated).slice(5).replace("-","/");
 
 /* 表示の切り替え（明るい／暗い） */
 const saved=(()=>{try{return localStorage.getItem("theme")}catch(e){return null}})();
