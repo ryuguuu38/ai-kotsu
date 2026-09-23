@@ -210,6 +210,16 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
 .fbtn{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;
   padding:6px 13px;font-size:12.5px;cursor:pointer;font-family:inherit;font-weight:600}
 .fbtn.act{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* 5軸の絞り込み */
+#axpills{padding:2px 0 6px}
+.axrow{display:flex;align-items:center;gap:5px;flex-wrap:wrap;padding:3px 0}
+.axlabel{font-size:11.5px;color:var(--muted);min-width:64px;font-weight:700}
+.pill.sm{padding:3px 9px;font-size:11.5px}
+.pill.sm b{font-size:10px}
+/* 👎 */
+.nope{border:1px solid var(--line);background:var(--panel);color:var(--muted);border-radius:999px;
+  padding:3px 9px;font-size:11.5px;cursor:pointer;font-family:inherit;margin-left:5px}
+.nope.on{background:#8a8a8a;color:#fff;border-color:#8a8a8a}
 .fsum2{font-size:12px;color:var(--muted)}
 /* 動画・noteの説明文は3行まで（長すぎると一覧が読めない） */
 .fsum{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
@@ -261,6 +271,7 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
   <div id="filterhead"></div>
   <div id="filterwrap" class="fwrap">
   <div class="pills" id="filterpills"></div>
+  <div id="axpills"></div>
   <div class="pills" id="tagpills"></div>
   <div class="pills" id="authorpills"></div>
   </div>
@@ -272,6 +283,28 @@ const DATA = __DATA__;
 let view="home", ai="すべて", tag="すべて", author="すべて", q="", onlyNew=false, onlyChap=false;
 let onlyLiked=false;
 let level="すべて", onlyPrompt=false, sortBy="新着順", showAllTags=false, useFor="すべて";
+/* 5軸の絞り込み（場面・種類・効き方・手間・具体度） */
+const AXIS=[["scene","① 場面"],["kind","② 種類"],["effect","③ 効き方"],["effort","④ 手間"],["depth","⑤ 具体度"]];
+let ax={scene:"すべて",kind:"すべて",effect:"すべて",effort:"すべて",depth:"すべて"};
+function axCleared(){ return AXIS.every(([k])=>ax[k]==="すべて"); }
+function axReset(){ AXIS.forEach(([k])=>ax[k]="すべて"); }
+/* 👎 これは違う */
+const NG_KEY="aikotsu_nope";
+function nopes(){ try{ return JSON.parse(localStorage.getItem(NG_KEY)||"[]"); }catch(e){ return []; } }
+function nopeMeta(){ try{ return JSON.parse(localStorage.getItem(NG_KEY+"_meta")||"{}"); }catch(e){ return {}; } }
+let hideNope=true;
+function toggleNope(id, info){
+  const f=nopes(); const i=f.indexOf(id); const meta=nopeMeta();
+  if(i<0){ f.push(id); meta[id]=Object.assign({at:new Date().toISOString().slice(0,10)}, info||{});
+           const g=favs(); const j=g.indexOf(id);      // いいね済みなら外す
+           if(j>=0){ g.splice(j,1); const fm=likeMeta(); delete fm[id];
+             try{ localStorage.setItem(FAV_KEY, JSON.stringify(g));
+                  localStorage.setItem(FAV_KEY+"_meta", JSON.stringify(fm)); }catch(e){} } }
+  else { f.splice(i,1); delete meta[id]; }
+  try{ localStorage.setItem(NG_KEY, JSON.stringify(f));
+       localStorage.setItem(NG_KEY+"_meta", JSON.stringify(meta)); }catch(e){}
+  render();
+}
 const FAV_KEY="aikotsu_like";
 function favs(){ try{ return JSON.parse(localStorage.getItem(FAV_KEY)||"[]"); }catch(e){ return []; } }
 function likeMeta(){ try{ return JSON.parse(localStorage.getItem(FAV_KEY+"_meta")||"{}"); }catch(e){ return {}; } }
@@ -307,8 +340,12 @@ function exportLikes(){
     "用途": tally(r=>r.use),
     "出どころ": tally(r=>r.origin)
   };
-  const out=JSON.stringify({exported:new Date().toISOString().slice(0,16), count:rows.length,
-    傾向: summary, likes:rows}, null, 1);
+  const nmeta=nopeMeta();
+  const nrows=nopes().map(id=>{const m=nmeta[id]||{};
+    return {id:id, title:m.title||"", ai:m.ai||"", axes:m.axes||{}, at:m.at||""};});
+  const out=JSON.stringify({exported:new Date().toISOString().slice(0,16),
+    count:rows.length, 違うと答えた数:nrows.length,
+    傾向: summary, likes:rows, nopes:nrows}, null, 1);
   navigator.clipboard.writeText(out).then(()=>{
     alert("いいね "+rows.length+"件をコピーしました。\nClaudeのチャットに貼り付けてください。");
   }).catch(()=>{
@@ -363,7 +400,7 @@ el("#theme").onclick=()=>{
 
 document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
   document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));
-  t.classList.add("on"); view=t.dataset.view; onlyLiked=false; ai="すべて"; tag="すべて"; author="すべて"; onlyNew=false; onlyChap=false; level="すべて"; onlyPrompt=false; useFor="すべて"; shown=PAGE; render();
+  t.classList.add("on"); view=t.dataset.view; onlyLiked=false; ai="すべて"; tag="すべて"; author="すべて"; onlyNew=false; onlyChap=false; level="すべて"; onlyPrompt=false; useFor="すべて"; axReset(); shown=PAGE; render();
 });
 el("#q").oninput=(e)=>{q=e.target.value.trim().toLowerCase(); shown=PAGE; render();};
 
@@ -430,6 +467,7 @@ function castView(){
 }
 
 function match(it){
+  if(hideNope && nopes().includes(it.id||it.url)) return false;
   if(onlyLiked){
     const key = it.id || it.url;
     if(!favs().includes(key)) return false;
@@ -439,13 +477,14 @@ function match(it){
     if(level!=="すべて" && it.level!==level) return false;
     if(onlyPrompt && !it.prompt) return false;
     if(useFor!=="すべて" && it.use!==useFor && it.use!=="両方") return false;
+    for(const [k] of AXIS){ if(ax[k]!=="すべて" && (it.axes||{})[k]!==ax[k]) return false; }
   }
   if(view==="tips" && tag!=="すべて"){
     if(tag==="★お気に入り"){ if(!favs().includes(it.id)) return false; }
     else if(tag.indexOf("出どころ:")===0){ if((it.origin||"Claude")!==tag.slice(5)) return false; }
     else if(!(it.tags||[]).includes(tag)) return false;
   }
-  if(view==="feed"){
+  if(view==="feed"){ const _ax=el("#axpills"); if(_ax){_ax.innerHTML="";_ax.style.display="none";}
     if(author!=="すべて" && it.author!==author) return false;
     if(onlyNew && daysAgo(it.date)>2) return false;
     if(onlyChap && !(it.chapters||[]).length) return false;
@@ -467,6 +506,7 @@ function pills(){
     const base=DATA.tips.filter(t=>(ai==="すべて"||t.ai===ai));
     const lv=(L)=>base.filter(t=>t.level===L).length;
     const un=(U)=>DATA.tips.filter(t=>t.use===U||t.use==="両方").length;
+    el("#axpills").style.display="";
     el("#filterpills").innerHTML = likeBar() +
       `<button class="pill ${useFor==="自分用"?"on":""}" data-use="自分用">🙋 自分用<b>${un("自分用")}</b></button>`+
       `<button class="pill ${useFor==="提案用"?"on":""}" data-use="提案用">💼 提案・研修用<b>${un("提案用")}</b></button>`+
@@ -475,6 +515,7 @@ function pills(){
         `<button class="pill ${level===L?"on":""}" data-lv="${L}">${L}<b>${lv(L)}</b></button>`).join("")
       + `<button class="pill ${onlyPrompt?"on":""}" id="fPrompt">📋 コピーできる<b>${base.filter(t=>t.prompt).length}</b></button>`
       + `<button class="pill" id="fSort">↕ ${sortBy}</button>`
+      + (nopes().length ? `<button class="pill ${hideNope?"":"on"}" id="fNope">👎 違うと答えた<b>${nopes().length}</b></button>` : "")
       + (level!=="すべて"||onlyPrompt||useFor!=="すべて" ? `<button class="pill" id="fClear">✕ 絞り込み解除</button>` : "");
     document.querySelectorAll("[data-use]").forEach(b=>b.onclick=()=>{
       useFor = (useFor===b.dataset.use) ? "すべて" : b.dataset.use; shown=PAGE; render();});
@@ -482,7 +523,23 @@ function pills(){
       level = (level===b.dataset.lv) ? "すべて" : b.dataset.lv; shown=PAGE; render();});
     el("#fPrompt").onclick=()=>{onlyPrompt=!onlyPrompt;shown=PAGE;render();};
     el("#fSort").onclick=()=>{sortBy = sortBy==="新着順"?"AI順":"新着順"; render();};
+    const fn=el("#fNope"); if(fn) fn.onclick=()=>{hideNope=!hideNope;shown=PAGE;render();};
     const fc=el("#fClear"); if(fc) fc.onclick=()=>{level="すべて";onlyPrompt=false;useFor="すべて";shown=PAGE;render();};
+
+    // 5軸の絞り込み
+    const axBase=DATA.tips.filter(t=>(ai==="すべて"||t.ai===ai));
+    el("#axpills").innerHTML = AXIS.map(([k,label])=>{
+      const vals=[...new Set(axBase.map(t=>(t.axes||{})[k]).filter(Boolean))]
+        .sort((a,b)=>axBase.filter(t=>(t.axes||{})[k]===b).length-axBase.filter(t=>(t.axes||{})[k]===a).length);
+      if(!vals.length) return "";
+      return `<div class="axrow"><span class="axlabel">${label}</span>`+
+        vals.map(v=>`<button class="pill sm ${ax[k]===v?"on":""}" data-ax="${k}" data-axv="${esc(v)}">${esc(v)}<b>${axBase.filter(t=>(t.axes||{})[k]===v).length}</b></button>`).join("")+
+        `</div>`;
+    }).join("") + (axCleared()?"":`<div class="axrow"><button class="pill sm" id="axClear">✕ 5軸をすべて解除</button></div>`);
+    document.querySelectorAll("[data-ax]").forEach(b=>b.onclick=()=>{
+      const k=b.dataset.ax, v=b.dataset.axv;
+      ax[k] = (ax[k]===v) ? "すべて" : v; shown=PAGE; render();});
+    const axc=el("#axClear"); if(axc) axc.onclick=()=>{axReset();shown=PAGE;render();};
 
     const origins=[...new Set(DATA.tips.map(t=>t.origin||"Claude"))].map(o=>"出どころ:"+o);
     const all=["すべて"].concat(favs().length?["★お気に入り"]:[]).concat(origins)
@@ -554,7 +611,11 @@ function tipCard(t){
       <span class="org ${esc(t.origin||"Claude")}">${t.origin==="Claude"?"Claude独自":esc(t.origin||"Claude")}</span>
       <button class="fav ${favs().includes(t.id)?"on":""}" data-fav="${esc(t.id)}"
         data-info='${esc(JSON.stringify({kind:"tip",title:t.title,ai:t.ai,tags:t.tags||[],level:t.level,use:t.use,origin:t.origin,axes:t.axes||{}}))}'
-        >${favs().includes(t.id)?"👍 いいね済":"👍 いいね"}</button></div>
+        >${favs().includes(t.id)?"👍 いいね済":"👍 いいね"}</button
+      ><button class="nope ${nopes().includes(t.id)?"on":""}" data-nope="${esc(t.id)}"
+        title="これは自分には合わない、と伝えます"
+        data-ninfo='${esc(JSON.stringify({kind:"tip",title:t.title,ai:t.ai,level:t.level,use:t.use,axes:t.axes||{}}))}'
+        >${nopes().includes(t.id)?"👎 違う済":"👎"}</button></div>
     <h3>${esc(t.title)}</h3>
     <p class="sum">${esc(t.summary)}</p>
     ${t.why?`<p class="why">${esc(t.why)}</p>`:""}
@@ -621,6 +682,7 @@ function activeFilters(){
   if(view==="tips"){
     if(ai!=="すべて") a.push(ai);
     if(useFor!=="すべて") a.push(useFor);
+    AXIS.forEach(([k])=>{ if(ax[k]!=="すべて") a.push(ax[k]); });
     if(level!=="すべて") a.push(level);
     if(onlyPrompt) a.push("コピーできる");
     if(tag!=="すべて") a.push(tag);
@@ -645,7 +707,7 @@ function renderFilterHead(n){
   const fr=el("#fReset");
   if(fr) fr.onclick=()=>{ ai="すべて"; tag="すべて"; author="すべて"; level="すべて";
     useFor="すべて"; onlyPrompt=false; onlyNew=false; onlyChap=false; onlyLiked=false;
-    shown=PAGE; render(); };
+    axReset(); shown=PAGE; render(); };
 }
 function render(){
   let list=items().filter(match);
@@ -688,6 +750,11 @@ function render(){
       let info={}; try{ info=JSON.parse(b.dataset.info||"{}"); }catch(_){}
       toggleFav(b.dataset.fav, info);
     });
+  document.querySelectorAll("[data-nope]").forEach(b=>b.onclick=(e)=>{
+      e.preventDefault(); e.stopPropagation();
+      let info={}; try{ info=JSON.parse(b.dataset.ninfo||"{}"); }catch(_){}
+      toggleNope(b.dataset.nope, info);
+    });
     document.querySelectorAll("[data-goto]").forEach(a=>a.onclick=(e)=>{
       e.preventDefault();
       const v=a.dataset.goto;
@@ -719,6 +786,11 @@ function render(){
       e.preventDefault(); e.stopPropagation();
       let info={}; try{ info=JSON.parse(b.dataset.info||"{}"); }catch(_){}
       toggleFav(b.dataset.fav, info);
+    });
+  document.querySelectorAll("[data-nope]").forEach(b=>b.onclick=(e)=>{
+      e.preventDefault(); e.stopPropagation();
+      let info={}; try{ info=JSON.parse(b.dataset.ninfo||"{}"); }catch(_){}
+      toggleNope(b.dataset.nope, info);
     });
 }
 window.addEventListener("scroll",()=>{
