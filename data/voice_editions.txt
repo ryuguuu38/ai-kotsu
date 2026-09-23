@@ -1,0 +1,5 @@
+all
+claude
+gemini
+chatgpt
+news
