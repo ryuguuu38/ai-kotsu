@@ -290,9 +290,25 @@ function exportLikes(){
   const rows=ids.map(id=>{
     const m=meta[id]||{};
     return {id:id, kind:m.kind||"", title:m.title||"", ai:m.ai||"", tags:m.tags||[],
-            level:m.level||"", author:m.author||"", at:m.at||""};
+            level:m.level||"", use:m.use||"", origin:m.origin||"", author:m.author||"",
+            axes:m.axes||{}, at:m.at||""};
   });
-  const out=JSON.stringify({exported:new Date().toISOString().slice(0,16), count:rows.length, likes:rows}, null, 1);
+  // 傾向がひと目で分かるよう、こちらで集計まで済ませておく
+  const tally=(f)=>{const c={}; rows.forEach(r=>{const v=f(r); if(v) c[v]=(c[v]||0)+1;});
+    return Object.entries(c).sort((a,b)=>b[1]-a[1]).map(([k,v])=>k+":"+v).join(" / ");};
+  const summary={
+    "AI別": tally(r=>r.ai),
+    "① 場面": tally(r=>r.axes.scene),
+    "② 種類": tally(r=>r.axes.kind),
+    "③ 効き方": tally(r=>r.axes.effect),
+    "④ 手間": tally(r=>r.axes.effort),
+    "⑤ 具体度": tally(r=>r.axes.depth),
+    "レベル": tally(r=>r.level),
+    "用途": tally(r=>r.use),
+    "出どころ": tally(r=>r.origin)
+  };
+  const out=JSON.stringify({exported:new Date().toISOString().slice(0,16), count:rows.length,
+    傾向: summary, likes:rows}, null, 1);
   navigator.clipboard.writeText(out).then(()=>{
     alert("いいね "+rows.length+"件をコピーしました。\nClaudeのチャットに貼り付けてください。");
   }).catch(()=>{
@@ -512,7 +528,7 @@ function feedCard(f){
       <span class="ai ${aiClass(f.ai)}" style="font-size:10px">${esc(f.ai)}</span>
       <span class="${daysAgo(f.date)<=1?"when today":"when"}">${esc(whenLabel(f.date))}</span></div>
     <button class="fav ${favs().includes(f.url)?"on":""}" data-fav="${esc(f.url)}" style="float:right;margin:0 0 4px 8px"
-      data-info='${esc(JSON.stringify({kind:f.kind,title:f.title,ai:f.ai,author:f.author}))}'
+      data-info='${esc(JSON.stringify({kind:f.kind,title:f.title,ai:f.ai,author:f.author,date:f.date}))}'
       >${favs().includes(f.url)?"👍":"👍 いいね"}</button>
     <a class="ftitle" href="${esc(f.url)}" target="_blank" rel="noopener">${hl(esc(f.title))}</a>
     ${f.summary?`<p class="fsum">${esc(f.summary)}</p>`:""}
@@ -537,7 +553,7 @@ function tipCard(t){
       <span class="lv">${esc(t.level||"")}</span>
       <span class="org ${esc(t.origin||"Claude")}">${t.origin==="Claude"?"Claude独自":esc(t.origin||"Claude")}</span>
       <button class="fav ${favs().includes(t.id)?"on":""}" data-fav="${esc(t.id)}"
-        data-info='${esc(JSON.stringify({kind:"tip",title:t.title,ai:t.ai,tags:t.tags||[],level:t.level}))}'
+        data-info='${esc(JSON.stringify({kind:"tip",title:t.title,ai:t.ai,tags:t.tags||[],level:t.level,use:t.use,origin:t.origin,axes:t.axes||{}}))}'
         >${favs().includes(t.id)?"👍 いいね済":"👍 いいね"}</button></div>
     <h3>${esc(t.title)}</h3>
     <p class="sum">${esc(t.summary)}</p>
@@ -556,7 +572,7 @@ function newsRow(n){
     <span class="s">${esc(n.source)}</span>
     ${n.lang==="en"?`<span class="lang">英語</span>`:""}
     <button class="fav ${favs().includes(n.url)?"on":""}" data-fav="${esc(n.url)}" style="margin-left:auto;padding:1px 7px;font-size:11px"
-      data-info='${esc(JSON.stringify({kind:"news",title:n.title,ai:n.ai,author:n.source}))}'
+      data-info='${esc(JSON.stringify({kind:"news",title:n.title,ai:n.ai,author:n.source,date:n.date}))}'
       >${favs().includes(n.url)?"👍":"👍"}</button></div>`;
 }
 
