@@ -147,6 +147,28 @@
    "name": "Gemini公式（note）",
    "url": "https://note.com/google_gemini/rss",
    "pick": "Claude推薦"
+  },
+  {
+   "name": "伊志嶺｜LLMで業務改善（note）",
+   "url": "https://note.com/brave_quince241/rss",
+   "pick": "オーナー指定"
+  }
+ ],
+ "x": [
+  {
+   "name": "東大ClaudeCode研究所",
+   "handle": "ClaudeCode_UT",
+   "pick": "オーナー指定"
+  },
+  {
+   "name": "東大Codex研究所",
+   "handle": "UT_Codex",
+   "pick": "Claude推薦"
+  },
+  {
+   "name": "Swarm｜東大AIエージェントラボ",
+   "handle": "swarm_japan",
+   "pick": "Claude推薦"
   }
  ]
 }
