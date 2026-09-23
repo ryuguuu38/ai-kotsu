@@ -257,7 +257,8 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
   <div class="top">
     <h1>AI<span>コツ</span>図鑑</h1>
     <div class="sub" id="stamp"></div>
-    <button class="themebtn" id="likeExport" style="margin-left:auto" title="いいねした一覧をコピーします">👍<span class="btxt"> 好みをClaudeに渡す</span></button>
+    <button class="themebtn" id="likeSend" style="margin-left:auto" title="押した内容をGitHub経由でClaudeに送ります（送信を押すだけ）">📮<span class="btxt"> Claudeに送る</span></button>
+    <button class="themebtn" id="likeExport" title="コピーして自分で貼りたいとき">👍<span class="btxt"> コピー</span></button>
     <button class="themebtn" id="theme">◐<span class="btxt"> 表示</span></button>
     <div class="sub sub-short" id="stampShort"></div>
   </div>
@@ -360,6 +361,24 @@ function toggleFav(id, info){
   render();
 }
 /* いいねの一覧を、Claudeに渡せる形で書き出す */
+/* ボタン1つでGitHubの投稿画面を開く。送るのはIDだけ（短く・確実に送れる）。
+   タイトルや分析は送らない＝公開されても中身が分からない。 */
+function sendToClaude(){
+  const L=favs(), N=nopes(), OFF=offList();
+  if(!L.length && !N.length){ alert("まだ何も押されていません。\n気に入ったものに👍、違うものに👎を押してから使ってください。"); return; }
+  const d=new Date(); const stamp=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+  const body =
+    "L: "+L.join(",")+"\n"+
+    "N: "+N.join(",")+"\n"+
+    "OFF: "+OFF.join(",")+"\n"+
+    "at: "+stamp+" "+String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0");
+  const url="https://github.com/ryuguuu38/ai-kotsu/issues/new"
+    +"?title="+encodeURIComponent("いいね "+stamp)
+    +"&labels="+encodeURIComponent("likes")
+    +"&body="+encodeURIComponent(body);
+  if(url.length>7000){ alert("件数が多すぎて送れません。コピー方式に切り替えます。"); exportLikes(); return; }
+  window.open(url, "_blank", "noopener");
+}
 function exportLikes(){
   const meta=likeMeta(); const ids=favs();
   const rows=ids.map(id=>{
@@ -434,6 +453,7 @@ el("#stampShort").textContent = "コツ"+DATA.tips.length+"・動画"+DATA.feed.
 const saved=(()=>{try{return localStorage.getItem("theme")}catch(e){return null}})();
 if(saved) document.documentElement.setAttribute("data-theme",saved);
 el("#likeExport").onclick=exportLikes;
+el("#likeSend").onclick=sendToClaude;
 el("#theme").onclick=()=>{
   const now=document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark";
   document.documentElement.setAttribute("data-theme",now);
