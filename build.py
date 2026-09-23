@@ -175,6 +175,7 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
 .edpill b{font-weight:600;color:var(--muted);margin-left:5px;font-size:11px}
 .edpill.on{background:var(--accent);color:#fff;border-color:var(--accent)}
 .edpill.on b{color:rgba(255,255,255,.8)}
+.audiobox.waiting{border-style:dashed;background:transparent}
 .edtag{margin-left:7px;font-size:11px;font-weight:700;background:var(--accent);color:#fff;
   border-radius:999px;padding:2px 8px;vertical-align:middle}
 .castbar{position:sticky;top:96px;z-index:15;background:var(--panel);border:1px solid var(--line);
@@ -374,6 +375,17 @@ function castView(){
     + `<p class="credit">${esc(c.credit||"")}</p>`;
   const mp3="https://github.com/ryuguuu38/ai-kotsu/releases/download/audio/today"
             +(castEd&&castEd!=="all"?"_"+castEd:"")+".mp3";
+  const ready=(DATA.voice_ready||["all"]).indexOf(castEd)>=0;
+  if(!ready){
+    return edSwitch()+`<div class="audiobox waiting">
+      <h3>🔊 ずんだもん × 四国めたん<span class="edtag">${esc(c.label||"")}</span></h3>
+      <p class="note"><b>この版の音声は、まだ作られていません。</b><br>
+        次の自動更新（毎朝7時すぎ）で作られます。下の台本は今日の内容です。</p>
+    </div>`+`<div class="castbar">
+      <span class="castmeta" style="margin-left:0">台本（約${c.minutes}分・${c.date}版）／ セリフを押すとその場所を目立たせます</span>
+    </div>
+    <div class="script">${body}</div>`;
+  }
   const player=`<div class="audiobox">
       <h3>🔊 ずんだもん × 四国めたん<span class="edtag">${esc(c.label||"全部")}</span></h3>
       <audio controls preload="none" src="${mp3}"></audio>
@@ -719,9 +731,18 @@ def main():
         try: vstamp = io.open(vp, encoding="utf-8").read().strip()
         except Exception: pass
     cast["voice_built"] = vstamp
+    # どの版の音声が実際にできているか（make_voice.py が書き残す）
+    ready = []
+    rp = os.path.join(HERE, "data", "voice_editions.txt")
+    if os.path.exists(rp):
+        try:
+            ready = [x.strip() for x in io.open(rp, encoding="utf-8").read().split("\n") if x.strip()]
+        except Exception: pass
+    if not ready:
+        ready = ["all"]        # 記録が無い間は、昔からある「全部」だけ音声ありとみなす
     for c in casts.values():
         c["voice_built"] = vstamp
-    data = {"updated": datetime.now().strftime("%Y-%m-%d %H:%M"), "tips": tips, "feed": feed, "news": news, "cast": cast, "casts": casts}
+    data = {"updated": datetime.now().strftime("%Y-%m-%d %H:%M"), "tips": tips, "feed": feed, "news": news, "cast": cast, "casts": casts, "voice_ready": ready}
     html = TEMPLATE.replace("__DATA__", json.dumps(data, ensure_ascii=False))
     if not os.path.isdir(OUTDIR):
         os.makedirs(OUTDIR)

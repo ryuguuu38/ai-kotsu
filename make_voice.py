@@ -179,13 +179,27 @@ def main(edition="all"):
 if __name__ == "__main__":
     eds = sys.argv[1:] or ["all"]
     rc = 0
+    done = []
     try:
         for e in eds:
             print("---- %s ----" % e)
-            rc = main(e) or rc
+            r = main(e)
+            if r == 0:
+                done.append(e)
+            rc = r or rc
     finally:
         # その日のぶんの声は用が済んだので消す（ためこまない）
         for f in glob.glob(os.path.join(CACHE, "*.wav")):
             try: os.remove(f)
             except Exception: pass
+        # どの版の音声ができたかを残す。
+        # サイトはこれを見て「まだ音声が無い版」のプレーヤーを出さないようにする。
+        try:
+            dd = os.path.join(HERE, "data")
+            if not os.path.isdir(dd): os.makedirs(dd)
+            io.open(os.path.join(dd, "voice_editions.txt"), "w",
+                    encoding="utf-8").write("\n".join(done) + "\n")
+            print("音声ができた版: %s" % (", ".join(done) or "なし"))
+        except Exception as e:
+            print("版の記録に失敗: %s" % str(e)[:80])
     sys.exit(rc)
