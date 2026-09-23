@@ -220,6 +220,9 @@ a:visited .ftitle,.newsrow a:visited{opacity:.62}
 .nope{border:1px solid var(--line);background:var(--panel);color:var(--muted);border-radius:999px;
   padding:3px 9px;font-size:11.5px;cursor:pointer;font-family:inherit;margin-left:5px}
 .nope.on{background:#8a8a8a;color:#fff;border-color:#8a8a8a}
+/* 動画・noteカードの👍👎は情報行の右端に置く（タイトルを避けさせない） */
+.fvote{margin-left:auto;white-space:nowrap;display:inline-flex;gap:2px}
+.fvote .fav,.fvote .nope{padding:2px 8px;font-size:12px;margin:0}
 /* 別端末から取り込んだときのお知らせ（画面下に出す） */
 #syncnote{position:fixed;left:50%;transform:translateX(-50%);bottom:18px;z-index:60;
   background:var(--accent);color:#fff;font-size:13px;font-weight:700;
@@ -443,6 +446,11 @@ document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
 });
 el("#q").oninput=(e)=>{q=e.target.value.trim().toLowerCase(); shown=PAGE; render();};
 
+function nopeBar(){
+  const n = items().filter(x=>nopes().includes(x.id||x.url)).length;
+  if(!n) return "";
+  return `<button class="pill ${hideNope?"":"on"}" id="fNope2">👎 違うと答えた<b>${n}</b></button>`;
+}
 function likeBar(){
   const n = items().filter(x=>favs().includes(x.id||x.url)).length;
   return `<button class="pill ${onlyLiked?"on":""}" id="fLiked">👍 いいねしたもの<b>${n}</b></button>`;
@@ -523,7 +531,7 @@ function match(it){
     else if(tag.indexOf("出どころ:")===0){ if((it.origin||"Claude")!==tag.slice(5)) return false; }
     else if(!(it.tags||[]).includes(tag)) return false;
   }
-  if(view==="feed"){ const _ax=el("#axpills"); if(_ax){_ax.innerHTML="";_ax.style.display="none";}
+  if(view==="feed"){
     if(author!=="すべて" && it.author!==author) return false;
     if(onlyNew && daysAgo(it.date)>2) return false;
     if(onlyChap && !(it.chapters||[]).length) return false;
@@ -540,6 +548,8 @@ function pills(){
     return `<button class="pill ${a===ai?"on":""}" data-ai="${a}">${a}<b>${n}</b></button>`;
   }).join("");
   document.querySelectorAll("[data-ai]").forEach(b=>b.onclick=()=>{ai=b.dataset.ai;shown=PAGE;render();});
+  setTimeout(()=>{ const fn2=el("#fNope2");
+    if(fn2) fn2.onclick=()=>{hideNope=!hideNope;shown=PAGE;render();}; },0);
 
   if(view==="tips"){
     const base=DATA.tips.filter(t=>(ai==="すべて"||t.ai===ai));
@@ -590,15 +600,18 @@ function pills(){
     document.querySelectorAll("[data-tag]").forEach(b=>b.onclick=()=>{tag=b.dataset.tag;shown=PAGE;render();});
     const mt=el("#moreTags"); if(mt) mt.onclick=()=>{showAllTags=!showAllTags;render();};
   } else if(view==="news"){
-    el("#tagpills").innerHTML = likeBar();
+    const _ax=el("#axpills"); if(_ax){_ax.innerHTML=""; _ax.style.display="none";}
+    el("#tagpills").innerHTML = likeBar() + nopeBar();
     const lb2=el("#fLiked"); if(lb2) lb2.onclick=()=>{onlyLiked=!onlyLiked;shown=PAGE;render();};
     el("#filterpills").innerHTML=""; el("#authorpills").innerHTML="";
-  } else { el("#tagpills").innerHTML=""; el("#filterpills").innerHTML=""; }
+  } else { const _ax=el("#axpills"); if(_ax){_ax.innerHTML=""; _ax.style.display="none";}
+    el("#tagpills").innerHTML=""; el("#filterpills").innerHTML=""; }
 
   if(view==="feed"){
+    const _ax=el("#axpills"); if(_ax){_ax.innerHTML=""; _ax.style.display="none";}
     const nNew=DATA.feed.filter(f=>daysAgo(f.date)<=2).length;
     const nChap=DATA.feed.filter(f=>(f.chapters||[]).length).length;
-    el("#tagpills").innerHTML = likeBar() +
+    el("#tagpills").innerHTML = likeBar() + nopeBar() +
       (view==="feed" ? `<button class="pill ${onlyNew?"on":""}" id="fNew">🆕 直近2日<b>${nNew}</b></button>` : "")+
       (view==="feed" ? `<button class="pill ${onlyChap?"on":""}" id="fChap">📑 目次あり<b>${nChap}</b></button>` : "");
     if(el("#fNew")) el("#fNew").onclick=()=>{onlyNew=!onlyNew;shown=PAGE;render();};
@@ -622,10 +635,15 @@ function feedCard(f){
     <div class="fhead"><span class="who">${f.pick==="オーナー指定"?"★ ":""}${esc(f.author)}</span>
       <span class="kind">${f.kind==="youtube"?"YouTube":"note"}</span>
       <span class="ai ${aiClass(f.ai)}" style="font-size:10px">${esc(f.ai)}</span>
-      <span class="${daysAgo(f.date)<=1?"when today":"when"}">${esc(whenLabel(f.date))}</span></div>
-    <button class="fav ${favs().includes(f.url)?"on":""}" data-fav="${esc(f.url)}" style="float:right;margin:0 0 4px 8px"
+      <span class="${daysAgo(f.date)<=1?"when today":"when"}">${esc(whenLabel(f.date))}</span>
+      <span class="fvote"
+      ><button class="fav ${favs().includes(f.url)?"on":""}" data-fav="${esc(f.url)}"
       data-info='${esc(JSON.stringify({kind:f.kind,title:f.title,ai:f.ai,author:f.author,date:f.date}))}'
-      >${favs().includes(f.url)?"👍":"👍 いいね"}</button>
+      >${favs().includes(f.url)?"👍":"👍"}</button
+      ><button class="nope ${nopes().includes(f.url)?"on":""}" data-nope="${esc(f.url)}"
+      title="これは自分には合わない、と伝えます"
+      data-ninfo='${esc(JSON.stringify({kind:f.kind,title:f.title,ai:f.ai,author:f.author,date:f.date}))}'
+      >👎</button></span></div>
     <a class="ftitle" href="${esc(f.url)}" target="_blank" rel="noopener">${hl(esc(f.title))}</a>
     ${f.summary?`<p class="fsum">${esc(f.summary)}</p>`:""}
     ${chap}
@@ -673,7 +691,11 @@ function newsRow(n){
     ${n.lang==="en"?`<span class="lang">英語</span>`:""}
     <button class="fav ${favs().includes(n.url)?"on":""}" data-fav="${esc(n.url)}" style="margin-left:auto;padding:1px 7px;font-size:11px"
       data-info='${esc(JSON.stringify({kind:"news",title:n.title,ai:n.ai,author:n.source,date:n.date}))}'
-      >${favs().includes(n.url)?"👍":"👍"}</button></div>`;
+      >${favs().includes(n.url)?"👍":"👍"}</button
+      ><button class="nope ${nopes().includes(n.url)?"on":""}" data-nope="${esc(n.url)}"
+      style="padding:1px 7px;font-size:11px" title="これは自分には合わない、と伝えます"
+      data-ninfo='${esc(JSON.stringify({kind:"news",title:n.title,ai:n.ai,author:n.source,date:n.date}))}'
+      >👎</button></div>`;
 }
 
 function daysAgo(d){
