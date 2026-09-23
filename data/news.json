@@ -1507,15 +1507,6 @@
    "date": "2026-09-22"
   },
   {
-   "title": "AIコーディングエージェントの選び方について考えてみた──Claude Code・Codex・Cursor・Clineを比較",
-   "url": "https://zenn.dev/ruru_engineer/articles/ai-coding-agents-compare-2026",
-   "source": "Zenn ClaudeCode",
-   "lang": "ja",
-   "ai": "ChatGPT",
-   "summary": "対象読者・この記事で分かること 対象読者： AIコーディングツールを導入・乗り換えを検討しているエンジニア。ツールの乱立で何を選べばよいか迷っている方。 この記事で分かること： Claude Code / OpenAI Codex / Cursor / Cline / Aider / OpenCode / Roo Co",
-   "date": "2026-09-22"
-  },
-  {
    "title": "Claude Code でよく起きる失敗6パターンと、その場での戻し方",
    "url": "https://zenn.dev/shoebill_dev27/articles/claude-code-failure-patterns",
    "source": "Zenn ClaudeCode",
@@ -2660,7 +2651,7 @@
   {
    "title": "AIの意見を聞かない技術 第1回：提案を検討しない技術",
    "url": "https://zenn.dev/garplab/articles/cc43876c37c191",
-   "source": "Zenn ClaudeCode",
+   "source": "Zenn 生成AI",
    "lang": "ja",
    "ai": "その他",
    "summary": "この記事は、連載「AIの意見を聞かない技術」の第 1 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回の一覧は序論にあります。 今回は、AI が出してくる提案の話です。新機能",
@@ -2669,7 +2660,7 @@
   {
    "title": "ジュニアエンジニアの AI 協働ロードマップ (2/5) — 集約編：AI に任せる範囲を決める",
    "url": "https://zenn.dev/motowo/articles/junior-engineer-ai-collaboration-roadmap-2",
-   "source": "Zenn ClaudeCode",
+   "source": "Zenn 生成AI",
    "lang": "ja",
    "ai": "その他",
    "summary": "! TL;DR: 業務ルールの多くは、値 1 つではなく「複数の値と状態の組み合わせ」で決まります。この回は、それらをひとまとめにし、状態を変える入口を絞った単位（DDD の集約）を TypeScript で作ります。そのうえで、集約の境界を基準に AI に任せる範囲を決めます。集約の境界と守るべき条件はジュニアエンジ",
@@ -3465,6 +3456,33 @@
    "ai": "Gemini",
    "summary": "Article URL: https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/ Comments URL: https://news",
    "thumb": "",
+   "date": "2026-09-19"
+  },
+  {
+   "title": "datasette-auth-github 1.0",
+   "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+   "source": "Simon Willison",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasti",
+   "date": "2026-09-19"
+  },
+  {
+   "title": "California Sea Lion, Brandt's Cormorant",
+   "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+   "source": "Simon Willison",
+   "lang": "en",
+   "ai": "その他",
+   "summary": "California Sea Lion, Brandt&#x27;s Cormorant, in Pillar Point Harbor, CA, USI only noticed this after I had taken the photo: Morris the Northern Gannet is peeki",
+   "date": "2026-09-19"
+  },
+  {
+   "title": "訂正が重なった資料の値抽出、プロンプト反復より内訳の明示が効いた",
+   "url": "https://zenn.dev/every_ai_recipe/articles/correction-tracking-breakdown-check",
+   "source": "Zenn プロンプト",
+   "lang": "ja",
+   "ai": "その他",
+   "summary": "TL;DR 「訂正が複数回重なった業務メモ」から最終的な正しい値を抽出させる際、(1) プロンプトをそのまま2回貼る\"Prompt Repetition\"、(2) 回答前に情報を古い順へ整理させるステップバイステップ指示、の2つの工夫を単体・組み合わせの6条件で検証した 結果：6条件すべてで最終値・計算結果は正しく、工",
    "date": "2026-09-19"
   },
   {
