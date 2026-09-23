@@ -65,7 +65,8 @@ if os.path.exists(site):
     for word in ("speechSynthesis", "stopCast", "端末の声"):
         if word in h: ng("HTMLに削除済みのはずの %s が残っている" % word)
     # 壊れた色指定・未定義の変数呼び出しの兆候
-    if re.search(r'[а-яА-Яáčďěňřšťůž]', h): ng("HTMLに不審な外国語文字が混入")
+    if re.search(r'[а-яА-Яáčďěňřšťůž\uac00-\ud7a3\u0370-\u03ff]', h):
+        ng("HTMLに不審な外国語文字が混入")
     for need in ("favicon.svg", "apple-touch-icon", "noindex", "robots"):
         if need not in h: warn("HTMLに %s が見当たらない" % need)
     # 主要なタブが全部あるか
@@ -113,6 +114,21 @@ for _f in ("build.py", "build_podcast.py", "collect_sources.py", "collect_news.p
         if _w in _t and not (_w == "/Users/" and _f == "make_voice.py"):
             ng("公開してはいけない言葉「%s」が %s に入っている" % (_w, _f))
             break
+
+
+# ---------- 7. 書き間違いで外国語が混ざっていないか ----------
+# Claudeが日本語を書いているときに、キリル文字・ハングル・ギリシャ文字などが
+# 紛れ込むことが実際に何度かあった。どの項目かまで言えるようにしておく。
+FOREIGN = re.compile(r'[а-яА-Яáčďěňřšťůž\uac00-\ud7a3\u0370-\u03ff]')
+for _name, _rows in (("コツ", tips),):
+    for _x in _rows:
+        for _k, _v in _x.items():
+            vals = _v if isinstance(_v, list) else [_v]
+            for _vv in vals:
+                if isinstance(_vv, str):
+                    m = FOREIGN.search(_vv)
+                    if m:
+                        ng("%s %s の %s に外国語文字「%s」が混入" % (_name, _x.get("id"), _k, m.group(0)))
 
 # ---------- 結果 ----------
 print("=" * 58)
