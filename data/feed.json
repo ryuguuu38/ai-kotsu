@@ -1,7 +1,151 @@
 {
- "updated": "2026-09-26 22:08",
+ "updated": "2026-09-27 22:08",
  "desc_blocked": false,
  "items": [
+  {
+   "kind": "note",
+   "title": "AIを使うと頭が悪くなる？ChatGPT時代に「伸びる人」と「思考停止する人」を分ける決定的な違い",
+   "url": "https://note.com/ak_hikiyose/n/n354d2479c324",
+   "date": "2026-09-28",
+   "thumb": "https://assets.st-note.com/production/uploads/images/318105402/rectangle_large_type_2_d70a6f4918b700d7f6df9dd01046524a.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "ChatGPT",
+   "chapters": [],
+   "summary": "「ChatGPTを使いすぎると、自分で考えられなくなるんじゃないか」生成AIを毎日のように使う人ほど、一度はこんな不安を感じたことがあるのではないでしょうか。文章は数秒で整い、企画案も出る。分からないことを聞けば、それらしい答えまで返ってくる。便利になればなるほど、「これ、自分の頭を使っているのかな」と怖くなる瞬間があります。続きをみる"
+  },
+  {
+   "kind": "youtube",
+   "title": "【実演】NotebookLMが「Gemini Notebook」に進化！年商30億社長が仕事で使える機能と活用法を徹底解説",
+   "url": "https://www.youtube.com/watch?v=sXoPN9HgXak",
+   "date": "2026-09-27",
+   "thumb": "https://i.ytimg.com/vi/sXoPN9HgXak/mqdefault.jpg",
+   "author": "みかみ【東大退学させられた男】",
+   "pick": "オーナー指定",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "緊急開催｜未経験から、たった3日でプロ級AIコンサルになる！？ AGI構築 & 本質のAIコンサル完全攻略セミナー",
+   "url": "https://www.youtube.com/watch?v=J8SS9GHnA8I",
+   "date": "2026-09-27",
+   "thumb": "https://i.ytimg.com/vi/J8SS9GHnA8I/mqdefault.jpg",
+   "author": "みかみ【東大退学させられた男】",
+   "pick": "オーナー指定",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "AI音声が進化しすぎた。自分の声を30秒でコピー。この声、実は全部AIです｜Gemini 3.8 Flash TTS",
+   "url": "https://www.youtube.com/watch?v=PGVs849rbkk",
+   "date": "2026-09-27",
+   "thumb": "https://i.ytimg.com/vi/PGVs849rbkk/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【9月第4週まとめ】新AIモデルClaude Opus 5.5・ChatGPT-6 Sol・Grok 4.7／Opus 5.5でゲームや短い映画も／無料の画像AI Qwen",
+   "url": "https://www.youtube.com/watch?v=B-HHffa-aes",
+   "date": "2026-09-27",
+   "thumb": "https://i.ytimg.com/vi/B-HHffa-aes/mqdefault.jpg",
+   "author": "AI market",
+   "pick": "Claude推薦",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【衝撃】ChatGPT最新モデル『Astra』の活用術がヤバいです【完全保存版】",
+   "url": "https://www.youtube.com/watch?v=qJaYWuqLLJk",
+   "date": "2026-09-27",
+   "thumb": "https://i.ytimg.com/vi/qJaYWuqLLJk/mqdefault.jpg",
+   "author": "ここなのAI大学",
+   "pick": "Claude推薦",
+   "ai": "ChatGPT",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【神AIツール】GPT-6 AstraとClaude Fable5.1を徹底比較！高性能を使いこなす活用方法5選",
+   "url": "https://www.youtube.com/watch?v=XpKGCwZYUfI",
+   "date": "2026-09-27",
+   "thumb": "https://i.ytimg.com/vi/XpKGCwZYUfI/mqdefault.jpg",
+   "author": "AIの中の人",
+   "pick": "Claude推薦",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【革命】ChatGPT×Adobe統合がヤバい。使える人と使えない人で差が開く前に、正しい使い方を解説します",
+   "url": "https://www.youtube.com/watch?v=69HEGWQSLuc",
+   "date": "2026-09-27",
+   "thumb": "https://i.ytimg.com/vi/69HEGWQSLuc/mqdefault.jpg",
+   "author": "あいまる / iPhone×AI",
+   "pick": "Claude推薦",
+   "ai": "ChatGPT",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【スマホOK】Gemini Notebookだけで資料作成が完結する仕事術3選",
+   "url": "https://www.youtube.com/watch?v=ZYgVplzYBhU",
+   "date": "2026-09-27",
+   "thumb": "https://i.ytimg.com/vi/ZYgVplzYBhU/mqdefault.jpg",
+   "author": "SHIFT AI ニュース",
+   "pick": "Claude推薦",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "Gemini Sparkが動かない原因を解説",
+   "url": "https://www.youtube.com/watch?v=Kgux2oSxjUE",
+   "date": "2026-09-27",
+   "thumb": "https://i.ytimg.com/vi/Kgux2oSxjUE/mqdefault.jpg",
+   "author": "SHIFT AI ニュース",
+   "pick": "Claude推薦",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "note",
+   "title": "AI習慣で差がつく時代へ｜「大失業時代」に最強の人材になる6つの習慣",
+   "url": "https://note.com/ak_hikiyose/n/nad2370a9b330",
+   "date": "2026-09-27",
+   "thumb": "https://assets.st-note.com/production/uploads/images/318113079/rectangle_large_type_2_a013c9f35ab299c97089688218d4f10a.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「AIに仕事を奪われるかもしれない」ここ数年、この言葉を見ない日はほとんどなくなりました。生成AIは文章、画像、動画、プログラミング、リサーチ、資料作成まで入り込み、「自分の仕事もいつか置き換えられるのでは」と不安になる人が増えるのは自然なことです。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "AIで人生が変わる人の5つの共通点｜初心者こそ伸びる生成AI活用術",
+   "url": "https://note.com/ak_hikiyose/n/n13c9c5973aee",
+   "date": "2026-09-27",
+   "thumb": "https://assets.st-note.com/production/uploads/images/318037984/rectangle_large_type_2_496b05cd8f6413b8ad042e95c69508f2.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "ChatGPT",
+   "chapters": [],
+   "summary": "「ChatGPTを使っている。でも、人生が変わった感じはしない」続きをみる"
+  },
   {
    "kind": "note",
    "title": "Claude初心者はこの3機能だけ覚えればいい｜Skills・PowerPoint生成・CoworkでAI活用が一気に変わる",
@@ -119,6 +263,18 @@
    "author": "ナオヤ@AIヲタク",
    "pick": "Claude推薦",
    "ai": "Gemini",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "iPhone 18 Proの真価！AI機能「Siri AI」＆「Appleリファレンスイメージ」とは？",
+   "url": "https://www.youtube.com/watch?v=5ZBOLncGxd4",
+   "date": "2026-09-26",
+   "thumb": "https://i.ytimg.com/vi/5ZBOLncGxd4/mqdefault.jpg",
+   "author": "あいまる / iPhone×AI",
+   "pick": "Claude推薦",
+   "ai": "その他",
    "chapters": [],
    "summary": ""
   },
@@ -568,13 +724,13 @@
   },
   {
    "kind": "youtube",
-   "title": "【知らないと損】元AI開発者が毎日やっている「AI習慣5選」",
+   "title": "【AI効率化】AI歴13年のプロが実践するAI神習慣5選｜AI初心者でも今すぐワンランク上の仕事が再現できる使い方から応用までを徹底解説！【Claude】",
    "url": "https://www.youtube.com/watch?v=iPqY1_lf0Zw",
    "date": "2026-09-23",
    "thumb": "https://i.ytimg.com/vi/iPqY1_lf0Zw/mqdefault.jpg",
    "author": "Claudeを使えば苦労しない | フィアナ",
    "pick": "Claude推薦",
-   "ai": "その他",
+   "ai": "Claude",
    "chapters": [],
    "summary": ""
   },
@@ -919,18 +1075,6 @@
    "summary": "「Claude CodeのFableとGPT-5.6 Sol、結局どっちを使えばいいの？」続きをみる"
   },
   {
-   "kind": "note",
-   "title": "AIトレードは本当に勝てる？Claude Code×Geminiで「爆益チャート」を自動検証して見えた本当の価値",
-   "url": "https://note.com/ak_hikiyose/n/nd22b2c8e0719",
-   "date": "2026-09-22",
-   "thumb": "https://assets.st-note.com/production/uploads/images/316151707/rectangle_large_type_2_99d8b129424b5a9531d60f8ae9f75be7.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "「AIにチャートを見せれば、勝てる場所を全部見つけてくれるのでは？」続きをみる"
-  },
-  {
    "kind": "youtube",
    "title": "Gensparkセカンドブレインノート",
    "url": "https://www.youtube.com/watch?v=lhPNoKVSyFA",
@@ -1138,30 +1282,6 @@
    "summary": "こんにちは！寺田です。現在は、デジタル関連会社のAI推進者などのAI活用者のコミュニティである「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
   },
   {
-   "kind": "note",
-   "title": "ChatGPTの回答が変わる「基本の5プロンプト」｜AIを使いこなす音声入力時代の質問術",
-   "url": "https://note.com/ak_hikiyose/n/n13f169c099b2",
-   "date": "2026-09-21",
-   "thumb": "https://assets.st-note.com/production/uploads/images/315946432/rectangle_large_type_2_f31aebdb7bd15ee7ed5670333e176de9.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "ChatGPT",
-   "chapters": [],
-   "summary": "「ChatGPTを使っているけれど、思ったような答えが返ってこない」続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "AI初心者を卒業する4つの基本｜ChatGPTを「使える人」に変える最短習慣",
-   "url": "https://note.com/ak_hikiyose/n/n6f588dcab4f7",
-   "date": "2026-09-21",
-   "thumb": "https://assets.st-note.com/production/uploads/images/315876057/rectangle_large_type_2_5c714a87aa5f9d3b0e7eb61acf117b0b.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "ChatGPT",
-   "chapters": [],
-   "summary": "「ChatGPTを毎日使っているのに、なぜか思ったような答えが返ってこない」続きをみる"
-  },
-  {
    "kind": "youtube",
    "title": "9割の人は知らない『Codex App Server』って神機能を解説！",
    "url": "https://www.youtube.com/watch?v=4ZZexI0awQk",
@@ -1196,55 +1316,6 @@
    "ai": "Copilot",
    "chapters": [],
    "summary": "\\HIROGERU登録手順はこちら/ 割引クーポン：V4JQ8 ＼ 🎁 今日の動画で使ったプロンプトをまるごと無料プレゼント！ ／ 🔻 テレビ・スマホでご覧の方はこちら🔻 動画内のQRコード、または概要欄のリンクからお受け取りください。 ▼株式会社エヌイチ 会社概要 ▼目次 Copilot基本・使い方 ＊＊＊＊＊＊＊ ■このチャンネルについて 「バレないAIの使い方」は、\"新しいAIツールの自慢話\" ではなく、 あなたの目の前にある「いつもの業務」を主語にして、 今日からこっそり使える、AIの実務での使い方だけを発"
-  },
-  {
-   "kind": "youtube",
-   "title": "【9月第3週まとめ】Claudeのプロジェクトが大改造・チャットとCoworkが統合／中国AIが裏でClaude利用／新AIモデルGPT-6 Solか｜今週のAIニュース7本を全解説",
-   "url": "https://www.youtube.com/watch?v=7pbBsQYWnfM",
-   "date": "2026-09-20",
-   "thumb": "https://i.ytimg.com/vi/7pbBsQYWnfM/mqdefault.jpg",
-   "author": "AI market",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [
-    {
-     "t": "0:00",
-     "label": "OP"
-    },
-    {
-     "t": "0:55",
-     "label": "① 中国AIがClaudeを裏で利用"
-    },
-    {
-     "t": "5:52",
-     "label": "② OpenAI「今週は大型リリース」"
-    },
-    {
-     "t": "15:56",
-     "label": "③ Claude侵入の続報"
-    },
-    {
-     "t": "21:08",
-     "label": "④ AI開発を遅らせるべき"
-    },
-    {
-     "t": "36:15",
-     "label": "⑤ Suno v6"
-    },
-    {
-     "t": "42:17",
-     "label": "⑥ Claudeのプロジェクトが大改造"
-    },
-    {
-     "t": "57:00",
-     "label": "⑦ ClaudeのチャットとCoworkが統合"
-    },
-    {
-     "t": "72:02",
-     "label": "まとめ"
-    }
-   ],
-   "summary": "2026年9月14日から20日までのAIニュースを7本にまとめました。 中国のAIによるClaudeの利用、OpenAIの大型リリース予告、Claudeの侵入事故の続報、AnthropicのCEOのエッセイ、Suno v6、Claudeのプロジェクトの作り直し、チャットとCoworkの統合を扱います。 今週はAnthropicの話題が一気に重なりました。 中国のAIが裏でClaudeを使っていたという報告と、テスト中のClaudeが起こした件の説明の見直しが出た一方で、ClaudeのチャットとCoworkを1つにす"
   },
   {
    "kind": "youtube",
@@ -1640,79 +1711,6 @@
    "summary": "⚡AIの能力を最大化する！神プロンプト集は以下公式LINEから！⚡ ＼ Claudeを使えば、苦労しない！／ 「AIって便利そうだけど、結局、自分には何が一番ベストで、 どこからどこまで効率化できるのか分からない…」 どうも、フィアナです😊 ここは、数あるAIの中でも Claudeに特化 して、 パソコンやプログラミングが苦手な\"完全初心者\"でも、 今日から真似するだけで使えるAI活用術をお届けするチャンネルです。 私自身、AI開発の現場に携わってきた経験があり、 これまで 7年間で5,000人以上のAI初心者 の"
   },
   {
-   "kind": "youtube",
-   "title": "【3社AI大進化で使用感を検証】Chat GPTアストラ6 0 vs ClaudeFable5 1 vs Gemini3 8Flash",
-   "url": "https://www.youtube.com/watch?v=eBSEfpOnxKY",
-   "date": "2026-09-18",
-   "thumb": "https://i.ytimg.com/vi/eBSEfpOnxKY/mqdefault.jpg",
-   "author": "あいまる / iPhone×AI",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [
-    {
-     "t": "0:00",
-     "label": "オープニング：最新の3大AIモデルが同週に出揃ったので徹底比較！"
-    },
-    {
-     "t": "0:57",
-     "label": "全体像とそれぞれの特徴・進化の背景"
-    },
-    {
-     "t": "7:11",
-     "label": "①資料作成：スライド生成のスピードとクオリティ対決"
-    },
-    {
-     "t": "11:06",
-     "label": "②文章評価：ビジネスアイデアの添削と文章の自然さ"
-    },
-    {
-     "t": "13:39",
-     "label": "③リサーチ力：最新トレンドや複数サイトの横断調査"
-    },
-    {
-     "t": "14:55",
-     "label": "④業務自動化：7ステップの業務フローを専用モードで検証"
-    },
-    {
-     "t": "18:24",
-     "label": "⑤3D・ビジュアル生成とコーディング"
-    },
-    {
-     "t": "21:22",
-     "label": "⑥コンピューター（画面操作）"
-    },
-    {
-     "t": "22:30",
-     "label": "⑦動画分析"
-    },
-    {
-     "t": "24:03",
-     "label": "料金プランとコスト・弱点のまとめ"
-    },
-    {
-     "t": "29:14",
-     "label": "作業別おすすめAIと組み合わせのコツ"
-    },
-    {
-     "t": "30:28",
-     "label": "まとめと特典のご案内"
-    }
-   ],
-   "summary": "🎁 動画内で紹介した「AI視点の徹底比較をはじめとする豪華4大特典」を無料でもらいたい方はこちら！ ↓↓ ※キーワードは「くらべるめがね」の7文字 ※動画特典は、運営元のSIFT AI公式LINEからお送りします。 AIの進化が早すぎて、どのツールを使うべきか迷っていませんか？今回の動画では、3大最新AIモデルを徹底比較し、あなたの作業に本当に合うAIがすぐに見つかる特典をご用意しました！今のうちにぜひ受け取ってくださいね。 ◆ーーーーーーーーーーーーーーーー◆ 今回は「ChatGPT・Claude・Geminiの"
-  },
-  {
-   "kind": "youtube",
-   "title": "Gemini Notebookで教材を自動作成",
-   "url": "https://www.youtube.com/watch?v=-nmJtiE3eJs",
-   "date": "2026-09-18",
-   "thumb": "https://i.ytimg.com/vi/-nmJtiE3eJs/mqdefault.jpg",
-   "author": "SHIFT AI ニュース",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": ""
-  },
-  {
    "kind": "note",
    "title": "AIっぽいデザインにならない！議事録・見積書など、書類が美しく作れるビルダーを公開",
    "url": "https://note.com/hituji1234/n/n70482763af02",
@@ -1861,18 +1859,6 @@
     }
    ],
    "summary": "━━━━━━━━━━━━━━━━━━━━━━ 🎁 この動画を見てくれた方へ ━━━━━━━━━━━━━━━━━━━━━━ 公式LINEに「ワンステ」と送ってください。 ▼ 公式LINEはこちら さらに、 実際にワンステップスタジオを触ってみたい方向けに、 🎁 無料登録枠 🎁 動画生成費用の特典 も用意してもらっています。 キーワードは「ワンステ」です。 こちらのLINEにお送りください。 ━━━━━━━━━━━━━━━━━━━━━━ ▼新YouTubeチャンネル 動画生成にしぼって、業務をどう効率化するか。 そして"
-  },
-  {
-   "kind": "youtube",
-   "title": "iPhone×Claude無料版：画面上で動くツールを作る「アーティファクト」活用術",
-   "url": "https://www.youtube.com/watch?v=_z9vYJSWHL4",
-   "date": "2026-09-17",
-   "thumb": "https://i.ytimg.com/vi/_z9vYJSWHL4/mqdefault.jpg",
-   "author": "あいまる / iPhone×AI",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "無料のAIは本当に「おもちゃ」でしょうか？ 実は、Claudeの無料プランに搭載されている「アーティファクト機能」を使うと、プログラミング知識が一切なくても、指示を出すだけで画面上で実際に動くアプリやツールを作成できます。 動画内では、シフト表やタスク管理ボードなどをその場で形にする具体的な手順をわかりやすく解説しています。 自分専用のツールを作って日々の業務を効率化したい方は、ぜひ無料版から試してみてください。 残り6つの無料機能は本編動画で詳しく解説しています！ 👉https://youtu.be/KWKTy4"
   },
   {
    "kind": "note",
@@ -3764,18 +3750,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "無料で相談できる個別1on1はこちらから⬇️ \\スキルプラスの無料AI講座はこちらでプレゼントしてます🎁/ 最強のタスク管理ツール「Addness」はこちらから⬇️ Addnessの導入方法を詳しく解説したドキュメントはこちら↓ ■スキルプラスとは？ アドネス株式会社HP ▼お仕事やコラボ依頼、お問い合わせはこちらまで admin@snsers.com ▼Instagram"
-  },
-  {
-   "kind": "youtube",
-   "title": "GPT-6で漫画描いてみた #Shorts",
-   "url": "https://www.youtube.com/watch?v=bYBeKMht5JE",
-   "date": "2026-09-06",
-   "thumb": "https://i.ytimg.com/vi/bYBeKMht5JE/mqdefault.jpg",
-   "author": "チャエン【AI研究所】",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "GPT-6 / CodexにCanvaのペンを実際に操作させて、漫画の表紙を描いてみました。 お手本に少しずつ近づいていく様子を、Canvaの画面全体でご覧ください。 実際のペン入力は1万5千回以上。操作中に保存したブラウザのキャプチャを、184.8倍速に編集しています（待機時間をカット）。 ナレーション：Gemini 3.1 TTS 参考画像：『呪術廻戦』4巻表紙。ファンアートの制作記録です。 参考投稿：https://x.com/keitowebai/status/2096124169406775325"
   },
   {
    "kind": "youtube",
@@ -6147,18 +6121,6 @@
    "summary": "Claude Codeのskillは、いまや公式のもの以外にも数えきれないほど公開されています。世界中のエンジニアがskillを公開する「エコシステム（技術が育つ生態系のこと）」が形成され、その規模は日々大きくなっています。便利な反面、ここには新しい悩みが生まれます。数が増えすぎて、どれが自分の用途に合うのか分からないのです。アプリストアに何百万本もアプリがあっても、目的の一本にたどり着けなければ意味がありません。skillでも同じことが起きています。続きをみる"
   },
   {
-   "kind": "youtube",
-   "title": "絶対入れるべきClaude Skills6選",
-   "url": "https://www.youtube.com/watch?v=WQ5YvWvAGC0",
-   "date": "2026-07-12",
-   "thumb": "https://i.ytimg.com/vi/WQ5YvWvAGC0/mqdefault.jpg",
-   "author": "ここなのAI大学",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": ""
-  },
-  {
    "kind": "note",
    "title": "【Anthropic公式】モデルとEffort(工数)の違いを内部構造から解説！",
    "url": "https://note.com/claudecode_lab/n/n6842e32b43d7",
@@ -6253,18 +6215,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "サブエージェントを組んでいると、要件定義・実装・テスト・レビューのどの工程にどのモデルを割り当てるべきか、毎回迷う場面が出てきます。ここを役割ごとに整理して割り当てると、コストと品質を無理なく両立できます。基本は、4 つの役割それぞれに、求められる能力とコストの釣り合う 1 モデルを対応づけることです。単価が高く常用しにくい Fable だけは例外で、常時は割り当てず、判断に迷った要所でだけ助言を仰ぐ相談相手として使います。サブエージェントの役割を分解する続きをみる"
-  },
-  {
-   "kind": "youtube",
-   "title": "【実演】Codex完全解説。画像生成・業務自動化・Claude Codeとの違いまでこの動画1本で理解できます",
-   "url": "https://www.youtube.com/watch?v=gj2zCEEZlbc",
-   "date": "2026-07-06",
-   "thumb": "https://i.ytimg.com/vi/gj2zCEEZlbc/mqdefault.jpg",
-   "author": "みかみ【東大退学させられた男】",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "\\スキルプラスの無料AI講座はこちらでプレゼントしてます🎁/ 無料で相談できる個別1on1はこちらから⬇️ 最強のタスク管理ツール「Addness」はこちらから⬇️ 動画内で紹介した「みかみの秘密の部屋」はこちらから⬇️ ■スキルプラスとは？ アドネス株式会社HP ▼お仕事やコラボ依頼、お問い合わせはこちらまで admin@snsers.com ▼Instagram"
   },
   {
    "kind": "note",
@@ -6373,18 +6323,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": "こんにちは、チームまじんのやまじんです！いつもスキやコメントをありがとうございます🙏続きをみる"
-  },
-  {
-   "kind": "youtube",
-   "title": "【実演】Claude完全攻略！基礎から神機能まで徹底解説。",
-   "url": "https://www.youtube.com/watch?v=jvyBNg2tR3U",
-   "date": "2026-06-19",
-   "thumb": "https://i.ytimg.com/vi/jvyBNg2tR3U/mqdefault.jpg",
-   "author": "みかみ【東大退学させられた男】",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "無料で相談できる個別1on1はこちらから⬇️ \\スキルプラスの無料AI講座はこちらでプレゼントしてます🎁/ 最強のタスク管理ツール「Addness」はこちらから⬇️ ■スキルプラスとは？ アドネス株式会社HP ▼お仕事やコラボ依頼、お問い合わせはこちらまで admin@snsers.com ▼Instagram"
   },
   {
    "kind": "note",
@@ -6646,18 +6584,6 @@
     }
    ],
    "summary": "noteフォロワーから寄せられた「業務効率化のリアルなお悩み」にお答えする企画『まじんTV』第3回！ 今回のテーマは「アクセスマップ作成の効率化」。地図サイトの複写は不要な情報が多く見づらい、1から作図すると数時間、しかも属人化…という切実なお悩みです。 実はGoogleマップのスクリーンショットは著作権的にグレーゾーン！外部サービスもデザイナーへの依頼も不要、Google標準機能だけでプロ並みのアクセスマップを作る方法をやまじんが考えてきました。 Geminiで手書きメモからイラスト生成→複数タブで生成ガチャ→マ"
-  },
-  {
-   "kind": "youtube",
-   "title": "AIの精度が爆上がりする！プロンプトの魔法3選",
-   "url": "https://www.youtube.com/watch?v=kRC3H8g5cHQ",
-   "date": "2026-03-12",
-   "thumb": "https://i.ytimg.com/vi/kRC3H8g5cHQ/mqdefault.jpg",
-   "author": "AIの中の人",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": ""
   },
   {
    "kind": "youtube",
