@@ -1,7 +1,175 @@
 {
- "updated": "2026-09-27 22:08",
+ "updated": "2026-09-28 22:09",
  "desc_blocked": false,
  "items": [
+  {
+   "kind": "youtube",
+   "title": "Gemini 3.8 Flash TTS × Claude Opus 5.5で動画を作るのが熱い！この動画、編集は全部AIです。",
+   "url": "https://www.youtube.com/watch?v=PZVc6b046Ik",
+   "date": "2026-09-28",
+   "thumb": "https://i.ytimg.com/vi/PZVc6b046Ik/mqdefault.jpg",
+   "author": "KEITO【AI&WEB ch】",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【今週のAIニュース7選】「減速」提言から10日で3社が新モデル｜Opus 5.5・GPT-6・Gemini 3.8 #Shorts",
+   "url": "https://www.youtube.com/watch?v=pFaaEEgpzv8",
+   "date": "2026-09-28",
+   "thumb": "https://i.ytimg.com/vi/pFaaEEgpzv8/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "ChatGPT",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【実物公開】AI企業がCopilotだけで完全自動化してる業務４選【 Copilot  / Excel / パワポ / Word 】【Copilot基本・使い方】",
+   "url": "https://www.youtube.com/watch?v=vezqU_H9yMw",
+   "date": "2026-09-28",
+   "thumb": "https://i.ytimg.com/vi/vezqU_H9yMw/mqdefault.jpg",
+   "author": "バレないAIの使い方ch",
+   "pick": "Claude推薦",
+   "ai": "Copilot",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【知らないと損】Gemini 3.8 Flash TTS×ClaudeOpus 5.5でAI動画編集｜歴史解説動画の作り方を紹介！",
+   "url": "https://www.youtube.com/watch?v=ANNZEribync",
+   "date": "2026-09-28",
+   "thumb": "https://i.ytimg.com/vi/ANNZEribync/mqdefault.jpg",
+   "author": "AI market",
+   "pick": "Claude推薦",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【AI占い副業】スマホ1台・1日15分で開始1日半で入金｜Threads×AIの全手順を公開します",
+   "url": "https://www.youtube.com/watch?v=IyP0Hz420iw",
+   "date": "2026-09-28",
+   "thumb": "https://i.ytimg.com/vi/IyP0Hz420iw/mqdefault.jpg",
+   "author": "あいまる / iPhone×AI",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "業務アプリにして配る社内AI対応",
+   "url": "https://www.youtube.com/watch?v=BswkB59SLN4",
+   "date": "2026-09-28",
+   "thumb": "https://i.ytimg.com/vi/BswkB59SLN4/mqdefault.jpg",
+   "author": "SHIFT AI ニュース",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【実はシンプル】文章を書かないAI「Jev」の仕組みと仕事活用法を全解説",
+   "url": "https://www.youtube.com/watch?v=x_UdOv3EcZs",
+   "date": "2026-09-28",
+   "thumb": "https://i.ytimg.com/vi/x_UdOv3EcZs/mqdefault.jpg",
+   "author": "SHIFT AI ニュース",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "note",
+   "title": "【スキル配布】いろんなスタイルのモーション動画が作れる Claude Code スキル「MOTION VAULT」",
+   "url": "https://note.com/keito_12kk2/n/nb389b5a12297",
+   "date": "2026-09-28",
+   "thumb": "https://assets.st-note.com/production/uploads/images/318577567/rectangle_large_type_2_7fe37f06c0d5cab94c3c79ba43e54256.png?width=800",
+   "author": "KEITO（note）",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "MOTION VAULT は、動画スタイルの一覧サイトと、Claude Code 用のスキルをセットにしたものです。一覧サイトには、棒人間・アメコミ・3D・水彩・ピクセルアート・トーク画面など50種類のスタイルが、サンプル動画つきで並んでいます。気に入ったスタイルの番号を選び、作りたい動画の題材を書いて送る。これで、そのスタイルの雰囲気をまとった、中身はオリジナルの動画（MP4）ができあがります。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【スキル配布】合計1341件以上のデザイン・モーション一覧からWeb制作するスキル",
+   "url": "https://note.com/keito_12kk2/n/nae4ad3edc354",
+   "date": "2026-09-28",
+   "thumb": "https://assets.st-note.com/production/uploads/images/318440570/rectangle_large_type_2_a0b020444d88319d75b9060794dff77e.png?width=800",
+   "author": "KEITO（note）",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "`DS-0021 + L-SITE16 + M-017` のようにIDを3つ指定するだけで、世界観・骨格・動きの決まったWebサイトが1本出来上がるClaude Codeスキル「style-vault」を販売します。デザインシステム1341件、レイアウトパターン200件、モーション181件、完成サンプル200本を同梱した素材庫つきです。作ったサイトは台帳に登録され、付属の一覧サイトに戻ってくるので、次に作るときの見本が自分で増えていきます。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【2026/9/21〜9/28】週刊AIニュース《Claude Opus 5.5、GPT-6 Sol / Luna、Grok 4.7、Gemini 3.8 Flash TTS、Meta VR Glasses、Copilotの全面刷新。「減速で一致」から10日で、主要3社が新モデルを出した1週間。》",
+   "url": "https://note.com/chaen_channel/n/n0d1a961bd999",
+   "date": "2026-09-28",
+   "thumb": "https://assets.st-note.com/production/uploads/images/318432238/rectangle_large_type_2_ab1e6cdbcac1c38c0acbd22bf5cffabf.png?width=800",
+   "author": "チャエン（note）",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "みなさん、こんにちは。チャエンです。（自己紹介はこちら）📣 お知らせ続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "SharePoint上で修正したPowerShellスクリプトが動かない！犯人は\"勝手なUTF-8変換\"だった",
+   "url": "https://note.com/sc_microsoft/n/n8300fddab3c7",
+   "date": "2026-09-28",
+   "thumb": "https://assets.st-note.com/production/uploads/images/318473898/rectangle_large_type_2_54196a710a60769ead34e79ea13a5237.png?width=800",
+   "author": "ソフクリMicrosoft（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "対象読者：PowerShellスクリプト（.ps1）を業務で使っている情シス・SIerの方 想定環境：Windows PowerShell 5.1（日本語環境）／SharePoint Onlineはじめに続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【組織のAI活用＃262】スプレッドシートのAI関数で1万字の文字起こしも要約もガンガンできる",
+   "url": "https://note.com/green_ai/n/n36fa224dde08",
+   "date": "2026-09-28",
+   "thumb": "https://assets.st-note.com/production/uploads/images/318367136/rectangle_large_type_2_2cd7c30173977bb35096fbf04aeed4b8.png?width=800",
+   "author": "寺田昇平｜組織のAI活用（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "こんにちは！寺田です。現在は、デジタル関連会社のAI推進者などのAI活用者のコミュニティである「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "「AIツールが増えすぎて、もう何を使えばいいのかわからない」",
+   "url": "https://note.com/ak_hikiyose/n/nc2c1d6e2671d",
+   "date": "2026-09-28",
+   "thumb": "https://assets.st-note.com/production/uploads/images/318355668/rectangle_large_type_2_e78f7dbd191bf04b1ea07b4083b16f0a.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "そんな感覚を持っている人は、かなり多いはずです。ChatGPTを覚えたと思ったら、Claude、Gemini、Perplexity、NotebookLM、Cursor、Claude Code、Manus、n8n……。SNSを開けば「次はこれ」「これを知らないと遅れる」という情報が毎日のように流れてきます。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "AI失業時代、40代以上がむしろ有利になる理由｜若者より「経験×AI」が強い時代の働き方",
+   "url": "https://note.com/ak_hikiyose/n/n142ae671c39f",
+   "date": "2026-09-28",
+   "thumb": "https://assets.st-note.com/production/uploads/images/318376267/rectangle_large_type_2_e2914d4830eb02454935524462424bcd.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "ChatGPT",
+   "chapters": [],
+   "summary": "「AIに仕事を奪われるのは、若者より40代・50代のほうでは？」そんな不安を感じている人は、少なくないと思います。新しいツールへの適応は若い世代のほうが速い。ChatGPTもAIエージェントも、使い慣れている若者のほうが有利。そう考えるのは自然です。続きをみる"
+  },
   {
    "kind": "note",
    "title": "AIを使うと頭が悪くなる？ChatGPT時代に「伸びる人」と「思考停止する人」を分ける決定的な違い",
@@ -83,6 +251,18 @@
    "author": "AIの中の人",
    "pick": "Claude推薦",
    "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "ChatGPTでAdobeを使う最新手順！統合プラグインの正しい設定と活用法",
+   "url": "https://www.youtube.com/watch?v=3AL7GWOmlL0",
+   "date": "2026-09-27",
+   "thumb": "https://i.ytimg.com/vi/3AL7GWOmlL0/mqdefault.jpg",
+   "author": "あいまる / iPhone×AI",
+   "pick": "Claude推薦",
+   "ai": "ChatGPT",
    "chapters": [],
    "summary": ""
   },
@@ -831,18 +1011,6 @@
    "summary": "「AIを使っているのに、なぜか時間が足りない」そんな感覚はありませんか？続きをみる"
   },
   {
-   "kind": "note",
-   "title": "AI副業で稼ぐ人が「あえてCursor」を使う理由｜最新AIを追うより大切な“ツールに依存しない力”",
-   "url": "https://note.com/ak_hikiyose/n/n40e9d2ed4967",
-   "date": "2026-09-23",
-   "thumb": "https://assets.st-note.com/production/uploads/images/316191425/rectangle_large_type_2_2f49127db749a890921ea6819ad704ca.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「結局、どのAIを使えば稼げるんですか？」続きをみる"
-  },
-  {
    "kind": "youtube",
    "title": "【TradingView公式MCP】ClaudeもChatGPTもつながった｜使い方を実演8つで全解説",
    "url": "https://www.youtube.com/watch?v=2nNJnS57dDg",
@@ -894,67 +1062,6 @@
     }
    ],
    "summary": "9月16日、TradingViewが公式のMCPサーバーをベータ版で公開しました。 この動画では、TradingViewをClaudeとChatGPTにつなぐ手順と、日本語で頼むだけで銘柄の分析・高配当株探し・暗号資産の比較・ウォッチリストとアラートの設定・朝のまとめ・決算の下調べまでできる実演7つを紹介します。 さらに、MCPにはできない「チャートに線を引く」ところも、Claude in Chromeでやってみました（実演8つ目）。 ▼TradingView（料金・プランの確認と登録はこちら） ※MCPを使うには"
-  },
-  {
-   "kind": "youtube",
-   "title": "MCPサーバー5つを実演｜Claude Codeでの使い方解説",
-   "url": "https://www.youtube.com/watch?v=aoLBVOTdALg",
-   "date": "2026-09-22",
-   "thumb": "https://i.ytimg.com/vi/aoLBVOTdALg/mqdefault.jpg",
-   "author": "AI market",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [
-    {
-     "t": "00:00",
-     "label": "AIが自分のパソコンを直接さわれるようになった"
-    },
-    {
-     "t": "00:42",
-     "label": "MCPって何？"
-    },
-    {
-     "t": "02:01",
-     "label": "① 手元のファイル"
-    },
-    {
-     "t": "03:19",
-     "label": "② ブラウザ操作"
-    },
-    {
-     "t": "04:45",
-     "label": "③ AIがAIを呼ぶ"
-    },
-    {
-     "t": "06:24",
-     "label": "④ 画像と動画"
-    },
-    {
-     "t": "07:45",
-     "label": "⑤ ぜんぶ繋げる"
-    },
-    {
-     "t": "09:07",
-     "label": "人気の3つ　ギットハブ・ノーション・スラック"
-    },
-    {
-     "t": "10:32",
-     "label": "最新の例　TradingViewの公式MCP"
-    },
-    {
-     "t": "12:08",
-     "label": "入れ方"
-    },
-    {
-     "t": "13:00",
-     "label": "使う前に知っておきたいこと"
-    },
-    {
-     "t": "14:22",
-     "label": "まとめ"
-    }
-   ],
-   "summary": "MCPを5つ、実際につないで動かしてみました。 このパソコンの中で全部やっています。 手元のファイル・ブラウザ操作・AIがAIを呼ぶ・画像と動画・ぜんぶ繋げる。 いちばん驚いたのは、頼んでもいないポップアップをAIが自分で閉じたことでした。 「道具の一覧サイトを見てきて」としか言っていないのに、 新しいタブを開いて、出てきた案内を閉じて、カテゴリを開いて、 238件の一覧まで持ってきました。 別の会社のAIを呼べたのも想定外でした。 クロード（Anthropic）からコデックス（OpenAI）に質問を投げたら、 「"
   },
   {
    "kind": "youtube",
@@ -1061,18 +1168,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "みなさん、こんにちは。チャエンです。（自己紹介はこちら）📣 お知らせ続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "Claude Code FableとGPT-5.6 Solを比較｜結局どっちがおすすめ？「最強AI」の賢い使い分け方",
-   "url": "https://note.com/ak_hikiyose/n/n93254699ad09",
-   "date": "2026-09-22",
-   "thumb": "https://assets.st-note.com/production/uploads/images/316181963/rectangle_large_type_2_40e93ea001ae51e78dd3db7d70ccf2e8.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "「Claude CodeのFableとGPT-5.6 Sol、結局どっちを使えばいいの？」続きをみる"
   },
   {
    "kind": "youtube",
@@ -1399,63 +1494,6 @@
    "summary": "「Gemini 3.8 Flashが出たけれど、直前の3.7から具体的に何が変わったの？」と気になっていませんか？ 今回は、イラストを3Dモデル化（HTML/3D.js出力）するプロンプトを投げて、3.7と3.8の生成精度を直接比較検証しました！ 見た目の豪華さやアニメーションの凝り具合だけでなく、実際に裏で出力されたコードを解析すると、パーツの位置ズレやバグの有無など「動く完成度」において意外な違いが見えてきました。 ベンチマークの数字だけでは分からない、実際の出力結果の差分をぜひチェックしてみてください！ 驚き"
   },
   {
-   "kind": "youtube",
-   "title": "【軽モデル卒業】Gemini 3.8 Flashが仕事を最後までやり切るモデルに！",
-   "url": "https://www.youtube.com/watch?v=hKUoH4ju_nE",
-   "date": "2026-09-20",
-   "thumb": "https://i.ytimg.com/vi/hKUoH4ju_nE/mqdefault.jpg",
-   "author": "SHIFT AI ニュース",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [
-    {
-     "t": "00:00",
-     "label": "：ダイジェスト"
-    },
-    {
-     "t": "01:03",
-     "label": "：【１】Gemini 3.8 Flashの進化ポイント"
-    },
-    {
-     "t": "03:22",
-     "label": "：【２】仕事を丸ごと最後まで任せる実例3選"
-    },
-    {
-     "t": "03:44",
-     "label": "：実例①：書類の照合〜確認メール作成"
-    },
-    {
-     "t": "04:51",
-     "label": "：実例②：複雑な条件の懇親会席決め"
-    },
-    {
-     "t": "06:19",
-     "label": "：実例③：走り書きメモからスライド直接生成"
-    },
-    {
-     "t": "08:31",
-     "label": "：【３】必要な箇所だけを探し出す新しい動画解析"
-    },
-    {
-     "t": "11:30",
-     "label": "：本日のまとめ"
-    }
-   ],
-   "summary": "この動画では、2026年9月に発表された「Gemini 3.8 Flash」の最新アップデート内容と、実務に直結する業務効率化の手法を解説します。細かく分割してプロンプトを入力する手間が省け、1回の指示でAIが自律的に段取りを組んでタスクを最後まで完結させる仕様へと進化しました。また、必要な箇所だけを特定して読み込む新しい「エージェント型動画理解」により、長尺動画の処理コストと時間を大幅に削減可能になりました。最新のAIモデルを活用し、手作業を自動化する具体的なアプローチを公開します。 ◆「Gemini 3.8 で"
-  },
-  {
-   "kind": "youtube",
-   "title": "業務アプリは会話だけ議事録AIも自作",
-   "url": "https://www.youtube.com/watch?v=RthzgPV8hSo",
-   "date": "2026-09-20",
-   "thumb": "https://i.ytimg.com/vi/RthzgPV8hSo/mqdefault.jpg",
-   "author": "SHIFT AI ニュース",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": ""
-  },
-  {
    "kind": "note",
    "title": "会社のGeminiとChrome拡張で「自分専用エージェント」を作ってみた話──Gemini Sparkの再現実験と、配布を見送った全記録 【Majin Agent v2】",
    "url": "https://note.com/majin_108/n/n464fb6cabfe4",
@@ -1575,75 +1613,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "◆━━━━━━━━━━━━━━━━━━◆ 「勝手に育つチャットbot 制作ツール」をご希望の方はこちら ↓↓ ※キーワードは「ナレッジ」の4文字 ◆━━━━━━━━━━━━━━━━━━◆ ①法人の方 ・AIを使った業務効率化を進めたい ・会社にAIを導入したいけど、何から始めればいいかわからない といった会社様向けに無料相談をしています。 LINE公式からお申し込みください。 ◆LINE公式 ◆━━━━━━━━━━━━━━━━━━◆ ②会社員/フリーランスの方 ・AIを使って社内でキャリアアップしたい ・AIで業務"
-  },
-  {
-   "kind": "youtube",
-   "title": "【AI比較】最新3大AIでスライド作成！速度とクオリティが一番高いのは？",
-   "url": "https://www.youtube.com/watch?v=nmk0cEjB33c",
-   "date": "2026-09-19",
-   "thumb": "https://i.ytimg.com/vi/nmk0cEjB33c/mqdefault.jpg",
-   "author": "あいまる / iPhone×AI",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "資料作成やスライド作りに時間がかかって作業が押してしまう…とお悩みではありませんか？ 最新の3大AI（GPT-6 Astra / Claude Fable 5.1 / Gemini 3.8 Flash）が同週に登場したため、同じお題で「スライド作成能力」を徹底比較しました！ ・圧倒的な生成スピードを誇るモデル ・後から要素を個別編集できる柔軟なモデル ・指定枚数へ正確に収める安定感のあるモデル それぞれの強みと特徴を知ることで、自分の業務に最適なAIを選び、日々の資料作成時間を大幅に削減できます。ぜひ動画をチェック"
-  },
-  {
-   "kind": "youtube",
-   "title": "【速報】Gemini3.8 Flash本当に進化してるか比較してみた",
-   "url": "https://www.youtube.com/watch?v=VyvuSphIPpA",
-   "date": "2026-09-19",
-   "thumb": "https://i.ytimg.com/vi/VyvuSphIPpA/mqdefault.jpg",
-   "author": "あいまる / iPhone×AI",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [
-    {
-     "t": "0:00",
-     "label": "オープニング：Gemini 3.8 Flashは本当に進化しているのか？"
-    },
-    {
-     "t": "1:06",
-     "label": "Geminiフラッシュ系モデルの高速アップデートの背景"
-    },
-    {
-     "t": "2:14",
-     "label": "Gemini 3.8 Flashの基本仕様と価格・提供形態"
-    },
-    {
-     "t": "4:03",
-     "label": "価格とコストパフォーマンスの検証（他社モデルとの比較）"
-    },
-    {
-     "t": "7:05",
-     "label": "公式ベンチマーク結果（1位を取った項目 vs 苦戦した項目）"
-    },
-    {
-     "t": "13:44",
-     "label": "検証①：長文ドキュメント処理の比較"
-    },
-    {
-     "t": "17:31",
-     "label": "検証②：3Dモデル・キャラクターイラスト生成の比較"
-    },
-    {
-     "t": "21:37",
-     "label": "検証③：YouTube動画分析とエージェント的タスクの比較"
-    },
-    {
-     "t": "27:54",
-     "label": "セキュリティ面・プロンプトインジェクションへの耐性"
-    },
-    {
-     "t": "29:25",
-     "label": "Gemini 3.8 Flashの弱点・注意点と向いている使い方"
-    },
-    {
-     "t": "30:37",
-     "label": "まとめと無料特典のご案内"
-    }
-   ],
-   "summary": "↓↓ ※キーワードは「くらべるめがね」の7文字 ※動画特典は、運営元の公式LINEからお送りします。 AIツールの進化スピードが早すぎて「今どのモデルを使うべきか分からない…」と悩んでいませんか？今回の動画で解説した公式ベンチマークの数値や、3.7・3.8の比較検証データをまとめた特製資料を無料でプレゼント中です！ ◆ーーーーーーーーーーーーーーーー◆ 今回は「Gemini 3.8 Flashの実力と、3.7 Flashとの徹底比較」についてお話ししました！ わずか3週間のハイペースでリリースされたGemini 3"
   },
   {
    "kind": "youtube",
@@ -3587,55 +3556,6 @@
   },
   {
    "kind": "youtube",
-   "title": "【実演】GPT-6で間取り1枚が「歩ける3D」に。不動産の内覧、ここまでできる #Shorts",
-   "url": "https://www.youtube.com/watch?v=kXxbv4DU5mM",
-   "date": "2026-09-07",
-   "thumb": "https://i.ytimg.com/vi/kXxbv4DU5mM/mqdefault.jpg",
-   "author": "チャエン【AI研究所】",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [
-    {
-     "t": "0:00",
-     "label": "間取り1枚から3D内覧へ"
-    },
-    {
-     "t": "0:09",
-     "label": "実際の依頼画面"
-    },
-    {
-     "t": "0:14",
-     "label": "Codexで操作と表示を調整"
-    },
-    {
-     "t": "0:21",
-     "label": "俯瞰で家全体を見渡す"
-    },
-    {
-     "t": "0:29",
-     "label": "間取りから部屋へ移動"
-    },
-    {
-     "t": "0:37",
-     "label": "自由に歩いて見回す"
-    },
-    {
-     "t": "0:48",
-     "label": "昼夜の光を切り替える"
-    },
-    {
-     "t": "0:55",
-     "label": "別の寝室へ"
-    },
-    {
-     "t": "1:01",
-     "label": "図面から体験へ"
-    }
-   ],
-   "summary": "これ、すごくないですか。間取り1枚から、ゲームみたいに歩ける3D内覧を作ってみました。 GPT-6・Codex・Blenderで制作。家全体の俯瞰、室内の自由移動、間取りから部屋へのジャンプ、昼夜の切り替えを68秒の実操作動画で紹介します。 ■ 不動産会社の皆さまへ 物件に合わせた3D内覧の制作から、自社サイト・物件ページへの埋め込みまで対応します。既存サイトの仕様に合わせて調整します。 ご相談はこちら（お問い合わせ内容に「3D内覧」とご記入ください） XのDMでも受け付けています：https://x.com/ma"
-  },
-  {
-   "kind": "youtube",
    "title": "【コピペでOK】プロが仕事を自動化するために絶対やる秘密の必須設定【 Copilot  / Excel / パワポ / Word 】【Copilot基本・使い方】",
    "url": "https://www.youtube.com/watch?v=8PTX-Qc5_Mw",
    "date": "2026-09-07",
@@ -4124,59 +4044,6 @@
   },
   {
    "kind": "youtube",
-   "title": "【想像以上に良い】Gemini 3.8とAgentic Videoを解説！動画のAI活用で一番",
-   "url": "https://www.youtube.com/watch?v=4d0vrDtTpmI",
-   "date": "2026-09-03",
-   "thumb": "https://i.ytimg.com/vi/4d0vrDtTpmI/mqdefault.jpg",
-   "author": "KEITO【AI&WEB ch】",
-   "pick": "オーナー指定",
-   "ai": "ChatGPT",
-   "chapters": [
-    {
-     "t": "00:00",
-     "label": "Gemini 3.8 FlashとGemini 3.7 Agentic Video"
-    },
-    {
-     "t": "01:07",
-     "label": "Gemini 3.8 Flashの性能と進化点"
-    },
-    {
-     "t": "03:02",
-     "label": "Gemini 3.8 Flashで資料作成"
-    },
-    {
-     "t": "07:47",
-     "label": "Geminiの長尺動画理解性能"
-    },
-    {
-     "t": "09:11",
-     "label": "動画からマニュアルを自動作成"
-    },
-    {
-     "t": "14:36",
-     "label": "Gemini 3.7 Agentic Videoで動画編集"
-    },
-    {
-     "t": "19:12",
-     "label": "Agentic Videoによる動画内検索"
-    },
-    {
-     "t": "22:05",
-     "label": "ショート動画の自動生成"
-    },
-    {
-     "t": "24:10",
-     "label": "ライブ配信でのAgentic Video活用"
-    },
-    {
-     "t": "27:30",
-     "label": "まとめ"
-    }
-   ],
-   "summary": "Gemini 3.8 FlashとGemini 3.7 Agentic Videoを解説！動画分野で最強モデルですね！ KEITOの公式LINEはこちら LINE：https://lin.ee/1krnxOu ★プロセボ｜AIコミュニティ AI活用を実際に操作しながら学ぶワークショップ型AIスクール。 参加申し込みはこちら → https://procevo.biz/ ▼KEITOの著書 ChatGPT むちゃぶり仕事術 → https://amzn.to/46u5zjd やりたい！ができる生成AIでアプリづくり "
-  },
-  {
-   "kind": "youtube",
    "title": "【実録】AIに仕事を任せまくる年商30億社長の「異常な働き方」に密着したら人間が働かない時代がもう始まっていた",
    "url": "https://www.youtube.com/watch?v=Bz2a7DwfsU4",
    "date": "2026-09-03",
@@ -4436,18 +4303,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": "こちらには初投稿です！ソフトクリエイトではMicrosoftおじさん兼AIおじさんをしております。柾本 彬(本人)です。簡単な自己紹介続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "Copilotが定着する企業、しない企業　　ワークショップ運営の現場で見えた違い",
-   "url": "https://note.com/sc_microsoft/n/n260906594cb4",
-   "date": "2026-08-31",
-   "thumb": "https://assets.st-note.com/production/uploads/images/307797442/rectangle_large_type_2_e46e9f54d3d5538a02572b1ab8927d9f.png?width=800",
-   "author": "ソフクリMicrosoft（note）",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
-   "chapters": [],
-   "summary": "「Copilotを導入したのに、思ったほど活用されていないんです」最近、お客様との会話の中で、そんな声を聞く機会が増えました。一方で、Microsoft 365 Copilotのワークショップ当日は決して反応が悪いわけではありません。続きをみる"
   },
   {
    "kind": "note",
@@ -4752,18 +4607,6 @@
   },
   {
    "kind": "note",
-   "title": "【組織のAI活用#247】自分専用のフィードバックボットを作る。ミーティングのあとに自分のクセを毎回指摘してもらう",
-   "url": "https://note.com/green_ai/n/nd500da63c856",
-   "date": "2026-08-27",
-   "thumb": "https://assets.st-note.com/production/uploads/images/306169585/rectangle_large_type_2_45e53f5865a4fdd287aff0d999d8b471.png?width=800",
-   "author": "寺田昇平｜組織のAI活用（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "こんにちは！寺田です。現在は、デジタル関連会社のAI推進者などのAI活用者のコミュニティである「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "生まれた時間を、利用者との対話へ。AI が「人を繋ぐ」介護の未来",
    "url": "https://note.com/google_gemini/n/nc45fe0d799d4",
    "date": "2026-08-26",
@@ -4891,67 +4734,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "みなさん、こんにちは。チャエンです。（自己紹介はこちら）📣 お知らせ続きをみる"
-  },
-  {
-   "kind": "youtube",
-   "title": "【使わないと損】プロが毎日Copilotで仕事を自動化してる神プロンプト10選【 Copilot  / Excel / パワポ / Word 】",
-   "url": "https://www.youtube.com/watch?v=xtMLtyP_I68",
-   "date": "2026-08-23",
-   "thumb": "https://i.ytimg.com/vi/xtMLtyP_I68/mqdefault.jpg",
-   "author": "バレないAIの使い方ch",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
-   "chapters": [
-    {
-     "t": "0:00",
-     "label": "オープニング"
-    },
-    {
-     "t": "1:24",
-     "label": "① プロンプトを書くプロンプト"
-    },
-    {
-     "t": "3:51",
-     "label": "② タスク整理"
-    },
-    {
-     "t": "6:35",
-     "label": "③ 報告資料の続きを書く"
-    },
-    {
-     "t": "8:40",
-     "label": "④ 写真をExcelに変える"
-    },
-    {
-     "t": "11:32",
-     "label": "⑤ Excelのカスタム指示"
-    },
-    {
-     "t": "14:29",
-     "label": "⑥ Excelファイルの引き継ぎ"
-    },
-    {
-     "t": "17:33",
-     "label": "⑦ 確認プロンプト"
-    },
-    {
-     "t": "19:45",
-     "label": "⑧ 自動で相見積もり"
-    },
-    {
-     "t": "22:03",
-     "label": "⑨ パワポのテンプレを覚えさせる"
-    },
-    {
-     "t": "24:22",
-     "label": "⑩ ワードの型を作る"
-    },
-    {
-     "t": "25:43",
-     "label": "まとめ＆プレゼント"
-    }
-   ],
-   "summary": "\\ セミナー参加はこちらから / ※AI推進担当者は必見 ＼ 🎁 今日の動画で使ったプロンプトをまるごと無料プレゼント！ ／ 🔻 テレビ・スマホでご覧の方はこちら🔻 動画内のQRコード、または概要欄のリンクからお受け取りください ▼お問い合わせはこちら ▼株式会社エヌイチ 会社概要 ▼目次 0:00 オープニング 1:24 ① プロンプトを書くプロンプト 3:51 ② タスク整理 6:35 ③ 報告資料の続きを書く 8:40 ④ 写真をExcelに変える 11:32 ⑤ Excelのカスタム指示 14:29 ⑥ E"
   },
   {
    "kind": "youtube",
@@ -5382,18 +5164,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "🏢企業様向けのAI研修のお問い合わせはコチラから🏢 何となく聞きに来るのは勿体ない/本気の人向けAI勉強会 今AI活用やマネタイズの仕方がわからない人🤦やAI初心者の人も必見！ 🚨無料期間限定🚨で ✨Youtubeでは出せないさきのAI最新情報✨& 👩‍💻AIノウハウ100大特典🎁を勉強会参加後にLINEで受け取れます！ AIスキルを身につけて【社内評価⏫UP⏫】や【収益化💰】 業務効率化🗒️できるココでしか手に入らない情報を 現在期間限定でしかも、無料配布しているので興味ある方は是非！！ ↓↓↓ ーーーーーーーー"
-  },
-  {
-   "kind": "note",
-   "title": "【徹底解説】最強の動画生成AI「Seedance 2.5」の使い方｜縦型ドラマを1本3,000円で作った実プロンプト全文つき",
-   "url": "https://note.com/chaen_channel/n/n9a36d215bc9b",
-   "date": "2026-08-09",
-   "thumb": "https://assets.st-note.com/production/uploads/images/301490383/rectangle_large_type_2_df7704a5c1b825c5c0bb22375117dccf.png?width=800",
-   "author": "チャエン（note）",
-   "pick": "オーナー指定",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "みなさん、こんにちは。チャエンです。（自己紹介はこちら）TikTokやYouTubeで流れてくる「縦型のショートドラマ」ありますよね。あのような動画がAIだけで作れるようになりました！続きをみる"
   },
   {
    "kind": "note",
@@ -6467,30 +6237,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": "「フォロワーを積み上げてもバズらない」「YouTubeの収益化が急に止まったらどうしよう」続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "Substackは「新しい仕事」になるのかもしれない。",
-   "url": "https://note.com/keito_12kk2/n/n4f86156a232a",
-   "date": "2026-05-03",
-   "thumb": "https://assets.st-note.com/production/uploads/images/272567148/rectangle_large_type_2_04410c8d968da8b3f660579faa40d73d.png?width=800",
-   "author": "KEITO（note）",
-   "pick": "オーナー指定",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "これは、かなり妄想に近い話です。面白半分で聞いてもらえればと思います。最近、お風呂に入りながらふと思ったことがあります。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "Claude Codeの生産性を劇的に高める「必須スキル11選」完全活用ガイド",
-   "url": "https://note.com/keito_12kk2/n/n02fa151f551b",
-   "date": "2026-04-20",
-   "thumb": "https://assets.st-note.com/production/uploads/images/268979748/rectangle_large_type_2_f79641cca23ba06b11219eb7b293c395.png?width=800",
-   "author": "KEITO（note）",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "1.ClaudeCodeと「スキル」がもたらす業務変革ClaudeCodeを導入することは、単に高性能なAIチャットツールを使い始めることではありません。真の価値は、自身の業務に最適化された「スキル」を組み込み、AIを単なる相談相手から実務を完遂する「AIエージェント（AIA）」へと進化させる点にあります。続きをみる"
   },
   {
    "kind": "youtube",
