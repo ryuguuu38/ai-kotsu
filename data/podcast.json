@@ -1,10 +1,10 @@
 {
  "edition": "all",
  "label": "全部入り",
- "date": "2026-10-01",
- "built": "2026-10-01 22:08",
- "minutes": 5.0,
- "chars": 1857,
+ "date": "2026-10-02",
+ "built": "2026-10-02 22:09",
+ "minutes": 5.9,
+ "chars": 2186,
  "lines": [
   {
    "who": "metan",
@@ -12,107 +12,7 @@
   },
   {
    "who": "metan",
-   "text": "1つ目。ChatGPTの話で、プロジェクトは 専用メモリ にしておく 記憶が混ざらない。"
-  },
-  {
-   "who": "zunda",
-   "text": "へえ、それで？"
-  },
-  {
-   "who": "metan",
-   "text": "プロジェクト内の会話だけを参照させる設定。他の案件の記憶が混ざり込まなくなる。"
-  },
-  {
-   "who": "zunda",
-   "text": "理由が知りたいのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "複数の案件を扱っていると、A社の前提がB社の回答に紛れ込む事故が起きる。案件ごとに記憶を分けると、口調や前提が安定する。"
-  },
-  {
-   "who": "zunda",
-   "text": "具体的にはどうするのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "4段階よ。"
-  },
-  {
-   "who": "metan",
-   "text": "1、案件ごとにプロジェクトを作る。"
-  },
-  {
-   "who": "metan",
-   "text": "2、メモリの設定で このプロジェクト内のみ を選ぶ。"
-  },
-  {
-   "who": "metan",
-   "text": "3、以降、そのプロジェクトの回答は外の記憶に影響されない。"
-  },
-  {
-   "who": "metan",
-   "text": "4、チームで共有すると、専用メモリが自動で有効になる。"
-  },
-  {
-   "who": "zunda",
-   "text": "頭に入れておくのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "出どころは、ChatGPT プロジェクト 機能に専用メモリー追加 @ctgptlb ね。"
-  },
-  {
-   "who": "metan",
-   "text": "2つ目。ChatGPTの話で、プロジェクトはチームで共有できる。"
-  },
-  {
-   "who": "zunda",
-   "text": "どんな内容なのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "共有すると、中の会話を誰でも分岐して続けられる。案件の引き継ぎに使える。"
-  },
-  {
-   "who": "zunda",
-   "text": "なんで効くのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "あの人しか経緯を知らない が消える。共有した時点で専用メモリが自動で有効になるので、前提もそのまま渡る。"
-  },
-  {
-   "who": "zunda",
-   "text": "手順を頼むのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "3段階よ。"
-  },
-  {
-   "who": "metan",
-   "text": "1、案件プロジェクトを作り、資料とカスタム指示を入れる。"
-  },
-  {
-   "who": "metan",
-   "text": "2、チームに共有する。"
-  },
-  {
-   "who": "metan",
-   "text": "3、相手は会話を分岐して自分の作業を続けられる。"
-  },
-  {
-   "who": "zunda",
-   "text": "なるほどなのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "出どころは、ChatGPT プロジェクト 機能にチーム共有機能が追加 @ctgptlb ね。"
-  },
-  {
-   "who": "metan",
-   "text": "3つ目。Copilotの話で、Excelは 1シート・テーブル形式 が前提。シート跨ぎは苦手。"
+   "text": "1つ目。Copilotの話で、Officeエージェント：Chat画面からWord・Excel・パワポを横断で作らせる。"
   },
   {
    "who": "zunda",
@@ -120,7 +20,7 @@
   },
   {
    "who": "metan",
-   "text": "複数シートをまたぐVLOOKUPのような指示は通らない。まず1シートに整えてから頼む。"
+   "text": "個別アプリを開かず、Copilot Chatから複数ステップの処理をまとめて依頼できる。"
   },
   {
    "who": "zunda",
@@ -128,7 +28,7 @@
   },
   {
    "who": "metan",
-   "text": "Copilotが使えない と言われる原因の多くがこれ。ツールの問題ではなく、データの形の問題。"
+   "text": "Wordで下書き パワポに起こす Excelで集計 を人が行き来していた部分が消える。既存ファイルを元にした生成もできる。"
   },
   {
    "who": "zunda",
@@ -140,19 +40,119 @@
   },
   {
    "who": "metan",
-   "text": "1、対象データを1つのシートにまとめる。"
+   "text": "1、Microsoft 365 Copilot Chat を開く。"
   },
   {
    "who": "metan",
-   "text": "2、Ctrl T でテーブル形式にする。"
+   "text": "2、この資料をもとに、Wordの報告書とパワポの要約を作って のように横断で頼む。"
   },
   {
    "who": "metan",
-   "text": "3、そのうえで分析を依頼する。"
+   "text": "3、SharePointの既存ファイルを参照元に指定できる。"
   },
   {
    "who": "metan",
-   "text": "4、シート跨ぎが必要な処理は、先に人が1枚に統合しておく。"
+   "text": "4、※初回利用時は利用開始の手続きが必要な場合がある。"
+  },
+  {
+   "who": "zunda",
+   "text": "頭に入れておくのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、Office エージェント Microsoft 365 公式 ね。"
+  },
+  {
+   "who": "metan",
+   "text": "2つ目。Copilotの話で、CopilotでClaudeのモデルが選べるようになった。"
+  },
+  {
+   "who": "zunda",
+   "text": "それ、何がすごいのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "Microsoftのデータ保護領域内でClaudeが使える。Excel・PowerPoint・Wordの各エージェントで選択可能。"
+  },
+  {
+   "who": "zunda",
+   "text": "理由が知りたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "会社のデータを外に出せない 制約下でも、Claudeの文章力・長文処理を使える。 情シス部門への提案材料になる。"
+  },
+  {
+   "who": "zunda",
+   "text": "手順を頼むのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、Microsoft 365 Copilot の各エージェント Excel／PowerPoint／Word でモデルを選ぶ。"
+  },
+  {
+   "who": "metan",
+   "text": "2、データはMicrosoftの保護領域内にとどまる。"
+  },
+  {
+   "who": "metan",
+   "text": "3、長文の読み込みや文章作成はClaude、定型集計はそのまま、と使い分ける。"
+  },
+  {
+   "who": "zunda",
+   "text": "それ早く言ってほしかったのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、CopilotでAnthropicのClaudeがサブプロセッサとして利用可能に @geekfujiwara ね。"
+  },
+  {
+   "who": "metan",
+   "text": "3つ目。Claudeの話で、必ず検証して より 見た範囲を明示して が効く。"
+  },
+  {
+   "who": "zunda",
+   "text": "詳しく聞きたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "今のモデルは自分で検証する。問題は検証しないことでなく、見落とした範囲は検証されないこと。"
+  },
+  {
+   "who": "zunda",
+   "text": "なんで効くのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "ちゃんと確認して と言っても、AIが見ていない場所は確認しようがない。範囲を言わせると、抜けがその場で分かる。 検証せずに完了と言う への直接の対策。"
+  },
+  {
+   "who": "zunda",
+   "text": "具体的にはどうするのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "4段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、必ず検証してから報告して という指示は、今のモデルでは二重になりがち。"
+  },
+  {
+   "who": "metan",
+   "text": "2、代わりに、何を見て・何を見ていないかを毎回言わせる。"
+  },
+  {
+   "who": "metan",
+   "text": "3、見ていない範囲があれば、そこが抜けだと分かる。"
+  },
+  {
+   "who": "metan",
+   "text": "4、外部の事実確認 実物・出典・人の承認 は引き続き必要。これはAIの外側なので省略できない。"
   },
   {
    "who": "zunda",
@@ -160,7 +160,7 @@
   },
   {
    "who": "metan",
-   "text": "出どころは、Copilot for Microsoft 365 を数日触った評価 @usutaku channel ね。"
+   "text": "出どころは、後編 AIが品質の責任を持ち始めた Claude Opus 5で消した指示、残した指示 note・2026-0 ね。"
   },
   {
    "who": "metan",
@@ -168,11 +168,15 @@
   },
   {
    "who": "metan",
-   "text": "1本目は、チャエン AI研究所さんの動画。保存版 OpenAI DevDay 2026を3分で 発表25個から押さえるべき5つ dots gpt6。"
+   "text": "1本目は、みかみ 東大退学させられた男さんの動画。実演 同じAstraなのに、なぜここまで仕事を任せられる？年商25AI企業億社長の最新Astra活用法を全て見せます。。"
   },
   {
    "who": "metan",
-   "text": "2本目は、Claude Code Lab noteさんの記事。Claude Codeは1作業いくら？書類業務3種を実測したら9〜27円。"
+   "text": "2本目は、チャエン AI研究所さんの動画。保存版 OpenAI DevDay 2026を3分で 発表25個から押さえるべき5つ dots gpt6。"
+  },
+  {
+   "who": "metan",
+   "text": "3本目は、Claude Code Lab noteさんの記事。Claude Codeは1作業いくら？書類業務3種を実測したら9〜27円。"
   },
   {
    "who": "zunda",
@@ -184,15 +188,19 @@
   },
   {
    "who": "metan",
-   "text": "3本目は、KEITO AIWEBさんの動画。ChatGPTに24時間働く新機能 Dots 登場！ OpenAI DevDay 2026まとめ。"
+   "text": "4本目は、けい AIと共に noteさんの記事。生成AI時代に 淘汰される人・伸びる人 は何が違うのか？AI仙人の警告から読み解く、3年後も価値を上げ続ける6つの生存戦略。"
+  },
+  {
+   "who": "zunda",
+   "text": "へえ、それで？"
   },
   {
    "who": "metan",
-   "text": "4本目は、チャエン AI研究所さんの動画。速報 OpenAIの新発表25選。24時間働くdotsは何がすごい？GPT-6.1 Sol・爆速Codex・$500プランまでDevDay 2026を徹底解説。ClaudeCodeとどっちが良いの？。"
+   "text": "この3年で9割の人間は淘汰される かなり刺激的な言葉です。続きをみる。"
   },
   {
    "who": "metan",
-   "text": "5本目は、AI marketさんの動画。待望の新AIモデル Gemini 4 Argon登場 GPT-6とClaudeを抜いた実力と全貌を解説！！。"
+   "text": "5本目は、バレないAIの使い方さんの動画。AI感ゼロ 毎週のスライド作成をCopilotだけで自動化してるので全部見せます。 Copilot Excel パワポ Word Copilot基本・使い方。"
   },
   {
    "who": "metan",
@@ -200,15 +208,15 @@
   },
   {
    "who": "metan",
-   "text": "まず、Claudeの話。Claude APIでクレジット購入の反映が遅延、残高不足エラーへの対処法。"
+   "text": "まず、こんな話。LLMの多段処理をforループで回すのをやめる — Step Functionsで並列要約・リトライ・人間承認を組む入門。"
   },
   {
    "who": "metan",
-   "text": "つぎは、こんな話。Unitree G1でオクラを把持：Orboh×トヨタ車体研究所の農場実証 YOLO・Diffusion Policy・開発70日。"
+   "text": "つぎは、ChatGPTの話。\"24時間働く分身\"dotsを開けてみたら——代償は\"1件ずつは消せない記憶\"だった。"
   },
   {
    "who": "metan",
-   "text": "それから、こんな話。Fiverrで副業、ロゴGigの基本料金と商用ライセンスを分けて売り月4万円稼ぐ方法。"
+   "text": "それから、こんな話。破面解析AIの中身を整理 豊田自動織機、電子顕微鏡の自動操作と熟練技術者10年分の画像で1件2時間程度に。"
   },
   {
    "who": "zunda",
@@ -216,7 +224,7 @@
   },
   {
    "who": "metan",
-   "text": "最後は、Claudeの話。Claudeが止まりません。"
+   "text": "最後は、こんな話。Suno v6、正直ちょっと微妙… ── 5.5とv6を聴き比べてみた。"
   },
   {
    "who": "zunda",
@@ -237,8 +245,8 @@
  ],
  "credit": "VOICEVOX:ずんだもん / 四国めたん",
  "tip_ids": [
-  "gpt-011",
-  "gpt-012",
-  "copilot-010"
+  "copilot-011",
+  "copilot-012",
+  "claude-031"
  ]
 }
