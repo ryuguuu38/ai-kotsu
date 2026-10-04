@@ -2,9 +2,9 @@
  "edition": "gemini",
  "label": "Gemini編",
  "date": "2026-10-04",
- "built": "2026-10-04 02:52",
- "minutes": 4.1,
- "chars": 1525,
+ "built": "2026-10-04 22:11",
+ "minutes": 4.4,
+ "chars": 1631,
  "lines": [
   {
    "who": "metan",
@@ -180,15 +180,15 @@
   },
   {
    "who": "metan",
-   "text": "2本目は、Gemini公式 noteさんの記事。学生の熱量に火をつける！ 日本大学が Gemini と挑む 自主創造 の新しい形。"
-  },
-  {
-   "who": "zunda",
-   "text": "それ、何がすごいのだ？"
+   "text": "2本目は、ダイさん・AI活用の専門家の動画。実演解説 AI初心者がNotebookLMで仕事を自動化できるようになる全手順 NotebookLM基本・使い方・活用法。"
   },
   {
    "who": "metan",
-   "text": "こんにちは、Google の AI Gemini ジェミニ の公式 note 編集部です。今回、大学での Gemini や Gemini Notebook 旧称：NotebookLM の事例としてご紹介するのは、約 7,000 人の専任教職員を抱える日本大学です。同大学は 2026 年 4 月、教学と業務の DX を推進する司令塔として 日本大学情報イノベーションセンター を設置。同時期に Goo。"
+   "text": "3本目は、AI marketさんの動画。新AI音声 日本語最強モデルはどれ？ElevenLabs v4・Gemini 3.8 Flash TTS・Irodori-TTS v4を比較。"
+  },
+  {
+   "who": "metan",
+   "text": "4本目は、SHIFT AI ニュースさんの動画。Gemini SparkがGmailに週報の下書きを作成。"
   },
   {
    "who": "metan",
@@ -196,7 +196,19 @@
   },
   {
    "who": "metan",
-   "text": "まず、Geminiの話。GeminiのSkillsは、プロンプト集ではない。業務の整理が先である。。"
+   "text": "まず、Geminiの話。比較 ObsidianとGeminiを連携する3つの方法。無料でどこまで？会社のメモは渡していい？。"
+  },
+  {
+   "who": "metan",
+   "text": "つぎは、Geminiの話。個人向けGeminiのモデル選択が厳格化 無料ユーザーが使えるのは Flash-Lite のみに。"
+  },
+  {
+   "who": "zunda",
+   "text": "見出しだけでも、流れは分かるのだ。"
+  },
+  {
+   "who": "metan",
+   "text": "最後は、Geminiの話。GeminiのSkillsは、プロンプト集ではない。業務の整理が先である。。"
   },
   {
    "who": "zunda",

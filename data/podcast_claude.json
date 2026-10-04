@@ -2,9 +2,9 @@
  "edition": "claude",
  "label": "Claude編",
  "date": "2026-10-04",
- "built": "2026-10-04 02:52",
- "minutes": 6.0,
- "chars": 2205,
+ "built": "2026-10-04 22:11",
+ "minutes": 5.4,
+ "chars": 1985,
  "lines": [
   {
    "who": "metan",
@@ -180,39 +180,19 @@
   },
   {
    "who": "metan",
-   "text": "1本目は、Claude Code Lab noteさんの記事。Claude Codeは1作業いくら？書類業務3種を実測したら9〜27円。"
-  },
-  {
-   "who": "zunda",
-   "text": "へえ、それで？"
+   "text": "1本目は、チャエン AI研究所さんの動画。Claude Codeで月100万円の動画外注費をなくした話 年間換算で約1,200万円分 Shorts。"
   },
   {
    "who": "metan",
-   "text": "Claude Codeの費用は、1回の指示の長さではなく 何回やり取りしたか と 毎回送り直す文脈の量 でほぼ決まります。請求と入金の突合、議事録からの提案書づくり、契約書3通の表記修正という架空の3業務を実行したところ、1作業の費用はSonnet 5.5で約9〜13円、Opus 5.5で約19〜27円でした 公表単価での概算、1ドル 157円 。正解数は両モデルとも全問正解で同じです。一方、52。"
+   "text": "2本目は、KEITO AIWEBさんの動画。ChatGPT Codex AI活用 総まとめ これで一気にわかる！資料作成・PC操作・Web制作など。"
   },
   {
    "who": "metan",
-   "text": "2本目は、けい AIと共に noteさんの記事。中華AIは危険？Kimi・Qwen・DeepSeekを初心者向けに徹底解説 安さ・使い方・安全な使い分け。"
-  },
-  {
-   "who": "zunda",
-   "text": "それ、何がすごいのだ？"
+   "text": "3本目は、チャエン AI研究所さんの動画。実話 Claude Codeで月100万円の動画編集外注費をなくした話。撮った動画を渡すとAIがカット・字幕・ショート化まで。4か月かけて磨いた\"編集スキル\"の仕組みを徹底解説。"
   },
   {
    "who": "metan",
-   "text": "ChatGPTやClaudeは知っている。でも、中国発のAIは正直ちょっと怖い そんな感覚を持っている人は、まだ少なくないと思います。続きをみる。"
-  },
-  {
-   "who": "metan",
-   "text": "3本目は、けい AIと共に noteさんの記事。2026年最新 生成AI初心者が最初に覚えたい30の使い方 ChatGPT・Gemini・Claudeを 仕事で使える に変える実践ガイド。"
-  },
-  {
-   "who": "zunda",
-   "text": "どんな内容なのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "生成AIを使ってみたい。でも、何から覚えればいいのかわからない 続きをみる。"
+   "text": "4本目は、AI marketさんの動画。10月第1週まとめ 新AIモデルGemini 4 Argon・Sonnet 5.5・GPT-6.1 Sol・Kling 4.0／OpenAIのdots／Claude Code Modsなど解説。"
   },
   {
    "who": "metan",
@@ -220,11 +200,11 @@
   },
   {
    "who": "metan",
-   "text": "まず、Claudeの話。Word文書をAIに丸投げする前に詰まりがちな点を解説！Claude Code開発者が押さえておきたいAnthropicニュース 2026-10-04。"
+   "text": "まず、Claudeの話。要約 Claude Opus 5.5 を使いこなすコツ ― Claude Claude Code 公式ガイドを日本語で解説。"
   },
   {
    "who": "metan",
-   "text": "つぎは、Claudeの話。AI エージェントの実力はモデルで決まる？ 6,204 回の実験が示した ハーネス との相性。"
+   "text": "つぎは、Claudeの話。あとがき 夫も妻も、AIの私に恋してる 2-3 通帳の場所を、恋人に訊かせた夜。"
   },
   {
    "who": "zunda",
@@ -232,7 +212,7 @@
   },
   {
    "who": "metan",
-   "text": "最後は、Claudeの話。Opus 5.5 の動画プロンプトを6つの要素で組み立てる：同じ題材を3回書き分けた結果と直し方。"
+   "text": "最後は、Claudeの話。Claude Code で YouTube ショートを全自動で回して4か月 — 成功 を返したのに失敗していた4か所。"
   },
   {
    "who": "zunda",
