@@ -1,10 +1,10 @@
 {
  "edition": "gemini",
  "label": "Gemini編",
- "date": "2026-10-06",
- "built": "2026-10-06 22:10",
- "minutes": 5.2,
- "chars": 1935,
+ "date": "2026-10-07",
+ "built": "2026-10-07 22:10",
+ "minutes": 3.9,
+ "chars": 1461,
  "lines": [
   {
    "who": "metan",
@@ -20,7 +20,7 @@
   },
   {
    "who": "metan",
-   "text": "1つ目。学習ノートブック で引き継ぎ資料を教材に変えられる。"
+   "text": "1つ目。Deep Research は 目的・範囲・形式・仮説 の4点セットで投げる。"
   },
   {
    "who": "zunda",
@@ -28,63 +28,7 @@
   },
   {
    "who": "metan",
-   "text": "資料を入れると、理解度診断のクイズを作り、弱いところ中心のレッスンに組み直してくれる。"
-  },
-  {
-   "who": "zunda",
-   "text": "理由が知りたいのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "前任者のバラバラな資料を、体系立った教材に変換できる。資格試験対策や、新分野のキャッチアップにも使える。"
-  },
-  {
-   "who": "zunda",
-   "text": "具体的にはどうするのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "5段階よ。"
-  },
-  {
-   "who": "metan",
-   "text": "1、資料をアップして学習目標を伝える。"
-  },
-  {
-   "who": "metan",
-   "text": "2、自動生成されるクイズで、今どこが分かっていないかを診断する。"
-  },
-  {
-   "who": "metan",
-   "text": "3、強み／重点／未着手に分類されたダッシュボードを見る。"
-  },
-  {
-   "who": "metan",
-   "text": "4、短く区切られたレッスンで進む。"
-  },
-  {
-   "who": "metan",
-   "text": "5、※無料版は資料50件まで、Pro版は300件まで。"
-  },
-  {
-   "who": "zunda",
-   "text": "メモしておくのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "出どころは、Gemini が専属の家庭教師に。新機能 学習ノート Gemini公式 note・2026-09-03 ね。"
-  },
-  {
-   "who": "metan",
-   "text": "2つ目。Gemini Spark：Googleの各サービスを横断して自律実行する。"
-  },
-  {
-   "who": "zunda",
-   "text": "気になるのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "Gmail・カレンダー・ドキュメント・ドライブと統合し、指示した内容を裏で実行し続ける。"
+   "text": "調べたいテーマだけ投げるとぼやける。4点を書くとレポートの質が跳ね上がる。"
   },
   {
    "who": "zunda",
@@ -92,47 +36,43 @@
   },
   {
    "who": "metan",
-   "text": "Google Workspace中心のあなたに直結。 スマホを閉じていても動く。支払いやメール送信など重要な操作は必ず事前確認が入る設計。"
+   "text": "Deep Research は調査計画から立てる。その計画の質が、4点を書いたかどうかで決まる。"
   },
   {
    "who": "zunda",
-   "text": "やり方も教えてほしいのだ！"
+   "text": "具体的にはどうするのだ？"
   },
   {
    "who": "metan",
-   "text": "5段階よ。"
+   "text": "4段階よ。"
   },
   {
    "who": "metan",
-   "text": "1、一度連携すれば、メール読み込みやカレンダー確認を自動で行う。"
+   "text": "1、目的 何を判断したいのか を書く。"
   },
   {
    "who": "metan",
-   "text": "2、会議準備：毎朝、重要会議の関連メールと資料をブリーフィングにまとめさせる。"
+   "text": "2、範囲 国・期間・対象企業規模 を絞る。"
   },
   {
    "who": "metan",
-   "text": "3、メール対応：過去の自分の文体を学習させ、自分らしい下書きを作らせる。"
+   "text": "3、出力形式 表・章立て・文字数 を指定する。"
   },
   {
    "who": "metan",
-   "text": "4、情報整理：定期的な一覧づくり 期限の管理など を任せる。"
-  },
-  {
-   "who": "metan",
-   "text": "5、※支払い・メール送信の前には必ず確認が入る。"
+   "text": "4、自分の仮説を添える 検証する形で組み立ててくれる。"
   },
   {
    "who": "zunda",
-   "text": "それ早く言ってほしかったのだ！"
+   "text": "うわ、損してたのだ…"
   },
   {
    "who": "metan",
-   "text": "出どころは、Gemini Spark 登場！日常の めんどう をぜんぶ任せよう Gemini公式 note・2026-08 ね。"
+   "text": "出どころは、Gemini Deep Researchの使い方 パンハウス インサイト ね。"
   },
   {
    "who": "metan",
-   "text": "3つ目。チラシは5分で作れる。ただし 思考モード を選ばないと崩れる。"
+   "text": "2つ目。Gems で自分専用の担当者を作っておく。"
   },
   {
    "who": "zunda",
@@ -140,7 +80,7 @@
   },
   {
    "who": "metan",
-   "text": "Geminiの画像生成でチラシが作れる。設定を1つ選び忘れると、文章が返ってきたりデザインが崩れる。"
+   "text": "毎回貼っている長いプロンプトを Gem の裏側に仕込む。以降は用件だけ打てばいい。"
   },
   {
    "who": "zunda",
@@ -148,7 +88,55 @@
   },
   {
    "who": "metan",
-   "text": "必要な情報を箇条書きで全部渡し、モードを正しく選ぶだけ。あとは 縦長にして 色を変えて と言えば直せる。イベント告知やセミナー案内の下書きが一気に速くなる。"
+   "text": "あのプロンプトどこだっけ を探す時間が消える。ChatGPTのプロジェクトに相当する機能。"
+  },
+  {
+   "who": "zunda",
+   "text": "やり方も教えてほしいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、Gemini の左メニューから Gem を新規作成。"
+  },
+  {
+   "who": "metan",
+   "text": "2、役割・前提・口調・禁止事項をカスタム指示に書く。"
+  },
+  {
+   "who": "metan",
+   "text": "3、よく使う資料を添付しておく。"
+  },
+  {
+   "who": "zunda",
+   "text": "地味に効きそうなのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、Geminiの神機能3選 Deep Research・Canvas・Gemの使い方 ね。"
+  },
+  {
+   "who": "metan",
+   "text": "3つ目。調査元に Gmail・ドライブ・NotebookLM を指定できる。"
+  },
+  {
+   "who": "zunda",
+   "text": "気になるのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "2026年から、ネット検索だけでなく自分の資料も調査対象にできるようになった。"
+  },
+  {
+   "who": "zunda",
+   "text": "理由が知りたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "社内資料＋世の中の情報 を1本のレポートにできる。ここを知らない人が多い。"
   },
   {
    "who": "zunda",
@@ -156,27 +144,19 @@
   },
   {
    "who": "metan",
-   "text": "5段階よ。"
+   "text": "3段階よ。"
   },
   {
    "who": "metan",
-   "text": "1、Geminiを開き、ツールから 画像を作成 を選ぶ。"
+   "text": "1、Deep Research を開始する前に情報源を選ぶ。"
   },
   {
    "who": "metan",
-   "text": "2、右下のモード選択から 思考モード を選ぶ これを忘れると文章が返ってきたりデザインが崩れる。"
+   "text": "2、Gmail・Google ドライブ・アップロードファイル・NotebookLM を追加。"
   },
   {
    "who": "metan",
-   "text": "3、チラシに載せる情報を、箇条書きで全部書いて渡す 日時・場所・料金・対象・申込先。"
-  },
-  {
-   "who": "metan",
-   "text": "4、出てきたら 縦長にして この色を変えて と段階的に直す。"
-  },
-  {
-   "who": "metan",
-   "text": "5、️日本語が文字化けすることがある。出てきた文字は必ず目で確かめる。"
+   "text": "3、社内資料と公開情報を突き合わせて差分を出して と指示する。"
   },
   {
    "who": "zunda",
@@ -184,7 +164,7 @@
   },
   {
    "who": "metan",
-   "text": "出どころは、5分で完成! AIチラシ生成のやり方 伊志嶺 LLMで業務改善する人 note・2025-12-07 ね。"
+   "text": "出どころは、Gemini Deep Researchの使い方 2026年最新 ね。"
   },
   {
    "who": "metan",
@@ -192,35 +172,19 @@
   },
   {
    "who": "metan",
-   "text": "1本目は、まじん noteさんの記事。マジクラ Google Chatをダッシュボードにする仕組み GAS。"
-  },
-  {
-   "who": "zunda",
-   "text": "どんな内容なのだ？"
+   "text": "1本目は、AI marketさんの動画。新ローカルAIモデル EmbeddingGemma 2をGoogleが無料公開！写真も声も検索が簡潔に！。"
   },
   {
    "who": "metan",
-   "text": "こんにちは、 チームまじん のやまじんです。続きをみる。"
+   "text": "2本目は、AI marketさんの動画。新ローカルAIモデル Googleが無料公開！EmbeddingGemma 2で写真も声もネットなしで探せた。"
   },
   {
    "who": "metan",
-   "text": "2本目は、SHIFT AI ニュースさんの動画。Gemini SparkでDriveの資料整理を自動化。"
+   "text": "3本目は、SHIFT AI ニュースさんの動画。Gem終了 今さら聞けない Skill の仕組みをGemini Sparkで解説。"
   },
   {
    "who": "metan",
-   "text": "3本目は、Gemini公式 noteさんの記事。コンテスト作品紹介 Vol.1 Geminiと一緒に可能性を広げる。 AIとできたこと の素敵な投稿をご紹介。"
-  },
-  {
-   "who": "zunda",
-   "text": "中身を教えてほしいのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "こんにちは。Google の AI Gemini の公式 note 編集部です。現在、Google と note では、投稿コンテスト AIとできたこと を、2026年 10 月 18 日 日 まで開催中です。続きをみる。"
-  },
-  {
-   "who": "metan",
-   "text": "4本目は、AI marketさんの動画。注意 Gemini無料版が大幅制限 10月9日からPro・Flash廃止で無料と有料の違いを解説！。"
+   "text": "4本目は、SHIFT AI ニュースさんの動画。Gemini SparkでDriveの資料整理を自動化。"
   },
   {
    "who": "metan",
@@ -228,11 +192,11 @@
   },
   {
    "who": "metan",
-   "text": "まず、Geminiの話。AI TRPG Tales from the Loop リプレイ1。"
+   "text": "まず、Geminiの話。Nano Banana 2.1をPythonで扱う 画像レスポンスの保存と失敗処理。"
   },
   {
    "who": "metan",
-   "text": "つぎは、Geminiの話。MemoryTale の画像を Nano Banana 2 に、読み上げを Gemini TTS にした。"
+   "text": "つぎは、Geminiの話。Google、 Nano Banana 2.1 公開 APIの画像出力料金は Nano Banana 2 の約半額に。"
   },
   {
    "who": "zunda",
@@ -240,7 +204,7 @@
   },
   {
    "who": "metan",
-   "text": "最後は、Geminiの話。Gemini 4 Argonの提供範囲・料金・出力上限100万トークンを整理 Google発表。"
+   "text": "最後は、Geminiの話。AI TRPG Tales from the Loop リプレイ1。"
   },
   {
    "who": "zunda",
@@ -261,8 +225,8 @@
  ],
  "credit": "VOICEVOX:ずんだもん / 四国めたん",
  "tip_ids": [
-  "gemini-013",
-  "gemini-014",
-  "gemini-015"
+  "gemini-001",
+  "gemini-002",
+  "gemini-003"
  ]
 }
