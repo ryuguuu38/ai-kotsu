@@ -1,10 +1,10 @@
 {
  "edition": "gemini",
  "label": "Gemini編",
- "date": "2026-10-08",
- "built": "2026-10-08 22:12",
- "minutes": 4.2,
- "chars": 1541,
+ "date": "2026-10-09",
+ "built": "2026-10-09 22:11",
+ "minutes": 4.1,
+ "chars": 1521,
  "lines": [
   {
    "who": "metan",
@@ -20,107 +20,15 @@
   },
   {
    "who": "metan",
-   "text": "1つ目。最初にやるべき3つの設定 カスタム指示・Memory・Gem。"
+   "text": "1つ目。スプレッドシートは ドライブから追加 で渡す URL貼り付けはNG。"
   },
   {
    "who": "zunda",
-   "text": "詳しく聞きたいのだ！"
+   "text": "へえ、それで？"
   },
   {
    "who": "metan",
-   "text": "Geminiは設定しない人ほど損をする。この3つを入れるだけで前置きを書く手間が消える。"
-  },
-  {
-   "who": "zunda",
-   "text": "どうしてそうなるのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "初期状態は本来の使い勝手を抑えた挙動になっている。設定は1回で済み、効果はずっと続く。"
-  },
-  {
-   "who": "zunda",
-   "text": "手順を頼むのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "3段階よ。"
-  },
-  {
-   "who": "metan",
-   "text": "1、カスタム指示に 自分の職種・相手・出力形式 を固定する。"
-  },
-  {
-   "who": "metan",
-   "text": "2、設定 Personal Intelligence Memory をオンにし、Gmail・カレンダー連携を許可。"
-  },
-  {
-   "who": "metan",
-   "text": "3、よく使う業務はGem 自分専用ボット にする。"
-  },
-  {
-   "who": "zunda",
-   "text": "それは知らなかったのだ…"
-  },
-  {
-   "who": "metan",
-   "text": "出どころは、やらないと損するGeminiの3つの初期設定の全手順 @Sokichi Hoshino ね。"
-  },
-  {
-   "who": "metan",
-   "text": "2つ目。カスタム指示に 全肯定をやめて と書く。"
-  },
-  {
-   "who": "zunda",
-   "text": "それ、何がすごいのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "褒めてくるだけのAIを、改善点を出す相談相手に変える一文。"
-  },
-  {
-   "who": "zunda",
-   "text": "なんで効くのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "初期状態のGeminiは肯定しがち。壁打ち相手として使うなら、ここを潰しておく価値が高い。"
-  },
-  {
-   "who": "zunda",
-   "text": "具体的にはどうするのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "2段階よ。"
-  },
-  {
-   "who": "metan",
-   "text": "1、設定のカスタム指示を開く。"
-  },
-  {
-   "who": "metan",
-   "text": "2、肯定を禁止し、改善点を必ず出すよう書く。"
-  },
-  {
-   "who": "zunda",
-   "text": "地味に効きそうなのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "出どころは、Geminiのカスタム指示 @ai jitan ね。"
-  },
-  {
-   "who": "metan",
-   "text": "3つ目。会社のGeminiとChrome拡張で 自分専用エージェント を作る。"
-  },
-  {
-   "who": "zunda",
-   "text": "気になるのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "高機能な有料エージェントを使わなくても、手元の組み合わせで似たことができるという実験記事。"
+   "text": "共有URLをチャットに貼っても正しく読めない。必ずチャット画面の ドライブから追加 を使う。"
   },
   {
    "who": "zunda",
@@ -128,7 +36,7 @@
   },
   {
    "who": "metan",
-   "text": "会社の制約で新しいツールを入れられない人向けの現実解。既にあるものだけで組む。"
+   "text": "読んでくれない 中身が違う の典型的な原因。渡し方を変えるだけで解決する。"
   },
   {
    "who": "zunda",
@@ -140,15 +48,15 @@
   },
   {
    "who": "metan",
-   "text": "1、会社で許可されているGeminiを使う。"
+   "text": "1、チャット画面の ドライブから追加 を押す。"
   },
   {
    "who": "metan",
-   "text": "2、Chrome拡張と組み合わせる。"
+   "text": "2、対象のスプレッドシートを選ぶ。"
   },
   {
    "who": "metan",
-   "text": "3、自分の業務に合わせて役割を固定する。"
+   "text": "3、そのうえで質問する。"
   },
   {
    "who": "zunda",
@@ -156,7 +64,103 @@
   },
   {
    "who": "metan",
-   "text": "出どころは、会社のGeminiとChrome拡張で 自分専用エージェント を作ってみた話──Gemini Sparkの再現 ね。"
+   "text": "出どころは、Geminiにスプシを読み込ませる時の注意点と仕組み @apartment labo ね。"
+  },
+  {
+   "who": "metan",
+   "text": "2つ目。文章はCanvasで作り、固まってからドキュメントに書き出す。"
+  },
+  {
+   "who": "zunda",
+   "text": "それ、何がすごいのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "AIと対話しながらCanvasで下書きし、形になったらGoogleドキュメントへ。手戻りが減る。"
+  },
+  {
+   "who": "zunda",
+   "text": "どうしてそうなるのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "最初からドキュメントで書くと、直すたびに体裁が崩れる。Canvasは書き直し前提の場所として使う。"
+  },
+  {
+   "who": "zunda",
+   "text": "具体的にはどうするのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、Canvasで下書きする。"
+  },
+  {
+   "who": "metan",
+   "text": "2、この段落をもっと簡潔に ここに具体例を追加 と部分指示する。"
+  },
+  {
+   "who": "metan",
+   "text": "3、内容が固まったらGoogleドキュメントに書き出す。"
+  },
+  {
+   "who": "zunda",
+   "text": "それ早く言ってほしかったのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、GeminiのCanvasで文書作成 @nin222 ね。"
+  },
+  {
+   "who": "metan",
+   "text": "3つ目。スプレッドシートをカンバン・ダッシュボードに変える Sheets Canvas。"
+  },
+  {
+   "who": "zunda",
+   "text": "中身を教えてほしいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "表のデータを進捗別カードやグラフに組み替えられる。カードを動かすと元のセルも変わる。"
+  },
+  {
+   "who": "zunda",
+   "text": "なんで効くのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "集計表を見やすい形にするために別ツールを入れる必要がなくなる。元データと連動するのが強い。"
+  },
+  {
+   "who": "zunda",
+   "text": "手順を頼むのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、スプレッドシートのサイドパネル・挿入メニュー・下部バーから キャンバスを作成。"
+  },
+  {
+   "who": "metan",
+   "text": "2、進捗別に並べ替える／件数や期限をグラフにする。"
+  },
+  {
+   "who": "metan",
+   "text": "3、※新規作成は英語UI環境でのみ可能 2026年時点。"
+  },
+  {
+   "who": "zunda",
+   "text": "うわ、損してたのだ…"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、Googleスプレッドシートの表を、カンバンやダッシュボードに変える方法 @mirai spark ね。"
   },
   {
    "who": "metan",
@@ -168,7 +172,7 @@
   },
   {
    "who": "zunda",
-   "text": "へえ、それで？"
+   "text": "詳しく聞きたいのだ！"
   },
   {
    "who": "metan",
@@ -176,15 +180,11 @@
   },
   {
    "who": "metan",
-   "text": "2本目は、mikimiki web スクールさんの動画。今さら聞けない 超初心者OK！Geminiの使い方・基礎をわかりやすく徹底解説 P80超資料付き。"
+   "text": "2本目は、SHIFT AI ニュースさんの動画。会社動画もOK 最新のGemini 3.8 TTS × Google Vidsでショート動画を作る全手順。"
   },
   {
    "who": "metan",
-   "text": "3本目は、AI marketさんの動画。新ローカルAIモデル EmbeddingGemma 2をGoogleが無料公開！写真も声も検索が簡潔に！。"
-  },
-  {
-   "who": "metan",
-   "text": "4本目は、AI marketさんの動画。新ローカルAIモデル Googleが無料公開！EmbeddingGemma 2で写真も声もネットなしで探せた。"
+   "text": "3本目は、mikimiki web スクールさんの動画。今さら聞けない 超初心者OK！Geminiの使い方・基礎をわかりやすく徹底解説 P80超資料付き。"
   },
   {
    "who": "metan",
@@ -192,11 +192,11 @@
   },
   {
    "who": "metan",
-   "text": "まず、Geminiの話。Geminiアプリのプラン別モデル変更：無料はFlash-Liteのみ、AI PlusもProなし 2026年10月。"
+   "text": "まず、Geminiの話。Gemini agentがついに発表。部長が先に整理すべき 業務 と データ は何か？。"
   },
   {
    "who": "metan",
-   "text": "つぎは、Geminiの話。AI実験 4 10 9から無料のGeminiが変わる。新旧に同じ10問を聞いたら同点だった。"
+   "text": "つぎは、Geminiの話。損保ジャパン､2万人の Gemini活用 どう管理？ 推進者が語る リスク回避 の仕組み。"
   },
   {
    "who": "zunda",
@@ -204,7 +204,7 @@
   },
   {
    "who": "metan",
-   "text": "最後は、Geminiの話。Nano Banana 2.1をPythonで扱う 画像レスポンスの保存と失敗処理。"
+   "text": "最後は、Geminiの話。Geminiアプリのプラン別モデル変更：無料はFlash-Liteのみ、AI PlusもProなし 2026年10月。"
   },
   {
    "who": "zunda",
@@ -225,8 +225,8 @@
  ],
  "credit": "VOICEVOX:ずんだもん / 四国めたん",
  "tip_ids": [
-  "gemini-004",
-  "gemini-005",
-  "gemini-006"
+  "gemini-007",
+  "gemini-008",
+  "gemini-009"
  ]
 }
