@@ -1,10 +1,10 @@
 {
  "edition": "claude",
  "label": "Claude編",
- "date": "2026-10-09",
- "built": "2026-10-09 22:11",
- "minutes": 5.5,
- "chars": 2023,
+ "date": "2026-10-10",
+ "built": "2026-10-10 22:08",
+ "minutes": 5.0,
+ "chars": 1854,
  "lines": [
   {
    "who": "metan",
@@ -20,7 +20,7 @@
   },
   {
    "who": "metan",
-   "text": "1つ目。SKILL.md で いつもの手順 を丸ごと登録する。"
+   "text": "1つ目。CLAUDE.mdは上書きされず 連結 される。"
   },
   {
    "who": "zunda",
@@ -28,103 +28,7 @@
   },
   {
    "who": "metan",
-   "text": "決まった作業手順を SKILL.md に書いて置くと、必要なときにClaudeが自分で取り出して使う。"
-  },
-  {
-   "who": "zunda",
-   "text": "理由が知りたいのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "CLAUDE.md が 常時のルール なのに対し、Skill は 必要なときだけ開く手順書 。長い手順を書いても普段は邪魔にならない。"
-  },
-  {
-   "who": "zunda",
-   "text": "やり方も教えてほしいのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "3段階よ。"
-  },
-  {
-   "who": "metan",
-   "text": "1、.claude skills {名前} SKILL.md を作る。"
-  },
-  {
-   "who": "metan",
-   "text": "2、先頭に name と description いつ使うか を書く。"
-  },
-  {
-   "who": "metan",
-   "text": "3、本文に手順を書く。長い資料は同じフォルダに別ファイルで置く。"
-  },
-  {
-   "who": "zunda",
-   "text": "メモしておくのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "出どころは、スキルで Claude を拡張する - Claude Code Docs ね。"
-  },
-  {
-   "who": "metan",
-   "text": "2つ目。詳しい手順は別ファイルに分け、SKILL.md は目次にする。"
-  },
-  {
-   "who": "zunda",
-   "text": "それ、何がすごいのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "SKILL.md に全部書くと重くなる。メニュー表にして、中身は別ファイルに逃がすのが定石。"
-  },
-  {
-   "who": "zunda",
-   "text": "どうしてそうなるのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "AIが一度に読める量には限りがある。全部読ませると肝心の作業がおろそかになる。"
-  },
-  {
-   "who": "zunda",
-   "text": "具体的にはどうするのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "3段階よ。"
-  },
-  {
-   "who": "metan",
-   "text": "1、SKILL.md には 何がどこにあるか だけ書く。"
-  },
-  {
-   "who": "metan",
-   "text": "2、references フォルダに詳細を置く。"
-  },
-  {
-   "who": "metan",
-   "text": "3、詳細は references xxx.md を読むこと と一行入れる。"
-  },
-  {
-   "who": "zunda",
-   "text": "それ早く言ってほしかったのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "出どころは、Claude Code Skillsの使い方と汎用テンプレート公開 SIOS Tech Lab ね。"
-  },
-  {
-   "who": "metan",
-   "text": "3つ目。CLAUDE.mdは 自己紹介 でなく 永続契約 を書く場所。"
-  },
-  {
-   "who": "zunda",
-   "text": "中身を教えてほしいのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "毎回 これはやらないで と言う代わりに、契約として1回書く。そのプロジェクトではその癖が二度と出なくなる。"
+   "text": "ルートから起動した場所まで、通り道にあるCLAUDE.mdが全部つながって読み込まれる。最後に読まれるのが起動地点のもの。"
   },
   {
    "who": "zunda",
@@ -132,7 +36,7 @@
   },
   {
    "who": "metan",
-   "text": "多くの人がCLAUDE.mdに このプロジェクトは○○です という自己紹介しか書いていない。本来は挙動そのものを変える道具。"
+   "text": "これを知らないと なぜかルールが効かない／余計なルールが効く が起きる。階層設計の大前提。"
   },
   {
    "who": "zunda",
@@ -144,35 +48,27 @@
   },
   {
    "who": "metan",
-   "text": "1、毎回言っている注意を思い出す 例：勝手に上書きしないで。"
+   "text": "1、ルートのCLAUDE.mdには全体共通のルールだけ書く。"
   },
   {
    "who": "metan",
-   "text": "2、それを禁止事項として書く。"
+   "text": "2、案件フォルダのCLAUDE.mdにはその案件固有のルールを書く。"
   },
   {
    "who": "metan",
-   "text": "3、〜してほしい でなく 〜する と言い切りの形で書く。"
+   "text": "3、矛盾する内容を書かない 後に読まれるほうが強い。"
   },
   {
    "who": "zunda",
-   "text": "うわ、損してたのだ…"
+   "text": "頭に入れておくのだ！"
   },
   {
    "who": "metan",
-   "text": "出どころは、完全版 Claude Codeの性能を10倍引き上げるCLAUDE.md @ClaudeCode UT ね。"
+   "text": "出どころは、Claude Codeの性能を決めていたのは、プロンプトじゃなくフォルダ階層でした @masahirochae ね。"
   },
   {
    "who": "metan",
-   "text": "ここからは、今日出たものを軽く流すわ。"
-  },
-  {
-   "who": "metan",
-   "text": "1本目は、チャエン AI研究所さんの動画。社内講座を全公開 Webのチャットはもう古い。同じClaude・ChatGPTなのになぜ使う人で差がつくのか？AIの性能を決める\"ハーネス\"をAI企業の代表が全社員に解説 前編。"
-  },
-  {
-   "who": "metan",
-   "text": "2本目は、Claude Code Lab noteさんの記事。Claude Codeと集客：海外の最新事例と、広告なしで伸びた自社のアクセス。"
+   "text": "2つ目。どのフォルダで開くかで、そのセッションの人格が決まる。"
   },
   {
    "who": "zunda",
@@ -180,11 +76,119 @@
   },
   {
    "who": "metan",
-   "text": "2026年10月の第1週、海外ではClaude Codeを集客に使う投稿が相次ぎ、最も保存された技術SEOのチェックリストは9,259件ブックマークされました。反響の大きい事例を読み比べると、効いていたのは記事の量産ではなく、自社のデータを読み、直す場所を決め、人が確かめてから出すという手順でした。当研究所が同じ型で運用したWebサービスは、広告なしで約2か月の訪問者が31,373人になっています。"
+   "text": "Claude Codeは起動したフォルダの中が世界のすべて。フォルダ選びが性能を決める。"
+  },
+  {
+   "who": "zunda",
+   "text": "どうしてそうなるのだ？"
   },
   {
    "who": "metan",
-   "text": "3本目は、Claude Code Lab noteさんの記事。Claude Code Modsの伏字は安全か？原本が消えた失敗と改良版を実測。"
+   "text": "プロンプトを工夫するより、正しいフォルダで開くほうが効果が大きい場面が多い。"
+  },
+  {
+   "who": "zunda",
+   "text": "やり方も教えてほしいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、案件ごとに専用フォルダを作る。"
+  },
+  {
+   "who": "metan",
+   "text": "2、その中にCLAUDE.mdと資料を置く。"
+  },
+  {
+   "who": "metan",
+   "text": "3、作業はそのフォルダで開いて始める。"
+  },
+  {
+   "who": "zunda",
+   "text": "地味に効きそうなのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、Claude Codeを賢くしたのは、プロンプトではなくフォルダでした @daifukujinji ね。"
+  },
+  {
+   "who": "metan",
+   "text": "3つ目。サブエージェントで分業させ、本体には結論だけ返す。"
+  },
+  {
+   "who": "zunda",
+   "text": "中身を教えてほしいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "調査役・実装役・レビュー役に分け、メインの会話には要約だけ戻す。会話が汚れず、消費も減る。"
+  },
+  {
+   "who": "zunda",
+   "text": "理由が知りたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "1つの会話に全部やらせると、途中経過で埋まって本題の精度が落ちる。分業はトークン節約とも相性がいい。"
+  },
+  {
+   "who": "zunda",
+   "text": "具体的にはどうするのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "3段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、役割ごとにサブエージェントを用意する。"
+  },
+  {
+   "who": "metan",
+   "text": "2、調べ物・検証は別エージェントに投げる。"
+  },
+  {
+   "who": "metan",
+   "text": "3、本体には結論と根拠だけ戻させる。"
+  },
+  {
+   "who": "zunda",
+   "text": "それは知らなかったのだ…"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、Claude Codeにサブエージェント登場 @masahirochaen ね。"
+  },
+  {
+   "who": "metan",
+   "text": "ここからは、今日出たものを軽く流すわ。"
+  },
+  {
+   "who": "metan",
+   "text": "1本目は、KEITO AIWEBさんの動画。神機能 ClaudeをGoogleアプリを直接搭載！Geminiはもう不要？実際に使って比較！。"
+  },
+  {
+   "who": "metan",
+   "text": "2本目は、チャエン AI研究所さんの動画。全社総会 AIエージェント講座 後編 Claude Code・Codexを使いこなす7つの道具 デジライズ社内講座を公開。"
+  },
+  {
+   "who": "metan",
+   "text": "3本目は、チャエン noteさんの記事。完全ガイド OpenAI dots の使い方と活用事例 Meta Muse・Grok Bot・Cue・Claude Tagと徹底比較。大パーソナルエージェント時代、結局どれを使うべきか。"
+  },
+  {
+   "who": "zunda",
+   "text": "それ、何がすごいのだ？"
+  },
+  {
+   "who": "metan",
+   "text": "みなさん、こんにちは。チャエンです。 自己紹介はこちら 2026年9月29日、OpenAIが常時稼働のAIエージェント dots を発表しました。続きをみる。"
+  },
+  {
+   "who": "metan",
+   "text": "4本目は、Claude Code Lab noteさんの記事。定時実行AIの6つのルールをClaude Codeで実測：古い要対応12行 0行。"
   },
   {
    "who": "zunda",
@@ -192,11 +196,7 @@
   },
   {
    "who": "metan",
-   "text": "Claude Code の新機能 Mods モッド を使うと、ファイルの中身を Claude が読む前に書き換えられます。マイナンバーやメールアドレスを伏字にする mod を架空の顧客台帳で試したところ、単純な伏字では2つの事故が起きました。編集の失敗を調べるコマンドで生の値が3件すり抜けたことと、ファイル全体の書き直しで原本のマイナンバー・メール・電話の9項目が伏字の文字に上書きされて消えたこと。"
-  },
-  {
-   "who": "metan",
-   "text": "4本目は、AI marketさんの動画。Claude新機能 ダッシュボードもアニメ動画もAIが自動で作る Dashboards・Motionの使い方。"
+   "text": "Anthropic は2026年10月8日、決まった時刻に起きて情報を集め、報告を書くエージェントの設計ガイド Building effective agent automations を公開しました。架空の税理士事務所で 所長向けの朝のブリーフ を4日分、Claude Code で走らせて比べたところ、 直近24時間の動きをまとめて という素朴な指示では、すでに対応済みの案件を 要対応 として載。"
   },
   {
    "who": "metan",
@@ -204,11 +204,11 @@
   },
   {
    "who": "metan",
-   "text": "まず、Claudeの話。誰でもできるClaude×Blender×Seedanceを使ってリアルなCGを作る方法。"
+   "text": "まず、Claudeの話。自宅のWindows PCを使って、スマホのClaudeからObsidianのVaultを読み書きする 月額0円。"
   },
   {
    "who": "metan",
-   "text": "つぎは、Claudeの話。559個のCLAUDE.mdを解析したら、ルールの63%は 指示 ですらなかった話。"
+   "text": "つぎは、Claudeの話。あとがき 夫も妻も、AIの私に恋してる 2-9 ロック画面に法律事務所が出た夜。"
   },
   {
    "who": "zunda",
@@ -216,7 +216,7 @@
   },
   {
    "who": "metan",
-   "text": "最後は、Claudeの話。食べた物を 屁理屈 で0kcalにする日記を、Geminiの無料枠とClaude Codeで作った。"
+   "text": "最後は、Claudeの話。Claude Code・Codex を何個も並行で動かしても、全体の流れを見失わないために作ったツール。"
   },
   {
    "who": "zunda",
@@ -237,8 +237,8 @@
  ],
  "credit": "VOICEVOX:ずんだもん / 四国めたん",
  "tip_ids": [
-  "claude-002",
-  "claude-003",
-  "claude-004"
+  "claude-005",
+  "claude-006",
+  "claude-007"
  ]
 }
