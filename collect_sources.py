@@ -7,6 +7,7 @@ import urllib.request, urllib.parse, xml.etree.ElementTree as ET
 import json, io, os, re, sys, time
 from datetime import datetime
 from email.utils import parsedate_to_datetime
+from private_words import PRIVATE_WORDS   # 公開してはいけない言葉（点検ツールと共通）
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "data", "sources.json")
@@ -143,6 +144,9 @@ def main():
     # （同じ内容を別の動画IDで再投稿する発信者がいるため）
     seen_url, seen_title, merged = set(), set(), []
     for it in items:
+        # 公開してはいけない言葉（勤め先のアドレスなど）が入った記事は載せない（2026-10-18）
+        if any(w in json.dumps(it, ensure_ascii=False) for w in PRIVATE_WORDS):
+            continue
         key_t = (it.get("author",""), it.get("title","").strip())
         if it["url"] in seen_url or key_t in seen_title:
             continue

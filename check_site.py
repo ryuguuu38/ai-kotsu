@@ -94,8 +94,7 @@ if "--links" in sys.argv:
 # このリポジトリは公開なので、個人・会社が特定できる語と、身内向けの言い回しを弾く。
 # ※「オーナー指定」は画面に出す正常なラベルなので対象外。
 #   ここに入れるのは「個人・勤め先が特定できる語」と「手元のパソコンの情報」だけ。
-PRIVATE_WORDS = ["apol.co.jp", "@apol", "アポロ株式会社", "山\u5c4e", "yamasaki", "ryuichi.yamasaki",
-                 "/Users/", "あなたの社内ルール", "弊社は研修会社"]
+from private_words import PRIVATE_WORDS   # 一覧は private_words.py（集める側と共通）
 for _name, _rows in (("コツ", tips), ("動画・note", feed), ("ニュース", news)):
     for _x in _rows:
         _s = json.dumps(_x, ensure_ascii=False)
