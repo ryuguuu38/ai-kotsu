@@ -510,7 +510,7 @@ function castView(){
        <span class="who">${l.who==="zunda"?"ずんだもん":"四国めたん"}</span>
        <span class="txt">${esc(l.text)}</span></div>`).join("")
     + `<p class="credit">${esc(c.credit||"")}</p>`;
-  const mp3="https://github.com/ryuguuu38/ai-kotsu/releases/download/audio/today"
+  const mp3="audio/today"   /* サイトと同じ場所に置いた音声（配布置き場のURLだとiPhoneで鳴らないため 2026-10-18） */
             +(castEd&&castEd!=="all"?"_"+castEd:"")+".mp3";
   const ready=(DATA.voice_ready||["all"]).indexOf(castEd)>=0;
   if(!ready){

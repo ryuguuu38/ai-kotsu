@@ -5,13 +5,27 @@ on:
     # 毎日 22:00 UTC = 日本時間の朝7:00
     - cron: "0 22 * * *"
   workflow_dispatch:
+  # 手元から送った（Push）とき：音声は作り直さず、サイトの公開だけする（下の deploy-only）
+  push:
+    branches: [main]
 
 permissions:
   contents: write
+  pages: write      # サイトを公開するため
+  id-token: write   # 公開を頼んだのがこの処理だと証明するため
 
 jobs:
   update:
+    # 毎朝の自動実行と、手動の実行のときだけ（Pushのときは動かない）
+    if: github.event_name != 'push'
     runs-on: ubuntu-24.04
+    # 公開が2つ同時に走らないように順番待ちにする
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -61,7 +75,7 @@ jobs:
       - name: サイトに音声の日付を反映する
         run: python build.py
 
-      # 4) 音声を配布用の置き場に上げる（リポジトリには入れない）
+      # 4) 音声を配布用の置き場にも上げる（予備。Pushのときの公開はここから音声を取る）
       - name: 音声を配布する
         env:
           GH_TOKEN: ${{ github.token }}
@@ -71,12 +85,63 @@ jobs:
           ls -la ./today*.mp3
           gh release upload audio ./today*.mp3 --clobber
 
-      # 5) 集めた結果を保存する
+      # 5) 集めた結果を保存する（音声は履歴に入れず、公開用のフォルダへ移す）
       - name: 結果を保存する
         run: |
-          rm -f ./today*.mp3
+          mkdir -p _site/audio
+          mv ./today*.mp3 _site/audio/
           git config user.name "ai-kotsu-bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A
           git diff --staged --quiet || git commit -m "自動更新 $(date -u +%Y-%m-%d)"
           git push
+
+      # 6) サイトと音声をひとまとめにして公開する
+      #    音声をサイトと同じ場所に置くと「音声」として正しく渡され、iPhoneでも鳴る
+      #    （配布置き場の音声は「ただのファイル」として渡されるため、iPhoneのSafariでは鳴らなかった）
+      - name: 公開する中身をそろえる
+        run: |
+          git ls-files -z | grep -zv '^\.github/' | xargs -0 cp --parents -t _site/
+          ls -la _site _site/audio
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      - name: サイトを公開する
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+  deploy-only:
+    # 手元から送った（Push）ときだけ。音声は作り直さず、配布置き場の今日の音声を使って公開する
+    if: github.event_name == 'push'
+    runs-on: ubuntu-24.04
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 今日の音声を配布置き場から取ってくる
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p _site/audio
+          gh release download audio --repo "${{ github.repository }}" --pattern "today*.mp3" --dir _site/audio
+          ls -la _site/audio
+
+      - name: 公開する中身をそろえる
+        run: |
+          git ls-files -z | grep -zv '^\.github/' | xargs -0 cp --parents -t _site/
+          ls -la _site
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      - name: サイトを公開する
+        id: deployment
+        uses: actions/deploy-pages@v5
