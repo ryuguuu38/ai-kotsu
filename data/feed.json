@@ -1,7 +1,163 @@
 {
- "updated": "2026-10-21 22:20",
+ "updated": "2026-10-22 22:21",
  "desc_blocked": false,
  "items": [
+  {
+   "kind": "note",
+   "title": "大人になった子どもとの親子関係を整える｜心配を信頼に変える、親のための6つのヒント",
+   "url": "https://note.com/ak_hikiyose/n/n0abc08a231fc",
+   "date": "2026-10-23",
+   "thumb": "https://assets.st-note.com/production/uploads/images/327227612/rectangle_large_type_2_a77fe4b613c473ebdccdacd5268194eb.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "大人になった子どもを心配して声をかけたら、返事がそっけなかった。助けになりたくて助言したのに、「自分で決めるから」と会話が終わった。そんなとき、親子関係の難しさに戸惑うことはないでしょうか。近づけば嫌がられる気がする。でも、何も聞かなければ冷たい親になってしまいそう。子どもの幸せを願っているのに、どう接すればいいのか分からなくなる。その迷いを、愛情が足りない証拠と考える必要はありません。続きをみる"
+  },
+  {
+   "kind": "youtube",
+   "title": "無料でここまでできる！いつもの Chrome の AI 活用法をまとめて紹介【 Gemini in Chrome 】",
+   "url": "https://www.youtube.com/watch?v=pZZo0bqcZLU",
+   "date": "2026-10-22",
+   "thumb": "https://i.ytimg.com/vi/pZZo0bqcZLU/mqdefault.jpg",
+   "author": "KEITO【AI&WEB ch】",
+   "pick": "オーナー指定",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【緊急解説】総理も動いたPHP脆弱性の大事件を、めちゃくちゃ分かりやすく解説。深刻度9.2の穴で何が起きて、何が怖いのか？背景・現状・今後を初心者向けに #Shorts",
+   "url": "https://www.youtube.com/watch?v=3Z5XxBmqxew",
+   "date": "2026-10-22",
+   "thumb": "https://i.ytimg.com/vi/3Z5XxBmqxew/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【Claude Duet】頼まなくても動く\"AI秘書\"が登場｜できること・安全性・日本で使える？",
+   "url": "https://www.youtube.com/watch?v=4y8ruOWGa2U",
+   "date": "2026-10-22",
+   "thumb": "https://i.ytimg.com/vi/4y8ruOWGa2U/mqdefault.jpg",
+   "author": "AI market",
+   "pick": "Claude推薦",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【PHP脆弱性】OpenAIのAIが発見｜ネット7割の危機と対策",
+   "url": "https://www.youtube.com/watch?v=4k66AR-Aw2E",
+   "date": "2026-10-22",
+   "thumb": "https://i.ytimg.com/vi/4k66AR-Aw2E/mqdefault.jpg",
+   "author": "AI market",
+   "pick": "Claude推薦",
+   "ai": "ChatGPT",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【PHP脆弱性】高市首相も異例の呼びかけ｜OpenAIのGPT-5.6 Solが見つけた\"致命的\"な穴と個人でできる対策",
+   "url": "https://www.youtube.com/watch?v=SXR9qhbnBRE",
+   "date": "2026-10-22",
+   "thumb": "https://i.ytimg.com/vi/SXR9qhbnBRE/mqdefault.jpg",
+   "author": "AI market",
+   "pick": "Claude推薦",
+   "ai": "ChatGPT",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【生配信】最新AIニュースを元AI開発者が忖度なしで斬る！話題のニュースの真実と裏側",
+   "url": "https://www.youtube.com/watch?v=zJKSnkJZo1E",
+   "date": "2026-10-22",
+   "thumb": "https://i.ytimg.com/vi/zJKSnkJZo1E/mqdefault.jpg",
+   "author": "Claudeを使えば苦労しない | フィアナ",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "⚡AIの活用方法やノウハウが学べる！初心者歓迎の無料オプチャ「フィアナのAI実験室」はこちら⚡"
+  },
+  {
+   "kind": "youtube",
+   "title": "【緊急】「PHP」に重大な脆弱性が発見！対応法、チェック方法を解説",
+   "url": "https://www.youtube.com/watch?v=VqZVE7KFi9I",
+   "date": "2026-10-22",
+   "thumb": "https://i.ytimg.com/vi/VqZVE7KFi9I/mqdefault.jpg",
+   "author": "mikimiki web スクール",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "note",
+   "title": "Node.js 脆弱性10件、Claude Code利用者は対象？更新手順",
+   "url": "https://note.com/claudecode_lab/n/n4d4fd245e46d",
+   "date": "2026-10-22",
+   "thumb": "https://assets.st-note.com/production/uploads/images/327104517/rectangle_large_type_2_78da9a01c583f4b0419dd2ba42ef9852.jpeg?width=800",
+   "author": "Claude Code Lab（note）",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "2026年10月21日、Node.js は脆弱性10件を修正した v22.23.4・v24.22.1・v26.12.1 を公開しました。最も重い CVE-2026-111497 は Brotli 圧縮データを展開する処理の不具合で、細工されたデータを Node.js のプロセスが処理すると不正なコードを実行される可能性があります。Claude Code の本体（ネイティブ版）は Node.js を使いませんが、Playwright MCP などのために入れた Node.js は対象です。手元の Mac で確認コマン"
+  },
+  {
+   "kind": "note",
+   "title": "【試験直前警告】AIに過去問の解説を頼むと不合格を引き寄せる？不正解の選択肢に架空の判例をあてがう「後付け合理化」の現場",
+   "url": "https://note.com/alix78/n/n434954724d1a",
+   "date": "2026-10-22",
+   "thumb": "https://assets.st-note.com/production/uploads/images/320709680/rectangle_large_type_2_44244c0475b818f865d7b05dc05dfb80.png?width=800",
+   "author": "アリス｜AI検証ログ（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「過去問の解説がよく分からないから、AIに間違いの理由を教えてもらおう」試験直前の貴重な追い込み期にそうやって勉強を進めているあなた、その効率的なはずの学習法が、今まさにあなたを不合格の奈落へと引きずり込んでいます。資格試験や公務員試験、大学受験の過去問演習で「選択肢3がなぜ誤りなのか」をAIに尋ねると、驚くほど流暢でもっともらしい解説が返ってきます。しかし、そこに潜む「後付け合理化ハルシネーション」と呼ばれる恐ろしい構造的欠陥をご存知でしょうか。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【誤謬解説狙撃】過去問解説AIのこじつけ論理と架空条文をあぶり出す「背理監査プロンプト」と自腹ツール比較レポート",
+   "url": "https://note.com/alix78/n/n6a6d19d033f4",
+   "date": "2026-10-22",
+   "thumb": "https://assets.st-note.com/production/uploads/images/320709752/rectangle_large_type_2_ba0edaa157dc47a2a2e4221fe4cecd93.png?width=800",
+   "author": "アリス｜AI検証ログ（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "無料記事では、資格試験や学術試験の過去問演習において、AIが不正解の選択肢に対して架空の法律や判例をあてがってしまう「後付け合理化ハルシネーション」の致命的な危険性をお伝えしました。もしあなたが、AIの解説を信じて「なるほど、この例外規定があるから誤りなのか」と納得したまま本番の試験会場に向かっていたら、1年間の努力と数十万円の受験費用が一瞬で水の泡になっていた可能性があります。「解説文の日本語がとても自然で論理的だったから、疑う余地すらなかった」そう振り返る受験生は非常に多いです。しかし、試験の合否を分けるのは文"
+  },
+  {
+   "kind": "note",
+   "title": "【組織のAI活用#283】総合職・非エンジニアがAIを「使う」から「作る・つなぐ」まで進むための記事ガイド。13本を読む順に並べました",
+   "url": "https://note.com/green_ai/n/n0321c839fe95",
+   "date": "2026-10-22",
+   "thumb": "https://assets.st-note.com/production/uploads/images/327071887/rectangle_large_type_2_7b1e23ff031d2fb8b20921f6fc11494a.png?width=800",
+   "author": "寺田昇平｜組織のAI活用（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "親子の同居がしんどいのは、愛情不足ではない。家族を大切にする「境界線」のつくり方",
+   "url": "https://note.com/ak_hikiyose/n/n23931fea3e0d",
+   "date": "2026-10-22",
+   "thumb": "https://assets.st-note.com/production/uploads/images/327024219/rectangle_large_type_2_62a9c49a53e3982ac58f83e336cb8e97.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "親子の同居は、安心を増やすはずだった。それなのに、夕食の時間、帰宅の連絡、休日の過ごし方まで気になってしまう。大きな事件があったわけではないのに、同じ家にいるだけで少し疲れる。そんな感覚を、あなたは「家族を大切にできていない証拠」だと思っていませんか。親の立場なら「心配しているだけなのに、なぜ嫌がられるのだろう」。子どもの立場なら「ありがたいと思っているのに、なぜこんなに息苦しいのだろう」。どちらの気持ちにも理由があります。感謝していることと、自由な時間が欲しいことは、同時にあってよいのです。続きをみる"
+  },
   {
    "kind": "note",
    "title": "親子関係を育てる「安心」の伝え方｜子どもが本音を話せる親になるために",
@@ -119,6 +275,18 @@
    "author": "AIの中の人",
    "pick": "Claude推薦",
    "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "iPhoneでAIが仕事を覚える！Genspark 6.0セカンドブレインの活用術",
+   "url": "https://www.youtube.com/watch?v=Z-eRd5g0mZ4",
+   "date": "2026-10-21",
+   "thumb": "https://i.ytimg.com/vi/Z-eRd5g0mZ4/mqdefault.jpg",
+   "author": "あいまる / iPhone×AI",
+   "pick": "Claude推薦",
+   "ai": "その他",
    "chapters": [],
    "summary": ""
   },
@@ -263,54 +431,6 @@
    "author": "AI market",
    "pick": "Claude推薦",
    "ai": "その他",
-   "chapters": [],
-   "summary": ""
-  },
-  {
-   "kind": "youtube",
-   "title": "【予告】米政府がDeepSeek削除を命令｜日本の利用者への影響 #shorts",
-   "url": "https://www.youtube.com/watch?v=Td7wlT1WWx0",
-   "date": "2026-10-20",
-   "thumb": "https://i.ytimg.com/vi/Td7wlT1WWx0/mqdefault.jpg",
-   "author": "AI market",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": ""
-  },
-  {
-   "kind": "youtube",
-   "title": "【ChatGPT新機能】パワポ資料づくりが激変｜Slidesの使い方",
-   "url": "https://www.youtube.com/watch?v=nxttTe80LB0",
-   "date": "2026-10-20",
-   "thumb": "https://i.ytimg.com/vi/nxttTe80LB0/mqdefault.jpg",
-   "author": "AI market",
-   "pick": "Claude推薦",
-   "ai": "ChatGPT",
-   "chapters": [],
-   "summary": ""
-  },
-  {
-   "kind": "youtube",
-   "title": "【ChatGPT新機能】コメントでAIが資料を直す｜使い方解説 #shorts",
-   "url": "https://www.youtube.com/watch?v=qvG3TwHCR-0",
-   "date": "2026-10-20",
-   "thumb": "https://i.ytimg.com/vi/qvG3TwHCR-0/mqdefault.jpg",
-   "author": "AI market",
-   "pick": "Claude推薦",
-   "ai": "ChatGPT",
-   "chapters": [],
-   "summary": ""
-  },
-  {
-   "kind": "youtube",
-   "title": "【予告】ChatGPT Slides｜スライドの上で直接直せる #shorts",
-   "url": "https://www.youtube.com/watch?v=i5Nfk0xUMgs",
-   "date": "2026-10-20",
-   "thumb": "https://i.ytimg.com/vi/i5Nfk0xUMgs/mqdefault.jpg",
-   "author": "AI market",
-   "pick": "Claude推薦",
-   "ai": "ChatGPT",
    "chapters": [],
    "summary": ""
   },
@@ -1040,18 +1160,6 @@
    "summary": "「今さら始めても、遅いんじゃないか」「ここまで準備したけれど、自分には無理かもしれない」。新しいことに取り組むとき、そんな声が心の中で大きくなることがあります。挑戦したい気持ちはあるのに、失敗した自分を想像すると、手が止まってしまうのです。続きをみる"
   },
   {
-   "kind": "note",
-   "title": "note副業の売上が伸びない人へ。一度きりで終わらせない「リストマーケティング」の始め方",
-   "url": "https://note.com/ak_hikiyose/n/nf6df6edc9e36",
-   "date": "2026-10-16",
-   "thumb": "https://assets.st-note.com/production/uploads/images/324701415/rectangle_large_type_2_47f722a21df1e5df07cc46d3d6a7e29a.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "記事は書いている。読んでくれる人もいる。ときどき有料記事も売れる。それなのに、翌月になると、またゼロから売上をつくっているような気持ちになる。note副業で、そんな疲れを感じていませんか。続きをみる"
-  },
-  {
    "kind": "youtube",
    "title": "【悲報】サイバー攻撃で仏スーパーの冷凍庫が50℃設定に｜霜取り機能を遠隔で悪用 政府発表で約700か所に影響 #Shorts",
    "url": "https://www.youtube.com/watch?v=RHYNvMnXzsA",
@@ -1074,18 +1182,6 @@
    "ai": "Copilot",
    "chapters": [],
    "summary": ""
-  },
-  {
-   "kind": "note",
-   "title": "中国の人型ロボットが2年で約7割値下がり――無人タクシーが走る街で始まった「AIが働く時代」の現実",
-   "url": "https://note.com/ak_hikiyose/n/n13c7f41be81a",
-   "date": "2026-10-15",
-   "thumb": "https://assets.st-note.com/production/uploads/images/324489713/rectangle_large_type_2_22a6b79ec6d16d8c6f65f09db7b2f498.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「AIが人間の仕事を奪う」。そんな言葉を聞いても、どこか遠い未来の話に感じていないでしょうか。画面の中で文章を作り、画像を生成するAIは便利になりました。でも、荷物を持ち上げたり、商品を手渡したり、混雑した道路で車を走らせたりするのは、まだ人間の仕事。そう考えるのも自然です。ところが、2026年夏の中国・北京を取材したNewsPicksの映像には、思わず目を止める場面が続きます。小さな店舗ではロボットが商品を取り出し、運転席に人のいないタクシーが車線を変更する。展示会では大きな変形ロボットの隣で、子どもたちが技術に"
   },
   {
    "kind": "note",
@@ -1713,18 +1809,6 @@
   },
   {
    "kind": "youtube",
-   "title": "【社内講座を全公開】Webのチャットはもう古い。同じClaude・ChatGPTなのになぜ使う人で差がつくのか？AIの性能を決める\"ハーネス\"をAI企業の代表が全社員に解説【前編】",
-   "url": "https://www.youtube.com/watch?v=tEA7wZFxEl0",
-   "date": "2026-10-09",
-   "thumb": "https://i.ytimg.com/vi/tEA7wZFxEl0/mqdefault.jpg",
-   "author": "チャエン【AI研究所】",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": ""
-  },
-  {
-   "kind": "youtube",
    "title": "【仕事が激変】AIガチ勢がGPT-6 Astraでやっている最強の神習慣！活用事例を全公開します。",
    "url": "https://www.youtube.com/watch?v=Ld90HjVpBo4",
    "date": "2026-10-09",
@@ -1880,18 +1964,6 @@
    "summary": ""
   },
   {
-   "kind": "youtube",
-   "title": "iPhone×ChatGPTで変わる！毎週の面倒な作業を完全自動化する「ナレッジ連携」",
-   "url": "https://www.youtube.com/watch?v=-bGIuTYIGdE",
-   "date": "2026-10-07",
-   "thumb": "https://i.ytimg.com/vi/-bGIuTYIGdE/mqdefault.jpg",
-   "author": "あいまる / iPhone×AI",
-   "pick": "Claude推薦",
-   "ai": "ChatGPT",
-   "chapters": [],
-   "summary": ""
-  },
-  {
    "kind": "note",
    "title": "Claude Codeの指示は3点で足りる？作り手Borisの書き方を実測",
    "url": "https://note.com/claudecode_lab/n/n4e4cd7fdc20c",
@@ -1914,18 +1986,6 @@
    "ai": "ChatGPT",
    "chapters": [],
    "summary": "こんにちは！ひつじです。今日、10月6日にGoogleの画像生成AI「Nano Banana 2.1」が出ましたね👇続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "【組織のAI活用#269】社内のAI活用ガイドラインを作るときに、押さえておきたい10のポイント",
-   "url": "https://note.com/green_ai/n/n5cef3fc31c05",
-   "date": "2026-10-07",
-   "thumb": "https://assets.st-note.com/production/uploads/images/321461855/rectangle_large_type_2_a054804dc813b6b42b97d94192fd8894.png?width=800",
-   "author": "寺田昇平｜組織のAI活用（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
   },
   {
    "kind": "youtube",
@@ -1962,18 +2022,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": "「文字が小さくて長すぎる利用規約を読むのが面倒だから、とりあえずAIに放り込んで要約させよう。『怪しい条項はある？』と聞いて『標準的な内容で問題ありません』と返ってきたから安心」そう思って、そのまま登録ボタンを押そうとしていませんか？その油断、今すぐ立ち止まってください。いま画面の向こうのあなたが信用したその要約の裏で、数万円の違約金と1年間の自動更新縛りが静かに見落とされている危険性が極めて高いのです。AIの性質上、確率的な誤出力のリスクをゼロにすることはできません。本検証データはエラーの発生率を最小化し、人間の"
-  },
-  {
-   "kind": "note",
-   "title": "【縛り条項迎撃】規約要約AIの例外間引きと自動更新トラップをあぶり出す「不利益条項スキャン構文」と自腹契約生ログ",
-   "url": "https://note.com/alix78/n/n7ce4fc4058dc",
-   "date": "2026-10-06",
-   "thumb": "https://assets.st-note.com/production/uploads/images/321104958/rectangle_large_type_2_88ae32d2df9eae6557ad218d4d198efb.png?width=800",
-   "author": "アリス｜AI検証ログ（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「このSaaS、海外で話題だし業務効率化のために今すぐ試してみたい。でも英語の利用規約が何万文字もあって読むのが苦痛だから、とりあえずAIにコピペして要約させよう」そう考えて、チャット欄に規約全文を放り込み、「怪しい条項はない？」「問題ないか要約して」と指示を出した経験がある方は多いはずです。そしてAIから「一般的なクラウドサービスの利用規約であり、ユーザーに著しい不利益を課す条項は見当たりません」という安心感に満ちた回答を受け取り、そのままクレジットカード情報を入力して登録ボタンを押す――。もしあなたがこれまでに"
   },
   {
    "kind": "note",
@@ -2132,18 +2180,6 @@
    "summary": "こんにちは！ひつじです。続きをみる"
   },
   {
-   "kind": "note",
-   "title": "【新規チャットの罠】ChatGPTの新しいスレッドで指示を出して安心していませんか？過去の記憶が裏で勝手に混入して要件を歪める「メモリ汚染」の現場",
-   "url": "https://note.com/alix78/n/ndc5d703f71ee",
-   "date": "2026-10-04",
-   "thumb": "https://assets.st-note.com/production/uploads/images/320719399/rectangle_large_type_2_638d669a4eef6a36b9c1e0a3d0ed03ec.png?width=800",
-   "author": "アリス｜AI検証ログ（note）",
-   "pick": "Claude推薦",
-   "ai": "ChatGPT",
-   "chapters": [],
-   "summary": "「新しいスレッドを立ち上げたから、まっさらな状態でゼロから指示できる」そう思い込んで、提出直前の重要レポートやビジネス文書の作成をChatGPTに頼んでいませんか？画面上に出力された丁寧な文章、実は「過去の雑談や別作業の古い前提」が裏で勝手に混入した歪んだ回答かもしれません。実際に私も、新規チャットのクリーンさを信じ切って手痛い失敗を経験しました。厳格なフォーマル文章を求めたはずなのに、なぜか過去に趣味の相談をしたときのくだけたトーンや無関係な前提条件が裏で静かに注入され、チグハグな成果物が出力されていたのです。A"
-  },
-  {
    "kind": "youtube",
    "title": "ChatGPT Codex AI活用【総まとめ】これで一気にわかる！資料作成・PC操作・Web制作など",
    "url": "https://www.youtube.com/watch?v=NImFdpHOSPA",
@@ -2176,18 +2212,6 @@
    "author": "ダイさん・AI活用の専門家",
    "pick": "Claude推薦",
    "ai": "Gemini",
-   "chapters": [],
-   "summary": ""
-  },
-  {
-   "kind": "youtube",
-   "title": "【AI時代の稼ぎ方】今ガチで稼げる最新AI副業はこれ｜AI歴13年のプロが初心者でもできる稼ぎ方を徹底解説",
-   "url": "https://www.youtube.com/watch?v=OY9x36Q47Gs",
-   "date": "2026-10-03",
-   "thumb": "https://i.ytimg.com/vi/OY9x36Q47Gs/mqdefault.jpg",
-   "author": "Claudeを使えば苦労しない | フィアナ",
-   "pick": "Claude推薦",
-   "ai": "その他",
    "chapters": [],
    "summary": ""
   },
@@ -2673,18 +2697,6 @@
   },
   {
    "kind": "youtube",
-   "title": "【驚愕】今のAI音声がリアルすぎる！Gemini 3.8 Flash TTSとChatGPT Voiceを解説",
-   "url": "https://www.youtube.com/watch?v=1a91FIjDPSY",
-   "date": "2026-09-25",
-   "thumb": "https://i.ytimg.com/vi/1a91FIjDPSY/mqdefault.jpg",
-   "author": "KEITO【AI&WEB ch】",
-   "pick": "オーナー指定",
-   "ai": "ChatGPT",
-   "chapters": [],
-   "summary": ""
-  },
-  {
-   "kind": "youtube",
    "title": "【会議に出せない】Google最強AI「Gemini Notebook」が作った資料を 出せる資料 にする3つの壁を徹底解説【NotebookLM】",
    "url": "https://www.youtube.com/watch?v=tXPrwV6gj64",
    "date": "2026-09-25",
@@ -2934,18 +2946,6 @@
    "ai": "Gemini",
    "chapters": [],
    "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。Google と note のコラボによる投稿コンテストに、いつもたくさんのご参加をありがとうございます。2025 年から多くの方にご参加いただいている Gemini と note のコラボ投稿コンテスト、この秋も開催します！9 月 18 日から始まる新しいコンテストのテーマは、「#AI とできたこと」です。続きをみる"
-  },
-  {
-   "kind": "youtube",
-   "title": "【更に進化‼️】「Gemini Notebook」最新アプデまとめ！（ウォーターマーク削除/レポート・クイズ進化/ショート日本語対応 etc）",
-   "url": "https://www.youtube.com/watch?v=4-dlxaDxzw0",
-   "date": "2026-09-17",
-   "thumb": "https://i.ytimg.com/vi/4-dlxaDxzw0/mqdefault.jpg",
-   "author": "mikimiki web スクール",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": ""
   },
   {
    "kind": "youtube",
@@ -3906,18 +3906,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": "「即戦力」という言葉を、自分はどういう意味で使っているのか。採用の話をするたびに引っかかっていたので、雇う価値があると判断できる最低ラインを一度書き出してみました。出てきたのは 5 項目です。書き終えて最初に思ったのは、これは本当に「最低」なのか、という戸惑いでした。数年前に自分が「一人前」と呼んでいた像と、ほとんど重なっていたからです。しかも中身は、手を動かして作れることよりも、要件と設計のどちらがおかしいのかを判断できることに寄っていました。エンジニアを雇う最低ラインの要件を言語化してみる続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "オントロジーでClaudeの性能を上げよう(1)：資料を足しても精度が上がらない本当の理由",
-   "url": "https://note.com/claudecode_lab/n/nab7c1119fb2e",
-   "date": "2026-07-31",
-   "thumb": "https://assets.st-note.com/production/uploads/images/297835379/rectangle_large_type_2_48f2ef0006c25c93b2504e12ab3159d1.png?width=800",
-   "author": "Claude Code Lab（note）",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "資料は山ほどある。ファイルも整理されている。それでもAIの答えが安定しない。原因は情報の量ではなく、情報どうしの関係が書かれていないことにあります。星は並んでいるのに、線が引かれていないため、星座が理解できない状態です。この線にあたるものが、オントロジーと呼ばれる仕組みです。続きをみる"
   },
   {
    "kind": "note",
