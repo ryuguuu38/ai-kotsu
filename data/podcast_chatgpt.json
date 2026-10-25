@@ -2,9 +2,9 @@
  "edition": "chatgpt",
  "label": "ChatGPT編",
  "date": "2026-10-24",
- "built": "2026-10-24 00:14",
- "minutes": 4.5,
- "chars": 1683,
+ "built": "2026-10-24 23:59",
+ "minutes": 5.6,
+ "chars": 2057,
  "lines": [
   {
    "who": "metan",
@@ -188,15 +188,27 @@
   },
   {
    "who": "metan",
-   "text": "1本目は、あいまる iPhone×AIさんの動画。ChatGPT新機能 SpaceとGoogleドキュメント・Notionは何が違う？効率的な選び方。"
+   "text": "1本目は、ダイさん・AI活用の専門家の動画。神アプデ ChatGPT Dots で何が変わる？自分専用AI秘書を実際に使って徹底解説 AI活用。"
   },
   {
    "who": "metan",
-   "text": "2本目は、あいまる iPhone×AIさんの動画。速報 ChatGPTに Space が登場。チームでページを編集する新しい使い方。"
+   "text": "2本目は、ナオヤ@AIヲタクさんの動画。神アプデ ChatGPT最新機能 dots ドッツ がヤバすぎる！24時間働くAIエージェントの始め方から活用事例3選！。"
   },
   {
    "who": "metan",
-   "text": "3本目は、SHIFT AI ニュースさんの動画。設定ほぼなし ChatGPT dots で分かる最新のAI秘書の仕組みと始め方。"
+   "text": "3本目は、寺田昇平 組織のAI活用 noteさんの記事。組織のAI活用 285 社内AIツールの違いと使い分け。Gemini・ChatGPT・Perplexity・GAS・Workspace Studioをやりたいこと別に選ぶ。"
+  },
+  {
+   "who": "zunda",
+   "text": "詳しく聞きたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ AI Digital Community ADC の代表理事や、顧客事業の ×AI化 をサポートするFURIKAKE Partners 株 と組織のAI活用を支援するプロダクトを提供するAI Portalize 株 の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみ。"
+  },
+  {
+   "who": "metan",
+   "text": "4本目は、あいまる iPhone×AIさんの動画。ChatGPT新機能 SpaceとGoogleドキュメント・Notionは何が違う？効率的な選び方。"
   },
   {
    "who": "metan",
@@ -204,11 +216,11 @@
   },
   {
    "who": "metan",
-   "text": "まず、ChatGPTの話。区切りを先に教えると、天井が来る？——バイトで学ぶ小さなAIが、トークンを追い抜くかもしれない。"
+   "text": "まず、ChatGPTの話。個人開発 月150ドルのAI課金沼から脱出した僕が、月20ドルで最強の生産性を手に入れた 90 10ルール。"
   },
   {
    "who": "metan",
-   "text": "つぎは、ChatGPTの話。Claude Duet登場、先回りして動くAIの相棒。"
+   "text": "つぎは、ChatGPTの話。2026年10月最新版 ChatGPT・Gemini・Claudeを徹底比較！GPT-6／Gemini 4／Claude 5.5、結局どれを選ぶ？。"
   },
   {
    "who": "zunda",
@@ -216,7 +228,7 @@
   },
   {
    "who": "metan",
-   "text": "最後は、ChatGPTの話。1バイト違えば不合格のCOBOL移行、OpenAI新モデルの正解率は？。"
+   "text": "最後は、ChatGPTの話。今週のAIの動き、営業・事務に関係ある3つ 10 18〜10 24。"
   },
   {
    "who": "zunda",

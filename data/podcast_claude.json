@@ -2,9 +2,9 @@
  "edition": "claude",
  "label": "Claude編",
  "date": "2026-10-24",
- "built": "2026-10-24 00:14",
- "minutes": 5.5,
- "chars": 2029,
+ "built": "2026-10-24 23:59",
+ "minutes": 5.8,
+ "chars": 2162,
  "lines": [
   {
    "who": "metan",
@@ -188,19 +188,27 @@
   },
   {
    "who": "metan",
-   "text": "1本目は、みかみ 東大退学させられた男さんの動画。逆効果 そのループがClaude Codeをダメにする。年商30億AI企業社長が教える本質のループエンジニアリング。"
+   "text": "1本目は、チャエン AI研究所さんの動画。AIエージェントで業務を自動化し売上まで作る\"ループ型AI駆動経営\"とは？ claudecode aiエージェント。"
   },
   {
    "who": "metan",
-   "text": "2本目は、チャエン AI研究所さんの動画。速報 Anthropicから新アプリ Claude Duet が米国で先行公開！dots・Grok Bot・Museと何が違う？パーソナルAIエージェント戦国時代を初心者向けに解説 Shorts。"
+   "text": "2本目は、Claude Code Lab noteさんの記事。Claude Duetは日本で使える？Claude Codeで朝の報告を再現。"
+  },
+  {
+   "who": "zunda",
+   "text": "詳しく聞きたいのだ！"
   },
   {
    "who": "metan",
-   "text": "3本目は、AI marketさんの動画。Claude×Gemini GoogleのAI基盤でClaude全機能が解禁 始め方と注意点。"
+   "text": "Anthropic が2026年10月21日に公開した Claude Duet は、接続したメールや予定表を数時間ごとに自分から確認し、毎朝 今日見るべきこと だけを知らせ、送信や支払いの前だけ承認を求める先回り型のエージェントです。ただし2026年10月24日時点で使えるのは米国の Pro・Max 加入者だけで、日本からは申し込めません。そこで同じ 朝の報告と承認待ちの下書き を、日本でも使える。"
   },
   {
    "who": "metan",
-   "text": "4本目は、AIの中の人さんの動画。ゼロからわかる Claude Codeで自分専用のAI社員を作って会社経営する方法について徹底解説します！。"
+   "text": "3本目は、みかみ 東大退学させられた男さんの動画。逆効果 そのループがClaude Codeをダメにする。年商30億AI企業社長が教える本質のループエンジニアリング。"
+  },
+  {
+   "who": "metan",
+   "text": "4本目は、チャエン AI研究所さんの動画。速報 Anthropicから新アプリ Claude Duet が米国で先行公開！dots・Grok Bot・Museと何が違う？パーソナルAIエージェント戦国時代を初心者向けに解説 Shorts。"
   },
   {
    "who": "metan",
@@ -208,11 +216,11 @@
   },
   {
    "who": "metan",
-   "text": "まず、Claudeの話。Claude Code 2026年10月アップデート——Modsでツール呼び出しをTypeScriptで横取りできるようになった。"
+   "text": "まず、Claudeの話。Max Pro 契約なのに Claude Code で Credit balance is too low が出るのは、環境に残った ANTHROPIC API KEY のせい。"
   },
   {
    "who": "metan",
-   "text": "つぎは、Claudeの話。Claude Mythos 5 、危害の兆候を顧みず実在の開発者を標的に──AnthropicとAISIが分析結果を公開。"
+   "text": "つぎは、Claudeの話。MCP Inspector v2のAutoでLegacyサーバに接続するときのリクエストとレスポンスを観測する。"
   },
   {
    "who": "zunda",
@@ -220,7 +228,7 @@
   },
   {
    "who": "metan",
-   "text": "最後は、Claudeの話。CLAUDE.md＆SKILL.md原本収録 非エンジニアのための 1コマンドAI社員組織化 完全テンプレート集 〜1人社長が7つのAI子会社・動画260本・note収益化を全自動運営する究極の設計図〜。"
+   "text": "最後は、Claudeの話。配筋詳細図もClaudeだ！。"
   },
   {
    "who": "zunda",
