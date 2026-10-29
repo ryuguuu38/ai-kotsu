@@ -1,7 +1,43 @@
 {
- "updated": "2026-10-28 00:56",
+ "updated": "2026-10-29 01:29",
  "desc_blocked": false,
  "items": [
+  {
+   "kind": "note",
+   "title": "【保存版】 AI時代のセキュリティ対策！大切な資産を守るために、今やるべきこと",
+   "url": "https://note.com/hituji1234/n/nafaabbe6c980",
+   "date": "2026-10-29",
+   "thumb": "https://assets.st-note.com/production/uploads/images/329670473/rectangle_large_type_2_93cce45b9826c140fdda3d0846926d06.png?width=800",
+   "author": "ひつじ（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "こんにちは！ひつじです。『AI時代に、大切な資産を守るために今やるべきこと』続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "AI活用で人生の選択肢を増やす。中田敦彦×堀江貴文の対談から考える、経験を価値に変える方法",
+   "url": "https://note.com/ak_hikiyose/n/nabfa5bce687f",
+   "date": "2026-10-29",
+   "thumb": "https://assets.st-note.com/production/uploads/images/329681077/rectangle_large_type_2_f3b04d3f92f1b7114bbf2385bcc07125.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「AIを使えば、作業が速くなる」。そう聞いて使い始めたのに、調べ物や文章の下書きだけで終わっていませんか。便利にはなった。でも、自分の未来が広がった実感まではない。そんな気持ちを抱く人にこそ、今回の対談は面白いヒントをくれます。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "Power Automateで「Excelが更新されたら営業へ連絡」を自動化してみた",
+   "url": "https://note.com/sc_microsoft/n/nbdb37d68d750",
+   "date": "2026-10-28",
+   "thumb": "https://assets.st-note.com/production/uploads/images/329046107/rectangle_large_type_2_a4f596b5eab8b315ab9e65a46fb5db24.png?width=800",
+   "author": "ソフクリMicrosoft（note）",
+   "pick": "Claude推薦",
+   "ai": "Copilot",
+   "chapters": [],
+   "summary": "こんにちマッスル！ マッスル福田です。普段は筋肉と Microsoft 365 を触っている Microsoft 認定トレーナーです！今回は、Excelのリストを更新するたびに、関係者へ手作業で連絡している方に向けて書きました！ 読み終えると、Excelのリストに行が追加されたらTeamsで担当者にメンション付きで通知されるフローを作れるようになります。 使うのは標準コネクタだけなので、Premiumライセンスは不要ですので、是非お試しくだサイドチェスト！！続きをみる"
+  },
   {
    "kind": "note",
    "title": "【組織のAI活用#286】GeminiのGem廃止で、スキルにどこまで移行できるか。画像・Canvas・ナレッジを現時点で試してみました",
@@ -16,6 +52,30 @@
   },
   {
    "kind": "note",
+   "title": "チュアンド・タンの若さの秘訣とは？食事・運動・睡眠から考える、無理なく続く健康習慣",
+   "url": "https://note.com/ak_hikiyose/n/n147a45d6736d",
+   "date": "2026-10-28",
+   "thumb": "https://assets.st-note.com/production/uploads/images/329351251/rectangle_large_type_2_8cfdad8a405888c6b5476f884f3bc8b3.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「最近、写真に写った自分が、思っていたより疲れて見える」。そんな瞬間はありませんか。鏡の中の顔、階段を上ったあとの息づかい、休日なのに残っている重だるさ。年齢を意識するきっかけは、大きな出来事より、こうした日常の小さな変化なのかもしれません。チュアンド・タンの若さの秘訣を紹介する今回の動画は、そんな気持ちに希望をくれる一本です。取り上げられているのは、シンガポールの写真家・モデルとして知られる人物。食事、運動、睡眠、スキンケア、ストレス管理という５つの切り口から、彼の生活が紹介されています。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "GitHubの使い方を初心者向けに解説｜AIと育てた文章・指示書を「消えない工夫」に変えよう",
+   "url": "https://note.com/ak_hikiyose/n/nc14d79490106",
+   "date": "2026-10-28",
+   "thumb": "https://assets.st-note.com/production/uploads/images/329325492/rectangle_large_type_2_2b1d559f4dd56a62015a5b01ea4e2461.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「AIに直してもらったら、前のほうがよかった。でも、もう戻せない」続きをみる"
+  },
+  {
+   "kind": "note",
    "title": "股関節を鍛えると毎日が変わる？いつまでも歩ける体を目指す、無理のない始め方",
    "url": "https://note.com/ak_hikiyose/n/nc5c27b7da0a4",
    "date": "2026-10-28",
@@ -25,6 +85,18 @@
    "ai": "その他",
    "chapters": [],
    "summary": "「前より、立ち上がるのがおっくうになった」「散歩に出たいのに、足が重い気がする」。そんな小さな変化に、年齢のせいだから仕方がないと、ため息をついていませんか。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "介護現場の「時間」を生み出す。「介護の現場を支える Gemini 活用ガイド」を無料公開",
+   "url": "https://note.com/google_gemini/n/n8be847eb615b",
+   "date": "2026-10-28",
+   "thumb": "https://assets.st-note.com/production/uploads/images/326074155/rectangle_large_type_2_e0a3244abae8e5a0d623485694651c36.png?width=800",
+   "author": "Gemini公式（note）",
+   "pick": "Claude推薦",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。 超高齢社会を迎えた日本において、介護現場で働く皆さんの業務負担軽減や人手不足への対応は、社会全体で向き合うべき大切な課題です。Google は、この課題に対してテクノロジーが貢献できることはないかと考え、介護現場に携わる方々と連携し、Gemini をはじめとした AI でサポートする取り組みを進めてきました。2026 年 3 月に発表した Gemini アプリの Gem「ケア記録アシスト」もそのひとつです。こちらの開発経緯"
   },
   {
    "kind": "note",
@@ -301,42 +373,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "AI副業は「何を作るか」で変わる。Claudeで生まれたゲームに学ぶ、好きと経験を仕事にする方法",
-   "url": "https://note.com/ak_hikiyose/n/n050fbee8a4d2",
-   "date": "2026-10-23",
-   "thumb": "https://assets.st-note.com/production/uploads/images/327533851/rectangle_large_type_2_926221ec7ab54f8d272d6225f36dd8ee.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "「AIでゲームを作って、月に約4万ドル」。そんな話を聞くと、期待と同時に、少し置いていかれたような気持ちになりませんか。AI副業に興味はある。でも、プログラミングはできないし、何を作ればいいかも分からない。便利なサービスを試すほど、選択肢ばかりが増えてしまう。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "PHPの脆弱性で何が起きた？AI時代に、自分の仕事と挑戦を守る方法",
-   "url": "https://note.com/ak_hikiyose/n/n169b4003d9c0",
-   "date": "2026-10-23",
-   "thumb": "https://assets.st-note.com/production/uploads/images/327403509/rectangle_large_type_2_07098629ff47ccb6d0832834139b4b06.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「AIで便利になったのに、守るものまで増えていた」。今回のPHPの脆弱性をめぐる動画を読み解いて、僕が強く感じたのは、この変化です。ホームページも、仕事の自動化も、自分で作った小さなサービスも、動いている間は裏側を意識しません。けれど、問題が起きた瞬間に「誰が管理しているのか」が問われます。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "大人になった子どもとの親子関係を整える｜心配を信頼に変える、親のための6つのヒント",
-   "url": "https://note.com/ak_hikiyose/n/n0abc08a231fc",
-   "date": "2026-10-23",
-   "thumb": "https://assets.st-note.com/production/uploads/images/327227612/rectangle_large_type_2_a77fe4b613c473ebdccdacd5268194eb.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "大人になった子どもを心配して声をかけたら、返事がそっけなかった。助けになりたくて助言したのに、「自分で決めるから」と会話が終わった。そんなとき、親子関係の難しさに戸惑うことはないでしょうか。近づけば嫌がられる気がする。でも、何も聞かなければ冷たい親になってしまいそう。子どもの幸せを願っているのに、どう接すればいいのか分からなくなる。その迷いを、愛情が足りない証拠と考える必要はありません。続きをみる"
   },
   {
    "kind": "note",
@@ -1372,18 +1408,6 @@
   },
   {
    "kind": "note",
-   "title": "SharePointはファイルサーバーではない？！Copilot時代に求められるファイル管理",
-   "url": "https://note.com/sc_microsoft/n/nc38da4fae12a",
-   "date": "2026-09-16",
-   "thumb": "https://assets.st-note.com/production/uploads/images/311826784/rectangle_large_type_2_5092127336002bf9f68ada9ec5bd0962.png?width=800",
-   "author": "ソフクリMicrosoft（note）",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
-   "chapters": [],
-   "summary": "はじめにソフトクリエイトで Microsoft 365 の設計・構築を担当している、野菜トリプル です。Entra/Intuneなどのインフラ、Defenderなどのセキュリティ製品の導入と並行して、SharePoint の設計・構築および管理者教育を担当しています。続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "「一人で抱え込まない」チームへ。Gemini を相棒にする、スポーツ現場のマネジメント術",
    "url": "https://note.com/google_gemini/n/nfe6b93b309fa",
    "date": "2026-09-15",
@@ -1564,18 +1588,6 @@
   },
   {
    "kind": "note",
-   "title": "『AI活用してるのに疲れる』 の理由と、何を任せるとラクになるか言語化してみた。",
-   "url": "https://note.com/hituji1234/n/n03674279ba60",
-   "date": "2026-08-31",
-   "thumb": "https://assets.st-note.com/production/uploads/images/308543999/rectangle_large_type_2_61e3abcbb26a8acac4eb49a1dc0ff131.png?width=800",
-   "author": "ひつじ（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "こんにちは！ひつじです。今日はAI活用の具体的なノウハウではなく「AIで仕事を楽にするには？」というテーマをお話ししたいなと。続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "【マジクラ】 Canvasって「切り離せる」の知ってた？ Geminiだけで作る\"自分専用サイドパネル\" 【Gem配布】",
    "url": "https://note.com/majin_108/n/n6d1ea8277de2",
    "date": "2026-08-29",
@@ -1681,18 +1693,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": "こんにちは、まじんです。今日から、夏休み特別企画として、新しい試みをしてみます！続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "Gemini Spark 登場！日常の「めんどう」をぜんぶ任せよう",
-   "url": "https://note.com/google_gemini/n/n6e460597975c",
-   "date": "2026-08-13",
-   "thumb": "https://assets.st-note.com/production/uploads/images/301008485/rectangle_large_type_2_971b53ff2dfc5c0de89713d3d1cf156e.jpeg?width=800",
-   "author": "Gemini公式（note）",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。誰かが代わりにやってくれればいいのに……そんな日常のやらなきゃリストが皆さんもあるかと思います。例えば、子どもとの忙しい毎日を送っていると、 Gmail に届く学校からの連絡メールが埋もれてしまい、提出物の締め切りをうっかり見落としそうになったことなども少なくないかもしれません。そんな願いを叶えてくれるのが、24 時間いつでもあなたをサポートする Google のパーソナル AI エージェント、 Gemini Spark で"
   },
   {
    "kind": "note",
