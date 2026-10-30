@@ -1,7 +1,19 @@
 {
- "updated": "2026-10-29 01:29",
+ "updated": "2026-10-30 01:31",
  "desc_blocked": false,
  "items": [
+  {
+   "kind": "note",
+   "title": "【組織のAI活用#287】広告媒体の公式MCPで、AIはどこまで操作できるのか。Google・Meta・TikTokなど8媒体の対応表と、APIやスクリプトとの使い分け",
+   "url": "https://note.com/green_ai/n/nb75c4b18b7cf",
+   "date": "2026-10-30",
+   "thumb": "https://assets.st-note.com/production/uploads/images/329371659/rectangle_large_type_2_f7942fa83215dfbb5107ab5b594e44e2.png?width=800",
+   "author": "寺田昇平｜組織のAI活用（note）",
+   "pick": "Claude推薦",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
   {
    "kind": "note",
    "title": "【保存版】 AI時代のセキュリティ対策！大切な資産を守るために、今やるべきこと",
@@ -16,6 +28,18 @@
   },
   {
    "kind": "note",
+   "title": "家トレが続く人は、意志より環境を変えている。ジムで挫折しても、体づくりはやり直せる",
+   "url": "https://note.com/ak_hikiyose/n/n6d169b2d14bb",
+   "date": "2026-10-29",
+   "thumb": "https://assets.st-note.com/production/uploads/images/329820157/rectangle_large_type_2_6c45adccf9894394aab18ade15256d17.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「今度こそ、ちゃんと運動しよう」。そう思ってジムに申し込んだのに、気づけば会費だけを払い続けている。あるいは、家トレの動画を保存したまま、今日も再生できずに一日が終わってしまう。そんな経験があると、「自分は何をやっても続かない」と思いたくなります。でも、そこで性格に結論を出すのは、少し早いかもしれません。見直したいのは、あなたの根性ではなく、運動を始めるまでに必要な準備や移動です。続きをみる"
+  },
+  {
+   "kind": "note",
    "title": "AI活用で人生の選択肢を増やす。中田敦彦×堀江貴文の対談から考える、経験を価値に変える方法",
    "url": "https://note.com/ak_hikiyose/n/nabfa5bce687f",
    "date": "2026-10-29",
@@ -25,6 +49,18 @@
    "ai": "その他",
    "chapters": [],
    "summary": "「AIを使えば、作業が速くなる」。そう聞いて使い始めたのに、調べ物や文章の下書きだけで終わっていませんか。便利にはなった。でも、自分の未来が広がった実感まではない。そんな気持ちを抱く人にこそ、今回の対談は面白いヒントをくれます。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【けんすうさん】「100 倍にするなら？」から始める AI 時代の仕事術",
+   "url": "https://note.com/google_gemini/n/n91335a03fed9",
+   "date": "2026-10-29",
+   "thumb": "https://assets.st-note.com/production/uploads/images/329476780/rectangle_large_type_2_de2a91fd01fdbdd71ec676efdd77cb25.jpeg?width=800",
+   "author": "Gemini公式（note）",
+   "pick": "Claude推薦",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。「この仕事を 100 倍にするなら、どうする？」AI の使い道に迷ったとき、けんすうさんはこう考えるそうです。AI を使い始めてはみたものの、頼んでいるのは文章の下書きや要約くらいで、仕事の進め方はあまり変わっていない。そんな方も多いのではないでしょうか。今回お話を伺ったのは、アル株式会社 代表取締役のけんすうさん（古川健介さん）です。けんすうさんには、J-WAVE『STEP ONE』内の期間限定コーナー『Google Cl"
   },
   {
    "kind": "note",
@@ -349,18 +385,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": "「もっと頑張れば、いつか安心できる」。そう思って走ってきたのに、目標を達成すると、また次の目標が現れる。暮らしをよくしたいだけなのに、気づけば、今日を楽しむことまで後回しになっていないでしょうか。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "引き寄せの法則は「選択」と「ありがとう」から。お金と未来への向き合い方を変える小さな習慣",
-   "url": "https://note.com/ak_hikiyose/n/nb1f8bf8ca77f",
-   "date": "2026-10-24",
-   "thumb": "https://assets.st-note.com/production/uploads/images/327635608/rectangle_large_type_2_2475323d8a91c8cf317f419c19838c23.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「引き寄せの法則を試しているのに、現実が変わらない」。そんなとき、願い方が足りないのか、もっと前向きにならなければいけないのかと、自分を責めてしまうことはありませんか。お金のこと、仕事のこと、これからの生き方。変えたい気持ちが強いほど、何も起きない毎日がもどかしく感じられます。続きをみる"
   },
   {
    "kind": "note",
@@ -841,18 +865,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": "「AIに原稿を渡せば、誰でも一瞬でKindle書籍が出版できる」そう信じて自作コンテンツの電子書籍化や原稿整理をAIに丸投げしていませんか？プレビューでは綺麗に見えるその本、実は読者の端末で開いた瞬間に文字が重なりリンクが無限ループする危険な欠陥ファイルかもしれません。実際に私もAI組版の手軽さに浮かれて盛大に痛い目を見ました。PC上では完璧に見えたファイルを配信した結果、読者から「ルビが本文と被って読めない」「注釈を押すと目次に飛ぶ」という品質通報が相次ぎ、ストアから警告メールとともに強制販売停止（ブロック）を食"
-  },
-  {
-   "kind": "note",
-   "title": "【組織のAI活用#273】Gemini Notebook（旧NotebookLM）で社内ナレッジをAI化する、つまずき別の記事ガイド。ノートブックの分け方から情報の更新、FAQの自動化まで",
-   "url": "https://note.com/green_ai/n/n36b806cc231b",
-   "date": "2026-10-11",
-   "thumb": "https://assets.st-note.com/production/uploads/images/322736124/rectangle_large_type_2_adf63fb602872113c23ee4db42fa94bc.png?width=800",
-   "author": "寺田昇平｜組織のAI活用（note）",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
   },
   {
    "kind": "note",
@@ -1609,18 +1621,6 @@
    "ai": "Gemini",
    "chapters": [],
    "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」公式 note 編集部です。 今回は前後編にわたって、「介護ケアの現場でテクノロジーがどのように活用できるか」というテーマで記事をお届けしています。前編では、2026 年 3 月に Google が公開した Gemini アプリの Gem「ケア記録アシスト」のご紹介と、開発の背景をお伝えしました。「ケア記録アシスト」は、介護記録が現場の負担となっているという声を受け、専門的な介護記録の草案を瞬時に作成できる Gem です。テキストだけでなく、音声や写真な"
-  },
-  {
-   "kind": "note",
-   "title": "「紙の文化」が残る介護現場で、AI が「頼れるパートナー」になるまで",
-   "url": "https://note.com/google_gemini/n/n6e7d392c0bac",
-   "date": "2026-08-25",
-   "thumb": "https://assets.st-note.com/production/uploads/images/306479264/rectangle_large_type_2_185fabaa84fb69bc0c749dd26a30668c.png?width=800",
-   "author": "Gemini公式（note）",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」公式 note 編集部です。 今回の note のテーマは「介護ケア」です。内閣府の「令和 8 年版高齢社会白書」によると、日本の高齢化率（65 歳以上の占める割合）は 29.4%。この高齢化社会では、介護人材の不足は課題のひとつとなっています。一方で、テクノロジーを活用して、介護業務の効率化や現場のサポートを行う「介護 DX」も始まっています。しかし、介護現場では、ケアをしながらの端末操作が難しいといった課題や、ツール自体への心理的ハードルがあり、デジ"
   },
   {
    "kind": "note",
