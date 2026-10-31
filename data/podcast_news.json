@@ -1,10 +1,10 @@
 {
  "edition": "news",
  "label": "ニュース編",
- "date": "2026-10-30",
- "built": "2026-10-30 01:31",
- "minutes": 3.7,
- "chars": 1378,
+ "date": "2026-10-31",
+ "built": "2026-10-31 01:24",
+ "minutes": 3.3,
+ "chars": 1226,
  "lines": [
   {
    "who": "metan",
@@ -20,75 +20,43 @@
   },
   {
    "who": "metan",
-   "text": "まず、Claudeの話。Claude API 2026-10-21の破壊的変更を自作ツールで検証——SDK 2.0でtemperatureが消えた。"
+   "text": "まず、Claudeの話。Claude Code 開発者が注目している5つのアップデート v2.1.311 - v2.1.316。"
   },
   {
    "who": "metan",
-   "text": "3行まとめ 2026年10月21日、Claude APIに3年ぶりの新しいAPIバージョン 2026-10-21 が出た。"
+   "text": "網羅的な変更点一覧は リリースノートまとめ にあるので、今回は なぜ注目に値するか にフォーカスします。"
   },
   {
    "who": "metan",
-   "text": "つぎは、Claudeの話。MCPという言葉は知っているが、AWSの上でAIエージェントにどう組み込めばいいか分からないエンジニアへ。基礎から実運用を見据えたハンズオンまで追える一冊。"
+   "text": "つぎは、こんな話。源泉徴収票の電子提出義務が2027年1月から30枚以上に拡大 今年の年末調整からシステムを整える3つのステップ。"
   },
   {
    "who": "metan",
-   "text": "MCPという言葉はあちこちで目にするのに、AWSを使っている自分の環境で、何を作ればAIエージェントが外部のツールにつながるのかが分からない。しくみを押さえずに試していると、動いたとしても、認証や運用の部分で行き詰まる。"
+   "text": "それから、Claudeの話。AIの 費用対効果が分からない 問題、解決へ？ Claude Enterprise搭載の 3つの新機能。"
   },
   {
    "who": "metan",
-   "text": "それから、ChatGPTの話。OpenAI、AIの行動指針 Model Spec を改定 “記憶”の使い方や人間による監督を明記。"
-  },
-  {
-   "who": "metan",
-   "text": "OpenAIは、AIの振る舞い指針 Model Spec の改定版を公開した。全体を5つの価値観に沿って再構成し、メモリや会話履歴の適切な扱い、エージェント自律動作時の人間による監督への服従などを規定。"
+   "text": "AI導入が進む中で、IT部門は費用対効果を厳しく問われる局面に入っている。Anthropicが企業向けプラン Claude Enterprise に追加した新機能は、その説明材料になるか。利用状況の可視化から予算の配分まで、3つの機能の中身とは。"
   },
   {
    "who": "zunda",
-   "text": "それ早く言ってほしかったのだ！"
+   "text": "それは知らなかったのだ…"
   },
   {
    "who": "metan",
-   "text": "お次は、こんな話。理想MEGA、一部注文でCATL製電池を供給できず――自社開発 連山 電池への変更等をお願い 中国自動車ニュース速報2026年10月30日。"
+   "text": "お次は、ChatGPTの話。とりあえずChatGPT で消耗していませんか——乱立する生成AIを、賢く使い分ける技術。"
   },
   {
    "who": "metan",
-   "text": "こんなのも出ていたわ、こんな話。You don’t need to believe in a god to get a religious exemption from using AI at work。"
+   "text": "AIといえば、まあChatGPTでしょ 。——その一択、もったいないかもしれません。2026年の生成AIの業界地図は、新興勢力の台頭と企業間の連携で、競争が一気に激化しています ^1 。"
   },
   {
    "who": "metan",
-   "text": "さらに、Claudeの話。自律AIエージェントの 待ち時間 がいちばん高くついた話 — 1日22回起動・$8.15の内訳と、休止ファイルという対策。"
+   "text": "こんなのも出ていたわ、こんな話。Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia。"
   },
   {
    "who": "metan",
-   "text": "AI Claude が自分で書いています。AIが人間の指示なしで小さな事業を運営する実験の中で、実際に起きたことと対策を紹介します。数字は実測です 推測の部分はそう書きます 。"
-  },
-  {
-   "who": "zunda",
-   "text": "メモしておくのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "もうひとつ、Claudeの話。Usage and Cost Analytics API ベータ公開と旧API移行・リクエスト上限128MB拡大。"
-  },
-  {
-   "who": "metan",
-   "text": "2026年10月28日〜29日に、Anthropic の API まわりで次の3つの変更がありました。組織のトークン使用量とコストを取得できます。"
-  },
-  {
-   "who": "metan",
-   "text": "つぎは、こんな話。mlx-community の Mellum2 4bit は壊れていた — 4bit で1 4、6bit で4 4。却下の前に量子化を1つ替える。"
-  },
-  {
-   "who": "metan",
-   "text": "Mac Studio M2 で、コード生成とテスト生成をローカル LLM に任せている。"
-  },
-  {
-   "who": "metan",
-   "text": "それから、こんな話。2026年10月30日 今日のQiitaトレンド記事をポッドキャストで聴こう！。"
-  },
-  {
-   "who": "metan",
-   "text": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！"
+   "text": "さらに、Claudeの話。Claude Code v2.1.311 - v2.1.316 リリースノートまとめ。"
   },
   {
    "who": "zunda",
@@ -96,7 +64,35 @@
   },
   {
    "who": "metan",
-   "text": "最後は、Claudeの話。Claude Codeのスキル自作 SKILL.mdが呼ばれない7つの原因。"
+   "text": "もうひとつ、Claudeの話。一人でできることの範囲が、変わってしまった 個人開発SaaS fuSen 第十七話。"
+  },
+  {
+   "who": "metan",
+   "text": "Claude Code AI と2ヶ月で開発した日本初のWebサイト校正ツール fuSen の開発ブログです。"
+  },
+  {
+   "who": "metan",
+   "text": "つぎは、Claudeの話。CLAUDE.md の 重要 や YOU MUST に、効果はあるのか？。"
+  },
+  {
+   "who": "metan",
+   "text": "ネタは人が選び、検証と執筆は Claude Code が行いました。人は公開前の確認もしています。"
+  },
+  {
+   "who": "metan",
+   "text": "それから、こんな話。ブラウザゲームに、サーバーを書かずにランキング・セーブ・オンライン対戦を付ける Asobiai の AIGame SDK。"
+  },
+  {
+   "who": "metan",
+   "text": "こんにちは、AI で作ったゲームの投稿サイト Asobiai の案内役、アソビです。AI に頼めばブラウザゲームはすぐできるけど、ランキングやセーブ、オンライン対戦を付けようとすると、サーバーとログインの仕組みが必要になっちゃうよね。"
+  },
+  {
+   "who": "zunda",
+   "text": "うわ、損してたのだ…"
+  },
+  {
+   "who": "metan",
+   "text": "最後は、Claudeの話。Claude Codeの作業をフォルダが変わっても再開する。"
   },
   {
    "who": "zunda",

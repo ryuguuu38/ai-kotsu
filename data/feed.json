@@ -1,7 +1,31 @@
 {
- "updated": "2026-10-30 01:31",
+ "updated": "2026-10-31 01:24",
  "desc_blocked": false,
  "items": [
+  {
+   "kind": "note",
+   "title": "英語脳の作り方｜日本語を訳す前に考えたい「3ステップ」と毎日の練習法",
+   "url": "https://note.com/ak_hikiyose/n/n9b2d0eb439e1",
+   "date": "2026-10-31",
+   "thumb": "https://assets.st-note.com/production/uploads/images/330359823/rectangle_large_type_2_c4ed841bede333090578ef3a8f45ff76.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「単語は知っている。文法も勉強した。それなのに、話そうとすると止まってしまう」。英語脳の作り方を探している方の中には、そんなもどかしさを抱えている人もいるのではないでしょうか。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "Claude Codeのサブエージェント、30秒ごとの要約の費用を10条件で実測",
+   "url": "https://note.com/claudecode_lab/n/n641a30f7cb2f",
+   "date": "2026-10-30",
+   "thumb": "https://assets.st-note.com/production/uploads/images/330092029/rectangle_large_type_2_a4a25882d09946bcf5192d5ccc007fb5.jpeg?width=800",
+   "author": "Claude Code Lab（note）",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "Claude Code（クロードコード）でサブエージェントを背景で動かしていると、画面に出る3〜5語の状況表示を作るために、約30秒ごとにそのエージェントの会話全体がモデルへ送られています。「agent_summary」と呼ばれるこの送信が、2026年10月29日に英語圏で話題になりました。当研究所のMacで10通りの条件を測ると、Haikuのサブエージェント1体を約3分動かしただけで要約は6回送られ、会話全体の推定費用の**16%**を占めました。この記事では、何が送られているのか、どんな使い方で増えるのか、止め"
+  },
   {
    "kind": "note",
    "title": "【組織のAI活用#287】広告媒体の公式MCPで、AIはどこまで操作できるのか。Google・Meta・TikTokなど8媒体の対応表と、APIやスクリプトとの使い分け",
@@ -13,6 +37,42 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "英語脳の作り方｜「知っているのに話せない」を変える、置き換えと塊の英会話練習",
+   "url": "https://note.com/ak_hikiyose/n/n68fc775749fd",
+   "date": "2026-10-30",
+   "thumb": "https://assets.st-note.com/production/uploads/images/330120953/rectangle_large_type_2_12038112585eedcdb5e0fec0fbd70ade.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "英単語は知っている。簡単な英文なら読める。それなのに、いざ話そうとすると「ええと……」で止まってしまう。英語脳の作り方を探している人の中には、そんなもどかしさを何度も感じてきた方がいると思います。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "英語が聞き取れないのは、才能のせい？知っている単語が聞こえ始める「音の変化」入門",
+   "url": "https://note.com/ak_hikiyose/n/n0ae2f9bdfb6b",
+   "date": "2026-10-30",
+   "thumb": "https://assets.st-note.com/production/uploads/images/330075677/rectangle_large_type_2_d150f58df3754d61316a0cef8b1f47e3.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "英語が聞き取れない。でも、字幕を見たら知っている単語ばかりだった。そんな経験はありませんか。難しい専門用語が並んでいたわけでも、文法が複雑だったわけでもない。それなのに、音になった途端、意味がつかめなくなる。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "AI 時代の学びをどう考える？Gemini と探る高等教育の未来",
+   "url": "https://note.com/google_gemini/n/nafe0766e45e7",
+   "date": "2026-10-30",
+   "thumb": "https://assets.st-note.com/production/uploads/images/327550541/rectangle_large_type_2_cf3f6cc95f7a0c4c19b8dfe03088eeed.jpeg?width=800",
+   "author": "Gemini公式（note）",
+   "pick": "Claude推薦",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。2026 年 9 月 29 日（火）、Google 渋谷オフィスにて、全国の大学リーダーや教育関係者をお迎えし Google for Education 主催の「Higher Education Leader Series Japan 2026」が開催されました。続きをみる"
   },
   {
    "kind": "note",
@@ -304,18 +364,6 @@
   },
   {
    "kind": "note",
-   "title": "結婚51年の夫婦に学ぶ、夫婦円満の秘訣。「日常を祝う」と人生はもっと楽しみになる",
-   "url": "https://note.com/ak_hikiyose/n/n35d7acceb46b",
-   "date": "2026-10-25",
-   "thumb": "https://assets.st-note.com/production/uploads/images/327846881/rectangle_large_type_2_6e86d96405549d3c6b743a7a3313949a.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「夫婦で長く一緒にいると、幸せよりも我慢が増えていくのだろうか」。そんな疑問を持ったことはありませんか。仕事、家事、子育て、将来への備え。目の前の用事をこなすだけで一日が終わり、隣にいる人と何を楽しみたかったのか、わからなくなる日もあります。続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "Claude Duetは日本で使える？Claude Codeで朝の報告を再現",
    "url": "https://note.com/claudecode_lab/n/n5684ab1cb556",
    "date": "2026-10-24",
@@ -361,30 +409,6 @@
    "ai": "ChatGPT",
    "chapters": [],
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "夜中の同じ時間に目が覚めるのはなぜ？中途覚醒の不安をほどく、今夜からの３つの習慣",
-   "url": "https://note.com/ak_hikiyose/n/ncbfbf1a26bf6",
-   "date": "2026-10-24",
-   "thumb": "https://assets.st-note.com/production/uploads/images/327725203/rectangle_large_type_2_3374ade9a6534ac7b4995b4874af9955.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "なこや5まや午前３時。ふと目が覚めて時計を見た瞬間、「また、この時間だ」と胸が重くなる。まだ眠れるはずなのに、明日の仕事、家族のこと、言いそびれた言葉まで頭の中に集まってくる。夜中の同じ時間に目が覚めると、眠れないこと以上に「自分はどこかおかしいのでは」と感じてしまうことがあります。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "今を生きると、日常の豊かさが見えてくる。日本を愛する旅人夫婦から学ぶ、幸せを先送りにしない暮らし方",
-   "url": "https://note.com/ak_hikiyose/n/ndf6c8be5fe24",
-   "date": "2026-10-24",
-   "thumb": "https://assets.st-note.com/production/uploads/images/327836167/rectangle_large_type_2_242215b1bd7686cfbe0109aaf178e202.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「もっと頑張れば、いつか安心できる」。そう思って走ってきたのに、目標を達成すると、また次の目標が現れる。暮らしをよくしたいだけなのに、気づけば、今日を楽しむことまで後回しになっていないでしょうか。続きをみる"
   },
   {
    "kind": "note",
@@ -1612,18 +1636,6 @@
   },
   {
    "kind": "note",
-   "title": "生まれた時間を、利用者との対話へ。AI が「人を繋ぐ」介護の未来",
-   "url": "https://note.com/google_gemini/n/nc45fe0d799d4",
-   "date": "2026-08-26",
-   "thumb": "https://assets.st-note.com/production/uploads/images/306481823/rectangle_large_type_2_ed3fcc72aad18111f61d20b80537488d.jpeg?width=800",
-   "author": "Gemini公式（note）",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」公式 note 編集部です。 今回は前後編にわたって、「介護ケアの現場でテクノロジーがどのように活用できるか」というテーマで記事をお届けしています。前編では、2026 年 3 月に Google が公開した Gemini アプリの Gem「ケア記録アシスト」のご紹介と、開発の背景をお伝えしました。「ケア記録アシスト」は、介護記録が現場の負担となっているという声を受け、専門的な介護記録の草案を瞬時に作成できる Gem です。テキストだけでなく、音声や写真な"
-  },
-  {
-   "kind": "note",
    "title": "【夏休み企画#2】 IMPORTRANGE × QUERY関数で差をつけろ！ 【kimura】",
    "url": "https://note.com/majin_108/n/n450b251dce02",
    "date": "2026-08-22",
@@ -1657,18 +1669,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "ウェブサイトのフォルダを渡すだけで、全ページの右下に「AIに相談」ボタンが付くClaude Codeスキル「ask-ai-widget」を販売します。訪問者がボタンを押すと、そのページの内容に合わせた質問が3つ並び、ChatGPT・Claude・Gemini・Perplexityから選んだAIが質問入りで開く。サイト側にサーバーもAPIキーも要らないので、月額0円で動きます。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "オントロジーでClaudeの性能を上げよう(4)：事務職編、事務作業や変更を一発で洗い出す",
-   "url": "https://note.com/claudecode_lab/n/n58abee2e1feb",
-   "date": "2026-08-18",
-   "thumb": "https://assets.st-note.com/production/uploads/images/299222067/rectangle_large_type_2_6e2978402305be0f2d05ff0b67f40d8c.png?width=800",
-   "author": "Claude Code Lab（note）",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "シリーズ最終回は、事務職の日常業務にオントロジーを持ち込む話です。第1回から第3回で説明した用語の軽い説明から始めます。続きをみる"
   },
   {
    "kind": "note",
