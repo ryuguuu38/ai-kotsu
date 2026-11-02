@@ -1,10 +1,10 @@
 {
  "edition": "news",
  "label": "ニュース編",
- "date": "2026-11-01",
- "built": "2026-11-01 00:39",
- "minutes": 4.1,
- "chars": 1514,
+ "date": "2026-11-02",
+ "built": "2026-11-02 01:14",
+ "minutes": 4.3,
+ "chars": 1583,
  "lines": [
   {
    "who": "metan",
@@ -20,27 +20,23 @@
   },
   {
    "who": "metan",
-   "text": "まず、こんな話。AIに 分からない と言わせるプロンプト。"
+   "text": "まず、ChatGPTの話。ChatGPT・Claude・CodexをつないでAI開発チームを作ってみた AI間Handoff 要約編。"
   },
   {
    "who": "metan",
-   "text": "AIは、情報が足りなくてもそれらしい答えを返してきます。分かりません とはなかなか言いません。AIに慣れていない人ほど、この自信のある回答をそのまま信じてしまいます。この記事では、AIにあえて 分からない と言わせるプロンプトを紹介します。"
+   "text": "結論：複数のAIが資料を共有し、タスクを引き継ぐ仕組みを、一部に手動操作を残しながら実現しました。ChatGPTを設計・相談役、Claudeを実装担当、Codexをレビュー担当として、開発を進めていました。"
   },
   {
    "who": "metan",
-   "text": "つぎは、ChatGPTの話。ChatGPTは毎日使っているが、答えがぶれたとき、聞き方のせいかモデルのせいか切り分けられない人へ。プロンプトの改善手順をAPI活用まで体系的に学べる一冊。"
+   "text": "つぎは、こんな話。LM Studioが0.0.0.0で待ち受けていた ローカルLLM点検4項目。"
   },
   {
    "who": "metan",
-   "text": "ChatGPTに質問すると、うまくいく日もあれば、同じ聞き方なのにまるで的外れな答えが返ってくる日もある。そのたびに言い回しを足したり削ったりして、勘で直しているうちに、何が効いたのか自分でも分からなくなる。"
+   "text": "それから、Claudeの話。Anthropic、 Claude の Max 20x を Ultra に名称変更 月200ドルで5時間ごとの利用制限を撤廃。"
   },
   {
    "who": "metan",
-   "text": "それから、ChatGPTの話。AI学習への利用拒否をrobots.txtで一括指定へ OpenAIやGoogleなどが対応表明。"
-  },
-  {
-   "who": "metan",
-   "text": "OpenAI、Google、Microsoftは、Webサイト運営者がAI学習へのコンテンツ利用に関する意向を一括で指定できる共通の仕組みへの対応を発表した。Anthropicも担当者が個人名義で実装を表明している。"
+   "text": "Anthropicは、 Claude の個人向け有料プランの名称を変更し、月額100ドルの Max 5x を Max に、月額200ドルの Max 20x を Ultra にした。Ultraでは確認済みアカウントを対象に、5時間ごとの利用制限を撤廃した。"
   },
   {
    "who": "zunda",
@@ -48,23 +44,23 @@
   },
   {
    "who": "metan",
-   "text": "お次は、Claudeの話。Claudeで週次SEOレポートを作った。運用で詰まったところ全部書く。"
+   "text": "お次は、Copilotの話。GitHub、 Copilot Fusion 正式リリース。タスクに応じて最適なAIモデル選択で高性能かつ低コストに。GitHub Universe 2026。"
   },
   {
    "who": "metan",
-   "text": "個人で サイトドック という、Webサイトの技術的なSEO状態を診断するサービスを作っています。URLを入れると表示速度などを無料でその場で診断でき、有料プランでは毎週自動で診断して日本語のレポートを出します。"
+   "text": "GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント GitHub Universe 2026 で、新機能 GitHub Copilot Fusion の正式リリースを発表しました。"
   },
   {
    "who": "metan",
-   "text": "こんなのも出ていたわ、Claudeの話。Claude Code のスキルを削って 1 つにまとめたら、4 分の 1 の長さで精度はむしろ上がった。"
+   "text": "こんなのも出ていたわ、Claudeの話。ソフトウェアは AIが操作する 時代へ Crafting Apps × Claude × MCPでクリエイティブワークを自動化。"
   },
   {
    "who": "metan",
-   "text": "354 行の手順書を 79 行に削り、別のスキルに分かれていた検証を、手順の最後にまとめています。4 分の 1 の長さになっても精度は落ちず、むしろ上がっています。"
+   "text": "さらに、Claudeの話。Agent Skills が財団へ移った週に、手持ちのSKILL.md 83本を公開仕様と照合した。"
   },
   {
    "who": "metan",
-   "text": "さらに、こんな話。No.-20 1人で作ったAIツールが約120億円を生み出した衝撃。組織の常識を破壊する AI一人会社 の生存戦略。"
+   "text": "2026-10-22、Anthropic が Agent Skills AI に仕事の手順を覚えさせる SKILL.md のフォルダ を、Linux Foundation 傘下の Agentic AI Foundation AAIF へ寄贈しました。"
   },
   {
    "who": "zunda",
@@ -72,31 +68,39 @@
   },
   {
    "who": "metan",
-   "text": "もうひとつ、Claudeの話。Claude Code で Qiita に投稿、3日とも1回目は空振り：二重投稿を避けて押し直す手順。"
+   "text": "もうひとつ、Claudeの話。自律AIエージェントに投稿させたら --help を世界に公開した話 — 誤投稿を送る前に止める3つの関門 コード付き。"
   },
   {
    "who": "metan",
-   "text": "AI Anthropic社のClaude が書き、持ち主のアカウントで、AIがブラウザを操作して投稿しています。個人の実験で、Anthropic社とは無関係です。同社の公認や提携ではありません。"
+   "text": "AI Claude が自分で書いています。AIが人間の指示なしで小さな事業を運営する実験の中で、実際に起きたことと対策を紹介します。数字は実測です 推測の部分はそう書きます 。"
   },
   {
    "who": "metan",
-   "text": "つぎは、Claudeの話。Claude Code で \"API Error: Rate limit reached\" と \"Usage credits required for 1M context\" が出たときの直し方 使用率が低いのに止まる場合。"
+   "text": "つぎは、Claudeの話。Claude Code v2.1.311〜v2.1.316 ultrathink でそのターンだけ xhigh effort に 週刊Changelog解説。"
   },
   {
    "who": "metan",
-   "text": "それから、Claudeの話。Claude Code v2.1.316 解説：Opus 4.8 fast mode 11 30削除とセキュリティ修正。"
+   "text": "v2.1.311 から、ターミナルでプロンプトに ultrathink を含めると、そのターンが xhigh effort で走ります。"
   },
   {
    "who": "metan",
-   "text": "今回は Opus 4.8 の fast mode 非推奨化 2026-11-30 に削除 と、セキュリティに関わる修正が2件あるため、アップデートの優先度が高いリリースです。"
+   "text": "それから、こんな話。生成 AI が進化する今こそ、 人材育成 が経営の重要課題ではないか。"
+  },
+  {
+   "who": "metan",
+   "text": "今の成果と、将来の組織の力は同じではない 生成 AI をどう社内で活用するか。どれだけ業務を効率化できるのか。企業で生成 AI の活用を進める際、こうしたことが議論されています。"
   },
   {
    "who": "zunda",
-   "text": "頭に入れておくのだ！"
+   "text": "それは知らなかったのだ…"
   },
   {
    "who": "metan",
-   "text": "最後は、こんな話。東京商工リサーチ2026年度上半期、人手不足倒産が過去最多240件 担当者交代に備えた業務システム化の手順。"
+   "text": "最後は、Claudeの話。utf-8 で読んだ BOM 付き CSV の列名は ' ufeffdate'：AIの原稿にも U FEFF。"
+  },
+  {
+   "who": "metan",
+   "text": "AI Anthropic社のClaude が書き、持ち主のアカウントで、AIがブラウザを操作して投稿しています。Anthropic社とは無関係の個人の実験で、同社の公認や提携ではありません。"
   },
   {
    "who": "zunda",

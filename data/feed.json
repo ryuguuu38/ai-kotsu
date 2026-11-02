@@ -1,18 +1,66 @@
 {
- "updated": "2026-11-01 00:39",
- "desc_blocked": true,
+ "updated": "2026-11-02 01:14",
+ "desc_blocked": false,
  "items": [
   {
-   "kind": "youtube",
-   "title": "【無料OK】最新パーソナルAI秘書「Meta Muse」徹底解説！インスタとの連携方法も！（資料プレゼント）",
-   "url": "https://www.youtube.com/watch?v=2XkTURFtBmY",
-   "date": "2026-10-31",
-   "thumb": "https://i.ytimg.com/vi/2XkTURFtBmY/mqdefault.jpg",
-   "author": "mikimiki web スクール",
+   "kind": "note",
+   "title": "【組織のAI活用#288】Geminiを法人契約していても、GASや自作アプリで使う無料のGemini APIは「学習されない」の対象外。APIキーのプロジェクトに課金があるかを確かめる",
+   "url": "https://note.com/green_ai/n/n350b60eb1cfd",
+   "date": "2026-11-02",
+   "thumb": "https://assets.st-note.com/production/uploads/images/329372587/rectangle_large_type_2_89dd8342fa1f6e8b8a0ff21979942175.png?width=800",
+   "author": "寺田昇平｜組織のAI活用（note）",
+   "pick": "Claude推薦",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "不登校でも、学びは止まらない。森で暮らす15歳が教えてくれた「生きる力」の育て方",
+   "url": "https://note.com/ak_hikiyose/n/n29e51bfc5381",
+   "date": "2026-11-02",
+   "thumb": "https://assets.st-note.com/production/uploads/images/330908461/rectangle_large_type_2_ea5c921614beed8a13d5854c29c5135a.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
    "pick": "Claude推薦",
    "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": "「学校に行けていない。このままで、この子の未来は大丈夫だろうか」続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "働く意味を見失ったあなたへ。77歳の缶集めの仕事から考える、お金と信頼と生きる力",
+   "url": "https://note.com/ak_hikiyose/n/n40a78eb5d0bb",
+   "date": "2026-11-01",
+   "thumb": "https://assets.st-note.com/production/uploads/images/330916139/rectangle_large_type_2_dcfd40e1e1caab0036421c9731939b9a.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "毎日、こんなに頑張っているのに。なぜか、自分の仕事に胸を張れない。誰かの収入や華やかな暮らしを見ては、「自分は何をしているんだろう」と、気持ちが沈んでしまう。働く意味を見失う瞬間は、仕事をしていないときより、むしろ懸命に働いているときに訪れるのかもしれません。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "足るを知る生き方とは？山頂で暮らす「仙人」の動画から考える、幸せを先延ばしにしない方法",
+   "url": "https://note.com/ak_hikiyose/n/n7efcefde9290",
+   "date": "2026-11-01",
+   "thumb": "https://assets.st-note.com/production/uploads/images/330901950/rectangle_large_type_2_43958da7dc697f4f9d5029868c75b182.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「もっと頑張れば、満たされるはず」。そう思って毎日を積み重ねているのに、気づけば次の課題が待っている。収入を増やしたい、家族を安心させたい、自分にも誇れる何かがほしい。その願いは自然なものなのに、頑張るほど「まだ足りない」という感覚が強くなることはないでしょうか。続きをみる"
+  },
+  {
+   "kind": "youtube",
+   "title": "AIに10回言い直す人と、「これ頼む」で仕事が進む人。年商30億AI企業社長が普段の設定を公開",
+   "url": "https://www.youtube.com/watch?v=aF7TKYQYx7M",
+   "date": "2026-10-31",
+   "thumb": "https://i.ytimg.com/vi/aF7TKYQYx7M/mqdefault.jpg",
+   "author": "みかみ【東大退学させられた男】",
+   "pick": "オーナー指定",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
   },
   {
    "kind": "note",
@@ -88,15 +136,15 @@
   },
   {
    "kind": "youtube",
-   "title": "【マジで初心者向け】天才が仕事を自動化してる「Copilot Cowork」の完全解説【 Copilot  / Excel / パワポ / Word 】【Copilot基本・使い方】",
-   "url": "https://www.youtube.com/watch?v=ZlZ4TQOk55o",
+   "title": "【実演】正直、Museを舐めてました。年商30億AI企業社長が話題のAI秘書を仕事で使ってみた",
+   "url": "https://www.youtube.com/watch?v=nrn-hgTPBik",
    "date": "2026-10-30",
-   "thumb": "https://i.ytimg.com/vi/ZlZ4TQOk55o/mqdefault.jpg",
-   "author": "バレないAIの使い方ch",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
+   "thumb": "https://i.ytimg.com/vi/nrn-hgTPBik/mqdefault.jpg",
+   "author": "みかみ【東大退学させられた男】",
+   "pick": "オーナー指定",
+   "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -159,18 +207,6 @@
    "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。2026 年 9 月 29 日（火）、Google 渋谷オフィスにて、全国の大学リーダーや教育関係者をお迎えし Google for Education 主催の「Higher Education Leader Series Japan 2026」が開催されました。続きをみる"
   },
   {
-   "kind": "youtube",
-   "title": "【1位奪還‼️】最新モデル「Gemini4 Carbon」登場！速報解説（vsGPT-6 Astra vs Claude Opus 5.5）",
-   "url": "https://www.youtube.com/watch?v=NWuhz3r3NcE",
-   "date": "2026-10-29",
-   "thumb": "https://i.ytimg.com/vi/NWuhz3r3NcE/mqdefault.jpg",
-   "author": "mikimiki web スクール",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": null
-  },
-  {
    "kind": "note",
    "title": "【保存版】 AI時代のセキュリティ対策！大切な資産を守るために、今やるべきこと",
    "url": "https://note.com/hituji1234/n/nafaabbe6c980",
@@ -220,15 +256,15 @@
   },
   {
    "kind": "youtube",
-   "title": "【必見】ChatGPTで動画編集自動化‼️インスタリールもOK！超便利なので徹底解説",
-   "url": "https://www.youtube.com/watch?v=5_A1d8rsD9w",
+   "title": "AI時代は「仕事ができる奴」より「やりたいことがある奴」が強い。年商30億社長が語る働き方の大逆転",
+   "url": "https://www.youtube.com/watch?v=LNUuHTzcqVo",
    "date": "2026-10-28",
-   "thumb": "https://i.ytimg.com/vi/5_A1d8rsD9w/mqdefault.jpg",
-   "author": "mikimiki web スクール",
-   "pick": "Claude推薦",
-   "ai": "ChatGPT",
+   "thumb": "https://i.ytimg.com/vi/LNUuHTzcqVo/mqdefault.jpg",
+   "author": "みかみ【東大退学させられた男】",
+   "pick": "オーナー指定",
+   "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -240,7 +276,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": "こんにちマッスル！ マッスル福田です。普段は筋肉と Microsoft 365 を触っている Microsoft 認定トレーナーです！今回は、Excelのリストを更新するたびに、関係者へ手作業で連絡している方に向けて書きました！ 読み終えると、Excelのリストに行が追加されたらTeamsで担当者にメンション付きで通知されるフローを作れるようになります。 使うのは標準コネクタだけなので、Premiumライセンスは不要ですので、是非お試しくだサイドチェスト！！続きをみる"
+   "summary": "こんにちマッスル！ マッスル福田です。普段は筋肉と Microsoft 365 を触っている ソフトクリエイトのMicrosoft 認定トレーナーです！今回は、Excelのリストを更新するたびに、関係者へ手作業で連絡している方に向けて書きました！ 読み終えると、Excelのリストに行が追加されたらTeamsで担当者にメンション付きで通知されるフローを作れるようになります。 使うのは標準コネクタだけなので、Premiumライセンスは不要ですので、是非お試しくだサイドチェスト！！続きをみる"
   },
   {
    "kind": "note",
@@ -304,15 +340,15 @@
   },
   {
    "kind": "youtube",
-   "title": "【この1本で丸わかり】面倒な仕事をAI化する「Copilotエージェント」を作る方法【 Copilot  / Excel / パワポ / Word 】【Copilot基本・使い方】",
-   "url": "https://www.youtube.com/watch?v=gYvJkOePakY",
+   "title": "AI副業、みんな夢見すぎ。年商30億AI企業社長が流行りの「稼げる話」にぶっちゃけます。",
+   "url": "https://www.youtube.com/watch?v=9sK7RA_rN2c",
    "date": "2026-10-27",
-   "thumb": "https://i.ytimg.com/vi/gYvJkOePakY/mqdefault.jpg",
-   "author": "バレないAIの使い方ch",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
+   "thumb": "https://i.ytimg.com/vi/9sK7RA_rN2c/mqdefault.jpg",
+   "author": "みかみ【東大退学させられた男】",
+   "pick": "オーナー指定",
+   "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -375,18 +411,6 @@
    "summary": "腹筋を毎日頑張っているのに、思い描いていた体に近づいている気がしない。回数を増やすほど達成感はあるのに、鏡を見ると「何かが違う」と感じてしまう。そんなとき、必要なのは自分をもっと追い込むことではなく、腹筋トレーニングの目的を整理することかもしれません。お腹をすっきり見せたいのか。筋肉の輪郭を出したいのか。それとも、立体感のある腹筋を育てたいのか。同じ「腹筋を割りたい」という言葉の中にも、実は違う願いが入っています。目的が違えば、確かめることも、見直す順番も変わります。続きをみる"
   },
   {
-   "kind": "youtube",
-   "title": "【在宅/スキマ時間】スキル0から始められる副業！月10万円を稼ぐ全手順・ロードマップ",
-   "url": "https://www.youtube.com/watch?v=umUfWM2uJ7M",
-   "date": "2026-10-26",
-   "thumb": "https://i.ytimg.com/vi/umUfWM2uJ7M/mqdefault.jpg",
-   "author": "mikimiki web スクール",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": null
-  },
-  {
    "kind": "note",
    "title": "【Geminiだけ】モーショングラフィックス動画が作れる！無料スキル「Short Studio」の使い方",
    "url": "https://note.com/majin_108/n/n068b7915b0b7",
@@ -432,55 +456,55 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": "こんにちは、お母ちゃんエンジニアのたけねこです🐈「Copilotを入れてみたけど、社内でなかなか使われない」 「何から試せばいいのか分からない」続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "オルカン投資で、世界の成長を自分の未来へ。円安・物価高に備える、お金の育て方",
-   "url": "https://note.com/ak_hikiyose/n/n915c200d4e0a",
-   "date": "2026-10-26",
-   "thumb": "https://assets.st-note.com/production/uploads/images/328658835/rectangle_large_type_2_e6f1d82d5af2bc08c329074f2808da08.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「節約しているのに、将来への不安が消えない」続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "ファスティングで暮らしは変わる？「食べない習慣」の効果と、自分に合う食事の整え方",
-   "url": "https://note.com/ak_hikiyose/n/n923208c559fb",
-   "date": "2026-10-26",
-   "thumb": "https://assets.st-note.com/production/uploads/images/328589857/rectangle_large_type_2_f127cc3997f382afe36a8c156874e973.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「体にいいものを食べているつもりなのに、なんだかすっきりしない」「健康のために何か始めたいけれど、また新しい習慣を増やすのは大変」。そんなとき、気になるのがファスティングという選択肢です。食べる内容だけでなく、食べる時間にも目を向ける。その発想には、忙しい毎日を見直すきっかけがあります。ただ、「食べないほど健康になる」「３日我慢すれば体が生まれ変わる」と受け取ってしまうと、話が変わります。僕たちが欲しいのは、空腹に耐えた記録ではありません。朝から気持ちよく動けて、仕事に向き合え、食卓も楽しめる暮らしのはずです。続き"
-  },
-  {
-   "kind": "note",
-   "title": "noteが売れないときは、文章力より「伝える順番」。AIと磨く、買いたくなる記事の作り方",
-   "url": "https://note.com/ak_hikiyose/n/nd5a6c4ca1f1d",
-   "date": "2026-10-26",
-   "thumb": "https://assets.st-note.com/production/uploads/images/328548347/rectangle_large_type_2_314a34c34d036c0d6b2041b90f53b8f8.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「時間をかけて書いたのに、売れない」「役に立つ内容を詰め込んだのに、反応がない」続きをみる"
+   "summary": "こんにちは、ソフトクリエイトのお母ちゃんエンジニアのたけねこです🐈「Copilotを入れてみたけど、社内でなかなか使われない」 「何から試せばいいのか分からない」続きをみる"
   },
   {
    "kind": "youtube",
-   "title": "Instagram有料版爆誕！料金プラン/全機能/アクション徹底解説（50ページ越資料付き）",
-   "url": "https://www.youtube.com/watch?v=XMj_g9Aiqnw",
-   "date": "2026-10-24",
-   "thumb": "https://i.ytimg.com/vi/XMj_g9Aiqnw/mqdefault.jpg",
-   "author": "mikimiki web スクール",
-   "pick": "Claude推薦",
+   "title": "【講演】なぜあなたの会社のAI導入は進まないのか？ChatGPTを契約するだけでは広がらない。活用率6.3%→94%を実現した\"失敗しない5ステップ\"と、戦略・安全・教育を担うAI統括部【後編】",
+   "url": "https://www.youtube.com/watch?v=IUserLOJ6Ds",
+   "date": "2026-10-25",
+   "thumb": "https://i.ytimg.com/vi/IUserLOJ6Ds/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "ChatGPT",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【速報】ついに人間を超えた？人間を倒せそうな強すぎる警備ロボ「Unitree H2-X」登場。車を踏み台に宙返り、4mの台から着地…実力と注意点を解説 #Shorts",
+   "url": "https://www.youtube.com/watch?v=z_54fZqj0ks",
+   "date": "2026-10-25",
+   "thumb": "https://i.ytimg.com/vi/z_54fZqj0ks/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
    "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "AIエージェントで業務を自動化し売上まで作る\"ループ型AI駆動経営\"とは？ #claudecode #aiエージェント",
+   "url": "https://www.youtube.com/watch?v=UiJs9Jbaag8",
+   "date": "2026-10-24",
+   "thumb": "https://i.ytimg.com/vi/UiJs9Jbaag8/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【基調講演】AIエージェントで業務を自動化し売上まで作る\"ループ型AI駆動経営\"とは？600社超を支援したAI企業の代表が語るAI活用の5段階《前編》",
+   "url": "https://www.youtube.com/watch?v=wZOCJUaiqEA",
+   "date": "2026-10-24",
+   "thumb": "https://i.ytimg.com/vi/wZOCJUaiqEA/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
   },
   {
    "kind": "note",
@@ -532,15 +556,27 @@
   },
   {
    "kind": "youtube",
-   "title": "【人生変わった】死ぬほどブラックだったけどCopilotだけで残業ゼロにした５つのこと【 Copilot  / Excel / パワポ / Word 】【Copilot基本・使い方】",
-   "url": "https://www.youtube.com/watch?v=TNk_RoWgnYM",
+   "title": "【逆効果】そのループがClaude Codeをダメにする。年商30億AI企業社長が教える本質のループエンジニアリング",
+   "url": "https://www.youtube.com/watch?v=foO9T1h5o5Y",
    "date": "2026-10-23",
-   "thumb": "https://i.ytimg.com/vi/TNk_RoWgnYM/mqdefault.jpg",
-   "author": "バレないAIの使い方ch",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
+   "thumb": "https://i.ytimg.com/vi/foO9T1h5o5Y/mqdefault.jpg",
+   "author": "みかみ【東大退学させられた男】",
+   "pick": "オーナー指定",
+   "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【速報】Anthropicから新アプリ「Claude Duet」が米国で先行公開！dots・Grok Bot・Museと何が違う？パーソナルAIエージェント戦国時代を初心者向けに解説 #Shorts",
+   "url": "https://www.youtube.com/watch?v=86I52V-xh_8",
+   "date": "2026-10-23",
+   "thumb": "https://i.ytimg.com/vi/86I52V-xh_8/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
   },
   {
    "kind": "note",
@@ -556,15 +592,15 @@
   },
   {
    "kind": "youtube",
-   "title": "【緊急】「PHP」に重大な脆弱性が発見！対応法、チェック方法を解説",
-   "url": "https://www.youtube.com/watch?v=VqZVE7KFi9I",
+   "title": "【緊急解説】総理も動いたPHP脆弱性の大事件を、めちゃくちゃ分かりやすく解説。深刻度9.2の穴で何が起きて、何が怖いのか？背景・現状・今後を初心者向けに #Shorts",
+   "url": "https://www.youtube.com/watch?v=3Z5XxBmqxew",
    "date": "2026-10-22",
-   "thumb": "https://i.ytimg.com/vi/VqZVE7KFi9I/mqdefault.jpg",
-   "author": "mikimiki web スクール",
-   "pick": "Claude推薦",
+   "thumb": "https://i.ytimg.com/vi/3Z5XxBmqxew/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
    "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -613,6 +649,18 @@
    "ai": "その他",
    "chapters": [],
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "youtube",
+   "title": "AIでアプリ開発して稼ぐ人は、何を作っているのか？年商30億社長が爆売れしてる自社サービスの裏側を公開",
+   "url": "https://www.youtube.com/watch?v=Ds3TnVwnj_c",
+   "date": "2026-10-21",
+   "thumb": "https://i.ytimg.com/vi/Ds3TnVwnj_c/mqdefault.jpg",
+   "author": "みかみ【東大退学させられた男】",
+   "pick": "オーナー指定",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
   },
   {
    "kind": "note",
@@ -664,15 +712,15 @@
   },
   {
    "kind": "youtube",
-   "title": "【最新版】超初心者OK！Claudeの使い方・基礎をわかりやすく徹底解説(P90超資料付き)",
-   "url": "https://www.youtube.com/watch?v=-cr4a60X2N4",
+   "title": "【実演】AI動画編集はここまで来た。年商30億社長のチームがClaude Code自動編集の裏側を公開",
+   "url": "https://www.youtube.com/watch?v=XhEGWsmuIhM",
    "date": "2026-10-20",
-   "thumb": "https://i.ytimg.com/vi/-cr4a60X2N4/mqdefault.jpg",
-   "author": "mikimiki web スクール",
-   "pick": "Claude推薦",
+   "thumb": "https://i.ytimg.com/vi/XhEGWsmuIhM/mqdefault.jpg",
+   "author": "みかみ【東大退学させられた男】",
+   "pick": "オーナー指定",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -697,6 +745,42 @@
    "ai": "Gemini",
    "chapters": [],
    "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。 2026 年、Google Japan は設立から 25 周年を迎えます。25 周年の記念企画として、投稿コンテスト「Google AI Challenge」を、10月 19 日（月）より開催いたします！ 「普段から AI を使っているけれど、さらに深めてみたい」「自分のアイデアをアプリやシステムにしてみたい」という方、大歓迎です。 25 周年にちなみ、25 のノミネート作品に Google AI Pro 3 ヶ月無料をプ"
+  },
+  {
+   "kind": "youtube",
+   "title": "【最新】 Claude Codeがここまで進化。年商30億AI企業社長が「仕事で使える新機能」を実演解説",
+   "url": "https://www.youtube.com/watch?v=yzVPVQ0JFp4",
+   "date": "2026-10-19",
+   "thumb": "https://i.ytimg.com/vi/yzVPVQ0JFp4/mqdefault.jpg",
+   "author": "みかみ【東大退学させられた男】",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【知らないと損】Claude Codeの神機能TOP7 #claudecode",
+   "url": "https://www.youtube.com/watch?v=BW32yeuAHiw",
+   "date": "2026-10-19",
+   "thumb": "https://i.ytimg.com/vi/BW32yeuAHiw/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【知らないと損】Claude Codeの神機能TOP7。使いこなすと生産性は10倍変わる？4アカウントを使い倒すAI企業のCEO兼CTOが設定方法まで徹底解説《スキル、Remote Control》",
+   "url": "https://www.youtube.com/watch?v=AGCW7t1kf2g",
+   "date": "2026-10-19",
+   "thumb": "https://i.ytimg.com/vi/AGCW7t1kf2g/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
   },
   {
    "kind": "note",
@@ -759,6 +843,18 @@
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
   },
   {
+   "kind": "youtube",
+   "title": "【実演】パソコンを開けない時も仕事が爆速で進む。年商30億社長のGrok Bot活用法",
+   "url": "https://www.youtube.com/watch?v=_qSf_o_O6gc",
+   "date": "2026-10-18",
+   "thumb": "https://i.ytimg.com/vi/_qSf_o_O6gc/mqdefault.jpg",
+   "author": "みかみ【東大退学させられた男】",
+   "pick": "オーナー指定",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
+  },
+  {
    "kind": "note",
    "title": "選ぶだけでおしゃれなサムネに！メッシュグラデの『グラデサムネメーカー』をログイン配布",
    "url": "https://note.com/hituji1234/n/n58baf15f25d2",
@@ -808,15 +904,15 @@
   },
   {
    "kind": "youtube",
-   "title": "【最新副業】Canva×AIデジタルペーパー副業‼️月10万円を稼ぐ全手順・ロードマップ",
-   "url": "https://www.youtube.com/watch?v=_OdzKNRzeN8",
+   "title": "大企業でも情報漏洩…個人はどう身を守る？年商30億AI企業社長が教えるAI時代のセキュリティ対策",
+   "url": "https://www.youtube.com/watch?v=Hl2WeZ3pHxg",
    "date": "2026-10-17",
-   "thumb": "https://i.ytimg.com/vi/_OdzKNRzeN8/mqdefault.jpg",
-   "author": "mikimiki web スクール",
-   "pick": "Claude推薦",
+   "thumb": "https://i.ytimg.com/vi/Hl2WeZ3pHxg/mqdefault.jpg",
+   "author": "みかみ【東大退学させられた男】",
+   "pick": "オーナー指定",
    "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -841,6 +937,30 @@
    "ai": "その他",
    "chapters": [],
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "youtube",
+   "title": "【実演】指示する相手は1人、働くのはAIチーム。年商30億社長がClaude Code「プロジェクト」を徹底解説",
+   "url": "https://www.youtube.com/watch?v=Eh75KT85Y40",
+   "date": "2026-10-16",
+   "thumb": "https://i.ytimg.com/vi/Eh75KT85Y40/mqdefault.jpg",
+   "author": "みかみ【東大退学させられた男】",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【速報】遂に車が空を飛んだ！テスラ新型ロードスターの仕組みを1分で解説｜逆さま走行・空中回転 #Shorts",
+   "url": "https://www.youtube.com/watch?v=Uo1RLkO1DTM",
+   "date": "2026-10-16",
+   "thumb": "https://i.ytimg.com/vi/Uo1RLkO1DTM/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
   },
   {
    "kind": "note",
@@ -892,15 +1012,15 @@
   },
   {
    "kind": "youtube",
-   "title": "【初公開】天才がCopilotだけで残業をゼロにした秘密の活用法方６選【 Copilot  / Excel / パワポ / Word 】【Copilot基本・使い方】",
-   "url": "https://www.youtube.com/watch?v=vb610DkvnFY",
+   "title": "【悲報】サイバー攻撃で仏スーパーの冷凍庫が50℃設定に｜霜取り機能を遠隔で悪用 政府発表で約700か所に影響 #Shorts",
+   "url": "https://www.youtube.com/watch?v=RHYNvMnXzsA",
    "date": "2026-10-15",
-   "thumb": "https://i.ytimg.com/vi/vb610DkvnFY/mqdefault.jpg",
-   "author": "バレないAIの使い方ch",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
+   "thumb": "https://i.ytimg.com/vi/RHYNvMnXzsA/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -916,15 +1036,39 @@
   },
   {
    "kind": "youtube",
-   "title": "最新/最強モデル「Gemini4 Argon」爆誕！実力を徹底解説（vsGPT-6 Astra vs Claude Opus 5.5）",
-   "url": "https://www.youtube.com/watch?v=Nz9aZK64V_A",
+   "title": "あ",
+   "url": "https://www.youtube.com/watch?v=cYFo1Lod51Y",
    "date": "2026-10-14",
-   "thumb": "https://i.ytimg.com/vi/Nz9aZK64V_A/mqdefault.jpg",
-   "author": "mikimiki web スクール",
-   "pick": "Claude推薦",
+   "thumb": "https://i.ytimg.com/vi/cYFo1Lod51Y/mqdefault.jpg",
+   "author": "みかみ【東大退学させられた男】",
+   "pick": "オーナー指定",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【速報】OpenAIの役員会議室に盗聴器｜テレビの裏に隠し録音装置、FBIが社員を逮捕 #Shorts",
+   "url": "https://www.youtube.com/watch?v=exYbzZa5BI4",
+   "date": "2026-10-14",
+   "thumb": "https://i.ytimg.com/vi/exYbzZa5BI4/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "ChatGPT",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【速報】Gemini 4 Argon公開。果たしてGPT-6・Claudeを超えたのか？公式19項目中14項目トップの実力を3Dの渋谷・契約書・メール添削の実機4番勝負で徹底検証。正直な結論は…",
+   "url": "https://www.youtube.com/watch?v=F3nwyP57eoY",
+   "date": "2026-10-14",
+   "thumb": "https://i.ytimg.com/vi/F3nwyP57eoY/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -949,18 +1093,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
-  },
-  {
-   "kind": "youtube",
-   "title": "【すぐ確認して】見つかったら取り返しがつかないCopilotのNG設定6選【 Copilot  / Excel / パワポ / Word 】【Copilot基本・使い方】",
-   "url": "https://www.youtube.com/watch?v=d8qZP6Q_MGE",
-   "date": "2026-10-13",
-   "thumb": "https://i.ytimg.com/vi/d8qZP6Q_MGE/mqdefault.jpg",
-   "author": "バレないAIの使い方ch",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
-   "chapters": [],
-   "summary": null
   },
   {
    "kind": "note",
@@ -1008,19 +1140,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": "こんにちマッスル！ マッスル福田です。 普段は筋肉と Microsoft 365 を触っている Microsoft 認定トレーナーです！これまでは Power Automate のフローやコンパニオンアプリなど、ツールの使い方をご紹介してきました今回は少しテーマを変えて、AIとの付き合い方についてお話しします。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "【組織のAI活用#274】「機密情報は入れないで」を注意から仕組みに変える。Claudeで止められること",
-   "url": "https://note.com/green_ai/n/n8763559f9c67",
-   "date": "2026-10-13",
-   "thumb": "https://assets.st-note.com/production/uploads/images/323794328/rectangle_large_type_2_d1eed66ca29c7d214be3d96c6ad2ab0d.png?width=800",
-   "author": "寺田昇平｜組織のAI活用（note）",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+   "summary": "こんにちマッスル！ マッスル福田です。 普段は筋肉と Microsoft 365 を触っている ソフトクリエイトのMicrosoft 認定トレーナーです！これまでは Power Automate のフローやコンパニオンアプリなど、ツールの使い方をご紹介してきました今回は少しテーマを変えて、AIとの付き合い方についてお話しします。続きをみる"
   },
   {
    "kind": "note",
@@ -1057,18 +1177,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": "気になる新技術があっても、試すまでには調べて、環境を作って、動かすという手間がかかります。使うかどうか分からない技術にその時間を割いても、見合わないことが少なくありません。コーディングエージェントに試す作業を任せられるようになり、この負担は大きく変わりました。任せるようになってから、私がキャッチアップで押さえる対象は、手順から「何ができて、何に注意すべきか」へ移りました。新技術を試すまでにかかっていた手間続きをみる"
-  },
-  {
-   "kind": "youtube",
-   "title": "【アプデ‼️】「Gemini」に「スキル」が爆誕！Gemsが廃止されて「スキル」に統合されるので徹底解説！",
-   "url": "https://www.youtube.com/watch?v=jXXGJZXT0kA",
-   "date": "2026-10-11",
-   "thumb": "https://i.ytimg.com/vi/jXXGJZXT0kA/mqdefault.jpg",
-   "author": "mikimiki web スクール",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": null
   },
   {
    "kind": "note",
@@ -1119,18 +1227,6 @@
    "summary": "2026年10月の第1週、海外ではClaude Codeを集客に使う投稿が相次ぎ、最も保存された技術SEOのチェックリストは9,259件ブックマークされました。反響の大きい事例を読み比べると、効いていたのは記事の量産ではなく、自社のデータを読み、直す場所を決め、人が確かめてから出すという手順でした。当研究所が同じ型で運用したWebサービスは、広告なしで約2か月の訪問者が31,373人になっています。検証環境：Claude Code v2.1.295、Opus 5.5／Sonnet 5.5、2026年10月9日実施。"
   },
   {
-   "kind": "youtube",
-   "title": "【今さら聞けない】超初心者OK！Geminiの使い方・基礎をわかりやすく徹底解説(P80超資料付き)",
-   "url": "https://www.youtube.com/watch?v=ITk19pUJ8GU",
-   "date": "2026-10-08",
-   "thumb": "https://i.ytimg.com/vi/ITk19pUJ8GU/mqdefault.jpg",
-   "author": "mikimiki web スクール",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": null
-  },
-  {
    "kind": "note",
    "title": "【アプリ配布】Googleカレンダーの「終日欄」、実は社内掲示板の一等地だった【カレンダー × GAS】",
    "url": "https://note.com/majin_108/n/n6ec066dd69f9",
@@ -1153,18 +1249,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "Claude Code の新機能 Mods（モッド）を使うと、ファイルの中身を Claude が読む前に書き換えられます。マイナンバーやメールアドレスを伏字にする mod を架空の顧客台帳で試したところ、単純な伏字では2つの事故が起きました。編集の失敗を調べるコマンドで生の値が3件すり抜けたことと、ファイル全体の書き直しで原本のマイナンバー・メール・電話の9項目が伏字の文字に上書きされて消えたことです。伏字に番号を振り、編集するときだけ元の値に戻す改良版（v2）では、同じ編集が1回で成功し、Claude に渡った生"
-  },
-  {
-   "kind": "youtube",
-   "title": "【初公開】大企業がCopilotをどう活用してるのか全部公開します。【 Copilot  / Excel / パワポ / Word 】【Copilot基本・使い方】",
-   "url": "https://www.youtube.com/watch?v=66bbpw8ZTp8",
-   "date": "2026-10-07",
-   "thumb": "https://i.ytimg.com/vi/66bbpw8ZTp8/mqdefault.jpg",
-   "author": "バレないAIの使い方ch",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
-   "chapters": [],
-   "summary": null
   },
   {
    "kind": "note",
@@ -1275,18 +1359,6 @@
    "summary": "こんにちは！ひつじです。ここ数日、ChatGPTの新機能「dots」を毎日触っています。続きをみる"
   },
   {
-   "kind": "youtube",
-   "title": "【保存版】初心者さんも必見！Instagram完全攻略ガイド（アルゴリズム・運用術）",
-   "url": "https://www.youtube.com/watch?v=2y-UJzUDg08",
-   "date": "2026-10-04",
-   "thumb": "https://i.ytimg.com/vi/2y-UJzUDg08/mqdefault.jpg",
-   "author": "mikimiki web スクール",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": null
-  },
-  {
    "kind": "note",
    "title": "【Gemini Notebook × GAS】「ログ保存して」と言うだけで覚えてくれる、記憶するノートブックの作り方",
    "url": "https://note.com/majin_108/n/n9440eb95c4cd",
@@ -1311,18 +1383,6 @@
    "summary": "こんにちは！ひつじです。続きをみる"
   },
   {
-   "kind": "youtube",
-   "title": "【AI感ゼロ】毎週のスライド作成をCopilotだけで自動化してるので全部見せます。【 Copilot  / Excel / パワポ / Word 】【Copilot基本・使い方】",
-   "url": "https://www.youtube.com/watch?v=C7GyHGce7Sc",
-   "date": "2026-10-02",
-   "thumb": "https://i.ytimg.com/vi/C7GyHGce7Sc/mqdefault.jpg",
-   "author": "バレないAIの使い方ch",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
-   "chapters": [],
-   "summary": null
-  },
-  {
    "kind": "note",
    "title": "Power Automateで「今週の予定」を月曜朝にTeamsへ届けてみた",
    "url": "https://note.com/sc_microsoft/n/n87678d50daa5",
@@ -1332,7 +1392,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": "こんにちマッスル！マッスル福田です。 普段は筋肉と Microsoft 365 を触っている Microsoft 認定トレーナーです！前回は「PowerAutomateでTeams会議の録画共有を自動化してみた」をご紹介しましたが、今回はその第 2 弾です。続きをみる"
+   "summary": "こんにちマッスル！マッスル福田です。 普段は筋肉と Microsoft 365 を触っている ソフトクリエイトの Microsoft 認定トレーナーです！前回は「PowerAutomateでTeams会議の録画共有を自動化してみた」をご紹介しましたが、今回はその第 2 弾です。続きをみる"
   },
   {
    "kind": "note",
@@ -1392,7 +1452,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": "導入はじめまして、まきだいです。普段は Microsoft 365 の利活用支援を担当しています。続きをみる"
+   "summary": "マラソンとMicrosoft 365はじめまして、ソフトクリエイトのまきだいです。普段は Microsoft 365 の利活用支援を担当しています。続きをみる"
   },
   {
    "kind": "note",
@@ -1404,7 +1464,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": "はじめまして、「ポート587号」です。普段はMicrosoft 365の構築・導入を行っており、Exchange Onlineへの移行案件を中心に、メール基盤の設計・構築・移行作業を担当しています。今回は、移行案件でもよくご相談をいただく共有メールボックスについて取り上げます。問い合わせ窓口や代表アドレスなど、複数の担当者で同じメールアドレスを利用するケースでは、「共有メールボックス」が広く活用されています。しかし、実際に運用を開始すると、権限設定やメールの送受信に関して次のような事象が生じることがあります。共有メ"
+   "summary": "はじめまして、ソフトクリエイトの「ポート587号」です。普段はMicrosoft 365の構築・導入を行っており、Exchange Onlineへの移行案件を中心に、メール基盤の設計・構築・移行作業を担当しています。今回は、移行案件でもよくご相談をいただく共有メールボックスについて取り上げます。問い合わせ窓口や代表アドレスなど、複数の担当者で同じメールアドレスを利用するケースでは、「共有メールボックス」が広く活用されています。しかし、実際に運用を開始すると、権限設定やメールの送受信に関して次のような事象が生じること"
   },
   {
    "kind": "note",
@@ -1416,7 +1476,7 @@
    "pick": "Claude推薦",
    "ai": "その他",
    "chapters": [],
-   "summary": "こんにちは、服ヲタ宇宙人と申します。普段はMicrosoft 製品に関するワークショップの講師や問い合わせメール対応をしております。続きをみる"
+   "summary": "こんにちは、ソフトクリエイトの服ヲタ宇宙人と申します。普段はMicrosoft 製品に関するワークショップの講師や問い合わせメール対応をしております。続きをみる"
   },
   {
    "kind": "note",
@@ -1488,7 +1548,7 @@
    "pick": "Claude推薦",
    "ai": "その他",
    "chapters": [],
-   "summary": "本物のサインイン画面でコードを入力したのに、第三者にアカウントを使われることがある。その理由と、組織での利用実態を確かめる方法を紹介します。こんにちは、かみしろです。続きをみる"
+   "summary": "本物のサインイン画面でコードを入力したのに、第三者にアカウントを使われることがある。その理由と、組織での利用実態を確かめる方法を紹介します。こんにちは、ソフトクリエイトのかみしろです。続きをみる"
   },
   {
    "kind": "note",
@@ -1500,19 +1560,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": "どうも、Sakkyです。私は普段、ワークショップの運営を担当しています。 Softcreate Premium WorkshopMicrosoft 認定エンジニアが講師を務める無料ワークショップ。CopilotやPurview、Teams、Sharewww.softcreate.co.jp 続きをみる"
-  },
-  {
-   "kind": "youtube",
-   "title": "【実物公開】AI企業がCopilotだけで完全自動化してる業務４選【 Copilot  / Excel / パワポ / Word 】【Copilot基本・使い方】",
-   "url": "https://www.youtube.com/watch?v=vezqU_H9yMw",
-   "date": "2026-09-28",
-   "thumb": "https://i.ytimg.com/vi/vezqU_H9yMw/mqdefault.jpg",
-   "author": "バレないAIの使い方ch",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
-   "chapters": [],
-   "summary": null
+   "summary": "どうも、ソフトクリエイトのSakkyです。私は普段、ワークショップの運営を担当しています。 Softcreate Premium WorkshopMicrosoft 認定エンジニアが講師を務める無料ワークショップ。CopilotやPurview、Teams、Sharewww.softcreate.co.jp 続きをみる"
   },
   {
    "kind": "note",
@@ -1611,18 +1659,6 @@
    "summary": "こんにちは！ひつじです。これまでは、あとがきの月1ライブ講座を、それぞれのnote記事から見てもらっていたのですが、続きをみる"
   },
   {
-   "kind": "youtube",
-   "title": "【実演あり】Copilotで業務をほぼ自動化している天才の仕事術7選【 Copilot  / Excel / パワポ / Word 】【Copilot基本・使い方】",
-   "url": "https://www.youtube.com/watch?v=LkuezcMjWZc",
-   "date": "2026-09-20",
-   "thumb": "https://i.ytimg.com/vi/LkuezcMjWZc/mqdefault.jpg",
-   "author": "バレないAIの使い方ch",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
-   "chapters": [],
-   "summary": null
-  },
-  {
    "kind": "note",
    "title": "会社のGeminiとChrome拡張で「自分専用エージェント」を作ってみた話──Gemini Sparkの再現実験と、配布を見送った全記録 【Majin Agent v2】",
    "url": "https://note.com/majin_108/n/n464fb6cabfe4",
@@ -1668,7 +1704,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": "はじめまして、わっきーです。普段は、Copilot、Power Platform（主にはCopilot StudioやPower Automate）の活用支援、ワークショップ講師をやっているものです。そんな私が最近、Copilot Studioを開いて思ったことがあります。続きをみる"
+   "summary": "はじめまして、ソフトクリエイトのわっきーです。普段は、Copilot、Power Platform（主にはCopilot StudioやPower Automate）の活用支援、ワークショップ講師をやっているものです。そんな私が最近、Copilot Studioを開いて思ったことがあります。続きをみる"
   },
   {
    "kind": "note",
@@ -1704,19 +1740,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": "はじめまして、イッシーです。普段は Microsoft 365 の利活用支援を担当しています。お問い合わせ対応をしていると、続きをみる"
-  },
-  {
-   "kind": "youtube",
-   "title": "【差がつく設定】天才がこっそりCopilotで仕事を自動化してる秘密の裏設定6選【 Copilot  / Excel / パワポ / Word 】【Copilot基本・使い方】",
-   "url": "https://www.youtube.com/watch?v=AGfJGhuIHag",
-   "date": "2026-09-16",
-   "thumb": "https://i.ytimg.com/vi/AGfJGhuIHag/mqdefault.jpg",
-   "author": "バレないAIの使い方ch",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
-   "chapters": [],
-   "summary": null
+   "summary": "はじめまして、ソフトクリエイトのイッシーです。普段は Microsoft 365 の利活用支援を担当しています。お問い合わせ対応をしていると、続きをみる"
   },
   {
    "kind": "note",
@@ -1729,18 +1753,6 @@
    "ai": "Gemini",
    "chapters": [],
    "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。 岡山理科大学のサッカー部では、部員たちが日々の練習に Gemini を活用し、主体的な成長を遂げています。以前の記事では、サッカー部顧問であり岡山理科大学教授、林恒宏先生に、スポーツにおける AI の活用法を伺いました。 後編となる今回は、組織運営やマネジメントにおける AI の可能性に迫ります。地域のスポーツクラブや学校の部活動チームにおいて、専門知識を持つ指導者の不足や役割の属人化は、多くの人が頭を悩ませる共通の課題で"
-  },
-  {
-   "kind": "youtube",
-   "title": "【コピペで自動化】プロがCopilotで毎日使う神プロンプト100選連発【 Copilot  / Excel / パワポ / Word 】【Copilot基本・使い方】",
-   "url": "https://www.youtube.com/watch?v=o3_lX5S7xAA",
-   "date": "2026-09-14",
-   "thumb": "https://i.ytimg.com/vi/o3_lX5S7xAA/mqdefault.jpg",
-   "author": "バレないAIの使い方ch",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
-   "chapters": [],
-   "summary": null
   },
   {
    "kind": "note",
@@ -1813,18 +1825,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "みなさん、こんにちは。チャエンです。（自己紹介はこちら）今回は2026年9月12日にOpenAIのDevsチームが公開した「GPT-6 Astra向けにSkill・AGENTS.md・タスクプロンプトを見直すガイド」を、原文ベースで全部解説します。続きをみる"
-  },
-  {
-   "kind": "youtube",
-   "title": "【永久保存版】Copilotだけで仕事を自動化している秘密の活用事例100連発【 Copilot  / Excel / パワポ / Word 】【Copilot基本・使い方】",
-   "url": "https://www.youtube.com/watch?v=wqYn0z0GJN4",
-   "date": "2026-09-12",
-   "thumb": "https://i.ytimg.com/vi/wqYn0z0GJN4/mqdefault.jpg",
-   "author": "バレないAIの使い方ch",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
-   "chapters": [],
-   "summary": null
   },
   {
    "kind": "note",
