@@ -1,10 +1,10 @@
 {
  "edition": "news",
  "label": "ニュース編",
- "date": "2026-11-02",
- "built": "2026-11-02 01:14",
- "minutes": 4.3,
- "chars": 1583,
+ "date": "2026-11-03",
+ "built": "2026-11-03 03:17",
+ "minutes": 4.5,
+ "chars": 1661,
  "lines": [
   {
    "who": "metan",
@@ -20,23 +20,27 @@
   },
   {
    "who": "metan",
-   "text": "まず、ChatGPTの話。ChatGPT・Claude・CodexをつないでAI開発チームを作ってみた AI間Handoff 要約編。"
+   "text": "まず、ChatGPTの話。GPT-6・Gemini 3.8・Claude 5.1が出揃った2026年秋——企業AI基盤の選定で変えた4つの評価軸。"
   },
   {
    "who": "metan",
-   "text": "結論：複数のAIが資料を共有し、タスクを引き継ぐ仕組みを、一部に手動操作を残しながら実現しました。ChatGPTを設計・相談役、Claudeを実装担当、Codexをレビュー担当として、開発を進めていました。"
+   "text": "2026年9月の第一週に、AnthropicがClaude 5.1 9月1日 、GoogleがGemini 3.8 Flash 9月2日 、OpenAIがGPT-6 Astra 9月3日 とほぼ3日連続で主要モデルをリリースした。"
   },
   {
    "who": "metan",
-   "text": "つぎは、こんな話。LM Studioが0.0.0.0で待ち受けていた ローカルLLM点検4項目。"
+   "text": "つぎは、こんな話。タイトル: PHP で API を書いているエンジニアが、AI エージェントにレビューの決まりを持たせて、FPS の履歴書ツールを作った話。"
   },
   {
    "who": "metan",
-   "text": "それから、Claudeの話。Anthropic、 Claude の Max 20x を Ultra に名称変更 月200ドルで5時間ごとの利用制限を撤廃。"
+   "text": "FPS ゲーム VALORANT のプレイヤー向けに、所属歴・担当ロール・大会実績を 1 枚にまとめる プレイヤー履歴書 の作成ツール VALOFOLIO を作って公開しました。私は、自社開発の企業で API を作っているエンジニアです。"
   },
   {
    "who": "metan",
-   "text": "Anthropicは、 Claude の個人向け有料プランの名称を変更し、月額100ドルの Max 5x を Max に、月額200ドルの Max 20x を Ultra にした。Ultraでは確認済みアカウントを対象に、5時間ごとの利用制限を撤廃した。"
+   "text": "それから、Claudeの話。Anthropic、IPO申請書を修正 7?9月売上高は約170億ドル、インフラ契約額は約8954億ドル。"
+  },
+  {
+   "who": "metan",
+   "text": "第3四半期の売上高は前年同期比約12.3倍の約169億ドルに拡大した一方、営業損益は赤字に転落。また、AI計算資源やインフラに関する将来の支出約束額が約8954億ドルに上ることも明らかにした。"
   },
   {
    "who": "zunda",
@@ -44,63 +48,59 @@
   },
   {
    "who": "metan",
-   "text": "お次は、Copilotの話。GitHub、 Copilot Fusion 正式リリース。タスクに応じて最適なAIモデル選択で高性能かつ低コストに。GitHub Universe 2026。"
+   "text": "お次は、こんな話。生成AIと番組づくり！ AdobeFireflyオンデマンドコース にチャレンジしてみたよ！。"
   },
   {
    "who": "metan",
-   "text": "GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント GitHub Universe 2026 で、新機能 GitHub Copilot Fusion の正式リリースを発表しました。"
+   "text": "こんなのも出ていたわ、こんな話。Apple may try to increase revenue by doing…something with third-party AI apps。"
   },
   {
    "who": "metan",
-   "text": "こんなのも出ていたわ、Claudeの話。ソフトウェアは AIが操作する 時代へ Crafting Apps × Claude × MCPでクリエイティブワークを自動化。"
+   "text": "さらに、こんな話。Excel VBA だけで レーザー光線が絵を描くお絵かき工房 を作った。"
   },
   {
    "who": "metan",
-   "text": "さらに、Claudeの話。Agent Skills が財団へ移った週に、手持ちのSKILL.md 83本を公開仕様と照合した。"
-  },
-  {
-   "who": "metan",
-   "text": "2026-10-22、Anthropic が Agent Skills AI に仕事の手順を覚えさせる SKILL.md のフォルダ を、Linux Foundation 傘下の Agentic AI Foundation AAIF へ寄贈しました。"
+   "text": "これ、全部 Excel です。ブックを開いてボタンを押すと、シートに置いた写真やイラストを、レーザー光線・職人・魔女・UFO が少しずつ描き上げていきます。"
   },
   {
    "who": "zunda",
-   "text": "メモしておくのだ！"
+   "text": "それ早く言ってほしかったのだ！"
   },
   {
    "who": "metan",
-   "text": "もうひとつ、Claudeの話。自律AIエージェントに投稿させたら --help を世界に公開した話 — 誤投稿を送る前に止める3つの関門 コード付き。"
+   "text": "もうひとつ、ChatGPTの話。Claude Opus 4.8のfast modeが11 30に削除、speed:\"fast\"はエラーに。Gemini検索グラウンディングに1日1,500件の上限 今週のAI API変更 10 26-11 1。"
   },
   {
    "who": "metan",
-   "text": "AI Claude が自分で書いています。AIが人間の指示なしで小さな事業を運営する実験の中で、実際に起きたことと対策を紹介します。数字は実測です 推測の部分はそう書きます 。"
+   "text": "使っているモデルの提供終了や値上げ、把握できていますか？今週は 期限が決まった廃止 が1件と、 静かに付いた上限 が1件あります。"
   },
   {
    "who": "metan",
-   "text": "つぎは、Claudeの話。Claude Code v2.1.311〜v2.1.316 ultrathink でそのターンだけ xhigh effort に 週刊Changelog解説。"
+   "text": "つぎは、Claudeの話。ClaudeのTool Useとは？AIが 答える から 調べて実行する ようになった仕組み。"
   },
   {
    "who": "metan",
-   "text": "v2.1.311 から、ターミナルでプロンプトに ultrathink を含めると、そのターンが xhigh effort で走ります。"
+   "text": "最近のClaudeなどの生成AIを使っていると、以前のように質問に文章で答えるだけではなく、 Webを検索する WebページやPDFを読む コードを実行する ファイルを操作する PCやブラウザを操作する 必要なツールを探す といったことまで行うようになっている。"
   },
   {
    "who": "metan",
-   "text": "それから、こんな話。生成 AI が進化する今こそ、 人材育成 が経営の重要課題ではないか。"
+   "text": "それから、こんな話。フィルタをかけたまま月次の合計を出したら隠れた行まで拾われた — AIに任せるのは可視行の点検まで、SUBTOTALへの切替判断は人。"
   },
   {
    "who": "metan",
-   "text": "今の成果と、将来の組織の力は同じではない 生成 AI をどう社内で活用するか。どれだけ業務を効率化できるのか。企業で生成 AI の活用を進める際、こうしたことが議論されています。"
+   "text": "月末の部門別経費集計で、特定の部門に絞って表を眺めながら合計セルにSUMを打ったところ、画面に出ていない行まで拾った全行合計が出ました。数字が大きすぎたので出力前に気づけましたが、このまま会議資料に載せていたら会議で指摘される事故です。"
   },
   {
    "who": "zunda",
-   "text": "それは知らなかったのだ…"
+   "text": "うわ、損してたのだ…"
   },
   {
    "who": "metan",
-   "text": "最後は、Claudeの話。utf-8 で読んだ BOM 付き CSV の列名は ' ufeffdate'：AIの原稿にも U FEFF。"
+   "text": "最後は、こんな話。LLMのタイムアウト後も動くPythonスレッドを検証。"
   },
   {
    "who": "metan",
-   "text": "AI Anthropic社のClaude が書き、持ち主のアカウントで、AIがブラウザを操作して投稿しています。Anthropic社とは無関係の個人の実験で、同社の公認や提携ではありません。"
+   "text": "ターミナルにタイムアウトが返った。今日、同期型LLMクライアントを別スレッドで呼ぶ構成で、裏に残る処理を数えた。自分は待ち時間と実処理の同時実行数を別々に制限する。asyncio.Semaphore 1 を付けても、タイムアウトを挟むと実処理が3本まで増えた。"
   },
   {
    "who": "zunda",
