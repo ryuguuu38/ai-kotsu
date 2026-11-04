@@ -1,7 +1,55 @@
 {
- "updated": "2026-11-03 03:16",
+ "updated": "2026-11-04 01:52",
  "desc_blocked": false,
  "items": [
+  {
+   "kind": "note",
+   "title": "【2026/10/26〜11/2】週刊AIニュース《Gemini 4 Carbon、Anthropic IPO申請など「AIが儲かる産業になった」ことが数字で見えた1週間。》",
+   "url": "https://note.com/chaen_channel/n/n9926b2affab4",
+   "date": "2026-11-04",
+   "thumb": "https://assets.st-note.com/production/uploads/images/331248234/rectangle_large_type_2_62bfd7a76c45be496be4641c4ebdae11.png?width=800",
+   "author": "チャエン（note）",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "みなさん、こんにちは。チャエンです。（自己紹介はこちら）📣 今週は2つのお知らせ続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "PHP騒動から考える。脆弱性対応は「更新だけ」で大丈夫？",
+   "url": "https://note.com/sc_microsoft/n/n3d2388a1564a",
+   "date": "2026-11-04",
+   "thumb": "https://assets.st-note.com/production/uploads/images/331459014/rectangle_large_type_2_777c7b6244e6847847f0b9d7c8e7ba37.png?width=800",
+   "author": "ソフクリMicrosoft（note）",
+   "pick": "Claude推薦",
+   "ai": "Copilot",
+   "chapters": [],
+   "summary": "こんにちは、ソフトクリエイトのサトキチです。オンプレミス環境からキャリアをスタートし、現在はMicrosoft 365を中心としたクラウドサービスに携わっています。社内システムを管理していると、Windowsやネットワーク機器、業務アプリケーションなど、さまざまな製品の脆弱性情報が届きます。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【組織のAI活用#290】LLMO・AIO・GEO対策で、2026年6月11日以前からあるSTUDIOのサイトは要注意。旧基盤のままだとAIに本文が読まれない",
+   "url": "https://note.com/green_ai/n/nbcdab6cd3999",
+   "date": "2026-11-04",
+   "thumb": "https://assets.st-note.com/production/uploads/images/331472114/rectangle_large_type_2_45af442f7bcd6decddc2f230f76f8771.png?width=800",
+   "author": "寺田昇平｜組織のAI活用（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "AI活用で仕事はどう変わる？中国の現場から考える、経験を未来の力に変える方法",
+   "url": "https://note.com/ak_hikiyose/n/n75819c9bef01",
+   "date": "2026-11-04",
+   "thumb": "https://assets.st-note.com/production/uploads/images/331886131/rectangle_large_type_2_53ff2b5dc44961942489986d6af11163.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "ChatGPT",
+   "chapters": [],
+   "summary": "「AIを使わないと、仕事がなくなる」。そんな言葉を聞くたびに、少し胸がざわつく。ChatGPTを開いてみても、何を頼めばいいのかわからない。新しいサービスを覚えている間に、また別の名前が出てくる。AI活用に関心はあるのに、入口で疲れてしまう人もいるのではないでしょうか。でも、本当に考えたいのは、流行についていけるかどうかではありません。自分が積み重ねてきた経験を、これからも誰かの役に立つ形にできるか。そのために、AIとどう付き合うかです。続きをみる"
+  },
   {
    "kind": "note",
    "title": "【組織のAI活用#289】AIO・LLMO対策の前に、最低限確かめたい4つのこと。まずはAIに本文が読まれているかから",
@@ -13,6 +61,18 @@
    "ai": "その他",
    "chapters": [],
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "強者の論理に傷つかない考え方｜西野亮廣の言葉から学ぶ、努力を前進に変える方法",
+   "url": "https://note.com/ak_hikiyose/n/n0eeb000737ec",
+   "date": "2026-11-03",
+   "thumb": "https://assets.st-note.com/production/uploads/images/331735525/rectangle_large_type_2_9f0497392cf66eea6a423b4e0f58f1d6.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「それは、才能がある人だから言えるんですよね」成功者の話を聞いて、心の中でそうつぶやいたことはありませんか。仕事も家事もこなし、限られた時間で挑戦している。それなのに、もっと努力しろと言われると、今の自分まで否定された気持ちになる。強者の論理という言葉が、身を守る盾になる日もあると思います。続きをみる"
   },
   {
    "kind": "note",
@@ -385,30 +445,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": "「最近、写真に写った自分が、思っていたより疲れて見える」。そんな瞬間はありませんか。鏡の中の顔、階段を上ったあとの息づかい、休日なのに残っている重だるさ。年齢を意識するきっかけは、大きな出来事より、こうした日常の小さな変化なのかもしれません。チュアンド・タンの若さの秘訣を紹介する今回の動画は、そんな気持ちに希望をくれる一本です。取り上げられているのは、シンガポールの写真家・モデルとして知られる人物。食事、運動、睡眠、スキンケア、ストレス管理という５つの切り口から、彼の生活が紹介されています。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "GitHubの使い方を初心者向けに解説｜AIと育てた文章・指示書を「消えない工夫」に変えよう",
-   "url": "https://note.com/ak_hikiyose/n/nc14d79490106",
-   "date": "2026-10-28",
-   "thumb": "https://assets.st-note.com/production/uploads/images/329325492/rectangle_large_type_2_2b1d559f4dd56a62015a5b01ea4e2461.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「AIに直してもらったら、前のほうがよかった。でも、もう戻せない」続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "股関節を鍛えると毎日が変わる？いつまでも歩ける体を目指す、無理のない始め方",
-   "url": "https://note.com/ak_hikiyose/n/nc5c27b7da0a4",
-   "date": "2026-10-28",
-   "thumb": "https://assets.st-note.com/production/uploads/images/329304912/rectangle_large_type_2_f29535a10e8adc9f83d0e67932579d55.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「前より、立ち上がるのがおっくうになった」「散歩に出たいのに、足が重い気がする」。そんな小さな変化に、年齢のせいだから仕方がないと、ため息をついていませんか。続きをみる"
   },
   {
    "kind": "note",
@@ -865,18 +901,6 @@
    "ai": "Gemini",
    "chapters": [],
    "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。はじめてのデイキャンプやアウトドアは、楽しみな反面、ちょっとした不安や迷いもつきものですよね。でも、Gemini と一緒なら、その不安も楽しい時間に変わっていくかもしれません。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "【組織のAI活用#276】ClaudeにSTUDIOのブラウザ操作を1日教え込んだら、自社サイトを任せられる外注パートナーのようになった",
-   "url": "https://note.com/green_ai/n/nc46f800c73e5",
-   "date": "2026-10-14",
-   "thumb": "https://assets.st-note.com/production/uploads/images/324148961/rectangle_large_type_2_947085b0fd27eca9b67a3ca5b940a009.png?width=800",
-   "author": "寺田昇平｜組織のAI活用（note）",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
   },
   {
    "kind": "note",
@@ -1468,18 +1492,6 @@
   },
   {
    "kind": "note",
-   "title": "新しいCopilot Studioで何が変わった？従来版との違いと進化ポイントまとめ",
-   "url": "https://note.com/sc_microsoft/n/n963be7da3440",
-   "date": "2026-09-18",
-   "thumb": "https://assets.st-note.com/production/uploads/images/314851570/rectangle_large_type_2_91bc36b4338e4dc79b1c60ad3b857580.png?width=800",
-   "author": "ソフクリMicrosoft（note）",
-   "pick": "Claude推薦",
-   "ai": "Copilot",
-   "chapters": [],
-   "summary": "はじめまして、ソフトクリエイトのわっきーです。普段は、Copilot、Power Platform（主にはCopilot StudioやPower Automate）の活用支援、ワークショップ講師をやっているものです。そんな私が最近、Copilot Studioを開いて思ったことがあります。続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "「#AI とできたこと」投稿コンテスト開催！ Gemini と一緒に、次の「できた！」へ踏み出そう",
    "url": "https://note.com/google_gemini/n/n57425ad47f44",
    "date": "2026-09-18",
@@ -1537,18 +1549,6 @@
    "ai": "ChatGPT",
    "chapters": [],
    "summary": "みなさん、こんにちは。チャエンです。（自己紹介はこちら）📣 お知らせ続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "Claude CodeとCodexで合計7アカウントをフル活用する私が、節約のために見直した10の方法｜1日で上限に達して困る人へ",
-   "url": "https://note.com/chaen_channel/n/n50acfd3faee9",
-   "date": "2026-09-14",
-   "thumb": "https://assets.st-note.com/production/uploads/images/313509996/rectangle_large_type_2_eff84af3d6b417baf7fbdd6aa4dd5eac.png?width=800",
-   "author": "チャエン（note）",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "こんにちは、チャエンです。Claude CodeとCodexを合わせて7アカウント使っています。資料作成、LP制作、社内アプリ開発。仕事で毎日かなり使っています。それでも困るのが、利用枠です。月200ドルのプランなのに、1日でCodexの上限に達する。さすがに、何に使っているのか気になりました。続きをみる"
   },
   {
    "kind": "note",
