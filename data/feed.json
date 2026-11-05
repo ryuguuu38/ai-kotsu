@@ -1,7 +1,43 @@
 {
- "updated": "2026-11-04 01:52",
+ "updated": "2026-11-05 01:58",
  "desc_blocked": false,
  "items": [
+  {
+   "kind": "note",
+   "title": "【マジクラ】Excelをダブルクリック→Googleがアプリみたいに開く！「Drive Office」",
+   "url": "https://note.com/majin_108/n/n986c26da0466",
+   "date": "2026-11-05",
+   "thumb": "https://assets.st-note.com/production/uploads/images/332335412/rectangle_large_type_2_a8241ef5414e2d4e469b3201d0e1ca21.png?width=800",
+   "author": "まじん（note）",
+   "pick": "オーナー指定",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": "こんにちは、『チームまじん』のやまじんです。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【組織のAI活用#292】LLMO・GEO対策の手段を、公式の説明と業界の話に分けて整理。引用を約束するサービスには注意",
+   "url": "https://note.com/green_ai/n/nefd6efb5001e",
+   "date": "2026-11-05",
+   "thumb": "https://assets.st-note.com/production/uploads/images/332053673/rectangle_large_type_2_4e9beebe8bdc11f156a8fb8534bfef8e.png?width=800",
+   "author": "寺田昇平｜組織のAI活用（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "noteで発信するのが怖いあなたへ。豆腐メンタルのまま、書くことを未来につなげる方法",
+   "url": "https://note.com/ak_hikiyose/n/na20f2ded1249",
+   "date": "2026-11-05",
+   "thumb": "https://assets.st-note.com/production/uploads/images/331966545/rectangle_large_type_2_8b66357dc5de253c982043a93b72de57.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "noteで発信したい。でも、公開ボタンを押す直前になると、急に怖くなる。変なことを書いていないだろうか。知り合いに笑われないだろうか。たった一つの否定的なコメントで、書くことまで嫌いになってしまわないだろうか。続きをみる"
+  },
   {
    "kind": "note",
    "title": "【2026/10/26〜11/2】週刊AIニュース《Gemini 4 Carbon、Anthropic IPO申請など「AIが儲かる産業になった」ことが数字で見えた1週間。》",
@@ -28,6 +64,18 @@
   },
   {
    "kind": "note",
+   "title": "【組織のAI活用#291】Geminiのスキルにドライブとノートブックを連携。11月に増えた「ファイルを追加」を、実際に試してわかったこと",
+   "url": "https://note.com/green_ai/n/n503eb343bd1e",
+   "date": "2026-11-04",
+   "thumb": "https://assets.st-note.com/production/uploads/images/332052478/rectangle_large_type_2_922fbc20945dc58938dbecfe11d08758.png?width=800",
+   "author": "寺田昇平｜組織のAI活用（note）",
+   "pick": "Claude推薦",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
    "title": "【組織のAI活用#290】LLMO・AIO・GEO対策で、2026年6月11日以前からあるSTUDIOのサイトは要注意。旧基盤のままだとAIに本文が読まれない",
    "url": "https://note.com/green_ai/n/nbcdab6cd3999",
    "date": "2026-11-04",
@@ -40,6 +88,18 @@
   },
   {
    "kind": "note",
+   "title": "noteが読まれないときに見直したい「届け方」｜文章を直す前にできること",
+   "url": "https://note.com/ak_hikiyose/n/n29aa848689d2",
+   "date": "2026-11-04",
+   "thumb": "https://assets.st-note.com/production/uploads/images/331949834/rectangle_large_type_2_f61e2591e59a651ebf183aba863f7ed3.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「noteが読まれない。やっぱり、自分の文章には価値がないのかな」。時間をかけて書いた記事ほど反応が薄く、気軽に書いた記事のほうが読まれる。そんなとき、書き手は文章を直そうとします。導入を書き換え、見出しを増やし、もっと役立つ情報を探す。その努力は大切ですが、手を入れる前に確認したいことがあります。続きをみる"
+  },
+  {
+   "kind": "note",
    "title": "AI活用で仕事はどう変わる？中国の現場から考える、経験を未来の力に変える方法",
    "url": "https://note.com/ak_hikiyose/n/n75819c9bef01",
    "date": "2026-11-04",
@@ -49,6 +109,18 @@
    "ai": "ChatGPT",
    "chapters": [],
    "summary": "「AIを使わないと、仕事がなくなる」。そんな言葉を聞くたびに、少し胸がざわつく。ChatGPTを開いてみても、何を頼めばいいのかわからない。新しいサービスを覚えている間に、また別の名前が出てくる。AI活用に関心はあるのに、入口で疲れてしまう人もいるのではないでしょうか。でも、本当に考えたいのは、流行についていけるかどうかではありません。自分が積み重ねてきた経験を、これからも誰かの役に立つ形にできるか。そのために、AIとどう付き合うかです。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "三日坊主を卒業。専属トレーナーの Gemini と始める無理のない運動習慣",
+   "url": "https://note.com/google_gemini/n/nef56e564a8f2",
+   "date": "2026-11-04",
+   "thumb": "https://assets.st-note.com/production/uploads/images/327503269/rectangle_large_type_2_da13a52210ee7dbd2b9da393d2d2dcd7.jpeg?width=800",
+   "author": "Gemini公式（note）",
+   "pick": "Claude推薦",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。涼しい風が吹き、体を動かしたくなる「スポーツの秋」。今年こそ運動を習慣にしたいと思っても、「仕事が忙しくて続かない」「疲れて休んでしまい、自己嫌悪に陥る…」なんて経験はありませんか？続きをみる"
   },
   {
    "kind": "note",
@@ -388,18 +460,6 @@
   },
   {
    "kind": "note",
-   "title": "AI活用で人生の選択肢を増やす。中田敦彦×堀江貴文の対談から考える、経験を価値に変える方法",
-   "url": "https://note.com/ak_hikiyose/n/nabfa5bce687f",
-   "date": "2026-10-29",
-   "thumb": "https://assets.st-note.com/production/uploads/images/329681077/rectangle_large_type_2_f3b04d3f92f1b7114bbf2385bcc07125.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「AIを使えば、作業が速くなる」。そう聞いて使い始めたのに、調べ物や文章の下書きだけで終わっていませんか。便利にはなった。でも、自分の未来が広がった実感まではない。そんな気持ちを抱く人にこそ、今回の対談は面白いヒントをくれます。続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "【けんすうさん】「100 倍にするなら？」から始める AI 時代の仕事術",
    "url": "https://note.com/google_gemini/n/n91335a03fed9",
    "date": "2026-10-29",
@@ -433,18 +493,6 @@
    "ai": "Gemini",
    "chapters": [],
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "チュアンド・タンの若さの秘訣とは？食事・運動・睡眠から考える、無理なく続く健康習慣",
-   "url": "https://note.com/ak_hikiyose/n/n147a45d6736d",
-   "date": "2026-10-28",
-   "thumb": "https://assets.st-note.com/production/uploads/images/329351251/rectangle_large_type_2_8cfdad8a405888c6b5476f884f3bc8b3.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「最近、写真に写った自分が、思っていたより疲れて見える」。そんな瞬間はありませんか。鏡の中の顔、階段を上ったあとの息づかい、休日なのに残っている重だるさ。年齢を意識するきっかけは、大きな出来事より、こうした日常の小さな変化なのかもしれません。チュアンド・タンの若さの秘訣を紹介する今回の動画は、そんな気持ちに希望をくれる一本です。取り上げられているのは、シンガポールの写真家・モデルとして知られる人物。食事、運動、睡眠、スキンケア、ストレス管理という５つの切り口から、彼の生活が紹介されています。続きをみる"
   },
   {
    "kind": "note",
@@ -844,18 +892,6 @@
   },
   {
    "kind": "note",
-   "title": "【組織のAI活用#278】営業・人事・マーケ・管理部門・企画。職種別に「まず読む3本」と「次の1本」を選びました",
-   "url": "https://note.com/green_ai/n/n11e591830d29",
-   "date": "2026-10-17",
-   "thumb": "https://assets.st-note.com/production/uploads/images/325218583/rectangle_large_type_2_f6e32f5eb4bc320e7841120a32b61ffc.png?width=800",
-   "author": "寺田昇平｜組織のAI活用（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "Claude Codeのcompactで何が残る？要約を9回試して分かったこと",
    "url": "https://note.com/claudecode_lab/n/nb75b560124e9",
    "date": "2026-10-16",
@@ -877,18 +913,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": "「有料記事のURLをコピーして、AIに『この記事を要約して』と頼んだ。数秒で説得力のあるまとめが出たから、そのまま社内チャットへ共有しよう」そう思って、送信ボタンを押そうとしていませんか？その手、今すぐストップしてください。いま信じたその要約の裏で、本文を読まずにタイトルから捏造された「妄想ストーリー」が静かに混入している危険性が極めて高いのです。AIの性質上、確率的な誤出力のリスクをゼロにすることはできません。本知見はエラーの発生率を最小化する実践データですが、情報収集が絡む判断では必ず人間による最終確認を行って"
-  },
-  {
-   "kind": "note",
-   "title": "【組織のAI活用#277】ClaudeとGeminiの利用状況、経営に何を報告するか。「何人使ったか」ではなく「どこで詰まったか」を見る",
-   "url": "https://note.com/green_ai/n/ned59c7a8d15b",
-   "date": "2026-10-16",
-   "thumb": "https://assets.st-note.com/production/uploads/images/324931977/rectangle_large_type_2_3443db2aa89e483ce5595c1da2dc81db.png?width=800",
-   "author": "寺田昇平｜組織のAI活用（note）",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
   },
   {
    "kind": "note",
@@ -1588,18 +1612,6 @@
   },
   {
    "kind": "note",
-   "title": "【Google 社員の Gemini 活用法 Vol.2】Gemini で旅行計画を自由自在に！家族旅行から一人旅のプラン・しおり作成まで",
-   "url": "https://note.com/google_gemini/n/na316703aef95",
-   "date": "2026-09-07",
-   "thumb": "https://assets.st-note.com/production/uploads/images/309777741/rectangle_large_type_2_4140e7db8f142d5ba1fb5d641fafbae2.jpeg?width=800",
-   "author": "Gemini公式（note）",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。 “Googler（グーグラー）”こと、Google 社員が実際に日々の生活や仕事で取り入れている Gemini の活用術をご紹介する当シリーズ。第 2 回のテーマは「旅行」です。出発前の計画づくりも、旅の醍醐味のひとつ。ですが、情報収集や日程調整に時間がかかってしまい、大変な思いをすることもあるのではないでしょうか。 そこで今回は、Gemini をリサーチや計画のパートナーとして使いこなしている Google 社員の実践例"
-  },
-  {
-   "kind": "note",
    "title": "【マジクラ】 NotebookLMの「チェックボックス」で相談相手を切り替える。Geminiに投げるだけで育つ\"パーソナルログ\"のつくり方",
    "url": "https://note.com/majin_108/n/n412d95bd4ab1",
    "date": "2026-09-05",
@@ -1729,18 +1741,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "資料や議事録を貼るだけで、AI実写ベースの解説動画（MP4）が出来上がるClaude Codeスキル「zukai-kaisetsu」を販売します。※スキルは各々カスタマイズしていく前提だと考えてください。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "【マジクラ】 Geminiに「@Workspace」と送るだけ。\"勝手に育つ仕事ログ\"をつくる方法 【NotebookLM】",
-   "url": "https://note.com/majin_108/n/nefdf3f29af93",
-   "date": "2026-08-06",
-   "thumb": "https://assets.st-note.com/production/uploads/images/300293625/rectangle_large_type_2_6472cb18ecffe6a5c36e446ac435d4d7.png?width=800",
-   "author": "まじん（note）",
-   "pick": "オーナー指定",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": "こんにちは、まじんです。最近、NotebookLMの名称が「Gemini Notebook」に変わりました。NotebookLMという名前に親しみがあったのですが、今後はGemini側に集約する感じなんでしょうね。続きをみる"
   },
   {
    "kind": "note",

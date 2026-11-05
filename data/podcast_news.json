@@ -1,10 +1,10 @@
 {
  "edition": "news",
  "label": "ニュース編",
- "date": "2026-11-04",
- "built": "2026-11-04 01:52",
- "minutes": 4.5,
- "chars": 1669,
+ "date": "2026-11-05",
+ "built": "2026-11-05 01:58",
+ "minutes": 3.1,
+ "chars": 1150,
  "lines": [
   {
    "who": "metan",
@@ -20,27 +20,67 @@
   },
   {
    "who": "metan",
-   "text": "まず、Claudeの話。100人。そろそろ、お金の話をしなければいけない 個人開発SaaS fuSen 第十八話。"
+   "text": "まず、こんな話。写真1枚から歯面の削れ幅を測る。"
   },
   {
    "who": "metan",
-   "text": "Claude Code AI と2ヶ月で開発した日本初のWebサイト校正ツール fuSen の開発ブログです。"
+   "text": "走行後の8Tピニオン オレンジ、PETG、m0.5 の歯面を顕微鏡で撮り、固体潤滑剤のテフロンが削れた範囲を寸法で出しました。削れているのは基礎円付近から歯先の丸みの手前までで、長さはフランクに沿って約0.5〜0.65mmです。"
   },
   {
    "who": "metan",
-   "text": "つぎは、Claudeの話。DNS の確認が通るまで 公開 にならない：Sakupa の独自ドメイン接続を読む。"
+   "text": "つぎは、Claudeの話。週末限定メニューをホームページに載せる場面から考える：Sakupa の変更の流れ。"
   },
   {
    "who": "metan",
-   "text": "私は Sakupa の開発者ではありません。MCP サーバーを調べていて見つけ、公式サイトと公式マニュアルの公開情報だけを整理した紹介記事です。実際に使った体験談ではありません。"
+   "text": "私は Sakupa の開発者ではありません。MCP サーバーを調べていて見つけ、公式サイトと公式マニュアルの公開情報だけを整理した紹介記事です。"
   },
   {
    "who": "metan",
-   "text": "それから、こんな話。Apple、刷新版 Siri AI を全開発者に開放 アプリ連携で予約や注文などの操作が可能に。"
+   "text": "それから、こんな話。AI生成画像の 99％を検出 するChrome拡張機能が登場 米スタートアップ。"
+  },
+  {
+   "who": "zunda",
+   "text": "なるほどなのだ！"
   },
   {
    "who": "metan",
-   "text": "Appleは、音声アシスタント Siri AI とサードパーティアプリを連携させる機能を開発者向けに開放すると発表し、各OSのβ版でプレビュー提供を開始した。App Intents を利用し、アプリを開かずにSiri AIから直接操作が可能になる。"
+   "text": "お次は、こんな話。2611A-経済学は役に立たないのか？。"
+  },
+  {
+   "who": "metan",
+   "text": "こんなのも出ていたわ、こんな話。Apple is reportedly cutting budgets for its internal AI usage。"
+  },
+  {
+   "who": "metan",
+   "text": "さらに、ChatGPTの話。Python RAGでLLMのプロンプトキャッシュが効かない ヒット率0% 原因とClaude・OpenAI・Gemini別実装パターン。"
+  },
+  {
+   "who": "metan",
+   "text": "RAG 検索拡張生成 にプロンプトキャッシュを導入した際、 APIの cached tokens または cache read input tokens が常に 0 になる という事象が頻発します。"
+  },
+  {
+   "who": "zunda",
+   "text": "地味に効きそうなのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "もうひとつ、Claudeの話。Claude Code で \"Could not process image\" \"Request too large\" \"PDF too large\" が出たときの直し方 画像は長辺 2000px 以下に。"
+  },
+  {
+   "who": "metan",
+   "text": "つぎは、Claudeの話。Claude Code v2.1.318 破壊的変更まとめ：ランナーログ・IDE拡張・deniedMcpServers。"
+  },
+  {
+   "who": "metan",
+   "text": "新機能 Claude apps gateway の assume role 対応など に加え、運用中の環境を壊しうる破壊的変更が3件含まれています。"
+  },
+  {
+   "who": "metan",
+   "text": "それから、こんな話。2026年11月5日 今日のQiitaトレンド記事をポッドキャストで聴こう！。"
+  },
+  {
+   "who": "metan",
+   "text": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。通勤中などにながら聴きしよう！"
   },
   {
    "who": "zunda",
@@ -48,67 +88,7 @@
   },
   {
    "who": "metan",
-   "text": "お次は、こんな話。note利益化 10部・10人 50部・50人 100部・100人。いくら使えて、いくら残る？。"
-  },
-  {
-   "who": "metan",
-   "text": "`･ω´･ ﾉ ﾁｬｽ!!前回は、10月に27記事を購入して感じたことと、売上を次の作品や活動につなげるお話でした今回は、その先の 利益化 について、数字を入れて考えてみようと思います。"
-  },
-  {
-   "who": "metan",
-   "text": "こんなのも出ていたわ、Claudeの話。Claude Codeが clearで全部忘れる問題。claude-memで記憶を持たせる前に知っておきたい4つのこと。"
-  },
-  {
-   "who": "metan",
-   "text": "clear を打つたびに、さっきまでの作業をAIに説明し直していませんか。このファイルはもう直した このエラーはこう解決した ——会話を整理するたびに、それが全部消えます。長い作業ほど、説明し直す手間は増えていきます。"
-  },
-  {
-   "who": "metan",
-   "text": "さらに、Claudeの話。Claude Mythos 5・Opus 4.7・Sonnet 4.6 の生成テキストにウォーターマークが付与される。"
-  },
-  {
-   "who": "metan",
-   "text": "2026年11月3日のリリースノートで、Claude Mythos 5・Claude Opus 4.7・Claude Sonnet 4.6 が生成したテキストに、Anthropic のテキスト透かし ウォーターマーク が入ることが発表されました。"
-  },
-  {
-   "who": "zunda",
-   "text": "それ早く言ってほしかったのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "もうひとつ、こんな話。zsh で echo と書くと not found で止まる — で始まる語はコマンドのパスに展開される。"
-  },
-  {
-   "who": "metan",
-   "text": "2日がかりで、Mac で動かしている自動ジョブの棚卸しをしていた。ログや設定をまとめて読むために、コマンドを ; でつなぎ、ジョブごとに区切りの行を出していた。"
-  },
-  {
-   "who": "metan",
-   "text": "つぎは、こんな話。Power Platform管理を自然言語で――CoworkのAdmin pluginで調査と定期レビューを支援。"
-  },
-  {
-   "who": "metan",
-   "text": "執筆している2026年11月4日時点の情報です。本稿は公開された公式資料を整理したものです。"
-  },
-  {
-   "who": "metan",
-   "text": "それから、Copilotの話。Copilot for financeを整理――Excelの分析から決算・予算レビューの準備へ。"
-  },
-  {
-   "who": "metan",
-   "text": "執筆している2026年11月4日時点の情報です。Microsoft Copilot for financeとCowork は更新が速い機能のため、最新情報は必ず公開情報 本記事末尾の参考リンク もあわせてご確認ください。"
-  },
-  {
-   "who": "zunda",
-   "text": "うわ、損してたのだ…"
-  },
-  {
-   "who": "metan",
-   "text": "最後は、Copilotの話。Copilot Chatにもスキルが拡大――個人のプロンプトをチームで再利用する仕事の型へ。"
-  },
-  {
-   "who": "metan",
-   "text": "執筆している2026年11月4日時点の情報です。Microsoft Copilot ChatのスキルとCowork は更新が速い機能のため、最新情報は必ず公開情報 本記事末尾の参考リンク もあわせてご確認ください。"
+   "text": "最後は、こんな話。建設業バックオフィスDX調査、小規模企業の見積・請求デジタル化は21.4%どまり 受注から請求をシステムでつなぐ3ステップ。"
   },
   {
    "who": "zunda",
