@@ -1,7 +1,31 @@
 {
- "updated": "2026-11-05 01:58",
+ "updated": "2026-11-06 01:58",
  "desc_blocked": false,
  "items": [
+  {
+   "kind": "note",
+   "title": "人生をやり直したいあなたへ。「何もない」から抜け出す、今あるものの生かし方",
+   "url": "https://note.com/ak_hikiyose/n/n5d2b0c320907",
+   "date": "2026-11-06",
+   "thumb": "https://assets.st-note.com/production/uploads/images/332749670/rectangle_large_type_2_8a27a8665e983b8b0f948151ff04ea17.png?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「人生をやり直したい。でも、今の自分には何もない」。そんな言葉が頭をよぎるとき、前向きな成功談さえ、少し遠い世界の話に聞こえることがあります。家の事情、学歴、年齢、お金、思うように動ける時間。同じように頑張っているつもりでも、出発点の違いを感じる場面はあるでしょう。その悔しさを、気の持ちようだけで片づけたくありません。ちゃんと生きてきた人ほど、簡単に投げ出せない責任もあります。家族を支えながら新しいことを始める人に、「すべて捨てて挑戦しよう」と言うのは、あまりに乱暴です。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【2026年11月更新】Claude Codeのコンテキストエンジニアリング設計",
+   "url": "https://note.com/brave_quince241/n/n83c0ab26fc03",
+   "date": "2026-11-06",
+   "thumb": "https://assets.st-note.com/production/uploads/images/332667358/rectangle_large_type_2_dd81b6d93d46fd92b7145b91f7c407d3.png?width=800",
+   "author": "伊志嶺｜LLMで業務改善（note）",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "「メインエージェントは指揮に徹し、作業はサブエージェントに任せ、工程間は中間成果物で受け渡す」。以前の記事で、私はこの構成を Claude Code のコンテキストエンジニアリングの基本として紹介しました。続きをみる"
+  },
   {
    "kind": "note",
    "title": "【マジクラ】Excelをダブルクリック→Googleがアプリみたいに開く！「Drive Office」",
@@ -16,6 +40,42 @@
   },
   {
    "kind": "note",
+   "title": "Gemini 4 Carbonとは？性能・料金・いつ使えるかを徹底解説｜GPT-6 Astra・Claude Opus 5.5と比較",
+   "url": "https://note.com/chaen_channel/n/n19389cbadf21",
+   "date": "2026-11-05",
+   "thumb": "https://assets.st-note.com/production/uploads/images/330940225/rectangle_large_type_2_355b51e2cfd9019bb501cfebda36205b.png?width=800",
+   "author": "チャエン（note）",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "みなさん、こんにちは。チャエンです。（自己紹介はこちら）2026年10月28日（米国時間）、Googleが次の最上位モデル「Gemini 4 Carbon（ジェミニ4 カーボン）」を発表しました。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【英会話上達の罠】AIの発音テストで「満点」を取っても現場で通じない？致命的なカタカナ英語を勝手に脳内補正する「忖度合格」の正体",
+   "url": "https://note.com/alix78/n/neaeda104bd84",
+   "date": "2026-11-05",
+   "thumb": "https://assets.st-note.com/production/uploads/images/320709793/rectangle_large_type_2_ff23896be195055404261069b7c86de7.png?width=800",
+   "author": "アリス｜AI検証ログ（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「AI英会話アプリの発音テストで98点取れた！これで海外旅行も商談もバッチリだ！」そう思って画面を閉じたあなた、その手元のハイスコアは、あなたの努力を現場で大爆死させる偽りの通知表になっています。日常会話からビジネス英語まで、スマートフォンひとつで手軽にスピーキング練習ができるAI英会話ツール。しかし、そこに潜む「忖度合格バイアス」と呼ばれる致命的な落とし穴を、あなたはご存知でしょうか。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【発音お世辞狙撃】音声認識AIの親切すぎる補正機能を逆ハックして舌の弱点をあぶり出す「厳格フォニックス監査設定」と格闘生テイク",
+   "url": "https://note.com/alix78/n/nafe054af1979",
+   "date": "2026-11-05",
+   "thumb": "https://assets.st-note.com/production/uploads/images/320709829/rectangle_large_type_2_2210b0051fd3940f207adf07a4a973a8.png?width=800",
+   "author": "アリス｜AI検証ログ（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "無料記事では、AI英会話や発音チェック機能が引き起こす「忖度合格バイアス（下手なカタカナ英語を勝手に脳内補正して合格を出す現象）」の恐ろしさをお伝えしました。もしあなたが、アプリの「98点！パーフェクト！」というお世辞スコアを真に受けて海外渡航や重要な英語プレゼンに挑んでいたら、現地のネイティブに怪訝な顔をされ、一言も言葉が通じないという屈辱的な大爆死を迎えていたはずです。「自分の発音はAIに聞き取ってもらえたのだから、ネイティブにも伝わるはず」そう信じ込んでしまう学習者の気持ちは痛いほど分かります。しかし、厳しい"
+  },
+  {
+   "kind": "note",
    "title": "【組織のAI活用#292】LLMO・GEO対策の手段を、公式の説明と業界の話に分けて整理。引用を約束するサービスには注意",
    "url": "https://note.com/green_ai/n/nefd6efb5001e",
    "date": "2026-11-05",
@@ -25,6 +85,18 @@
    "ai": "その他",
    "chapters": [],
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "有料noteが売れないときに見直したい「届ける順番」｜無料投稿から読者とつながる方法",
+   "url": "https://note.com/ak_hikiyose/n/nd464f184d03d",
+   "date": "2026-11-05",
+   "thumb": "https://assets.st-note.com/production/uploads/images/331988669/rectangle_large_type_2_82ab1f642ac57c20a47e51a067eb35c0.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "有料noteが売れないとき、僕たちは真っ先に自分の文章を疑ってしまいます。「もっと上手に書かなければ」「実績がない自分には早かったのかもしれない」。時間をかけて仕上げた記事ほど、反応がないと、自分自身まで否定されたように感じてしまうことがあります。続きをみる"
   },
   {
    "kind": "note",
@@ -412,18 +484,6 @@
   },
   {
    "kind": "note",
-   "title": "英語が聞き取れないのは、才能のせい？知っている単語が聞こえ始める「音の変化」入門",
-   "url": "https://note.com/ak_hikiyose/n/n0ae2f9bdfb6b",
-   "date": "2026-10-30",
-   "thumb": "https://assets.st-note.com/production/uploads/images/330075677/rectangle_large_type_2_d150f58df3754d61316a0cef8b1f47e3.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "英語が聞き取れない。でも、字幕を見たら知っている単語ばかりだった。そんな経験はありませんか。難しい専門用語が並んでいたわけでも、文法が複雑だったわけでもない。それなのに、音になった途端、意味がつかめなくなる。続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "AI 時代の学びをどう考える？Gemini と探る高等教育の未来",
    "url": "https://note.com/google_gemini/n/nafe0766e45e7",
    "date": "2026-10-30",
@@ -445,18 +505,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": "こんにちは！ひつじです。『AI時代に、大切な資産を守るために今やるべきこと』続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "家トレが続く人は、意志より環境を変えている。ジムで挫折しても、体づくりはやり直せる",
-   "url": "https://note.com/ak_hikiyose/n/n6d169b2d14bb",
-   "date": "2026-10-29",
-   "thumb": "https://assets.st-note.com/production/uploads/images/329820157/rectangle_large_type_2_6c45adccf9894394aab18ade15256d17.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「今度こそ、ちゃんと運動しよう」。そう思ってジムに申し込んだのに、気づけば会費だけを払い続けている。あるいは、家トレの動画を保存したまま、今日も再生できずに一日が終わってしまう。そんな経験があると、「自分は何をやっても続かない」と思いたくなります。でも、そこで性格に結論を出すのは、少し早いかもしれません。見直したいのは、あなたの根性ではなく、運動を始めるまでに必要な準備や移動です。続きをみる"
   },
   {
    "kind": "note",
@@ -856,18 +904,6 @@
   },
   {
    "kind": "note",
-   "title": "【著作権BAN迎撃】動画生成AIの音源トラップと権利申し立てを事前に炙り出す「Content ID逆探知スキャン術」と自腹やらかし生データ",
-   "url": "https://note.com/alix78/n/n7b5322d90440",
-   "date": "2026-10-18",
-   "thumb": "https://assets.st-note.com/production/uploads/images/320719628/rectangle_large_type_2_3f5865b41b0465d43f7a6d5b259f0e67.png?width=800",
-   "author": "アリス｜AI検証ログ（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「動画生成AIや編集アプリが『商用利用可・著作権フリー』と表示しているBGMだから、著作権侵害になるはずがない」そう信じてYouTube ShortsやTikTok、Instagramリールに動画を投稿した瞬間、あなたのクリエイター活動には「ある日突然、過去の全動画の収益が奪われる」という最悪の時限爆弾が仕掛けられます。実際に私も、AI動画ツールで自動生成した解説ショート動画を投稿し続けた結果、公開から3週間後に突然届いた「Content IDの著作権申し立て」によって、動画の広告収益を全額赤の他人に吸い上げられる"
-  },
-  {
-   "kind": "note",
    "title": "【組織のAI活用#279】これまでの記事から選んだ、よく読まれたベスト15。スキの数と「出した当時の読まれ方」の2つで並べました",
    "url": "https://note.com/green_ai/n/n011e69b90541",
    "date": "2026-10-18",
@@ -901,18 +937,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "Claude Code の compact（会話の要約）を、架空の税理士事務所の会話で9回試しました。伝えた決定事項・期日・金額は9回とも残りました。一方、Claude が途中で書いた分析の細部は、指示なしの /compact では2回とも正確には残らず、会話で伝えただけのルールは、要約のあとに書類を作らせると崩れることがありました。費用の面では、13.6万トークンの会話なら圧縮で1回あたりの費用は下がるものの、元が取れるのは約20往復先でした。10月14日公開の v2.1.299 で加わった「放置中の自動圧縮」も"
-  },
-  {
-   "kind": "note",
-   "title": "【共有直前警告】有料記事のURLをAIに要約させてはいけない理由！会員限定の壁に弾かれてタイトルから嘘をでっち上げる「妄想作文」の現場",
-   "url": "https://note.com/alix78/n/n03adcbaf5d21",
-   "date": "2026-10-16",
-   "thumb": "https://assets.st-note.com/production/uploads/images/321105006/rectangle_large_type_2_5be4d3981c5adcb296133242a92fd5cd.png?width=800",
-   "author": "アリス｜AI検証ログ（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「有料記事のURLをコピーして、AIに『この記事を要約して』と頼んだ。数秒で説得力のあるまとめが出たから、そのまま社内チャットへ共有しよう」そう思って、送信ボタンを押そうとしていませんか？その手、今すぐストップしてください。いま信じたその要約の裏で、本文を読まずにタイトルから捏造された「妄想ストーリー」が静かに混入している危険性が極めて高いのです。AIの性質上、確率的な誤出力のリスクをゼロにすることはできません。本知見はエラーの発生率を最小化する実践データですが、情報収集が絡む判断では必ず人間による最終確認を行って"
   },
   {
    "kind": "note",
@@ -1564,18 +1588,6 @@
   },
   {
    "kind": "note",
-   "title": "【2026/9/7〜9/14】週刊AIニュース《ChatGPT Images 2.5、GPT-Live-1、iPhone Duo。そして週末、開発トップ4人が「減速」で一致した1週間。》",
-   "url": "https://note.com/chaen_channel/n/n08c3cf9af6fe",
-   "date": "2026-09-14",
-   "thumb": "https://assets.st-note.com/production/uploads/images/313407018/rectangle_large_type_2_346117ac80da0d802e055d58bfdd3322.png?width=800",
-   "author": "チャエン（note）",
-   "pick": "オーナー指定",
-   "ai": "ChatGPT",
-   "chapters": [],
-   "summary": "みなさん、こんにちは。チャエンです。（自己紹介はこちら）📣 お知らせ続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "あなたらしいブログが作れる！ライティング支援ツール『ゴーストライター4U』を公開",
    "url": "https://note.com/hituji1234/n/ndde5d08b2591",
    "date": "2026-09-14",
@@ -1933,18 +1945,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "2025年5月、Anthropicが最新モデル「Claude Opus 4.8」をリリースしました。目玉機能が「Dynamic Workflow」です。この記事では、Dynamic Workflowがどんな機能なのか、どんな場面で使えるのか、従来のやり方と何が違うのかを、初心者にもわかるようにまとめます。最後に、実際にDynamic Workflowでゲームを作った事例も紹介します。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "Claude Code「Dynamic Workflows（ダイナミックワークフロー）」とは — 仕組み・主な起動方法・制約を一読で把握",
-   "url": "https://note.com/brave_quince241/n/nbda61b85abaa",
-   "date": "2026-05-29",
-   "thumb": "https://assets.st-note.com/production/uploads/images/280550732/rectangle_large_type_2_71b2d6a62ba89a61f684da9236d66b5a.png?width=800",
-   "author": "伊志嶺｜LLMで業務改善（note）",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "Claude Code に、自然言語の依頼から処理の段取りそのものを組み立てる仕組みが加わりました。 2026 年 5 月 28 日に Claude Opus 4.8 と同時に発表された Dynamic Workflows（ダイナミックワークフロー）です。 これまで自分でサブエージェントを手動に並べていた規模の作業を、バックグラウンドの隔離環境に委ねて並列処理できます。 既存環境に何が加わるのか、仕組み・起動方法・制約の順に見ていきます。Dynamic Workflows とは何か — 仕組みとコンセプト続きをみる"
   },
   {
    "kind": "note",
