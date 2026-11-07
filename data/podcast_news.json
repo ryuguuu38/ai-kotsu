@@ -1,10 +1,10 @@
 {
  "edition": "news",
  "label": "ニュース編",
- "date": "2026-11-06",
- "built": "2026-11-06 01:58",
- "minutes": 3.6,
- "chars": 1318,
+ "date": "2026-11-07",
+ "built": "2026-11-07 01:34",
+ "minutes": 3.4,
+ "chars": 1276,
  "lines": [
   {
    "who": "metan",
@@ -20,43 +20,19 @@
   },
   {
    "who": "metan",
-   "text": "まず、Claudeの話。Opus 5系のthinkingとeffort移行ガイド、4.8から5.5で変わる設定。"
+   "text": "まず、Claudeの話。Claude Code 開発者が注目している5つのアップデート v2.1.317 - v2.1.319。"
   },
   {
    "who": "metan",
-   "text": "対象読者は、Anthropic API Messages API や Claude Code で Opus 系モデルを使っていて、Opus 4.8 から Opus 5、あるいは Opus 5.5 へ切り替える開発者です。"
+   "text": "網羅的な変更点一覧は リリースノートまとめ にあるので、今回は なぜ注目に値するか にフォーカスします。"
   },
   {
    "who": "metan",
-   "text": "つぎは、Claudeの話。AI にカード番号を渡さない設計：Sakupa の支払いが Stripe のページだけで完結する理由。"
+   "text": "つぎは、こんな話。ラクス調査、業務システム化を検討した企業の79.3%が断念した現実 コストと人材不足を越えて小さく始める3つのステップ。"
   },
   {
    "who": "metan",
-   "text": "私は Sakupa の開発者ではありません。MCP サーバーを調べていて見つけ、公式サイトと公式マニュアルの公開情報だけを整理した紹介記事です。実際に使った体験談ではありません。"
-  },
-  {
-   "who": "metan",
-   "text": "それから、こんな話。ピザーラ、アニメ Dr.STONE のコラボCMに関して謝罪 許諾なく“AI広告”配信。"
-  },
-  {
-   "who": "zunda",
-   "text": "それ早く言ってほしかったのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "お次は、こんな話。Meta AIエージェント：Muse。"
-  },
-  {
-   "who": "metan",
-   "text": "こんなのも出ていたわ、Claudeの話。Claude Code で \"Self-signed certificate detected\" \"SSL certificate verification failed\" が出たときの直し方 社内プロキシと NODE EXTRA CA CERTS。"
-  },
-  {
-   "who": "metan",
-   "text": "さらに、Claudeの話。Claude Code v2.1.318——無人実行とネットワークホームの安定性が上がった5つの修正。"
-  },
-  {
-   "who": "metan",
-   "text": "深夜に動かしている無人実行のログを見ていると、idle compaction が走ったターンの直後で会話が壊れていたことがある。スクリプト自体は 成功 と返していたが、翌朝のアウトプットが意味をなしていない。"
+   "text": "それから、こんな話。AI面接を導入したのに、応募者情報は手入力？ 採用現場の 二度手間 を解消へ。"
   },
   {
    "who": "zunda",
@@ -64,39 +40,63 @@
   },
   {
    "who": "metan",
-   "text": "もうひとつ、こんな話。AdMob 入りの iOS アプリが自動で却下された — 年齢制限の 広告 を いいえ のままにしていた。"
+   "text": "お次は、こんな話。Pythonを勉強中。"
   },
   {
    "who": "metan",
-   "text": "個人で出している iOS アプリのうち3本 小学生向けの算数・時計の学習アプリ は、無料で AdMob の広告を出している。"
+   "text": "Pythonっていうのはプログラミング言語のことです。discordのbotを作るプロジェクトに参加する機会がありまして。使用言語がPythonのため、私もコードを書けるようになるために勉強中というわけです。"
   },
   {
    "who": "metan",
-   "text": "つぎは、こんな話。PLaMo 3 Translate は、合成データの作成元の Gemma 4 を超えたのか？。"
+   "text": "こんなのも出ていたわ、Claudeの話。Claude Code v2.1.317 - v2.1.319 リリースノートまとめ。"
   },
   {
    "who": "metan",
-   "text": "結論 合成データの作成元の Gemma 4 31B IT を、PLaMo 3 Translate が超えたとは言えません。"
+   "text": "さらに、Claudeの話。Anthropic Python SDK 2.0 の移行ポイント 5 つを、v1 と同じコードを動かして確かめた。"
   },
   {
    "who": "metan",
-   "text": "それから、Claudeの話。テストデータ作成でわかったAIの弱点。"
-  },
-  {
-   "who": "metan",
-   "text": "業務システムの不具合を修正するときに、確認用のテストデータをClaude Codeに作ってもらうことがよくあります。この不具合を再現するINSERT文を作って と頼めば、数分でSQLが出てきます。"
+   "text": "2026-10-21 に Claude API の新しい API バージョン 2026-10-21 と、それを既定で送る Python SDK 2.0.0 が出た。"
   },
   {
    "who": "zunda",
-   "text": "それは知らなかったのだ…"
+   "text": "地味に効きそうなのだ！"
   },
   {
    "who": "metan",
-   "text": "最後は、Claudeの話。Claude Code への修正指示を 画面に描いた印 で出す手順 MCP でつなぐ Mac アプリ。"
+   "text": "もうひとつ、Claudeの話。Python の assert は -O で消える：Claude Code の運用で作る販売ページ照合に穴3つ。"
   },
   {
    "who": "metan",
-   "text": "紹介する Mac アプリ SKETCHTALK は筆者 株式会社トゥエルブトーン 角田 が開発しています。Anthropic とは提携していない独立したアプリです。"
+   "text": "AI Anthropic社のClaude が書き、持ち主のアカウントで、AIがブラウザを操作して投稿しています。Anthropic社とも、販売サイト Brain と note の運営とも無関係の個人の実験で、公認や提携ではありません。"
+  },
+  {
+   "who": "metan",
+   "text": "つぎは、こんな話。病院の生成AIが、答えと一緒に出典を示す。医学書院・NTTなどがNTT東日本関東病院で実証を開始。"
+  },
+  {
+   "who": "metan",
+   "text": "筆者が運営する AI Quotidia の海外ニュース解説記事です。"
+  },
+  {
+   "who": "metan",
+   "text": "それから、こんな話。AIと一緒に挑んだソフトウェア無線開発記：停波の絶望と9千円の機材課金を乗り越えて気象衛星・宇宙の電波を受信したオールインワンアプリ twnoaa。"
+  },
+  {
+   "who": "metan",
+   "text": "机の引き出しに眠っている数千円のUSBドングル型ソフトウェア無線機 RTL-SDR で、何か面白いものは作れないだろうか？"
+  },
+  {
+   "who": "zunda",
+   "text": "それ早く言ってほしかったのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "最後は、ChatGPTの話。ChatGPTの回答にリンクがない 見られていない 実は違うAIの情報収集。"
+  },
+  {
+   "who": "metan",
+   "text": "ChatGPTやClaudeなどの生成AIに自社サイトが引用されていない場合、AIに情報を参照されていないと考えがちだ。だが、回答に表示されるリンクだけでは、AIがどのWebサイトを参考にしたのか分からない。"
   },
   {
    "who": "zunda",

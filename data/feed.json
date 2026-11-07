@@ -1,7 +1,43 @@
 {
- "updated": "2026-11-06 01:58",
+ "updated": "2026-11-07 01:34",
  "desc_blocked": false,
  "items": [
+  {
+   "kind": "note",
+   "title": "モチベーションの上げ方｜やる気を待つ毎日を変える「小さな成功」と新しい経験",
+   "url": "https://note.com/ak_hikiyose/n/nbefbe8aaf414",
+   "date": "2026-11-07",
+   "thumb": "https://assets.st-note.com/production/uploads/images/332878964/rectangle_large_type_2_36fde814e44220700d29bff9e16bfb1a.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「モチベーションが上がったら、ちゃんと始めよう」。そう思いながら、今日もやるべきことを後回しにしてしまった。夜になってスマホを閉じると、何も進んでいないように感じて、自分にがっかりする。そんな日があっても、あなたの意志が弱いと決めつける必要はありません。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "security-auditで脆弱性発見は変わる？Claude Code徹底検証",
+   "url": "https://note.com/claudecode_lab/n/n911760b5248e",
+   "date": "2026-11-06",
+   "thumb": "https://assets.st-note.com/production/uploads/images/332872953/rectangle_large_type_2_39a8070d8ddf929ae6c68c8c2c1a0d15.jpeg?width=800",
+   "author": "Claude Code Lab（note）",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "Cloudflareが公開したセキュリティ監査スキル「security-audit」を入れると、Claude Codeが見つける脆弱性はどれだけ増えるのか。実在のオープンソースアプリの公開済み脆弱性9件を答えにして、Sonnet 5.5で各3回試しました。普通に頼むと0〜1件、スキルの全工程を指定すると8〜9件でした。 ただし、スキルを入れて普通に頼むだけでは2〜6件にとどまり、スキルなしで「徹底的に」と頼んだ3〜7件と同程度です。全工程は1回25〜32ドル（APIの定価換算）、48〜70分かかりました。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "投資とは、未来の選択肢を増やすこと。親子で学ぶ「お金と時間」の使い方",
+   "url": "https://note.com/ak_hikiyose/n/n84f5b039f066",
+   "date": "2026-11-06",
+   "thumb": "https://assets.st-note.com/production/uploads/images/332865727/rectangle_large_type_2_70bc39632e47f37275c8cf76a8f70692.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「投資の勉強をしなきゃ」と思っても、何から始めればいいのか分からない。株価や利回りの話が出た瞬間に、自分には難しい世界だと感じてしまう。そんな経験はありませんか。続きをみる"
+  },
   {
    "kind": "note",
    "title": "人生をやり直したいあなたへ。「何もない」から抜け出す、今あるものの生かし方",
@@ -13,6 +49,18 @@
    "ai": "その他",
    "chapters": [],
    "summary": "「人生をやり直したい。でも、今の自分には何もない」。そんな言葉が頭をよぎるとき、前向きな成功談さえ、少し遠い世界の話に聞こえることがあります。家の事情、学歴、年齢、お金、思うように動ける時間。同じように頑張っているつもりでも、出発点の違いを感じる場面はあるでしょう。その悔しさを、気の持ちようだけで片づけたくありません。ちゃんと生きてきた人ほど、簡単に投げ出せない責任もあります。家族を支えながら新しいことを始める人に、「すべて捨てて挑戦しよう」と言うのは、あまりに乱暴です。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "Gemini がもっと「自分好み」に。進化した「パーソナル インテリジェンス」の活用事例",
+   "url": "https://note.com/google_gemini/n/n9fe58c939552",
+   "date": "2026-11-06",
+   "thumb": "https://assets.st-note.com/production/uploads/images/329381472/rectangle_large_type_2_56f6a640b167326e78e40daba880ed04.jpeg?width=800",
+   "author": "Gemini公式（note）",
+   "pick": "Claude推薦",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。「今日、何食べよう？」「あのお店、なんて名前だっけ？」「今度の旅行、何を準備しよう？」毎日のちょっとした迷いごと、自分で写真やメールをさかのぼって探すのは意外と手間ですよね。Gemini の「パーソナル インテリジェンス」なら、Google フォトや Gmail、YouTube、Google マップなど、ふだん使っているアプリの情報をまとめてふまえて、あなたに合った提案をしてくれます。自分のことを細かく伝えなくても、好みや予"
   },
   {
    "kind": "note",
@@ -424,18 +472,6 @@
   },
   {
    "kind": "note",
-   "title": "英語脳の作り方｜日本語を訳す前に考えたい「3ステップ」と毎日の練習法",
-   "url": "https://note.com/ak_hikiyose/n/n9b2d0eb439e1",
-   "date": "2026-10-31",
-   "thumb": "https://assets.st-note.com/production/uploads/images/330359823/rectangle_large_type_2_c4ed841bede333090578ef3a8f45ff76.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「単語は知っている。文法も勉強した。それなのに、話そうとすると止まってしまう」。英語脳の作り方を探している方の中には、そんなもどかしさを抱えている人もいるのではないでしょうか。続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "防災バッグから避難所まで。Gemini とはじめるわが家の防災",
    "url": "https://note.com/google_gemini/n/n086d0cc85109",
    "date": "2026-10-31",
@@ -469,18 +505,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "英語脳の作り方｜「知っているのに話せない」を変える、置き換えと塊の英会話練習",
-   "url": "https://note.com/ak_hikiyose/n/n68fc775749fd",
-   "date": "2026-10-30",
-   "thumb": "https://assets.st-note.com/production/uploads/images/330120953/rectangle_large_type_2_12038112585eedcdb5e0fec0fbd70ade.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "英単語は知っている。簡単な英文なら読める。それなのに、いざ話そうとすると「ええと……」で止まってしまう。英語脳の作り方を探している人の中には、そんなもどかしさを何度も感じてきた方がいると思います。続きをみる"
   },
   {
    "kind": "note",
@@ -1372,18 +1396,6 @@
   },
   {
    "kind": "note",
-   "title": "Claude Codeのeffortはmediumのまま。実測8回と在籍者の発言",
-   "url": "https://note.com/claudecode_lab/n/nb15b49661836",
-   "date": "2026-09-29",
-   "thumb": "https://assets.st-note.com/production/uploads/images/318831005/rectangle_large_type_2_1177fa17b9f5c6fc10b95aff60a59dee.jpeg?width=800",
-   "author": "Claude Code Lab（note）",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "Claude Codeのeffort（どれだけ考えさせるかのつまみ）は、2026年9月時点でOpus 5.5・Sonnet 5.5ともに既定がmediumです。Anthropicの在籍者は口をそろえて「既定のままで良い」「Sonnetにmaxは使わない」と言っています。本当にそうか、同じ請求明細チェック（架空14行・誤り7件）をSonnet 5.5とOpus 5.5、effort low／medium／high／maxの8通りで動かしたところ、検出数は8回すべて7件中7件、所要はlow〜highが10〜13秒、ma"
-  },
-  {
-   "kind": "note",
    "title": "本物のサインイン画面でも危険？ デバイスコードフローの悪用と対策前の確認ポイント",
    "url": "https://note.com/sc_microsoft/n/n65b20df180bf",
    "date": "2026-09-29",
@@ -1597,18 +1609,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": "こんにちは！ひつじです。今日は、あとがきメンバー向けツール『ゴーストライター4U』の新作ができたので公開します🙌続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "大学サッカー部が実践！Gemini を「専属アシスタント」にして、選手自らが考える力を育てる方法",
-   "url": "https://note.com/google_gemini/n/nb60a9073b138",
-   "date": "2026-09-14",
-   "thumb": "https://assets.st-note.com/production/uploads/images/309601609/rectangle_large_type_2_4e0a56894472dcdf23d52c1d345c2016.jpeg?width=800",
-   "author": "Gemini公式（note）",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。 仕事や学び、日々の暮らしなど、さまざまな場面で AI を活用する機会が増えてきました。そのなかで、「もっと自分に合った使い道を見つけたい」「さらに一歩踏み込んだ活用法を知りたい」と感じている方もいらっしゃるのではないでしょうか。 今回は、「AI ×スポーツ」というひと味違ったアプローチで学生たちの成長をサポートしている、岡山理科大学教授、林恒宏先生にお話を伺いました。 サッカー部の顧問でもある林先生は、選手たちに向けて G"
   },
   {
    "kind": "note",
