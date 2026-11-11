@@ -1,10 +1,10 @@
 {
  "edition": "news",
  "label": "ニュース編",
- "date": "2026-11-10",
- "built": "2026-11-10 03:57",
- "minutes": 3.2,
- "chars": 1202,
+ "date": "2026-11-11",
+ "built": "2026-11-11 01:43",
+ "minutes": 4.0,
+ "chars": 1480,
  "lines": [
   {
    "who": "metan",
@@ -20,71 +20,27 @@
   },
   {
    "who": "metan",
-   "text": "まず、ChatGPTの話。gemini-2.5-proが提供終了、gemini-omni-1.1-flashが提供終了 今週のAI API変更 11 2-11 8。"
+   "text": "まず、Claudeの話。Claude Code と Codex を MCP で Ontoloop につなぎ、人が確認したチームの事実を共有する。"
   },
   {
    "who": "metan",
-   "text": "使っているモデルの提供終了や値上げ、把握できていますか？直近の期限は 2026-11-12 Usage Policy です。"
+   "text": "チームの全員が、コーディング用の Agent を使えるようになりました。まだしっくりこないのは、その Agent がいまも各自のターミナルの中にいることです。"
   },
   {
    "who": "metan",
-   "text": "つぎは、こんな話。無料でAI漫画を試す入力例 人物・場面・セリフを分けて準備する。"
+   "text": "つぎは、ChatGPTの話。ChatGPTのAPIでチャットは動かせたが、PDFに質問したり、調べ物を任せたりするAIアプリの作り方が分からないPythonエンジニアへ。OpenAI、Claude、Geminiを切り替えながら作って学べる一冊。"
   },
   {
    "who": "metan",
-   "text": "無料枠でAI漫画を試すときは、最初の生成前に人物・場所・小物・出来事を短く整理すると、出力を見て直したい箇所を判断しやすくなります。この記事では、短編を漫画制作向けの入力に変える例と、実際に生成した一コマの確認点を紹介します。"
+   "text": "ただ、その先のPDFに質問するアプリや、ネットで調べ物をしてくれるエージェントになると、何から手を付けるのか見えなくなる。"
   },
   {
    "who": "metan",
-   "text": "それから、こんな話。なぜ、三井化学は1.8兆円で 半導体材料メーカー を買ったのか JSR買収の狙い、市村社長が語る。"
+   "text": "それから、Claudeの話。Claude に共同編集の Sheets Whiteboards 外部アプリもClaude内で開いて作業可能に。"
   },
   {
    "who": "metan",
-   "text": "三井化学が、半導体材料大手JSRを約1.8兆円で買収する。市村社長は 単なるM＆Aではない と説明する。"
-  },
-  {
-   "who": "zunda",
-   "text": "地味に効きそうなのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "お次は、こんな話。アラフォー女子が二郎系ラーメンで始めるお手軽自傷行為。"
-  },
-  {
-   "who": "metan",
-   "text": "こんなのも出ていたわ、Claudeの話。Anthropic reportedly plans to move forward with IPO plans。"
-  },
-  {
-   "who": "metan",
-   "text": "さらに、Claudeの話。GitHub CopilotにClaude Fable 5.2登場：企業で有効化する前に確認したいデータ保持・利用条件・費用。"
-  },
-  {
-   "who": "metan",
-   "text": "執筆している2026年11月10日時点の情報です。本稿は公開された公式資料を整理したものです。"
-  },
-  {
-   "who": "zunda",
-   "text": "メモしておくのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "もうひとつ、ChatGPTの話。Python×Claude API プロンプト販売・業務自動化で即戦力になる プロンプト自動生成・品質検証パイプライン の実装。"
-  },
-  {
-   "who": "metan",
-   "text": "こんにちは、AIハックラボ @ai hack lab です。前回の記事では、 最小構成 Python×OpenAI APIでコンテンツを自律生成・品質検証するパイプライン実装について解説しました。"
-  },
-  {
-   "who": "metan",
-   "text": "つぎは、こんな話。AIに書かせる時代だからこそ、コード1行を読む。"
-  },
-  {
-   "who": "metan",
-   "text": "最近はAIを使ってアプリの修正をすることが増えました。指示を出せば、それなりに動くコードがすぐに出てきます。その一方で、 動いたからOK とソースの中身を理解しないまま作業を終えてしまうことが、自分にもありました。"
-  },
-  {
-   "who": "metan",
-   "text": "それから、Claudeの話。AIを1から作る ってどこまでできる？3つのレベルで調べてみた。"
+   "text": "Anthropicは、 Claude に共同編集可能な Claude Sheets と Claude Whiteboards をβ版として追加した。また Claude Dashboards を Claude Data に改称し、一般提供を開始。"
   },
   {
    "who": "zunda",
@@ -92,7 +48,51 @@
   },
   {
    "who": "metan",
-   "text": "最後は、Claudeの話。MCPとAIエージェントの役割を、みずほスライドジェネレーターの開発事例で理解する。"
+   "text": "お次は、こんな話。よし の一言で、仕事の続きができるだろうか。"
+  },
+  {
+   "who": "metan",
+   "text": "こんなのも出ていたわ、こんな話。Gilbert Tobin rethinks the business of law with AI。"
+  },
+  {
+   "who": "metan",
+   "text": "さらに、Claudeの話。Claude Code で \"Unable to connect to API ECONNRESET \" \"The socket connection was closed unexpectedly\" が出たときの切り分け MTU・IPv6・VPN、Request timed out も。"
+  },
+  {
+   "who": "zunda",
+   "text": "地味に効きそうなのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "もうひとつ、Claudeの話。Python×Claude API 実務で使える プロンプト自動最適化＆品質スコアリング パイプラインの実装。"
+  },
+  {
+   "who": "metan",
+   "text": "こんにちは、AIハックラボ @ai hack lab です。前回公開した Python×Claude API プロンプト販売・業務自動化で即戦力になる プロンプト自動生成・品質検証パイプライン の実装では、プロンプトを自動生成し、出力を検証する仕組みを解説しました。"
+  },
+  {
+   "who": "metan",
+   "text": "つぎは、Claudeの話。Claude Code の 5 時間の枠が尽きる前に気づける。statusline に 使う速さ を出す。"
+  },
+  {
+   "who": "metan",
+   "text": "この記事でやること Claude Code を claude.ai の Pro や Max で使っていると、5 時間の枠に当たることがあります。当たると、作業は途中で止まります。公式の issue にも、枠がすぐ尽きるという報告が多く寄せられた物があります。"
+  },
+  {
+   "who": "metan",
+   "text": "それから、こんな話。東京商工リサーチ、2026年の企業情報漏えいが10月に過去最多更新 外注したWebシステムの顧客データ管理を見直す3つのステップ。"
+  },
+  {
+   "who": "zunda",
+   "text": "頭に入れておくのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "最後は、こんな話。現場の悩みを聞いてから1時間で形にする：AIと分担して 使われる道具 を作る進め方。"
+  },
+  {
+   "who": "metan",
+   "text": "普段は社内SEとして、主にデータ活用や業務の自動化の相談を受けて対応しています。ここ最近はAIの進化もあって、相談を受けてから動くものを見せるまでが、以前よりずっと速くなりました。"
   },
   {
    "who": "zunda",
