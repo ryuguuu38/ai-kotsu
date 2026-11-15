@@ -1,7 +1,31 @@
 {
- "updated": "2026-11-14 01:57",
+ "updated": "2026-11-15 01:29",
  "desc_blocked": false,
  "items": [
+  {
+   "kind": "note",
+   "title": "【組織のAI活用#299】商談の振り返りは「点」ではなく「ストーリーの流れ」で見る。成果が出ている人の商談ログと自分のログをAIで「概念図」にして見比べる仕組み",
+   "url": "https://note.com/green_ai/n/n09d49119fbf3",
+   "date": "2026-11-15",
+   "thumb": "https://assets.st-note.com/production/uploads/images/335586968/rectangle_large_type_2_393f303756f72ec72eb93c04bad75b63.png?width=800",
+   "author": "寺田昇平｜組織のAI活用（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "Threads×noteで収益化するには？毎日投稿で疲れる前に見直したい「雨どい設計」",
+   "url": "https://note.com/ak_hikiyose/n/nff87502e3da2",
+   "date": "2026-11-15",
+   "thumb": "https://assets.st-note.com/production/uploads/images/336097331/rectangle_large_type_2_734976ba67b4add26f8da71e877115a3.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "毎日投稿しているのに、有料noteが売れない。いいねがついても、次の記事まで読んでもらえない。そんなとき、「文章が下手なのかな」「もっと頑張らないとダメなのかな」と、自分に原因を探してしまうことはありませんか。続きをみる"
+  },
   {
    "kind": "note",
    "title": "【マジクラ】まじん式がスキルに対応！v4.4・PDFのスキル版と「Gemからスキルへの移行テクニック」",
@@ -16,6 +40,30 @@
   },
   {
    "kind": "note",
+   "title": "【一括投稿の地雷】Claude CodeにTikTokとYouTube Shortsの同時投稿を丸投げした結果、両方のアカウントでおすすめ表示が止まった話",
+   "url": "https://note.com/alix78/n/ne28907331e77",
+   "date": "2026-11-14",
+   "thumb": "https://assets.st-note.com/production/uploads/images/335614944/rectangle_large_type_2_d2036ea3513f39a4ba5ce27b24860e9f.png?width=800",
+   "author": "アリス｜AI検証ログ（note）",
+   "pick": "Claude推薦",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "「Claude Codeに投稿スキルを繋げば、TikTokとYouTube Shortsへ同時に自動投稿できるらしい！」SNSでそんな夢のような時短術を見かけて、自分のスマホやパソコンから動画を一括配信する仕組みを組もうとしていませんか？実は私も先日、1本のショート動画と台本をClaude Codeに渡し、両方のプラットフォームへ自動でサイズ調整と予約投稿をさせるパイプラインを動かしました。ところが、数日後にアナリティクスを開いて血の気が引いたのは、どちらのアカウントも再生数が「0〜一桁」でピタッと止まり、おすすめ"
+  },
+  {
+   "kind": "note",
+   "title": "【ショート動画マルチ運用ログ】TikTok・YouTube Shortsの仕様差を吸収するメタデータ分離構文と安全投稿ペース基準",
+   "url": "https://note.com/alix78/n/n43119c411906",
+   "date": "2026-11-14",
+   "thumb": "https://assets.st-note.com/production/uploads/images/335615030/rectangle_large_type_2_d46ea9f6951b75350e7f09fd807cf762.png?width=800",
+   "author": "アリス｜AI検証ログ（note）",
+   "pick": "Claude推薦",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "無料記事でお話しした通り、私は1本のショート動画と台本をClaude Codeに渡し、CLIの自動投稿スキルを使ってTikTokとYouTube Shortsの両方へ同時配信するパイプラインを組んで動かしました。ところが、数日後に両方のアナリティクスを開いて目の前が真っ暗になったのは、どちらのアカウントも再生数が「0〜3回」でピタッと張り付き、おすすめフィードへの露出が完全に停止していたという冷酷な現実だったのです。この「1回のコマンドで両方に自動投稿できてラッキー」という甘い認識のまま運用を続けると、単なる再生数"
+  },
+  {
+   "kind": "note",
    "title": "【組織のAI活用#298】毎日たまる「お客様との対話ログ」を記録して終わりにしない。現場の生の声をAIで自動で整理し、集客やサービス改善につなげる仕組み",
    "url": "https://note.com/green_ai/n/ne8e08e80e8ad",
    "date": "2026-11-14",
@@ -25,6 +73,30 @@
    "ai": "その他",
    "chapters": [],
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "noteダッシュボードの正しい見方｜PVが増えても売れない理由と、読者に選ばれ続ける記事の育て方",
+   "url": "https://note.com/ak_hikiyose/n/n05a84691d770",
+   "date": "2026-11-14",
+   "thumb": "https://assets.st-note.com/production/uploads/images/336062543/rectangle_large_type_2_0bd248445d51010f9ef9d55a010e6dca.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「昨日よりPVが増えた。なのに、売上は変わらない」続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "AI時代の日本の強みは「偏愛」にある──アメリカ・中国と同じ戦い方をしない、未来のつくり方",
+   "url": "https://note.com/ak_hikiyose/n/n874e44985e42",
+   "date": "2026-11-14",
+   "thumb": "https://assets.st-note.com/production/uploads/images/335938543/rectangle_large_type_2_2954ac0d9782f218ffa29fe7ac4f3acf.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「AIで日本はもう勝てない」。そんな言葉を見かけるたびに、胸の奥が少し重くなることがあります。生成AIの新しいモデルやサービスのニュースは、アメリカや中国から届くものが目立ちます。では、日本に暮らす私たちには、ただ便利な道具を輸入して使う未来しか残されていないのでしょうか。続きをみる"
   },
   {
    "kind": "note",
@@ -484,30 +556,6 @@
   },
   {
    "kind": "note",
-   "title": "販売と集客が続かない人へ。「いい商品」を売れ続ける仕組みにつなげる方法",
-   "url": "https://note.com/ak_hikiyose/n/n73d43efe7a2e",
-   "date": "2026-11-07",
-   "thumb": "https://assets.st-note.com/production/uploads/images/332905366/rectangle_large_type_2_13701dd6455195cbebeedf1e86b3b513.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「いいものを作れば、いつか売れる」。そう信じて、記事を書き、商品を磨き、今日も告知を続けている。それなのに、販売と集客が思うように続かない。そんなとき、自分には才能がないのかもしれないと、心が沈んでしまうことはありませんか。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "モチベーションの上げ方｜やる気を待つ毎日を変える「小さな成功」と新しい経験",
-   "url": "https://note.com/ak_hikiyose/n/nbefbe8aaf414",
-   "date": "2026-11-07",
-   "thumb": "https://assets.st-note.com/production/uploads/images/332878964/rectangle_large_type_2_36fde814e44220700d29bff9e16bfb1a.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「モチベーションが上がったら、ちゃんと始めよう」。そう思いながら、今日もやるべきことを後回しにしてしまった。夜になってスマホを閉じると、何も進んでいないように感じて、自分にがっかりする。そんな日があっても、あなたの意志が弱いと決めつける必要はありません。続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "【AIx3Dプリンター】print3d-modeler入門。モデリングソフトなしで、話すだけで3Dモデルを作る",
    "url": "https://note.com/brave_quince241/n/n613fc9131d4b",
    "date": "2026-11-07",
@@ -541,18 +589,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "Cloudflareが公開したセキュリティ監査スキル「security-audit」を入れると、Claude Codeが見つける脆弱性はどれだけ増えるのか。実在のオープンソースアプリの公開済み脆弱性9件を答えにして、Sonnet 5.5で各3回試しました。普通に頼むと0〜1件、スキルの全工程を指定すると8〜9件でした。 ただし、スキルを入れて普通に頼むだけでは2〜6件にとどまり、スキルなしで「徹底的に」と頼んだ3〜7件と同程度です。全工程は1回25〜32ドル（APIの定価換算）、48〜70分かかりました。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "投資とは、未来の選択肢を増やすこと。親子で学ぶ「お金と時間」の使い方",
-   "url": "https://note.com/ak_hikiyose/n/n84f5b039f066",
-   "date": "2026-11-06",
-   "thumb": "https://assets.st-note.com/production/uploads/images/332865727/rectangle_large_type_2_70bc39632e47f37275c8cf76a8f70692.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「投資の勉強をしなきゃ」と思っても、何から始めればいいのか分からない。株価や利回りの話が出た瞬間に、自分には難しい世界だと感じてしまう。そんな経験はありませんか。続きをみる"
   },
   {
    "kind": "note",
@@ -820,18 +856,6 @@
   },
   {
    "kind": "note",
-   "title": "【提携解除阻止】記事生成AIの薬機法・ステマ規制違反をあぶり出す「リーガルNGワード狙撃プロンプト」と自腹没収やらかし生データ",
-   "url": "https://note.com/alix78/n/ne6e2074cfcb8",
-   "date": "2026-10-31",
-   "thumb": "https://assets.st-note.com/production/uploads/images/321105135/rectangle_large_type_2_a80071de72277e8f2f17717812b88be8.png?width=800",
-   "author": "アリス｜AI検証ログ（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「副業ブログで紹介記事を書くのが大変だから、AIに『成約率が高く売れる商品レビューを書いて』と丸投げした。プロのセールスコピーライター顔負けの文章が一瞬で完成したから、これで寝ている間にもアフィリエイト報酬が入ってくる」そう信じて生成されたテキストをコピペし、ブログやSNSへ投稿して安心しきってしまった方はいませんか？もしあなたがその記事をそのまま公開し、アフィリエイトリンクを貼って放置しているなら、今すぐ血の気を引かせる覚悟をしてください。あなたが目にした「読者の心を掴む魅力的な神文章」の裏で、医薬品医療機器等法"
-  },
-  {
-   "kind": "note",
    "title": "防災バッグから避難所まで。Gemini とはじめるわが家の防災",
    "url": "https://note.com/google_gemini/n/n086d0cc85109",
    "date": "2026-10-31",
@@ -952,18 +976,6 @@
   },
   {
    "kind": "note",
-   "title": "【面接室フリーズの恐怖】AIに想定問答を作らせて暗記していってはいけない理由！現場で「なぜ？」を3回突っ込まれた瞬間に破綻する「表層回答」の落とし穴",
-   "url": "https://note.com/alix78/n/n2f461076d3dc",
-   "date": "2026-10-27",
-   "thumb": "https://assets.st-note.com/production/uploads/images/327930692/rectangle_large_type_2_622da8d0a16fe4e3046dd0f48fe52d2b.png?width=800",
-   "author": "アリス｜AI検証ログ（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「AIに想定問答を作ってもらい、回答を丸暗記して面接に臨んだら、最初の深掘り質問で完全に頭が真っ白になった」就職活動や転職活動の選考現場で、いまこうした戦慄の面接事故が水面下で多発しています。面接対策ツールや対話型AIに志望動機やガクチカを読み込ませれば、驚くほど流暢で論理的な「完璧な模範解答」が一瞬で画面に出力されます。画面上の美しい受け答えを見て、「これでどんな質問が来ても怖くない」と確信してしまう就活生や社会人は後を絶ちません。続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "【Geminiだけ】モーショングラフィックス動画が作れる！無料スキル「Short Studio」の使い方",
    "url": "https://note.com/majin_108/n/n068b7915b0b7",
    "date": "2026-10-26",
@@ -1021,18 +1033,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "Anthropic が2026年10月21日に公開した「Claude Duet」は、接続したメールや予定表を数時間ごとに自分から確認し、毎朝「今日見るべきこと」だけを知らせ、送信や支払いの前だけ承認を求める先回り型のエージェントです。ただし2026年10月24日時点で使えるのは米国の Pro・Max 加入者だけで、日本からは申し込めません。そこで同じ「朝の報告と承認待ちの下書き」を、日本でも使える Claude Code の無人実行で3モデル動かしたところ、Opus・Sonnet・Haiku 5.5 のいずれも仕込"
-  },
-  {
-   "kind": "note",
-   "title": "【組織のAI活用#285】社内AIツールの違いと使い分け。Gemini・ChatGPT・Perplexity・GAS・Workspace Studioをやりたいこと別に選ぶ",
-   "url": "https://note.com/green_ai/n/n7fd090694c88",
-   "date": "2026-10-24",
-   "thumb": "https://assets.st-note.com/production/uploads/images/327808666/rectangle_large_type_2_c66ff14611ac31f3990a52e257bfc367.png?width=800",
-   "author": "寺田昇平｜組織のAI活用（note）",
-   "pick": "Claude推薦",
-   "ai": "ChatGPT",
-   "chapters": [],
-   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、顧客事業の「×AI化」をサポートするFURIKAKE Partners(株)と組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
   },
   {
    "kind": "note",
