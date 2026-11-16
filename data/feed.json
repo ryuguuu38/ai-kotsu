@@ -1,18 +1,90 @@
 {
- "updated": "2026-11-15 01:29",
+ "updated": "2026-11-16 01:32",
  "desc_blocked": false,
  "items": [
   {
    "kind": "note",
-   "title": "【組織のAI活用#299】商談の振り返りは「点」ではなく「ストーリーの流れ」で見る。成果が出ている人の商談ログと自分のログをAIで「概念図」にして見比べる仕組み",
+   "title": "【組織のAI活用#301】Claude Codeでブラウザを動かす方法は3つ。内蔵ブラウザ・Claude in Chrome・Playwrightの使い分け",
+   "url": "https://note.com/green_ai/n/n06ee5c8429f5",
+   "date": "2026-11-16",
+   "thumb": "https://assets.st-note.com/production/uploads/images/336703676/rectangle_large_type_2_94953e9ccd89a30c8b47f71eb60e8e5f.png?width=800",
+   "author": "寺田昇平｜組織のAI活用（note）",
+   "pick": "Claude推薦",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "15歳で宇宙起業、16歳で約4.7億円調達。杉原海から学ぶ「AI時代に夢を現実へ変える力」",
+   "url": "https://note.com/ak_hikiyose/n/ndd9638bbc1e5",
+   "date": "2026-11-16",
+   "thumb": "https://assets.st-note.com/production/uploads/images/336260458/rectangle_large_type_2_b589fcd59fce210de5e15185617d9c0f.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「まだ若いから、経験がないから、準備ができてから」。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【2026年11月版】フィジカルAIの最前線を中国10社で現地取材｜Unitree・AgiBotなど主要ロボットメーカーの実力、米中の違い、日本企業が勝つための戦略",
+   "url": "https://note.com/chaen_channel/n/n7b6e2ef9da68",
+   "date": "2026-11-15",
+   "thumb": "https://assets.st-note.com/production/uploads/images/336595715/rectangle_large_type_2_f192f2fd1fa3d38ca6819c3a596cce6d.png?width=800",
+   "author": "チャエン（note）",
+   "pick": "オーナー指定",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "みなさん、こんにちは。チャエンです。（自己紹介はこちら）フィジカルAIの業界レポート（法人向け・無料）をご希望の方は、こちらのフォームからお問い合わせください。中国出張から帰国しました。今回の中国出張はYouTubeに前編・後編の2本でまとめました。文章では伝わらないロボットの動きや現場の空気を見てほしいです。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【無料枠の勘違い】先日登場のGemini 4 Hydrogenを「タダで使い放題」と信じて作業を始めたら途中で強制ロックされた話",
+   "url": "https://note.com/alix78/n/n93e018b2a3de",
+   "date": "2026-11-15",
+   "thumb": "https://assets.st-note.com/production/uploads/images/335614543/rectangle_large_type_2_bfee63bd7e3b29874d4e5bf0fa51118a.png?width=800",
+   "author": "アリス｜AI検証ログ（note）",
+   "pick": "Claude推薦",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": "「ついにGoogleの最新モデルGemini 4 Hydrogenが無料ユーザーにも開放されたらしい！」SNSのタイムラインでそんな景気のいいニュースを見かけて、さっそく自分の調べ物やレポート作成に使い始めていませんか？実は私も先日、リリース直後のGemini 4 Hydrogenに飛びついて、週末に提出する資料の構成と長文の要約を一気に片付けようとしました。ところが、作業が一番佳境に入ったタイミングで画面に冷酷な利用制限のロック表示が突きつけられ、作業が完全にストップしてしまったのです。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【Gemini 4 Hydrogen実測記録】アプリ無料枠とAPI従量課金の境界線・制限上限を検証したコスト比較と運用基準",
+   "url": "https://note.com/alix78/n/n449452716f24",
+   "date": "2026-11-15",
+   "thumb": "https://assets.st-note.com/production/uploads/images/335614667/rectangle_large_type_2_b8af241c8c175523207b1a5ec6ff3920.png?width=800",
+   "author": "アリス｜AI検証ログ（note）",
+   "pick": "Claude推薦",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": "無料記事でお話しした通り、2026年11月13日にGoogleから最新モデルGemini 4 Hydrogenの提供が始まった直後、私は喜び勇んで手元のレポート資料と長文PDFの要約を一気に片付けようとして、作業のど真ん中で強制利用制限のロックを食らいました。画面に冷たく表示された制限通知を前に、作りかけの構成案と未処理の資料が宙ぶらりんになった瞬間の絶望感は、今でも思い出すだけで胃が痛くなります。この「無料開放された最新モデルだから使い放題だろう」という思い込みを放置したまま日常の調べ物や課題作成に突っ込むと、単"
+  },
+  {
+   "kind": "note",
+   "title": "【組織のAI活用#300】商談の振り返りは「点」ではなく「ストーリーの流れ」で見る。成果が出ている人の商談ログと自分のログをAIで「概念図」にして見比べる仕組み",
    "url": "https://note.com/green_ai/n/n09d49119fbf3",
    "date": "2026-11-15",
-   "thumb": "https://assets.st-note.com/production/uploads/images/335586968/rectangle_large_type_2_393f303756f72ec72eb93c04bad75b63.png?width=800",
+   "thumb": "https://assets.st-note.com/production/uploads/images/336703436/rectangle_large_type_2_bdf77b2e1522d6ae6bfd01ab103b1dc1.png?width=800",
    "author": "寺田昇平｜組織のAI活用（note）",
    "pick": "Claude推薦",
    "ai": "その他",
    "chapters": [],
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【2027年に向けたnote収益化完全ガイド】初心者が稼げない本当の原因と、有料記事を売る９ステップ",
+   "url": "https://note.com/ak_hikiyose/n/n8e0fc3237eee",
+   "date": "2026-11-15",
+   "thumb": "https://assets.st-note.com/production/uploads/images/336113803/rectangle_large_type_2_46931a030d1c42592065003947f8d202.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「noteを始めたのに、思うように収益が増えない」続きをみる"
   },
   {
    "kind": "note",
@@ -25,6 +97,18 @@
    "ai": "その他",
    "chapters": [],
    "summary": "毎日投稿しているのに、有料noteが売れない。いいねがついても、次の記事まで読んでもらえない。そんなとき、「文章が下手なのかな」「もっと頑張らないとダメなのかな」と、自分に原因を探してしまうことはありませんか。続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "【AI×3Dプリンター】3Dプリンター用のモデリングにCADソフトは不要・Claudeで十分",
+   "url": "https://note.com/brave_quince241/n/n6151cd29a0ff",
+   "date": "2026-11-15",
+   "thumb": "https://assets.st-note.com/production/uploads/images/336350507/rectangle_large_type_2_a305aae929b925d2b3a15fcc91dc14d0.png?width=800",
+   "author": "伊志嶺｜LLMで業務改善（note）",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "3D プリンターに興味はあっても、「自分で作るには CAD ソフトを覚えないといけない」と思って止まっていないでしょうか。私はいま、CAD ソフトを一度も開かずに、Claude との会話だけで印刷用のモデルを作っています。ソフトの操作も、印刷に向いた形にする知識も要りません。会話で頼むからこそ、自分ではやらない軽量化や強化にまで手が届き、スマホからでも作れます。3D プリンターのモデリングには、これまで CAD ソフトが要った続きをみる"
   },
   {
    "kind": "note",
@@ -64,10 +148,10 @@
   },
   {
    "kind": "note",
-   "title": "【組織のAI活用#298】毎日たまる「お客様との対話ログ」を記録して終わりにしない。現場の生の声をAIで自動で整理し、集客やサービス改善につなげる仕組み",
+   "title": "【組織のAI活用#299】毎日たまる「お客様との対話ログ」を記録して終わりにしない。現場の生の声をAIで自動で整理し、集客やサービス改善につなげる仕組み",
    "url": "https://note.com/green_ai/n/ne8e08e80e8ad",
    "date": "2026-11-14",
-   "thumb": "https://assets.st-note.com/production/uploads/images/335586741/rectangle_large_type_2_b85f5a4e9fcb05bc0b8f68c7e3bdd196.png?width=800",
+   "thumb": "https://assets.st-note.com/production/uploads/images/336703207/rectangle_large_type_2_587d83c8b42a5e82810d8867bef68cbc.png?width=800",
    "author": "寺田昇平｜組織のAI活用（note）",
    "pick": "Claude推薦",
    "ai": "その他",
@@ -508,30 +592,6 @@
   },
   {
    "kind": "note",
-   "title": "AI時代のサイバー攻撃対策｜怖がる前に見直したい、アカウント・連携・権限の守り方",
-   "url": "https://note.com/ak_hikiyose/n/n6e344109abbb",
-   "date": "2026-11-08",
-   "thumb": "https://assets.st-note.com/production/uploads/images/333598996/rectangle_large_type_2_db9f716cdc68616f81208e3dad71713a.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「AIで仕事が楽になった」と喜んでいたら、今度は「AIを使ったサイバー攻撃」というニュースが目に入る。便利さを知ったからこそ、急に足元が不安になる。そんな気持ちになったことはありませんか。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "AI副業はもう遅い？「次のチャンス」を見極める、専門性と小さな実践の育て方",
-   "url": "https://note.com/ak_hikiyose/n/na8db65f3ac26",
-   "date": "2026-11-08",
-   "thumb": "https://assets.st-note.com/production/uploads/images/333499331/rectangle_large_type_2_c7e402fe22e76d777470d72bd8696e04.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「AI副業は、もう遅いのでしょうか」。新しいサービスを覚えようとした矢先に、今度は「AIバブルが終わる」という話が流れてくる。やっと一歩を踏み出した人ほど、足元の地面が動くような不安を覚えるのではないでしょうか。続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "【架空用語の死角】「この現象の名前って何？」とAIに逆引き検索した結果！実在しない専門用語をでっち上げる「学術権威偽装」の正体",
    "url": "https://note.com/alix78/n/n65c86f6bed73",
    "date": "2026-11-07",
@@ -796,18 +856,6 @@
   },
   {
    "kind": "note",
-   "title": "【誤送信パニック遮断】受信トレイ連携AIの隠れ関係者誤読と機密漏洩を防ぐ「宛先スコープ隔離フィルター」と格闘生ログ",
-   "url": "https://note.com/alix78/n/n97cd0c901b5e",
-   "date": "2026-11-02",
-   "thumb": "https://assets.st-note.com/production/uploads/images/327958096/rectangle_large_type_2_c222e201e302d315eb8312a24afce9ec.png?width=800",
-   "author": "アリス｜AI検証ログ（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「受信トレイを開くたびに溜まる未読メールの山を、AIが一瞬で片付けてくれたらどんなに楽だろう」そんな淡い期待を抱いて、GmailやOutlookの最新アドオン、あるいは常駐型AIアシスタントにメール返信のドラフト作成を丸投げしていませんか？もし今、あなたがAIの生成した下書きを「なんとなく自然だから」と数秒の流し読みだけで送信ボタンを押しているなら、すでに破滅へのカウントダウンが始まっているかもしれません。先日、あるクライアントとの進行中スレッドにおいて、AIアシスタントに「前回の打ち合わせを踏まえて、次回の見積も"
-  },
-  {
-   "kind": "note",
    "title": "Active Directory と Microsoft 365 から考える、クラウド時代の管理",
    "url": "https://note.com/sc_microsoft/n/n6dfda457efdb",
    "date": "2026-11-02",
@@ -841,18 +889,6 @@
    "ai": "Gemini",
    "chapters": [],
    "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。2026 年 7 月 30 日から 8 月 9 日まで、渋谷・原宿のまちに「モンスター」があらわれました。ドラゴンクエスト 40 周年を記念した、Gemini とのコラボレーションイベント「ジェミニクエスト」です。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "【公開直前警告】AIにアフィリエイト記事を書かせて投稿してはいけない理由！売れる文章の裏にNG表現を潜ませて確定報酬を吹き飛ばす「自動BAN」の現場",
-   "url": "https://note.com/alix78/n/nb3c214b45b00",
-   "date": "2026-10-31",
-   "thumb": "https://assets.st-note.com/production/uploads/images/321105285/rectangle_large_type_2_8d90624b3702d0da5e6cb43a6cf25d6e.png?width=800",
-   "author": "アリス｜AI検証ログ（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「ブログで紹介記事を書くのが面倒だから、AIに『成約率が高く売れるレビューを書いて』と頼んだ。プロ顔負けの文章が一瞬で完成したから、これで寝ている間にも報酬が入ってくる」そう信じてコピペし、公開ボタンを押そうとしていませんか？その指、今すぐストップしてください。いま信じたその美辞麗句の裏で、確定報酬が全額没収され、アカウントが一発凍結される「自動BAN」の罠が静かに仕掛けられています。AIの性質上、確率的な誤出力のリスクをゼロにすることはできません。本知見はエラーの発生率を最小化する実践データですが、収益が絡む運用"
   },
   {
    "kind": "note",
@@ -937,18 +973,6 @@
    "ai": "Copilot",
    "chapters": [],
    "summary": "こんにちマッスル！ マッスル福田です。普段は筋肉と Microsoft 365 を触っている ソフトクリエイトのMicrosoft 認定トレーナーです！今回は、Excelのリストを更新するたびに、関係者へ手作業で連絡している方に向けて書きました！ 読み終えると、Excelのリストに行が追加されたらTeamsで担当者にメンション付きで通知されるフローを作れるようになります。 使うのは標準コネクタだけなので、Premiumライセンスは不要ですので、是非お試しくだサイドチェスト！！続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "【組織のAI活用#286】GeminiのGem廃止で、スキルにどこまで移行できるか。画像・Canvas・ナレッジを現時点で試してみました",
-   "url": "https://note.com/green_ai/n/n15e34c484cc5",
-   "date": "2026-10-28",
-   "thumb": "https://assets.st-note.com/production/uploads/images/329339884/rectangle_large_type_2_74ed6f14d3f506603b4e62c869261198.png?width=800",
-   "author": "寺田昇平｜組織のAI活用（note）",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
   },
   {
    "kind": "note",
@@ -1600,18 +1624,6 @@
   },
   {
    "kind": "note",
-   "title": "【2026/9/14〜9/21】週刊AIニュース《TypeSafe AI「Jev」、Claude Codeのプロジェクト、Gemini 4、「減速で一致」した業界に、5,170億ドルと反トラスト訴訟が出てきた1週間。》",
-   "url": "https://note.com/chaen_channel/n/ne30c2ce0d8ab",
-   "date": "2026-09-22",
-   "thumb": "https://assets.st-note.com/production/uploads/images/316000607/rectangle_large_type_2_0444f8f747248870a633416bb9246a0c.png?width=800",
-   "author": "チャエン（note）",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "みなさん、こんにちは。チャエンです。（自己紹介はこちら）📣 お知らせ続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "【お知らせ】月1ライブ講座の「動画棚」を公開しました！10分でも学べるハイライトや、音声視聴も対応",
    "url": "https://note.com/hituji1234/n/nb80fe639a842",
    "date": "2026-09-21",
@@ -1909,18 +1921,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "AI 分野は論文が出るスピードが速く、正式な査読を待っていると情報が古くなりがちです。だからこそ、査読前のプレプリント（査読を経る前の段階で公開される論文）を追う情報感度が問われます。とはいえ、毎日 arXiv を手で巡回し続けるのは負担が大きいものです。Claude Code と GitHub Pages を組み合わせれば、毎朝 1 本の論文解説が自分専用サイトに届きます。実際に動いているサイトはpaper-lens の公開サイトで確認できます。公開リポジトリをフォークすれば、同じ仕組みを自分の手元に用意できます"
-  },
-  {
-   "kind": "note",
-   "title": "コーディングエージェントを安全に使う必須3制御 ―― NVIDIA AI Red Teamが示す最低ライン",
-   "url": "https://note.com/brave_quince241/n/na93e14dff198",
-   "date": "2026-06-04",
-   "thumb": "https://assets.st-note.com/production/uploads/images/282521573/rectangle_large_type_2_17c129dcdbd95b29ebc6cbc1ce59d373.png?width=800",
-   "author": "伊志嶺｜LLMで業務改善（note）",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "コーディングエージェントは、外部から取り込んだテキストを「指示」として解釈し、エンジニアの権限でコードを書き、コマンドを実行します。この性質を突くのが間接プロンプトインジェクションです。悪意あるリポジトリや改ざんされた MCP レスポンスに紛れた指示が、そのままエージェントの手で実行されてしまう。便利さの裏で、攻撃者にあなたの実行環境を貸している状態になりかねません。本稿では、NVIDIA の AI Red Team が「最低ライン」として挙げる制御を、実装の勘所まで踏み込んで整理します。なぜコーディングエージェン"
   },
   {
    "kind": "note",
