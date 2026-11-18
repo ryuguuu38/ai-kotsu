@@ -1,7 +1,127 @@
 {
- "updated": "2026-11-17 04:20",
+ "updated": "2026-11-18 03:20",
  "desc_blocked": false,
  "items": [
+  {
+   "kind": "youtube",
+   "title": "【AIマスター講座 #10】PDF要約AIの使い方｜読み込み・写真の文字起こしを3社で比較",
+   "url": "https://www.youtube.com/watch?v=YC6Lh9j8rtA",
+   "date": "2026-11-18",
+   "thumb": "https://i.ytimg.com/vi/YC6Lh9j8rtA/mqdefault.jpg",
+   "author": "AI market",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": null
+  },
+  {
+   "kind": "youtube",
+   "title": "GPT-6.2 Astra登場 報告書を渡すだけで自社ひな形のスライドに",
+   "url": "https://www.youtube.com/watch?v=iZ0p-HvAokY",
+   "date": "2026-11-18",
+   "thumb": "https://i.ytimg.com/vi/iZ0p-HvAokY/mqdefault.jpg",
+   "author": "SHIFT AI ニュース",
+   "pick": "Claude推薦",
+   "ai": "ChatGPT",
+   "chapters": [],
+   "summary": null
+  },
+  {
+   "kind": "note",
+   "title": "【組織のAI活用#303】Webサービスの動作確認で、2人分のログインを1つのブラウザで使い分ける。playwright-cliの新しい機能を試してみた",
+   "url": "https://note.com/green_ai/n/n1da54efd99c9",
+   "date": "2026-11-18",
+   "thumb": "https://assets.st-note.com/production/uploads/images/336712345/rectangle_large_type_2_22af6135d966070800bc4ea4441bbd1f.png?width=800",
+   "author": "寺田昇平｜組織のAI活用（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "子どもにAIを使わせるべき？思考力を奪わず「人生の選択肢」を広げる親の教え方【実践ガイド】",
+   "url": "https://note.com/ak_hikiyose/n/n5bb0cb62082c",
+   "date": "2026-11-18",
+   "thumb": "https://assets.st-note.com/production/uploads/images/337483974/rectangle_large_type_2_83641bd5203c83202af9731f790f39fe.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「子どもにAIを使わせると、考える力がなくなるのでは？」続きをみる"
+  },
+  {
+   "kind": "youtube",
+   "title": "Google Antigravityをスマホから使うの超便利！リモート操作の設定と活用例を実演",
+   "url": "https://www.youtube.com/watch?v=1GbKbO11ywI",
+   "date": "2026-11-17",
+   "thumb": "https://i.ytimg.com/vi/1GbKbO11ywI/mqdefault.jpg",
+   "author": "KEITO【AI&WEB ch】",
+   "pick": "オーナー指定",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【注意】当たり前に知っておきたいClaude Codeのセキュリティ対策 #01 お願いではなくフックで止める #Shorts",
+   "url": "https://www.youtube.com/watch?v=OFcpxXX3kXc",
+   "date": "2026-11-17",
+   "thumb": "https://i.ytimg.com/vi/OFcpxXX3kXc/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【リーク】Gemini 4 Neonがコードで発見｜Argon・Carbon・Hydrogenに続く次のGeminiの新AIモデルは何？確かな話と推測を整理",
+   "url": "https://www.youtube.com/watch?v=CnazfaX8cPg",
+   "date": "2026-11-17",
+   "thumb": "https://i.ytimg.com/vi/CnazfaX8cPg/mqdefault.jpg",
+   "author": "AI market",
+   "pick": "Claude推薦",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": null
+  },
+  {
+   "kind": "youtube",
+   "title": "【リーク】Gemini 4 Neonがコードで発見｜Argon・Carbon・Hydrogenに続く次のGeminiは何？確かな話と推測を整理",
+   "url": "https://www.youtube.com/watch?v=UP8QRgXvk8c",
+   "date": "2026-11-17",
+   "thumb": "https://i.ytimg.com/vi/UP8QRgXvk8c/mqdefault.jpg",
+   "author": "AI market",
+   "pick": "Claude推薦",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": null
+  },
+  {
+   "kind": "youtube",
+   "title": "【Qwen4-Max正式版】中国AIがClaude Opus5.5超え？｜無料プランでゲーム開発をテスト",
+   "url": "https://www.youtube.com/watch?v=mNrBzuM9jiA",
+   "date": "2026-11-17",
+   "thumb": "https://i.ytimg.com/vi/mNrBzuM9jiA/mqdefault.jpg",
+   "author": "AI market",
+   "pick": "Claude推薦",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": null
+  },
+  {
+   "kind": "youtube",
+   "title": "【Qwen4-Max正式版】お試し版から5日で何が変わった？2.4兆パラメータ・成績表・25%値下げのAPIを全解説",
+   "url": "https://www.youtube.com/watch?v=osQkX7upygc",
+   "date": "2026-11-17",
+   "thumb": "https://i.ytimg.com/vi/osQkX7upygc/mqdefault.jpg",
+   "author": "AI market",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": null
+  },
   {
    "kind": "youtube",
    "title": "【AIマスター講座 #9】画像生成AIの使い方｜2027年賀状で作る・直す・文字入れを比較",
@@ -11,6 +131,18 @@
    "author": "AI market",
    "pick": "Claude推薦",
    "ai": "その他",
+   "chapters": [],
+   "summary": null
+  },
+  {
+   "kind": "youtube",
+   "title": "【神進化】ひと言で、本格的なゲームまで作れるようになりました。新モデルClaude Fable 5.2を徹底的に解説します。",
+   "url": "https://www.youtube.com/watch?v=k21BWOovE2s",
+   "date": "2026-11-17",
+   "thumb": "https://i.ytimg.com/vi/k21BWOovE2s/mqdefault.jpg",
+   "author": "あいまる / iPhone×AI",
+   "pick": "Claude推薦",
+   "ai": "Claude",
    "chapters": [],
    "summary": null
   },
@@ -37,6 +169,18 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
+  },
+  {
+   "kind": "note",
+   "title": "フェリペ・メロが日本代表を絶賛した理由｜ブラジルに突きつけた「組織力」の差と3対2の本当の価値",
+   "url": "https://note.com/ak_hikiyose/n/ne874bfb79b7b",
+   "date": "2026-11-17",
+   "thumb": "https://assets.st-note.com/production/uploads/images/337186685/rectangle_large_type_2_ab2541442e8261fee77a7d78fd33fc19.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「日本がブラジルに勝った」。それだけでも胸が熱くなるニュースですが、僕がさらに心を動かされたのは、敗れた側の元代表選手が語った言葉でした。続きをみる"
   },
   {
    "kind": "note",
@@ -352,30 +496,6 @@
   },
   {
    "kind": "youtube",
-   "title": "【11月第2週まとめ①】Claude Fable 5.2登場／Gemini 4 Carbon一般公開／ChatGPTのdotが複数PCに／Anthropic上場は1株70〜78ドル｜AIニュース6本",
-   "url": "https://www.youtube.com/watch?v=bohAcSPgqGk",
-   "date": "2026-11-15",
-   "thumb": "https://i.ytimg.com/vi/bohAcSPgqGk/mqdefault.jpg",
-   "author": "AI market",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": null
-  },
-  {
-   "kind": "youtube",
-   "title": "【AIマスター講座#7】Claudeの使い方が全部わかる｜アプリ・図・リサーチまで画面で解説",
-   "url": "https://www.youtube.com/watch?v=1f-SHvoxceU",
-   "date": "2026-11-15",
-   "thumb": "https://i.ytimg.com/vi/1f-SHvoxceU/mqdefault.jpg",
-   "author": "AI market",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": null
-  },
-  {
-   "kind": "youtube",
    "title": "【2026年最新版】Claude Codeで毎日のタスクを完全自動化する方法20選【初心者でもOK】",
    "url": "https://www.youtube.com/watch?v=vzUTVZaImGE",
    "date": "2026-11-15",
@@ -516,7 +636,7 @@
    "pick": "オーナー指定",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -528,7 +648,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -540,31 +660,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
-  },
-  {
-   "kind": "youtube",
-   "title": "【AI討論シリーズ#2】学校でAI禁止？GeminiもGoogle検索もオフ｜子供のAI利用をChatGPT・Claude・Grok・DeepSeekと討論",
-   "url": "https://www.youtube.com/watch?v=rTeSNZfG5us",
-   "date": "2026-11-14",
-   "thumb": "https://i.ytimg.com/vi/rTeSNZfG5us/mqdefault.jpg",
-   "author": "AI market",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": null
-  },
-  {
-   "kind": "youtube",
-   "title": "中国AIが同じ日に2つ公開｜Qwen4-Maxはお試し・H3イメージは中身ごと公開｜料金・ライセンス・実演まで全解説",
-   "url": "https://www.youtube.com/watch?v=DbT3irgHYp4",
-   "date": "2026-11-14",
-   "thumb": "https://i.ytimg.com/vi/DbT3irgHYp4/mqdefault.jpg",
-   "author": "AI market",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -720,7 +816,7 @@
    "pick": "オーナー指定",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -732,7 +828,7 @@
    "pick": "オーナー指定",
    "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -876,7 +972,7 @@
    "pick": "オーナー指定",
    "ai": "Gemini",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -996,7 +1092,7 @@
    "pick": "オーナー指定",
    "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -1128,7 +1224,7 @@
    "pick": "オーナー指定",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -1156,7 +1252,7 @@
   },
   {
    "kind": "youtube",
-   "title": "【AI副業】ClaudeとAmazonで「アフィリエイト」を始める前に。真似すると損するやり方と、無料のClaudeでできる正しい始め方を全部見せます",
+   "title": "【コスパの良い副業】Claude×Amazonを使った「アフィリエイト」の正しい始め方を全部見せます",
    "url": "https://www.youtube.com/watch?v=ZD4TLFLr-1s",
    "date": "2026-11-10",
    "thumb": "https://i.ytimg.com/vi/ZD4TLFLr-1s/mqdefault.jpg",
@@ -1227,30 +1323,6 @@
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
   },
   {
-   "kind": "note",
-   "title": "日本人の優しさに心が動く理由｜旅の計画が崩れた夫婦が見つけた、本当の豊かさ",
-   "url": "https://note.com/ak_hikiyose/n/ned9361dac71f",
-   "date": "2026-11-10",
-   "thumb": "https://assets.st-note.com/production/uploads/images/334470690/rectangle_large_type_2_f331c8bfffc6e83b92a82b2dbcb5ca18.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "予定どおりに進まなかった一日を、あなたは「失敗だった」と感じますか。それとも、あとから思い出すと、その日に出会った誰かの顔が浮かぶでしょうか。続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "窪塚洋介の言葉から考える「自分軸」の育て方｜ちゃんと生きているのに苦しいあなたへ",
-   "url": "https://note.com/ak_hikiyose/n/n9de87fa1b810",
-   "date": "2026-11-10",
-   "thumb": "https://assets.st-note.com/production/uploads/images/334326242/rectangle_large_type_2_59ebf0b285fcfc0b1000a1bf2f79b24b.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「ちゃんと生きているはずなのに、どうしてこんなに苦しいんだろう」。人に迷惑をかけないように働き、家族のことを考え、もっと成長しようと情報を集める。それなのに、一日の終わりには、自分の人生を生きた実感よりも、何かに追われた疲れだけが残っている。続きをみる"
-  },
-  {
    "kind": "youtube",
    "title": "GeminiのAntigravityがClaude Codeレベルになってた",
    "url": "https://www.youtube.com/watch?v=8XDnuwPsmTM",
@@ -1264,7 +1336,7 @@
   },
   {
    "kind": "youtube",
-   "title": "【賢い人だけやっている】Geminiに画面を見せるだけで仕事が終わる。意外と知らないGemini Liveの使い方",
+   "title": "【プロンプト不要】Geminiに「見せて話す」だけで仕事が終わる。意外と知らないGemini Liveの使い方",
    "url": "https://www.youtube.com/watch?v=4e4mPMPUY5s",
    "date": "2026-11-09",
    "thumb": "https://i.ytimg.com/vi/4e4mPMPUY5s/mqdefault.jpg",
@@ -1380,7 +1452,7 @@
    "pick": "オーナー指定",
    "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -1440,7 +1512,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -1452,7 +1524,7 @@
    "pick": "Claude推薦",
    "ai": "Gemini",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -1472,18 +1544,6 @@
    "url": "https://www.youtube.com/watch?v=Gq5r8nWXYWI",
    "date": "2026-11-07",
    "thumb": "https://i.ytimg.com/vi/Gq5r8nWXYWI/mqdefault.jpg",
-   "author": "あいまる / iPhone×AI",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": null
-  },
-  {
-   "kind": "youtube",
-   "title": "【速報】Claudeが「自分から動く秘書」に。Claude Duetで何が変わる？dots・Gemini Spark・Museとの違いと、今からやっておく準備",
-   "url": "https://www.youtube.com/watch?v=JolS59OkB9E",
-   "date": "2026-11-07",
-   "thumb": "https://i.ytimg.com/vi/JolS59OkB9E/mqdefault.jpg",
    "author": "あいまる / iPhone×AI",
    "pick": "Claude推薦",
    "ai": "Claude",
@@ -1537,18 +1597,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "AI と 3D プリンターを組み合わせたら、ものづくりがとても楽しくなりました。以前の私は、誰かが公開している 3D モデル（立体の設計データ）を探して印刷するのが主な使い方でした。自分にぴったりのものを作ろうとすると、モデリングに何時間も、手直しに何日もかかったからです。いまは作りたいものを Claude に話すだけで、印刷できる 3D モデルが出てきます。毎日の錠剤を 1 週間分そろえる道具も、持ち歩くマウス（トラックボール）のケースも、子どものための凝ったビー玉転がしも、すべて会話だけで作りました。続きをみる"
-  },
-  {
-   "kind": "youtube",
-   "title": "【中国人型ロボの実態】電撃潜入。Unitree本社の内情／日本語を話すLimXのOli／UBTECH・DEEP Robotics／二足の実用は「あと1〜2年」【中国出張 前編】（フィジカルAI）",
-   "url": "https://www.youtube.com/watch?v=eG2sEzfG5OQ",
-   "date": "2026-11-06",
-   "thumb": "https://i.ytimg.com/vi/eG2sEzfG5OQ/mqdefault.jpg",
-   "author": "チャエン【AI研究所】",
-   "pick": "オーナー指定",
-   "ai": "その他",
-   "chapters": [],
-   "summary": null
   },
   {
    "kind": "youtube",
@@ -1641,18 +1689,6 @@
    "date": "2026-11-05",
    "thumb": "https://i.ytimg.com/vi/beBOh-48994/mqdefault.jpg",
    "author": "ここなのAI大学",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": null
-  },
-  {
-   "kind": "youtube",
-   "title": "AIで時間が浮いたら何をする？「休みたい」と言った社長はいなかった",
-   "url": "https://www.youtube.com/watch?v=6kMaZGGFWsU",
-   "date": "2026-11-05",
-   "thumb": "https://i.ytimg.com/vi/6kMaZGGFWsU/mqdefault.jpg",
-   "author": "SHIFT AI ニュース",
    "pick": "Claude推薦",
    "ai": "その他",
    "chapters": [],
@@ -1800,7 +1836,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -1840,13 +1876,13 @@
   },
   {
    "kind": "youtube",
-   "title": "【一発で永久BAN？】ChatGPT・Geminiで絶対にやってはいけないNG行為5選と今すぐやるべき対策",
+   "title": "【仕事でAIを使う人必見！】ある日突然アカウントが消える理由とは？BANを防ぐ5つの鉄則とバックアップ術",
    "url": "https://www.youtube.com/watch?v=k0XoyySccvM",
    "date": "2026-11-03",
    "thumb": "https://i.ytimg.com/vi/k0XoyySccvM/mqdefault.jpg",
    "author": "ナオヤ@AIヲタク",
    "pick": "Claude推薦",
-   "ai": "ChatGPT",
+   "ai": "その他",
    "chapters": [],
    "summary": null
   },
@@ -1972,18 +2008,6 @@
   },
   {
    "kind": "note",
-   "title": "【組織のAI活用#288】Geminiを法人契約していても、GASや自作アプリで使う無料のGemini APIは「学習されない」の対象外。APIキーのプロジェクトに課金があるかを確かめる",
-   "url": "https://note.com/green_ai/n/n350b60eb1cfd",
-   "date": "2026-11-02",
-   "thumb": "https://assets.st-note.com/production/uploads/images/329372587/rectangle_large_type_2_89dd8342fa1f6e8b8a0ff21979942175.png?width=800",
-   "author": "寺田昇平｜組織のAI活用（note）",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "「じゅもん」で広がる冒険の世界。ドラゴンクエスト × Gemini「ジェミニクエスト」の舞台裏",
    "url": "https://note.com/google_gemini/n/n53c1aefc69be",
    "date": "2026-11-02",
@@ -2000,18 +2024,6 @@
    "url": "https://www.youtube.com/watch?v=tc8ecHu4lX0",
    "date": "2026-11-01",
    "thumb": "https://i.ytimg.com/vi/tc8ecHu4lX0/mqdefault.jpg",
-   "author": "KEITO【AI&WEB ch】",
-   "pick": "オーナー指定",
-   "ai": "その他",
-   "chapters": [],
-   "summary": ""
-  },
-  {
-   "kind": "youtube",
-   "title": "【脱初心者】AI活用レベルを上げる７つのステップを解説！なぜ今AIを勉強する必要があるのか？",
-   "url": "https://www.youtube.com/watch?v=7_HQiM8YhtE",
-   "date": "2026-10-31",
-   "thumb": "https://i.ytimg.com/vi/7_HQiM8YhtE/mqdefault.jpg",
    "author": "KEITO【AI&WEB ch】",
    "pick": "オーナー指定",
    "ai": "その他",
@@ -2040,7 +2052,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -2052,7 +2064,7 @@
    "pick": "Claude推薦",
    "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -2124,7 +2136,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -2268,7 +2280,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -2412,7 +2424,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -2424,7 +2436,7 @@
    "pick": "Claude推薦",
    "ai": "ChatGPT",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -2508,7 +2520,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -2772,7 +2784,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -2784,7 +2796,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -2892,7 +2904,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -2928,7 +2940,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -3060,7 +3072,7 @@
    "pick": "Claude推薦",
    "ai": "ChatGPT",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -3072,7 +3084,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -3168,7 +3180,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -3336,7 +3348,7 @@
    "pick": "Claude推薦",
    "ai": "Gemini",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -3444,7 +3456,7 @@
    "pick": "Claude推薦",
    "ai": "ChatGPT",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -3576,7 +3588,7 @@
    "pick": "Claude推薦",
    "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -3588,7 +3600,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -3720,7 +3732,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -3732,7 +3744,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -3840,7 +3852,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -3852,7 +3864,7 @@
    "pick": "Claude推薦",
    "ai": "Gemini",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -3912,7 +3924,7 @@
    "pick": "Claude推薦",
    "ai": "ChatGPT",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -3924,7 +3936,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -3948,7 +3960,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -3984,7 +3996,7 @@
    "pick": "Claude推薦",
    "ai": "Gemini",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",

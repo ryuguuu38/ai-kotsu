@@ -1,10 +1,10 @@
 {
  "edition": "gemini",
  "label": "Gemini編",
- "date": "2026-11-17",
- "built": "2026-11-17 04:20",
- "minutes": 4.6,
- "chars": 1694,
+ "date": "2026-11-18",
+ "built": "2026-11-18 03:20",
+ "minutes": 3.9,
+ "chars": 1426,
  "lines": [
   {
    "who": "metan",
@@ -20,15 +20,15 @@
   },
   {
    "who": "metan",
-   "text": "1つ目。最初にやるべき3つの設定 カスタム指示・Memory・Gem。"
+   "text": "1つ目。スプレッドシートは ドライブから追加 で渡す URL貼り付けはNG。"
   },
   {
    "who": "zunda",
-   "text": "どんな内容なのだ？"
+   "text": "へえ、それで？"
   },
   {
    "who": "metan",
-   "text": "Geminiは設定しない人ほど損をする。この3つを入れるだけで前置きを書く手間が消える。"
+   "text": "共有URLをチャットに貼っても正しく読めない。必ずチャット画面の ドライブから追加 を使う。"
   },
   {
    "who": "zunda",
@@ -36,7 +36,7 @@
   },
   {
    "who": "metan",
-   "text": "初期状態は本来の使い勝手を抑えた挙動になっている。設定は1回で済み、効果はずっと続く。"
+   "text": "読んでくれない 中身が違う の典型的な原因。渡し方を変えるだけで解決する。"
   },
   {
    "who": "zunda",
@@ -48,15 +48,15 @@
   },
   {
    "who": "metan",
-   "text": "1、カスタム指示に 自分の職種・相手・出力形式 を固定する。"
+   "text": "1、チャット画面の ドライブから追加 を押す。"
   },
   {
    "who": "metan",
-   "text": "2、設定 Personal Intelligence Memory をオンにし、Gmail・カレンダー連携を許可。"
+   "text": "2、対象のスプレッドシートを選ぶ。"
   },
   {
    "who": "metan",
-   "text": "3、よく使う業務はGem 自分専用ボット にする。"
+   "text": "3、そのうえで質問する。"
   },
   {
    "who": "zunda",
@@ -64,19 +64,19 @@
   },
   {
    "who": "metan",
-   "text": "出どころは、やらないと損するGeminiの3つの初期設定の全手順 @Sokichi Hoshino ね。"
+   "text": "出どころは、Geminiにスプシを読み込ませる時の注意点と仕組み @apartment labo ね。"
   },
   {
    "who": "metan",
-   "text": "2つ目。カスタム指示に 全肯定をやめて と書く。"
+   "text": "2つ目。文章はCanvasで作り、固まってからドキュメントに書き出す。"
   },
   {
    "who": "zunda",
-   "text": "気になるのだ！"
+   "text": "中身を教えてほしいのだ！"
   },
   {
    "who": "metan",
-   "text": "褒めてくるだけのAIを、改善点を出す相談相手に変える一文。"
+   "text": "AIと対話しながらCanvasで下書きし、形になったらGoogleドキュメントへ。手戻りが減る。"
   },
   {
    "who": "zunda",
@@ -84,7 +84,7 @@
   },
   {
    "who": "metan",
-   "text": "初期状態のGeminiは肯定しがち。壁打ち相手として使うなら、ここを潰しておく価値が高い。"
+   "text": "最初からドキュメントで書くと、直すたびに体裁が崩れる。Canvasは書き直し前提の場所として使う。"
   },
   {
    "who": "zunda",
@@ -92,35 +92,39 @@
   },
   {
    "who": "metan",
-   "text": "2段階よ。"
+   "text": "3段階よ。"
   },
   {
    "who": "metan",
-   "text": "1、設定のカスタム指示を開く。"
+   "text": "1、Canvasで下書きする。"
   },
   {
    "who": "metan",
-   "text": "2、肯定を禁止し、改善点を必ず出すよう書く。"
+   "text": "2、この段落をもっと簡潔に ここに具体例を追加 と部分指示する。"
+  },
+  {
+   "who": "metan",
+   "text": "3、内容が固まったらGoogleドキュメントに書き出す。"
   },
   {
    "who": "zunda",
-   "text": "うわ、損してたのだ…"
+   "text": "それ早く言ってほしかったのだ！"
   },
   {
    "who": "metan",
-   "text": "出どころは、Geminiのカスタム指示 @ai jitan ね。"
+   "text": "出どころは、GeminiのCanvasで文書作成 @nin222 ね。"
   },
   {
    "who": "metan",
-   "text": "3つ目。会社のGeminiとChrome拡張で 自分専用エージェント を作る。"
+   "text": "3つ目。スプレッドシートをカンバン・ダッシュボードに変える Sheets Canvas。"
   },
   {
    "who": "zunda",
-   "text": "へえ、それで？"
+   "text": "どんな内容なのだ？"
   },
   {
    "who": "metan",
-   "text": "高機能な有料エージェントを使わなくても、手元の組み合わせで似たことができるという実験記事。"
+   "text": "表のデータを進捗別カードやグラフに組み替えられる。カードを動かすと元のセルも変わる。"
   },
   {
    "who": "zunda",
@@ -128,7 +132,7 @@
   },
   {
    "who": "metan",
-   "text": "会社の制約で新しいツールを入れられない人向けの現実解。既にあるものだけで組む。"
+   "text": "集計表を見やすい形にするために別ツールを入れる必要がなくなる。元データと連動するのが強い。"
   },
   {
    "who": "zunda",
@@ -140,23 +144,23 @@
   },
   {
    "who": "metan",
-   "text": "1、会社で許可されているGeminiを使う。"
+   "text": "1、スプレッドシートのサイドパネル・挿入メニュー・下部バーから キャンバスを作成。"
   },
   {
    "who": "metan",
-   "text": "2、Chrome拡張と組み合わせる。"
+   "text": "2、進捗別に並べ替える／件数や期限をグラフにする。"
   },
   {
    "who": "metan",
-   "text": "3、自分の業務に合わせて役割を固定する。"
+   "text": "3、※新規作成は英語UI環境でのみ可能 2026年時点。"
   },
   {
    "who": "zunda",
-   "text": "地味に効きそうなのだ！"
+   "text": "うわ、損してたのだ…"
   },
   {
    "who": "metan",
-   "text": "出どころは、会社のGeminiとChrome拡張で 自分専用エージェント を作ってみた話──Gemini Sparkの再現 ね。"
+   "text": "出どころは、Googleスプレッドシートの表を、カンバンやダッシュボードに変える方法 @mirai spark ね。"
   },
   {
    "who": "metan",
@@ -164,35 +168,15 @@
   },
   {
    "who": "metan",
-   "text": "1本目は、まじん noteさんの記事。便利 AntigravityをChrome拡張サイドパネルで使う方法。"
-  },
-  {
-   "who": "zunda",
-   "text": "それ、何がすごいのだ？"
+   "text": "1本目は、KEITO AIWEBさんの動画。Google Antigravityをスマホから使うの超便利！リモート操作の設定と活用例を実演。"
   },
   {
    "who": "metan",
-   "text": "こんにちは、まじんです。今日はいつものGoogle Workspaceからは逸れるのですが、最近注目が集まっている Google の Antigravity のTipsをご紹介します。続きをみる。"
+   "text": "2本目は、AI marketさんの動画。リーク Gemini 4 Neonがコードで発見 Argon・Carbon・Hydrogenに続く次のGeminiの新AIモデルは何？確かな話と推測を整理。"
   },
   {
    "who": "metan",
-   "text": "2本目は、KEITO AIWEBさんの動画。Gemini Decision 1やHydrogen・Argon・Carbonの違いを解説。"
-  },
-  {
-   "who": "metan",
-   "text": "3本目は、まじんさんの動画。Google Meet 議事録も画面共有もラクになる Chrome 拡張2つを実演。"
-  },
-  {
-   "who": "metan",
-   "text": "4本目は、Gemini公式 noteさんの記事。誰も取り残さない AI へ。Google の AI が Gemini と名付けられた理由。"
-  },
-  {
-   "who": "zunda",
-   "text": "詳しく聞きたいのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "こんにちは、Google の AI Gemini ジェミニ の公式 note 編集部です。 近年、仕事でもプライベートでも、AI はぐっと身近な存在になりました。日々の作業を少し楽にしたり、やりたかったことに挑戦したり。そんなときの相棒として、Gemini が役立てていれば嬉しいです。これまで公式 note では、便利な機能や使い方を中心にご紹介してきましたが、こうして生活に溶け込んできた今だから。"
+   "text": "3本目は、AI marketさんの動画。リーク Gemini 4 Neonがコードで発見 Argon・Carbon・Hydrogenに続く次のGeminiは何？確かな話と推測を整理。"
   },
   {
    "who": "metan",
@@ -200,11 +184,11 @@
   },
   {
    "who": "metan",
-   "text": "まず、Geminiの話。11月14日払戻結果 個別。"
+   "text": "まず、Geminiの話。GAS×Geminiが一般提供開始 IT管理者が確認すべき権限設定は？。"
   },
   {
    "who": "metan",
-   "text": "つぎは、Geminiの話。Gemini Omni Flashを多用する理由 格安・高画質だが、画像リファレンスと日本語音声に課題。"
+   "text": "つぎは、Geminiの話。11月14日払戻結果 個別。"
   },
   {
    "who": "zunda",
@@ -212,7 +196,7 @@
   },
   {
    "who": "metan",
-   "text": "最後は、Geminiの話。Gemini 4 Hydrogen とは 性能とユースケースまとめ Googleの 誰でも使える 最新モデル。"
+   "text": "最後は、Geminiの話。Put Gemini to work for you。"
   },
   {
    "who": "zunda",
@@ -233,8 +217,8 @@
  ],
  "credit": "VOICEVOX:ずんだもん / 四国めたん",
  "tip_ids": [
-  "gemini-004",
-  "gemini-005",
-  "gemini-006"
+  "gemini-007",
+  "gemini-008",
+  "gemini-009"
  ]
 }
