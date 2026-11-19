@@ -1,10 +1,10 @@
 {
  "edition": "news",
  "label": "ニュース編",
- "date": "2026-11-18",
- "built": "2026-11-18 03:20",
- "minutes": 4.7,
- "chars": 1728,
+ "date": "2026-11-19",
+ "built": "2026-11-19 02:58",
+ "minutes": 3.3,
+ "chars": 1217,
  "lines": [
   {
    "who": "metan",
@@ -20,91 +20,79 @@
   },
   {
    "who": "metan",
-   "text": "まず、ChatGPTの話。️2026 10 月次ベンチ 最新モデル検証 Sol, Terra, Sonnet 5.5, Haiku 5.5, Argon。"
+   "text": "まず、Claudeの話。Apple container で Claude Code の隔離した作業環境を作る。"
   },
   {
    "who": "metan",
-   "text": "9月下旬から10月にかけて、OpenAI・Anthropic・Googleの3社がそろって新モデルを出しました。どの発表にもベンチマークの数字が並びますが、それを見ても 見積を作る 会議の日程を決める といった自分の仕事に使えるのかは分かりません。"
+   "text": "隔離した環境で動かす話はひととおり出揃っていますが、手を付けていない人もまだいると思います。"
   },
   {
    "who": "metan",
-   "text": "つぎは、Claudeの話。徹底解説 Anthropic The components of agent memory を読む ― AIエージェントの記憶は\"4層\"と\"dreaming\"で設計する。"
+   "text": "つぎは、ChatGPTの話。AIクローラーが自分のサイトに来ているか、Cloudflare AI Crawl Controlで測る方法。"
   },
   {
    "who": "metan",
-   "text": "2026年11月6日、Anthropic が Engineering ブログで The components of agent memory エージェントメモリの構成要素 を公開しました。"
+   "text": "その裏取りに使ったのが、Cloudflareの AI Crawl Control です。"
   },
   {
    "who": "metan",
-   "text": "それから、こんな話。AWS DevOps Agent に、AI が仕込んだ障害を解かせてみた ― 間違ったヒントやログが出ない障害でも原因を当てられるか。"
-  },
-  {
-   "who": "metan",
-   "text": "障害の原因を生成 AI に聞くと、それっぽい答えが返ってきます。でも、その答えが合っているかどうかは、聞いた側のわたしたちが判断しないといけません。そこで、答えが分かっている障害で試すことにしました。"
+   "text": "それから、Claudeの話。徹底解説 サブエージェントはいつ 畳む べきか？ Anthropic公式ガイドから学ぶ 単一エージェントループ＋スキル 設計。"
   },
   {
    "who": "zunda",
-   "text": "頭に入れておくのだ！"
+   "text": "地味に効きそうなのだ！"
   },
   {
    "who": "metan",
-   "text": "お次は、ChatGPTの話。わが社はChatGPTでどう紹介されている？ OpenAIが企業向けの確認機能を提供開始。"
+   "text": "お次は、ChatGPTの話。海外AI API、日本から使うと地味に詰む3つの理由 — AIプロキシを実際に使ってみた。"
   },
   {
    "who": "metan",
-   "text": "ChatGPTがユーザーに向けて、自社をどのように紹介しているのかを把握したいと考える企業は多いだろう。OpenAIは、その把握に役立つ機能を企業向けにβ版で公開した。米国の対象企業であれば、自社のAIエージェントをChatGPT広告のリンク先に設定することもできる。"
+   "text": "先月、社内ツールに LLM を組み込む小さな機能を作った。OpenAI SDK で base url を書いて、ストリーミングを繋いで、テストも通った。そのあと、経理から戻ってきた。"
   },
   {
    "who": "metan",
-   "text": "こんなのも出ていたわ、こんな話。AIライティング副業 完全ガイド 文章を書くのが好きな主婦・初心者がスキマ時間で始める現実的なステップ。"
+   "text": "こんなのも出ていたわ、ChatGPTの話。AIによるAI研究 指数関数的に増加 でも 依然として人間中心 OpenAIがレポート公開。"
   },
   {
    "who": "metan",
-   "text": "文章を書くのが好き ——それ、立派なスタートラインです子どものお昼寝の時間、夕飯の支度までの30分、夜の家事が一段落したあとのひととき。そんなスキマ時間に、スマホやパソコンで文章を書いて収入につなげる方法があります。"
+   "text": "OpenAIは、AIが同社内のAI研究にどのように貢献しているかに関するレポートを公開した。"
   },
   {
    "who": "metan",
-   "text": "さらに、こんな話。Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt。"
+   "text": "さらに、こんな話。Irodori-TTSで何をやってもエラーになる時に、台詞を疑うのをやめた話。"
   },
   {
    "who": "zunda",
-   "text": "それ早く言ってほしかったのだ！"
+   "text": "それは知らなかったのだ…"
   },
   {
    "who": "metan",
-   "text": "もうひとつ、Claudeの話。第4回 ゼロから目指す! CCDV-F合格への道：LLMのしくみ。"
+   "text": "もうひとつ、こんな話。Microsoft CEO Satya Nadella explains why he asked 60K employees to quit。"
   },
   {
    "who": "metan",
-   "text": "この記事について Anthropic社の公式認定資格 Claude Certified Developer – Foundations CCDV-F に向けた、非公式の学習シリーズ 全24回 の第4回です。"
+   "text": "つぎは、Geminiの話。T3 Code で Antigravity agy が Not found になるときの設定。"
   },
   {
    "who": "metan",
-   "text": "つぎは、Claudeの話。面倒な作業は、我慢するものだと思っていた 個人開発したWebサイト校正ツール fuSen 第二十話。"
+   "text": "最近、Antigravity や Gemini 4 系モデルが話題です。Argon に続いて Hydrogen や Carbon も登場し、特に高速・高コスパな Hydrogen の登場で、GPT 系から Antigravity Gemini 系へ軸足を移す人が増えています。"
   },
   {
    "who": "metan",
-   "text": "Claude Code AI と2ヶ月で開発した日本初のWebサイト校正ツール fuSen の開発ブログです。"
+   "text": "それから、Claudeの話。私の私による私のための Claude Code。"
   },
   {
    "who": "metan",
-   "text": "それから、Claudeの話。AI も 一晩寝かせる と考えがまとまる 寝ている間に記憶を整理する Dreaming の仕組み。"
-  },
-  {
-   "who": "metan",
-   "text": "2026年5月に Anthropic が発表した Dreaming について、ついに、Anthropic 自身の研究結果が出ました。読んでみたら面白かったので、図解しながら紹介したいと思います。"
+   "text": "個人ブログ fantatchi's notes からの転載です。前回の記事 Claude Code を陳腐化させないためにやっていること の最後に、環境の組み方は反響があれば別の記事で書く、と書いた。"
   },
   {
    "who": "zunda",
-   "text": "うわ、損してたのだ…"
+   "text": "メモしておくのだ！"
   },
   {
    "who": "metan",
-   "text": "最後は、こんな話。生成AIをサービスに組み込む話が進んでいるが、有害な出力や情報漏洩のリスクを、どう評価して減らすのか分からないエンジニアへ。AI安全性を体系的に学べる一冊。"
-  },
-  {
-   "who": "metan",
-   "text": "生成AIを使った機能を作る話は進んでいるものの、有害な内容を出してしまうリスクや、情報が漏れるリスクを、どう評価してどう減らすのかを、体系立てて考えたことはあるだろうか。"
+   "text": "最後は、Claudeの話。Claude Code で \"Auto-update failed\" と \"npm error code ENOTEMPTY\" が出続けるときの直し方 残骸の削除とネイティブ版への移行。"
   },
   {
    "who": "zunda",
