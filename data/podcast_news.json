@@ -1,10 +1,10 @@
 {
  "edition": "news",
  "label": "ニュース編",
- "date": "2026-11-19",
- "built": "2026-11-19 02:58",
- "minutes": 3.3,
- "chars": 1217,
+ "date": "2026-11-20",
+ "built": "2026-11-20 02:49",
+ "minutes": 4.0,
+ "chars": 1485,
  "lines": [
   {
    "who": "metan",
@@ -20,71 +20,27 @@
   },
   {
    "who": "metan",
-   "text": "まず、Claudeの話。Apple container で Claude Code の隔離した作業環境を作る。"
+   "text": "まず、Claudeの話。Bedrock の Claude は Amazon Bedrock として請求されない。AWS Budgets の自動停止が 1 セントも数えていなかった話。"
   },
   {
    "who": "metan",
-   "text": "隔離した環境で動かす話はひととおり出揃っていますが、手を付けていない人もまだいると思います。"
+   "text": "個人で家計簿アプリを作っています。銀行口座と連携せず、月の予算から 今日あといくら使えるか を出すだけの、小さなアプリです。"
   },
   {
    "who": "metan",
-   "text": "つぎは、ChatGPTの話。AIクローラーが自分のサイトに来ているか、Cloudflare AI Crawl Controlで測る方法。"
+   "text": "つぎは、Claudeの話。Claude Codeの指示書をgit archiveから外す。"
   },
   {
    "who": "metan",
-   "text": "その裏取りに使ったのが、Cloudflareの AI Crawl Control です。"
+   "text": "それでも git archive HEAD で作った tar に、CLAUDE.md が1件入った。自分なら公開前に、渡す tar の中身を直接見る。"
   },
   {
    "who": "metan",
-   "text": "それから、Claudeの話。徹底解説 サブエージェントはいつ 畳む べきか？ Anthropic公式ガイドから学ぶ 単一エージェントループ＋スキル 設計。"
-  },
-  {
-   "who": "zunda",
-   "text": "地味に効きそうなのだ！"
+   "text": "それから、こんな話。日立が フィジカルAI で狙う“5年で事業規模2倍”の勝算 3.5万人の新会社トップが語る 戦略の2本柱 とは？。"
   },
   {
    "who": "metan",
-   "text": "お次は、ChatGPTの話。海外AI API、日本から使うと地味に詰む3つの理由 — AIプロキシを実際に使ってみた。"
-  },
-  {
-   "who": "metan",
-   "text": "先月、社内ツールに LLM を組み込む小さな機能を作った。OpenAI SDK で base url を書いて、ストリーミングを繋いで、テストも通った。そのあと、経理から戻ってきた。"
-  },
-  {
-   "who": "metan",
-   "text": "こんなのも出ていたわ、ChatGPTの話。AIによるAI研究 指数関数的に増加 でも 依然として人間中心 OpenAIがレポート公開。"
-  },
-  {
-   "who": "metan",
-   "text": "OpenAIは、AIが同社内のAI研究にどのように貢献しているかに関するレポートを公開した。"
-  },
-  {
-   "who": "metan",
-   "text": "さらに、こんな話。Irodori-TTSで何をやってもエラーになる時に、台詞を疑うのをやめた話。"
-  },
-  {
-   "who": "zunda",
-   "text": "それは知らなかったのだ…"
-  },
-  {
-   "who": "metan",
-   "text": "もうひとつ、こんな話。Microsoft CEO Satya Nadella explains why he asked 60K employees to quit。"
-  },
-  {
-   "who": "metan",
-   "text": "つぎは、Geminiの話。T3 Code で Antigravity agy が Not found になるときの設定。"
-  },
-  {
-   "who": "metan",
-   "text": "最近、Antigravity や Gemini 4 系モデルが話題です。Argon に続いて Hydrogen や Carbon も登場し、特に高速・高コスパな Hydrogen の登場で、GPT 系から Antigravity Gemini 系へ軸足を移す人が増えています。"
-  },
-  {
-   "who": "metan",
-   "text": "それから、Claudeの話。私の私による私のための Claude Code。"
-  },
-  {
-   "who": "metan",
-   "text": "個人ブログ fantatchi's notes からの転載です。前回の記事 Claude Code を陳腐化させないためにやっていること の最後に、環境の組み方は反響があれば別の記事で書く、と書いた。"
+   "text": "日立製作所は2027年4月、米国子会社2社を統合し、27カ国・約3万5000人規模のデジタル新会社 Hitachi Digital を発足させる。CEO兼Chairmanに就任するアナンド・ビルジェ氏が取材に応じ、今後5年で事業規模2倍を見据える戦略を語った。"
   },
   {
    "who": "zunda",
@@ -92,7 +48,63 @@
   },
   {
    "who": "metan",
-   "text": "最後は、Claudeの話。Claude Code で \"Auto-update failed\" と \"npm error code ENOTEMPTY\" が出続けるときの直し方 残骸の削除とネイティブ版への移行。"
+   "text": "お次は、こんな話。AIセキュリティ PHP 更新 完了です。"
+  },
+  {
+   "who": "metan",
+   "text": "一つ一つ、しっかり対処していけば、問題ありません。基本的に、最新版に入れ替えるだけです。最小限の接触で済ませることで、動作検証も簡素化できます。"
+  },
+  {
+   "who": "metan",
+   "text": "こんなのも出ていたわ、ChatGPTの話。Apple may be developing its own AI agent that runs your Mac。"
+  },
+  {
+   "who": "metan",
+   "text": "さらに、Claudeの話。AIと 神 になって、仮想世界の住人を1万年見守るゲームを作った Claude。"
+  },
+  {
+   "who": "metan",
+   "text": "先日、酔っ払った時に声が聞こえてきたんです。神様になってみたくないですか? どうも、酔ってからが本番、風邪はアルコール消毒がもっとうのゆうすけです。"
+  },
+  {
+   "who": "zunda",
+   "text": "それ早く言ってほしかったのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "もうひとつ、Claudeの話。Claude Code で \"Raw mode is not supported on the current process.stdin\" が出たときの直し方 パイプ・CI では claude -p。"
+  },
+  {
+   "who": "metan",
+   "text": "パイプ、CI、スクリプトから claude を呼んだときに Raw mode is not supported on the current process.stdin と出て止まる場合の対処です。"
+  },
+  {
+   "who": "metan",
+   "text": "つぎは、Claudeの話。恐怖 本当にあった怖いClaude詐欺メールの話。"
+  },
+  {
+   "who": "metan",
+   "text": "このemailが届いた場合直ちにブロックするかスパムフォルダへ転送してください 何が起きたか？筆者の独自体験 仕事後にメールフォルダに一通の通知が。確認してみるとどうやら誰かにClaudeへサインインされたとのことであった。"
+  },
+  {
+   "who": "metan",
+   "text": "それから、Claudeの話。コーディングエージェントの運用で読んだ8本：クォータ、拡張スタック、実行環境、MCPの増えすぎ、ハード予算上限ほか。"
+  },
+  {
+   "who": "metan",
+   "text": "クォータはどこで減っているのか、拡張機能は何から足すべきか、エージェントの“手”はどのマシンで動いているのか、夜中に暴走したデモの請求は誰が止めるのか。"
+  },
+  {
+   "who": "zunda",
+   "text": "頭に入れておくのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "最後は、こんな話。Muse に頼んでサイトのタイトルと説明文を整える：検索で見つけてもらうための書き方。"
+  },
+  {
+   "who": "metan",
+   "text": "個人でいろいろ調べるのが好きな者として、気になったサービスを整理して紹介しています。"
   },
   {
    "who": "zunda",
