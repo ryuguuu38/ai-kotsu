@@ -1,10 +1,10 @@
 {
  "edition": "gemini",
  "label": "Gemini編",
- "date": "2026-11-21",
- "built": "2026-11-21 02:58",
- "minutes": 4.1,
- "chars": 1509,
+ "date": "2026-11-22",
+ "built": "2026-11-22 01:53",
+ "minutes": 3.7,
+ "chars": 1371,
  "lines": [
   {
    "who": "metan",
@@ -20,23 +20,23 @@
   },
   {
    "who": "metan",
-   "text": "1つ目。Deep Research は 目的・範囲・形式・仮説 の4点セットで投げる。"
+   "text": "1つ目。最初にやるべき3つの設定 カスタム指示・Memory・Gem。"
   },
   {
    "who": "zunda",
-   "text": "気になるのだ！"
+   "text": "へえ、それで？"
   },
   {
    "who": "metan",
-   "text": "調べたいテーマだけ投げるとぼやける。4点を書くとレポートの質が跳ね上がる。"
+   "text": "Geminiは設定しない人ほど損をする。この3つを入れるだけで前置きを書く手間が消える。"
   },
   {
    "who": "zunda",
-   "text": "理由が知りたいのだ！"
+   "text": "なんで効くのだ？"
   },
   {
    "who": "metan",
-   "text": "Deep Research は調査計画から立てる。その計画の質が、4点を書いたかどうかで決まる。"
+   "text": "初期状態は本来の使い勝手を抑えた挙動になっている。設定は1回で済み、効果はずっと続く。"
   },
   {
    "who": "zunda",
@@ -44,43 +44,39 @@
   },
   {
    "who": "metan",
-   "text": "4段階よ。"
+   "text": "3段階よ。"
   },
   {
    "who": "metan",
-   "text": "1、目的 何を判断したいのか を書く。"
+   "text": "1、カスタム指示に 自分の職種・相手・出力形式 を固定する。"
   },
   {
    "who": "metan",
-   "text": "2、範囲 国・期間・対象企業規模 を絞る。"
+   "text": "2、設定 Personal Intelligence Memory をオンにし、Gmail・カレンダー連携を許可。"
   },
   {
    "who": "metan",
-   "text": "3、出力形式 表・章立て・文字数 を指定する。"
-  },
-  {
-   "who": "metan",
-   "text": "4、自分の仮説を添える 検証する形で組み立ててくれる。"
+   "text": "3、よく使う業務はGem 自分専用ボット にする。"
   },
   {
    "who": "zunda",
-   "text": "うわ、損してたのだ…"
+   "text": "それは知らなかったのだ…"
   },
   {
    "who": "metan",
-   "text": "出どころは、Gemini Deep Researchの使い方 パンハウス インサイト ね。"
+   "text": "出どころは、やらないと損するGeminiの3つの初期設定の全手順 @Sokichi Hoshino ね。"
   },
   {
    "who": "metan",
-   "text": "2つ目。Gems で自分専用の担当者を作っておく。"
+   "text": "2つ目。カスタム指示に 全肯定をやめて と書く。"
   },
   {
    "who": "zunda",
-   "text": "詳しく聞きたいのだ！"
+   "text": "それ、何がすごいのだ？"
   },
   {
    "who": "metan",
-   "text": "毎回貼っている長いプロンプトを Gem の裏側に仕込む。以降は用件だけ打てばいい。"
+   "text": "褒めてくるだけのAIを、改善点を出す相談相手に変える一文。"
   },
   {
    "who": "zunda",
@@ -88,7 +84,51 @@
   },
   {
    "who": "metan",
-   "text": "あのプロンプトどこだっけ を探す時間が消える。ChatGPTのプロジェクトに相当する機能。"
+   "text": "初期状態のGeminiは肯定しがち。壁打ち相手として使うなら、ここを潰しておく価値が高い。"
+  },
+  {
+   "who": "zunda",
+   "text": "手順を頼むのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "2段階よ。"
+  },
+  {
+   "who": "metan",
+   "text": "1、設定のカスタム指示を開く。"
+  },
+  {
+   "who": "metan",
+   "text": "2、肯定を禁止し、改善点を必ず出すよう書く。"
+  },
+  {
+   "who": "zunda",
+   "text": "メモしておくのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "出どころは、Geminiのカスタム指示 @ai jitan ね。"
+  },
+  {
+   "who": "metan",
+   "text": "3つ目。会社のGeminiとChrome拡張で 自分専用エージェント を作る。"
+  },
+  {
+   "who": "zunda",
+   "text": "気になるのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "高機能な有料エージェントを使わなくても、手元の組み合わせで似たことができるという実験記事。"
+  },
+  {
+   "who": "zunda",
+   "text": "理由が知りたいのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "会社の制約で新しいツールを入れられない人向けの現実解。既にあるものだけで組む。"
   },
   {
    "who": "zunda",
@@ -100,71 +140,23 @@
   },
   {
    "who": "metan",
-   "text": "1、Gemini の左メニューから Gem を新規作成。"
+   "text": "1、会社で許可されているGeminiを使う。"
   },
   {
    "who": "metan",
-   "text": "2、役割・前提・口調・禁止事項をカスタム指示に書く。"
+   "text": "2、Chrome拡張と組み合わせる。"
   },
   {
    "who": "metan",
-   "text": "3、よく使う資料を添付しておく。"
+   "text": "3、自分の業務に合わせて役割を固定する。"
   },
   {
    "who": "zunda",
-   "text": "地味に効きそうなのだ！"
+   "text": "うわ、損してたのだ…"
   },
   {
    "who": "metan",
-   "text": "出どころは、Geminiの神機能3選 Deep Research・Canvas・Gemの使い方 ね。"
-  },
-  {
-   "who": "metan",
-   "text": "3つ目。調査元に Gmail・ドライブ・NotebookLM を指定できる。"
-  },
-  {
-   "who": "zunda",
-   "text": "中身を教えてほしいのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "2026年から、ネット検索だけでなく自分の資料も調査対象にできるようになった。"
-  },
-  {
-   "who": "zunda",
-   "text": "なんで効くのだ？"
-  },
-  {
-   "who": "metan",
-   "text": "社内資料＋世の中の情報 を1本のレポートにできる。ここを知らない人が多い。"
-  },
-  {
-   "who": "zunda",
-   "text": "手順を頼むのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "3段階よ。"
-  },
-  {
-   "who": "metan",
-   "text": "1、Deep Research を開始する前に情報源を選ぶ。"
-  },
-  {
-   "who": "metan",
-   "text": "2、Gmail・Google ドライブ・アップロードファイル・NotebookLM を追加。"
-  },
-  {
-   "who": "metan",
-   "text": "3、社内資料と公開情報を突き合わせて差分を出して と指示する。"
-  },
-  {
-   "who": "zunda",
-   "text": "メモしておくのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "出どころは、Gemini Deep Researchの使い方 2026年最新 ね。"
+   "text": "出どころは、会社のGeminiとChrome拡張で 自分専用エージェント を作ってみた話──Gemini Sparkの再現 ね。"
   },
   {
    "who": "metan",
@@ -176,15 +168,15 @@
   },
   {
    "who": "metan",
-   "text": "2本目は、AI marketさんの動画。検証 Gemini 4 Xenonは本物か偽物か 前日のNeonの数字は全部ハズレ…リークのベンチマーク表を公式と比較。"
+   "text": "2本目は、チャエン AI研究所さんの動画。速報 Gemini 4 Neon公開 すごいのは性能よりコスパ Shorts。"
   },
   {
    "who": "metan",
-   "text": "3本目は、AI marketさんの動画。Genie 4 提供開始 ゲームの世界を文章で作って途中で変えるGoogleの新AI できること・値段・課題を全解説。"
+   "text": "3本目は、SHIFT AI ニュースさんの動画。Gemini 4 Hydrogen登場 作業が2.5倍速く終わって間違いも減る。"
   },
   {
    "who": "metan",
-   "text": "4本目は、AI marketさんの動画。Google Genie 4 文字を打つだけで世界が変わるAIがついに提供開始 エージェント・ギャラリー・Genie 3も最大3分に。"
+   "text": "4本目は、AI marketさんの動画。検証 Gemini 4 Xenonは本物か偽物か 前日のNeonの数字は全部ハズレ…リークのベンチマーク表を公式と比較。"
   },
   {
    "who": "metan",
@@ -192,19 +184,11 @@
   },
   {
    "who": "metan",
-   "text": "まず、Geminiの話。Mac版 Gemini にユーザーの代わりにアプリを操作する computer use 機能追加 まず米国で。"
+   "text": "まず、Geminiの話。ブラックフライデー Google AI Pro 5TB の年間契約が50%オフの14,500円に！月払いから切り替えたら今月分も全額返金された話。"
   },
   {
    "who": "metan",
-   "text": "つぎは、Geminiの話。Geminiの アクティビティ 設定が 履歴 と 学習 の2つに分かれるらしい。"
-  },
-  {
-   "who": "zunda",
-   "text": "見出しだけでも、流れは分かるのだ。"
-  },
-  {
-   "who": "metan",
-   "text": "最後は、Geminiの話。おもてなし以外 はAIで――多忙化する美容部員、資生堂はGeminiでどう変えたか。"
+   "text": "最後は、Geminiの話。Gemini 4 Neon登場、Fable級の力を半分以下の費用で。"
   },
   {
    "who": "zunda",
@@ -225,8 +209,8 @@
  ],
  "credit": "VOICEVOX:ずんだもん / 四国めたん",
  "tip_ids": [
-  "gemini-001",
-  "gemini-002",
-  "gemini-003"
+  "gemini-004",
+  "gemini-005",
+  "gemini-006"
  ]
 }
