@@ -1,10 +1,10 @@
 {
  "edition": "news",
  "label": "ニュース編",
- "date": "2026-11-24",
- "built": "2026-11-24 05:46",
- "minutes": 3.2,
- "chars": 1188,
+ "date": "2026-11-25",
+ "built": "2026-11-25 04:45",
+ "minutes": 3.4,
+ "chars": 1266,
  "lines": [
   {
    "who": "metan",
@@ -20,47 +20,23 @@
   },
   {
    "who": "metan",
-   "text": "まず、こんな話。DMM 生成AI CAMP 学び放題の評判は？コース・学習内容・確認ポイントを調査。"
+   "text": "まず、こんな話。受託の募集チェックがターン上限で止まる。上限を上げずに 読む前のふるい で直した話と、受注0の現状。"
   },
   {
    "who": "metan",
-   "text": "公式案内では、複数のコースから目的に合う内容を学べるプログラムとして紹介されています。"
+   "text": "筆者は、クラウドソーシング3サイトの新着の募集を、1日に数回、機械で選別しています。2026-11 の前半、この 募集チェック の回が、ターン上限 error max turns で何度も止まりました。"
   },
   {
    "who": "metan",
-   "text": "つぎは、こんな話。実測 図面の線1本で、AIの読み取りは97% 10%。"
+   "text": "つぎは、Claudeの話。Amazon BedrockでClaudeの入力・出力データをS3やKMSで管理する方法。"
   },
   {
    "who": "metan",
-   "text": "それから、こんな話。LLMアプリのガードを作ったが、本当に効いているのか確かめたことがない開発者へ。攻撃プロンプトを自分で流して、どの層で止まるか手元で試す。"
+   "text": "それから、こんな話。Slidevと生成AIでMarkdownベースのスライドを作成する。"
   },
   {
    "who": "metan",
-   "text": "LLMを使った機能に ガード を入れても、それが効いているかどうかは、攻撃を流してみるまで分からない。この記事では、攻撃用のプロンプトを一通り流して、どの層で止まってどこをすり抜けるかを表にする小さなレッドチーミングを、Node.jsだけで手元で動かす。"
-  },
-  {
-   "who": "zunda",
-   "text": "なるほどなのだ！"
-  },
-  {
-   "who": "metan",
-   "text": "お次は、こんな話。ノーコード の次は何か？ AIを組み込むkintoneの“新しい呼び名”を考える。"
-  },
-  {
-   "who": "metan",
-   "text": "AI時代の業務システムは、どのような姿になるのか。人とAIが役割を分担して働く時代に業務システムの中枢を担うのは何か。サイボウズ kintone の進化を見ながら考察する。"
-  },
-  {
-   "who": "metan",
-   "text": "こんなのも出ていたわ、こんな話。当日キャンセルや無断キャンセルのあとの連絡、AIに下書きしてもらっています。"
-  },
-  {
-   "who": "metan",
-   "text": "予約の時間になっても、お客さんが来ない。そのあとの連絡、書くのがしんどくないですか。言い方に迷っているうちに、時間がたってしまいます。"
-  },
-  {
-   "who": "metan",
-   "text": "さらに、こんな話。datasette-charts 0.2a0。"
+   "text": "生成AIの普及でドキュメントやスライドの作成がすっかり楽になりました。最近はAIで作ったスライドの文字崩れも減り、そのまま編集できる形式で出力してくれるツールも増えています。"
   },
   {
    "who": "zunda",
@@ -68,31 +44,55 @@
   },
   {
    "who": "metan",
-   "text": "もうひとつ、Claudeの話。Claude CodeでのFable 5.2とOpus 5.5の使い分け。"
+   "text": "お次は、ChatGPTの話。AIでドーピングしたコンサルの実力は 使わない人材との能力差、BCG約500人で検証 Nature系列誌。"
   },
   {
    "who": "metan",
-   "text": "つぎは、ChatGPTの話。ClaudeCodeデスクトップアプリからCodex連携する手順まとめ。"
+   "text": "こんなのも出ていたわ、こんな話。なぜAIには 赤い感覚 がないのか？――素人が本気で考えた クオリアの正体 についての仮説。"
   },
   {
    "who": "metan",
-   "text": "それから、Claudeの話。合格体験記 Claude Certified Developer – Professional CCDV-P。"
-  },
-  {
-   "who": "metan",
-   "text": "1. はじめに みなさんこんにちは！2026年11月17日に提供が開始された Anthropic の開発者認定資格 Claude Certified Developer – Professional CCDV-P を、11月20日に受験し合格することができました。"
+   "text": "さらに、こんな話。Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion。"
   },
   {
    "who": "zunda",
-   "text": "頭に入れておくのだ！"
+   "text": "さっそく試すのだ！"
   },
   {
    "who": "metan",
-   "text": "最後は、Copilotの話。モデル選びをCopilotに任せる？GitHub Copilot Fusionの実行方式・effort・最新対応を整理。"
+   "text": "もうひとつ、Claudeの話。AIに自分のコードを直させ、マージまで任せた2週間 ― 人に残した4つの線。"
   },
   {
    "who": "metan",
-   "text": "執筆している2026年11月24日時点の情報です。1. モデルを選ぶ仕事まで、開発者が抱えるべき？"
+   "text": "! 数字はすべて 2026年11月23日 時点のものです。はじめに Claude・GPT・Gemini を社員に見立てて、小さな Web ツールの企画・開発・公開・集客を任せる実験 AI Product Lab を動かしています。"
+  },
+  {
+   "who": "metan",
+   "text": "つぎは、Claudeの話。Claude Code Channels を Windows で自作し、権限確認を外から許可した。"
+  },
+  {
+   "who": "metan",
+   "text": "この記事で分かること Claude Code の Channels research preview は、Windows 11 で自作の MCP サーバーとして動いた。"
+  },
+  {
+   "who": "metan",
+   "text": "それから、Claudeの話。Claude のアーティファクトは今どうなっているのか アプリ化を機に整理した。"
+  },
+  {
+   "who": "metan",
+   "text": "2026 年 11 月 24 日 米国時間 に、Anthropic が Claude のアーティファクトを、Mac と Windows のデスクトップアプリとしてインストールできる機能をベータで出しました。"
+  },
+  {
+   "who": "zunda",
+   "text": "メモしておくのだ！"
+  },
+  {
+   "who": "metan",
+   "text": "最後は、Claudeの話。Claude Code ship が便利そうなので試してみる。"
+  },
+  {
+   "who": "metan",
+   "text": "2026年11月23日に、Anthropic から Claude Ship が発表されました。GitHub の PR をレビューから直し、承認の判定まで進めるエージェントのセットです。"
   },
   {
    "who": "zunda",
