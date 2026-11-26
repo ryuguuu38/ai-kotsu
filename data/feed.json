@@ -1,7 +1,91 @@
 {
- "updated": "2026-11-25 04:45",
- "desc_blocked": true,
+ "updated": "2026-11-26 03:57",
+ "desc_blocked": false,
  "items": [
+  {
+   "kind": "youtube",
+   "title": "【速報】Claude Fable 5.2公開｜何がすごい？数学・ロボット・料金まで全体像 #Shorts",
+   "url": "https://www.youtube.com/watch?v=FnW_xOyaX64",
+   "date": "2026-11-26",
+   "thumb": "https://i.ytimg.com/vi/FnW_xOyaX64/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "note",
+   "title": "【Proプランなのに別料金請求の罠】11月登場の最新モデル「Claude Fable 5.2」を定額プラン内で使おうとした結果、特典終了で追加クレジットが強制消費された話",
+   "url": "https://note.com/alix78/n/n8513461af25a",
+   "date": "2026-11-26",
+   "thumb": "https://assets.st-note.com/production/uploads/images/339422097/rectangle_large_type_2_bb5e127df4d0b889ccaf617f69bcad7e.png?width=800",
+   "author": "アリス｜AI検証ログ（note）",
+   "pick": "Claude推薦",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "今、月額20ドルのClaude Proプランに入っているからといって、2026年11月に登場したばかりの最新モデル「Claude Fable 5.2」を定額内のつもりでガンガン使っていませんか？もしモデル選択欄でFable 5.2を選んだまま長文処理や資料作成を回しているなら、悪いことは言いません、今すぐ画面の設定と課金履歴を確認してください。すでに2026年11月16日をもってProプラン向けのローンチ特典が終了しており、定額プランの枠内ではなく、別売りの「追加使用量クレジット（標準API単価の従量課金）」が強制"
+  },
+  {
+   "kind": "note",
+   "title": "【追加課金ストッパー】Claude Proで「Fable 5.2」を誤選択してクレジットを溶かさない設定防衛術と、5時間・週間枠の同時減少を抑える軽量指示構文",
+   "url": "https://note.com/alix78/n/n58e956d07800",
+   "date": "2026-11-26",
+   "thumb": "https://assets.st-note.com/production/uploads/images/339422147/rectangle_large_type_2_d95a7bfb8ab69a9bf75d63fe48b8d369.png?width=800",
+   "author": "アリス｜AI検証ログ（note）",
+   "pick": "Claude推薦",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": "無料記事でお伝えした通り、月額20ドル（税込22ドル）のClaude Proプランにおいて、2026年11月9日に公開された最新モデル「Claude Fable 5.2」の定額枠内ローンチ特典が11月16日（米国時間）をもって終了しました。画面上のモデル選択メニューにはこれまで通り「Fable 5.2」が表示されたまま残っているため、気づかずに選択した状態で作業を続けると、定額プランの枠ではなく別売りの「追加使用量クレジット（標準API単価の従量課金）」からリアルタイムで残高が引き落とされ続けます。さらに厄介なのが"
+  },
+  {
+   "kind": "note",
+   "title": "AI がもっと簡単に。Gemini「シンプルガイド」で、初心者の「わからない」を解決",
+   "url": "https://note.com/google_gemini/n/nffaacef1c1e0",
+   "date": "2026-11-26",
+   "thumb": "https://assets.st-note.com/production/uploads/images/337217046/rectangle_large_type_2_02d7821b980040a2bb14908b39970cdf.png?width=800",
+   "author": "Gemini公式（note）",
+   "pick": "Claude推薦",
+   "ai": "Gemini",
+   "chapters": [],
+   "summary": "こんにちは、Google の AI「Gemini（ジェミニ）」の公式 note 編集部です。スマホの画面や手元の書類を見せながら、話しかけるだけで教えてもらえる。新機能「シンプルガイド」の提供を、2026 年 10 月から Gemini アプリで順次開始しました。続きをみる"
+  },
+  {
+   "kind": "youtube",
+   "title": "AIの考える時間（エフォート）別で性能・使用量を比較してみた結果",
+   "url": "https://www.youtube.com/watch?v=H3xoQEZ_8jU",
+   "date": "2026-11-25",
+   "thumb": "https://i.ytimg.com/vi/H3xoQEZ_8jU/mqdefault.jpg",
+   "author": "KEITO【AI&WEB ch】",
+   "pick": "オーナー指定",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【検証】運転席に誰もいない新型Waymoに乗ってみた｜乗ってわかった意外な弱点 #Shorts",
+   "url": "https://www.youtube.com/watch?v=BKmF0gw2HWI",
+   "date": "2026-11-25",
+   "thumb": "https://i.ytimg.com/vi/BKmF0gw2HWI/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【サンフランシスコ対談】AIは掛け算。元が100なら200、元がゼロならゼロ｜btrax CEO ブランドン・ヒル × チャエン #Shorts",
+   "url": "https://www.youtube.com/watch?v=NxEjpITmC_w",
+   "date": "2026-11-25",
+   "thumb": "https://i.ytimg.com/vi/NxEjpITmC_w/mqdefault.jpg",
+   "author": "チャエン【AI研究所】",
+   "pick": "オーナー指定",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
+  },
   {
    "kind": "youtube",
    "title": "【速報】Metaの無料AI秘書「Muse」が日本上陸｜頼めば最後までやってくれる #Shorts",
@@ -11,6 +95,90 @@
    "author": "チャエン【AI研究所】",
    "pick": "オーナー指定",
    "ai": "その他",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【Muse】インスタのDMでMetaのAIが日本でも動いた！お気に入りから旅行の計画までできる！！",
+   "url": "https://www.youtube.com/watch?v=Hpr6I7Zsktg",
+   "date": "2026-11-25",
+   "thumb": "https://i.ytimg.com/vi/Hpr6I7Zsktg/mqdefault.jpg",
+   "author": "AI market",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【Muse】インスタのDMでMetaのAIが日本でも動いた！保存した投稿14件をまとめてみた結果",
+   "url": "https://www.youtube.com/watch?v=kIulpjEGLwk",
+   "date": "2026-11-25",
+   "thumb": "https://i.ytimg.com/vi/kIulpjEGLwk/mqdefault.jpg",
+   "author": "AI market",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【新機能】Claudeの制作物がデスクトップアプリに｜できること・注意点・Windowsで試した結果",
+   "url": "https://www.youtube.com/watch?v=Bm05kav-WFo",
+   "date": "2026-11-25",
+   "thumb": "https://i.ytimg.com/vi/Bm05kav-WFo/mqdefault.jpg",
+   "author": "AI market",
+   "pick": "Claude推薦",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【Claude】チャットで作った道具がパソコンのアプリに｜「アプリとしてインストール」を実際に試して全解説",
+   "url": "https://www.youtube.com/watch?v=jG9BljWBptw",
+   "date": "2026-11-25",
+   "thumb": "https://i.ytimg.com/vi/jG9BljWBptw/mqdefault.jpg",
+   "author": "AI market",
+   "pick": "Claude推薦",
+   "ai": "Claude",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "AIに課金する前に見て！ChatGPT・Geminiの無料版でスマホ料金を比較してみた",
+   "url": "https://www.youtube.com/watch?v=uUl7qP--E2k",
+   "date": "2026-11-25",
+   "thumb": "https://i.ytimg.com/vi/uUl7qP--E2k/mqdefault.jpg",
+   "author": "あいまる / iPhone×AI",
+   "pick": "Claude推薦",
+   "ai": "ChatGPT",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "【20分で完全解説】copilotの無料版でどこまでできるか、全て解説。これまでのcopilotへの考えを覆します。",
+   "url": "https://www.youtube.com/watch?v=9gsSie_lTeU",
+   "date": "2026-11-25",
+   "thumb": "https://i.ytimg.com/vi/9gsSie_lTeU/mqdefault.jpg",
+   "author": "あいまる / iPhone×AI",
+   "pick": "Claude推薦",
+   "ai": "Copilot",
+   "chapters": [],
+   "summary": ""
+  },
+  {
+   "kind": "youtube",
+   "title": "ChatGPTのdotsがPlusでも使える 頼むだけで24時間仕事を進めるAI",
+   "url": "https://www.youtube.com/watch?v=EB_rJUMDblM",
+   "date": "2026-11-25",
+   "thumb": "https://i.ytimg.com/vi/EB_rJUMDblM/mqdefault.jpg",
+   "author": "SHIFT AI ニュース",
+   "pick": "Claude推薦",
+   "ai": "ChatGPT",
    "chapters": [],
    "summary": null
   },
@@ -40,6 +208,18 @@
   },
   {
    "kind": "note",
+   "title": "【2026年最新】note副業で稼ぐなら「体験談×ノウハウ」が強い！売れている100本の分析から見えた、初心者でも収益化を目指せる新戦略",
+   "url": "https://note.com/ak_hikiyose/n/naf4016cd22a5",
+   "date": "2026-11-25",
+   "thumb": "https://assets.st-note.com/production/uploads/images/340577451/rectangle_large_type_2_e4c7ca6780bbe6a0aba607bc1bfdcfa9.jpg?width=800",
+   "author": "けい｜AIと共に（note）",
+   "pick": "Claude推薦",
+   "ai": "その他",
+   "chapters": [],
+   "summary": "「今からnoteを始めても、もう遅いのではないか？」続きをみる"
+  },
+  {
+   "kind": "note",
    "title": "【AI副業完全攻略】ゼロから月10万円を目指す人へ。地味だけど本当に強い案件獲得術と、選ばれる人になるための3つの条件",
    "url": "https://note.com/ak_hikiyose/n/n4e6f15f6201a",
    "date": "2026-11-25",
@@ -60,7 +240,7 @@
    "pick": "オーナー指定",
    "ai": "Gemini",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -72,7 +252,7 @@
    "pick": "オーナー指定",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -84,7 +264,7 @@
    "pick": "オーナー指定",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -96,7 +276,7 @@
    "pick": "オーナー指定",
    "ai": "ChatGPT",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -120,7 +300,7 @@
    "pick": "Claude推薦",
    "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -132,7 +312,7 @@
    "pick": "Claude推薦",
    "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -144,7 +324,7 @@
    "pick": "Claude推薦",
    "ai": "ChatGPT",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -156,7 +336,7 @@
    "pick": "Claude推薦",
    "ai": "ChatGPT",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -168,7 +348,7 @@
    "pick": "Claude推薦",
    "ai": "Copilot",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -180,7 +360,7 @@
    "pick": "Claude推薦",
    "ai": "ChatGPT",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -192,7 +372,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -412,18 +592,6 @@
   },
   {
    "kind": "youtube",
-   "title": "【AIマスター講座#15】動画生成AIの使い方｜Gemini・ChatGPT・Claudeで同じお願いをしたら本物の動画を作れたのは1社だけ",
-   "url": "https://www.youtube.com/watch?v=L4u2lbb_uBc",
-   "date": "2026-11-23",
-   "thumb": "https://i.ytimg.com/vi/L4u2lbb_uBc/mqdefault.jpg",
-   "author": "AI market",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": ""
-  },
-  {
-   "kind": "youtube",
    "title": "【知らないと損‼️】㊙️Muse活用法4選＋α！徹底解説します",
    "url": "https://www.youtube.com/watch?v=wQKoOn4-SzU",
    "date": "2026-11-23",
@@ -468,7 +636,7 @@
    "pick": "Claude推薦",
    "ai": "ChatGPT",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -541,78 +709,6 @@
    "ai": "その他",
    "chapters": [],
    "summary": "寝る前、布団に入った途端に頭が忙しくなることはありませんか。続きをみる"
-  },
-  {
-   "kind": "youtube",
-   "title": "【解説】Anthropic上場は買いかバブルか｜初値+34%・PSR36倍・売上は1年で12倍 #Shorts",
-   "url": "https://www.youtube.com/watch?v=6ZXI1zFcIsM",
-   "date": "2026-11-22",
-   "thumb": "https://i.ytimg.com/vi/6ZXI1zFcIsM/mqdefault.jpg",
-   "author": "チャエン【AI研究所】",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": ""
-  },
-  {
-   "kind": "youtube",
-   "title": "【サンフランシスコ対談】AIで仕事が早く終わると残業代が減る問題。btraxの答えは「全員年俸制」｜btrax CEO ブランドン・ヒル × チャエン #Shorts",
-   "url": "https://www.youtube.com/watch?v=-wpet-R5DoM",
-   "date": "2026-11-22",
-   "thumb": "https://i.ytimg.com/vi/-wpet-R5DoM/mqdefault.jpg",
-   "author": "チャエン【AI研究所】",
-   "pick": "オーナー指定",
-   "ai": "その他",
-   "chapters": [],
-   "summary": ""
-  },
-  {
-   "kind": "youtube",
-   "title": "【検証】話題のClaude Meetingsを社内会議で使ってみた｜便利だけど反映はまだ遅め #Shorts",
-   "url": "https://www.youtube.com/watch?v=fNX3p6H1fUI",
-   "date": "2026-11-22",
-   "thumb": "https://i.ytimg.com/vi/fNX3p6H1fUI/mqdefault.jpg",
-   "author": "チャエン【AI研究所】",
-   "pick": "オーナー指定",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": ""
-  },
-  {
-   "kind": "youtube",
-   "title": "AIの使い方｜日本人の6割が使い始めた生成AIの活用事例を仕事と暮らしの10場面",
-   "url": "https://www.youtube.com/watch?v=bt_Bc8v3328",
-   "date": "2026-11-22",
-   "thumb": "https://i.ytimg.com/vi/bt_Bc8v3328/mqdefault.jpg",
-   "author": "AI market",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": ""
-  },
-  {
-   "kind": "youtube",
-   "title": "AIの使い方｜日本人の6割が使い始めた生成AIの活用事例を仕事と暮らしの10場面で",
-   "url": "https://www.youtube.com/watch?v=6B-ZQ2UpAFw",
-   "date": "2026-11-22",
-   "thumb": "https://i.ytimg.com/vi/6B-ZQ2UpAFw/mqdefault.jpg",
-   "author": "AI market",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": ""
-  },
-  {
-   "kind": "youtube",
-   "title": "【11月第3週まとめ②】GPT-6.2 Astraが3Dで1位／Sol比較／Qwen4-Max正式版／Gemini 4 Xenonリーク検証／GPT-Live-1.1｜今週のAIニュース5本",
-   "url": "https://www.youtube.com/watch?v=8eAeLjXtx5w",
-   "date": "2026-11-22",
-   "thumb": "https://i.ytimg.com/vi/8eAeLjXtx5w/mqdefault.jpg",
-   "author": "AI market",
-   "pick": "Claude推薦",
-   "ai": "ChatGPT",
-   "chapters": [],
-   "summary": ""
   },
   {
    "kind": "youtube",
@@ -756,7 +852,7 @@
    "pick": "Claude推薦",
    "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -768,7 +864,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -972,7 +1068,7 @@
    "pick": "Claude推薦",
    "ai": "ChatGPT",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -984,7 +1080,7 @@
    "pick": "Claude推薦",
    "ai": "ChatGPT",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -1263,18 +1359,6 @@
    "summary": ""
   },
   {
-   "kind": "youtube",
-   "title": "【神進化】ひと言で、本格的なゲームまで作れるようになりました。新モデルClaude Fable 5.2を徹底的に解説します。",
-   "url": "https://www.youtube.com/watch?v=k21BWOovE2s",
-   "date": "2026-11-17",
-   "thumb": "https://i.ytimg.com/vi/k21BWOovE2s/mqdefault.jpg",
-   "author": "あいまる / iPhone×AI",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": null
-  },
-  {
    "kind": "note",
    "title": "法人がCopilotを選ぶ3つの理由｜日経225の94%が導入",
    "url": "https://note.com/sc_microsoft/n/n9e1c4256588a",
@@ -1372,18 +1456,6 @@
   },
   {
    "kind": "youtube",
-   "title": "iPhone×AI効率化：ChatGPTにパソコン操作を任せて仕事の時間を大幅に削減する方法",
-   "url": "https://www.youtube.com/watch?v=hvfis7WoAps",
-   "date": "2026-11-16",
-   "thumb": "https://i.ytimg.com/vi/hvfis7WoAps/mqdefault.jpg",
-   "author": "あいまる / iPhone×AI",
-   "pick": "Claude推薦",
-   "ai": "ChatGPT",
-   "chapters": [],
-   "summary": null
-  },
-  {
-   "kind": "youtube",
    "title": "【デジタル庁が推奨】パワポ資料を80点にする直し方5選",
    "url": "https://www.youtube.com/watch?v=DGh3xnqGjTA",
    "date": "2026-11-16",
@@ -1441,18 +1513,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "こんにちは！寺田です。現在は、各社が実践的なAI活用を共有し合う、AI＆デジタル化推進コミュニティ「AI Digital Community (ADC)」の代表理事や、組織のAI活用を支援するプロダクトを提供するAI Portalize(株)の代表取締役を務めており、様々な側面から組織のAI活用をサポートしています！続きをみる"
-  },
-  {
-   "kind": "note",
-   "title": "生成AIに全振りするしかない？堀江貴文が語る「AI時代に伸びる人」の共通点と、今日からの実践法",
-   "url": "https://note.com/ak_hikiyose/n/n260bfe70d730",
-   "date": "2026-11-16",
-   "thumb": "https://assets.st-note.com/production/uploads/images/336689219/rectangle_large_type_2_7cec9dfa65b69bcb357f96605d13ece4.jpg?width=800",
-   "author": "けい｜AIと共に（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「生成AIを使った方がいいのは、わかっている。でも、何から始めればいいのだろう？」続きをみる"
   },
   {
    "kind": "note",
@@ -1609,18 +1669,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": ""
-  },
-  {
-   "kind": "youtube",
-   "title": "紙に描いた絵がそのままアプリに Geminiの使い方【無料で試せる】",
-   "url": "https://www.youtube.com/watch?v=8lffoudpAaE",
-   "date": "2026-11-14",
-   "thumb": "https://i.ytimg.com/vi/8lffoudpAaE/mqdefault.jpg",
-   "author": "SHIFT AI ニュース",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": null
   },
   {
    "kind": "note",
@@ -1804,18 +1852,6 @@
   },
   {
    "kind": "note",
-   "title": "【時差狂乱迎撃】AIスケジューラーのサマータイム誤判定とUTCズレを封殺する「協定世界時アンカー設定」と自腹トラブル格闘生ログ",
-   "url": "https://note.com/alix78/n/n9342362c4a6f",
-   "date": "2026-11-12",
-   "thumb": "https://assets.st-note.com/production/uploads/images/327931008/rectangle_large_type_2_cd119ee45341128ee772c3dbc0bdb534.png?width=800",
-   "author": "アリス｜AI検証ログ（note）",
-   "pick": "Claude推薦",
-   "ai": "その他",
-   "chapters": [],
-   "summary": "「AIが自動発行した日程調整リンクをそのまま海外の取引先に送ったら、現地時間の深夜3時にミーティングの通知が飛んで大炎上した」画面上では完璧な日本時間で設定されていたはずなのに、海を越えた瞬間に相手のタイムゾーンが真逆にひっくり返るという大事故が、いま国内外のリモートワーク現場で静かに多発しています。無料記事でも触れた通り、AIを活用した自動スケジューラーやカレンダー連携ボットは、「サマータイム（夏時間）の切り替え時期」と「内部時刻（UTC）のオフセット計算」において極めて脆弱な構造欠陥を抱えています。その結果とし"
-  },
-  {
-   "kind": "note",
    "title": "【組織のAI活用#296】テキストの議事録だけでは伝わりきらない。商談や会議のログから自動で「概念図」を生成して渡したら、閲覧数と「わかりやすい！」の反応が目に見えて増えた話",
    "url": "https://note.com/green_ai/n/nda1fc30f71bb",
    "date": "2026-11-12",
@@ -1860,7 +1896,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -1972,18 +2008,6 @@
   },
   {
    "kind": "note",
-   "title": "【自腹で震えた話】「NotionやGitHubと連携して業務爆速化」のはずが裏で秘密鍵を読まれかけた件。便利ツールの陰に潜むポイズニングの正体",
-   "url": "https://note.com/alix78/n/nb315262a684d",
-   "date": "2026-11-09",
-   "thumb": "https://assets.st-note.com/production/uploads/images/316606223/rectangle_large_type_2_82e0ed23096f0942079a1dfa04f577e1.png?width=800",
-   "author": "アリス｜AI検証ログ（note）",
-   "pick": "Claude推薦",
-   "ai": "Claude",
-   "chapters": [],
-   "summary": "「Notionや社内リポジトリとAIを直接繋げば、手作業のリサーチがゼロになる！」そう思って、話題の外部連携機能や公開ツール（MCP等）をワクワクしながら導入していませんか？「有名なオープンソースだから安全」「公式プラグイン経由だから大丈夫」もしあなたがそう信じ込んでいるなら、今すぐその連携を遮断しなければ会社の信用ごと消し飛ぶ大惨事を引き起こします。続きをみる"
-  },
-  {
-   "kind": "note",
    "title": "Copilot StudioとCopilot Coworkで業務アプリつくれるってマジ！？～作成編～",
    "url": "https://note.com/sc_microsoft/n/nb1b4e7725fcd",
    "date": "2026-11-09",
@@ -2076,7 +2100,7 @@
    "pick": "Claude推薦",
    "ai": "ChatGPT",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -2137,18 +2161,6 @@
    "ai": "Claude",
    "chapters": [],
    "summary": "「メインエージェントは指揮に徹し、作業はサブエージェントに任せ、工程間は中間成果物で受け渡す」。以前の記事で、私はこの構成を Claude Code のコンテキストエンジニアリングの基本として紹介しました。続きをみる"
-  },
-  {
-   "kind": "youtube",
-   "title": "【今すぐ設定！】Geminiの『スキル』を徹底解説（簡単で便利なAI活用方法）",
-   "url": "https://www.youtube.com/watch?v=LXhrdpm7hKQ",
-   "date": "2026-11-05",
-   "thumb": "https://i.ytimg.com/vi/LXhrdpm7hKQ/mqdefault.jpg",
-   "author": "KEITO【AI&WEB ch】",
-   "pick": "オーナー指定",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": ""
   },
   {
    "kind": "youtube",
@@ -2304,7 +2316,7 @@
    "pick": "Claude推薦",
    "ai": "その他",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -2472,7 +2484,7 @@
    "pick": "Claude推薦",
    "ai": "Gemini",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -2820,7 +2832,7 @@
    "pick": "Claude推薦",
    "ai": "ChatGPT",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -3108,7 +3120,7 @@
    "pick": "Claude推薦",
    "ai": "Gemini",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -3248,18 +3260,6 @@
    "summary": "Claude Code 2.1.295で、Shift_JIS（CP932）で保存した仕訳CSVの金額を1か所直させたところ、編集ツール（Edit）が使われた回はファイル全体がUTF-8で保存し直されました。元の日本語は1字も読めなくなりましたが、Claude の報告は「修正しました」でした。10月9日公開の2.1.296では、同じ Edit が4回とも拒否され、ファイルは1バイトも変わりませんでした。一方、Shift_JIS のファイルを「読む」ときの文字化けと、Write で書き直したときのUTF-8化は今も残っ"
   },
   {
-   "kind": "note",
-   "title": "あなたの「できた！」が誰かのヒントに。「#AIとできたこと」コンテスト注目作品をご紹介！【Vol.2】",
-   "url": "https://note.com/google_gemini/n/n6db57b54ad05",
-   "date": "2026-10-13",
-   "thumb": "https://assets.st-note.com/production/uploads/images/323935630/rectangle_large_type_2_9f5aac11f8a1badf9f7942d53f5c73b0.jpeg?width=800",
-   "author": "Gemini公式（note）",
-   "pick": "Claude推薦",
-   "ai": "Gemini",
-   "chapters": [],
-   "summary": "こんにちは。Google の AI 「Gemini」の公式 note 編集部です。9 月から開催している投稿コンテスト「#AIとできたこと」。連日たくさんの素敵な記事をご投稿いただき、本当にありがとうございます！本コンテストの募集期間は【10 月 18 日（日）23:59 まで】と、いよいよ締め切りが近づいてまいりました。続きをみる"
-  },
-  {
    "kind": "youtube",
    "title": "【基礎】AI使いこなしてる会社のGoogleの最強AIのGemini×GeminiNotebookのAI神連携活用はこれやで！",
    "url": "https://www.youtube.com/watch?v=ogXMMIoc8vw",
@@ -3365,7 +3365,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -3581,7 +3581,7 @@
    "pick": "Claude推薦",
    "ai": "ChatGPT",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -3617,7 +3617,7 @@
    "pick": "Claude推薦",
    "ai": "Claude",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -3653,7 +3653,7 @@
    "pick": "Claude推薦",
    "ai": "Gemini",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
@@ -3761,7 +3761,7 @@
    "pick": "Claude推薦",
    "ai": "Gemini",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "youtube",
@@ -3773,7 +3773,7 @@
    "pick": "Claude推薦",
    "ai": "Gemini",
    "chapters": [],
-   "summary": null
+   "summary": ""
   },
   {
    "kind": "note",
